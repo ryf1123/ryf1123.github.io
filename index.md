@@ -4,3 +4,40 @@
 
 layout: home
 ---
+
+# CLAF: Chord Learning and Adversarial Framework for Symbolic Music Generation
+
+## Audio Samples
+
+##### Bubble
+
+<audio src="/assets/1-bubble.mp3" controls preload></audio>
+
+##### Relaxation
+
+<audio src="/assets/2-relax.mp3" controls preload></audio>
+
+##### Sea Wind
+
+<audio src="/assets/3-sea-wind.mp3" controls preload></audio>
+
+## Framework
+
+### Overview
+
+### Chord learning
+
+### Adversarial framework
+
+## Experiment
+
+### Chord accuracy and Chord composition
+
+### Comparison
+
+### Training process overview
+
+## One more thing: about us
+
+ 
+
