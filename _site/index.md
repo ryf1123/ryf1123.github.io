@@ -1,5 +1,3 @@
-# CLAF: Chord Learning and Adversarial Framework for Symbolic Polyphonic Music Generation
-
 ## Audio Samples
 
 ### Selected audio with specific themes
@@ -48,3 +46,4 @@
 
  
 
+# CLAF: Chord Learning and Adversarial Framework for Symbolic Polyphonic Music Generation
