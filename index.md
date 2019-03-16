@@ -32,6 +32,22 @@
 
 <audio src="/assets/6-卡农2.mp3" controls preload></audio>
 
+##### 7. In love
+
+<audio src="/assets/7-恋爱.mp3" controls preload></audio>
+
+##### 8. Grainy
+
+<audio src="/assets/8-颗粒感.mp3" controls preload></audio>
+
+##### 9. March
+
+<audio src="/assets/9-进行曲.mp3" controls preload></audio>
+
+##### 10. Arctic noise
+
+<audio src="/assets/10-北极噪声.mp3" controls preload></audio>
+
 ## Framework
 
 ### Overview
