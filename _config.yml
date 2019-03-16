@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: CLAF by Lovely MindBand
-email: 3160104704@zju.edu.com.cn
+email: 3160104704@zju.edu.cn
 description: >- # this means to ignore newlines until "baseurl:"
   CLAF is a project aiming at generating coherent symbolic polyphonic music by the state of the art technology.
   We posts some model descreption, experiment result as well as analysis, and most importantly, the selected best sample
