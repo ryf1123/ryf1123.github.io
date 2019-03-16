@@ -8,6 +8,8 @@
 
 ### Selected audio with specific themes
 
+Actually, it was found that in this model, output songs are fairly diversed and the quality of most songs are high (over 50% songs generated are regarded as high quality based on our Chord assessment model mentioned below). What we do in the so-called "selection" is just find representative songs of different themes.
+
 ##### 1. Bubble
 
 <audio src="/assets/1-bubble.mp3" controls preload></audio>
