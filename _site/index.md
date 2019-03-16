@@ -1,6 +1,6 @@
 > CLAF is a project aiming at generating coherent symbolic polyphonic music by the state of the art technology.
->   We posts some model descreption, experiment result and analysis, and most importantly, the selected best sample
->   and unselected samples both in audio and piano roll graphs.
+>   We posts here some model descreptions, experiment results and analysis, and most importantly, the selected best samples
+>   and unselected samples (for further analysis) both in audio and piano roll graphs.
 
 # CLAF: Chord Learning and Adversarial Framework for Symbolic Polyphonic Music Generation 
 
