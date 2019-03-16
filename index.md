@@ -5,8 +5,6 @@
 layout: home
 ---
 
-# CLAF: Chord Learning and Adversarial Framework for Symbolic Music Generation
-
 ## Audio Samples
 
 ##### Bubble
