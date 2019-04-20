@@ -8,7 +8,7 @@
 
 ### Selected best samples with specific themes
 
-Here we select best generated samples and sort them into themes.
+Here we select best generated samples and sort them into themes. For some music pieces, we did some post processing like changing the musical instruments to make it sounds better.
 
 ##### 1. Bubble
 
