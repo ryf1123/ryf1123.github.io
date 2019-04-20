@@ -6,9 +6,9 @@
 
 ## Audio Samples
 
-### Selected audio with specific themes
+### Selected best samples with specific themes
 
-Actually, it was found that in this model, output songs are fairly diversed and the quality of most songs are high (over 50% songs generated are regarded as high quality based on our Chord assessment model mentioned below). What we do in the so-called "selection" is just find representative songs of different themes.
+Here we select best generated samples and sort them into themes.
 
 ##### 1. Bubble
 
@@ -50,20 +50,35 @@ Actually, it was found that in this model, output songs are fairly diversed and 
 
 <audio src="/assets/10-北极噪声.mp3" controls preload></audio>
 
-## Framework
+### Random samples
 
-### Overview
+Here are random samples from generated music pieces.
 
-### Chord learning
+##### 0. 
 
-### Adversarial framework
+<audio src="/assets/0.mp3" controls preload></audio>
 
-## Experiment
+##### 1. 
 
-### Chord accuracy and Chord composition
+<audio src="/assets/1.mp3" controls preload></audio>
 
-### Comparison
+##### 2. 
 
-### Training process overview
+<audio src="/assets/2.mp3" controls preload></audio>
 
-## One more thing: about us
+##### 3. 
+
+<audio src="/assets/3.mp3" controls preload></audio>
+
+##### 4. 
+
+<audio src="/assets/4.mp3" controls preload></audio>
+
+##### 5. 
+
+<audio src="/assets/5.mp3" controls preload></audio>
+
+##### 6. 
+
+<audio src="/assets/6.mp3" controls preload></audio>
+
