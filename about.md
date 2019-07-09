@@ -4,11 +4,15 @@ title: About
 permalink: /about/
 ---
 
-  CLAF is a project aiming at generating coherent symbolic polyphonic music by the state of the art technology.
-  We posts some model descreption, experiment result and analysis, and most importantly, the selected best sample
-  and unselected samples both in audio and piano roll graphs.
+This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
+You can find the source code for Minima at GitHub:
+[jekyll][jekyll-organization] /
+[minima](https://github.com/jekyll/minima)
 
+You can find the source code for Jekyll at GitHub:
+[jekyll][jekyll-organization] /
+[jekyll](https://github.com/jekyll/jekyll)
 
 
 [jekyll-organization]: https://github.com/jekyll
