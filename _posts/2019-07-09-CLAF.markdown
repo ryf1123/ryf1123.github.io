@@ -15,49 +15,42 @@ Here we select best generated samples and sort them into themes. For some music 
 ##### 1. Bubble
 
 
-
-<audio controls="" src="file:///assets/1-bubble.mp3" data-src="/assets/1-bubble.mp3" controlslist="nodownload" style="-webkit-user-select: none !important; width: 250px; height: var(--inline-controls-bar-height); min-width: 44px !important; min-height: var(--inline-controls-bar-height)  !important; --inline-controls-bar-height:  31px; box-sizing: border-box; margin-top: 0px; margin-bottom: 0px;"></audio>
-
+<audio src="/assets/1-bubble.mp3" controls preload></audio>
 
 
 ##### 2. Relaxation
 
 
 
-<audio controls="" src="file:///assets/2-relax.mp3" data-src="/assets/2-relax.mp3" controlslist="nodownload" style="-webkit-user-select: none !important; width: 250px; height: var(--inline-controls-bar-height); min-width: 44px !important; min-height: var(--inline-controls-bar-height)  !important; --inline-controls-bar-height:  31px; box-sizing: border-box; margin-top: 0px; margin-bottom: 0px;"></audio>
-
+<audio src="/assets/2-relax.mp3" controls preload></audio>
 
 
 ##### 3. Sea Wind
 
 
 
-<audio controls="" src="file:///assets/3-sea-wind.mp3" data-src="/assets/3-sea-wind.mp3" controlslist="nodownload" style="-webkit-user-select: none !important; width: 250px; height: var(--inline-controls-bar-height); min-width: 44px !important; min-height: var(--inline-controls-bar-height)  !important; --inline-controls-bar-height:  31px; box-sizing: border-box; margin-top: 0px; margin-bottom: 0px;"></audio>
-
+<audio src="/assets/3-sea-wind.mp3" controls preload></audio>
 
 
 ##### 4. European Palace
 
 
 
-<audio controls="" src="file:///assets/4-%E6%AC%A7%E6%B4%B2%E7%9A%87%E5%AE%AB.mp3" data-src="/assets/4-欧洲皇宫.mp3" controlslist="nodownload" style="-webkit-user-select: none !important; width: 250px; height: var(--inline-controls-bar-height); min-width: 44px !important; min-height: var(--inline-controls-bar-height)  !important; --inline-controls-bar-height:  31px; box-sizing: border-box; margin-top: 0px; margin-bottom: 0px;"></audio>
-
+<audio src="/assets/4-欧洲皇宫.mp3" controls preload></audio>
 
 
 ##### 5. Khaki tone
 
 
 
-<audio controls="" src="file:///assets/5-%E5%8D%A1%E5%85%B6%E8%89%B2%E8%B0%83.mp3" data-src="/assets/5-卡其色调.mp3" controlslist="nodownload" style="-webkit-user-select: none !important; width: 250px; height: var(--inline-controls-bar-height); min-width: 44px !important; min-height: var(--inline-controls-bar-height)  !important; --inline-controls-bar-height:  31px; box-sizing: border-box; margin-top: 0px; margin-bottom: 0px;"></audio>
-
+<audio src="/assets/5-卡其色调.mp3" controls preload></audio>
 
 
 ##### 6. Canon 2
 
 
 
-<audio controls="" src="file:///assets/6-%E5%8D%A1%E5%86%9C2.mp3" data-src="/assets/6-卡农2.mp3" controlslist="nodownload" style="-webkit-user-select: none !important; width: 250px; height: var(--inline-controls-bar-height); min-width: 44px !important; min-height: var(--inline-controls-bar-height)  !important; --inline-controls-bar-height:  31px; box-sizing: border-box; margin-top: 0px; margin-bottom: 0px;"></audio>
-
+<audio src="/assets/6-卡农2.mp3" controls preload></audio>
 
 
 ##### 7. In love
