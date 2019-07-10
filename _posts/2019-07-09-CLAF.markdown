@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "CLAF by lovely Mind Band!"
+title:  "CLAF by lovely Mind Band"
 date:   2019-07-09 11:33:51 -0700
 categories: jekyll update
 ---
@@ -63,16 +63,14 @@ Here we select best generated samples and sort them into themes. For some music 
 ##### 7. In love
 
 
-
-<audio controls="" src="file:///assets/7-%E6%81%8B%E7%88%B1.mp3" data-src="/assets/7-恋爱.mp3" controlslist="nodownload" style="-webkit-user-select: none !important; width: 250px; height: var(--inline-controls-bar-height); min-width: 44px !important; min-height: var(--inline-controls-bar-height)  !important; --inline-controls-bar-height:  31px; box-sizing: border-box; margin-top: 0px; margin-bottom: 0px;"></audio>
-
+<audio src="/assets/7-恋爱.mp3" controls preload></audio>
 
 
 ##### 8. Grainy
 
 
 
-<audio controls="" src="file:///assets/8-%E9%A2%97%E7%B2%92%E6%84%9F.mp3" data-src="/assets/8-颗粒感.mp3" controlslist="nodownload" style="-webkit-user-select: none !important; width: 250px; height: var(--inline-controls-bar-height); min-width: 44px !important; min-height: var(--inline-controls-bar-height)  !important; --inline-controls-bar-height:  31px; box-sizing: border-box; margin-top: 0px; margin-bottom: 0px;"></audio>
+<audio src="/assets/8-颗粒感.mp3" controls preload></audio>
 
 
 
@@ -80,7 +78,7 @@ Here we select best generated samples and sort them into themes. For some music 
 
 
 
-<audio controls="" src="file:///assets/9-%E8%BF%9B%E8%A1%8C%E6%9B%B2.mp3" data-src="/assets/9-进行曲.mp3" controlslist="nodownload" style="-webkit-user-select: none !important; width: 250px; height: var(--inline-controls-bar-height); min-width: 44px !important; min-height: var(--inline-controls-bar-height)  !important; --inline-controls-bar-height:  31px; box-sizing: border-box; margin-top: 0px; margin-bottom: 0px;"></audio>
+<audio src="/assets/9-进行曲.mp3" controls preload></audio>
 
 
 
@@ -88,7 +86,7 @@ Here we select best generated samples and sort them into themes. For some music 
 
 
 
-<audio controls="" src="file:///assets/10-%E5%8C%97%E6%9E%81%E5%99%AA%E5%A3%B0.mp3" data-src="/assets/10-北极噪声.mp3" controlslist="nodownload" style="-webkit-user-select: none !important; width: 250px; height: var(--inline-controls-bar-height); min-width: 44px !important; min-height: var(--inline-controls-bar-height)  !important; --inline-controls-bar-height:  31px; box-sizing: border-box; margin-top: 0px; margin-bottom: 0px;"></audio>
+<audio src="/assets/10-北极噪声.mp3" controls preload></audio>
 
 
 
@@ -100,7 +98,7 @@ Here are random samples from generated music pieces.
 
 
 
-<audio controls="" src="file:///assets/0.mp3" data-src="/assets/0.mp3" controlslist="nodownload" style="-webkit-user-select: none !important; width: 250px; height: var(--inline-controls-bar-height); min-width: 44px !important; min-height: var(--inline-controls-bar-height)  !important; --inline-controls-bar-height:  31px; box-sizing: border-box; margin-top: 0px; margin-bottom: 0px;"></audio>
+<audio src="/assets/0.mp3" controls preload></audio>
 
 
 
@@ -108,7 +106,7 @@ Here are random samples from generated music pieces.
 
 
 
-<audio controls="" src="file:///assets/1.mp3" data-src="/assets/1.mp3" controlslist="nodownload" style="-webkit-user-select: none !important; width: 250px; height: var(--inline-controls-bar-height); min-width: 44px !important; min-height: var(--inline-controls-bar-height)  !important; --inline-controls-bar-height:  31px; box-sizing: border-box; margin-top: 0px; margin-bottom: 0px;"></audio>
+<audio src="/assets/1.mp3" controls preload></audio>
 
 
 
@@ -116,7 +114,7 @@ Here are random samples from generated music pieces.
 
 
 
-<audio controls="" src="file:///assets/2.mp3" data-src="/assets/2.mp3" controlslist="nodownload" style="-webkit-user-select: none !important; width: 250px; height: var(--inline-controls-bar-height); min-width: 44px !important; min-height: var(--inline-controls-bar-height)  !important; --inline-controls-bar-height:  31px; box-sizing: border-box; margin-top: 0px; margin-bottom: 0px;"></audio>
+<audio src="/assets/2.mp3" controls preload></audio>
 
 
 
@@ -124,7 +122,7 @@ Here are random samples from generated music pieces.
 
 
 
-<audio controls="" src="file:///assets/3.mp3" data-src="/assets/3.mp3" controlslist="nodownload" style="-webkit-user-select: none !important; width: 250px; height: var(--inline-controls-bar-height); min-width: 44px !important; min-height: var(--inline-controls-bar-height)  !important; --inline-controls-bar-height:  31px; box-sizing: border-box; margin-top: 0px; margin-bottom: 0px;"></audio>
+<audio src="/assets/3.mp3" controls preload></audio>
 
 
 
@@ -132,7 +130,7 @@ Here are random samples from generated music pieces.
 
 
 
-<audio controls="" src="file:///assets/4.mp3" data-src="/assets/4.mp3" controlslist="nodownload" style="-webkit-user-select: none !important; width: 250px; height: var(--inline-controls-bar-height); min-width: 44px !important; min-height: var(--inline-controls-bar-height)  !important; --inline-controls-bar-height:  31px; box-sizing: border-box; margin-top: 0px; margin-bottom: 0px;"></audio>
+<audio src="/assets/4.mp3" controls preload></audio>
 
 
 
@@ -140,7 +138,7 @@ Here are random samples from generated music pieces.
 
 
 
-<audio controls="" src="file:///assets/5.mp3" data-src="/assets/5.mp3" controlslist="nodownload" style="-webkit-user-select: none !important; width: 250px; height: var(--inline-controls-bar-height); min-width: 44px !important; min-height: var(--inline-controls-bar-height)  !important; --inline-controls-bar-height:  31px; box-sizing: border-box; margin-top: 0px; margin-bottom: 0px;"></audio>
+<audio src="/assets/5.mp3" controls preload></audio>
 
 
 
