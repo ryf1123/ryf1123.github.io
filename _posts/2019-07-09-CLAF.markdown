@@ -6,6 +6,8 @@ categories: jekyll update
 ---
 # CLAF by lovely Mind Band
 
+In this work, we implement VAE/GAN for music pieces generation
+
 ## Audio Samples
 
 ### Selected best samples with specific themes
@@ -17,13 +19,11 @@ Here we select best generated samples and sort them into themes. For some music 
 
 <audio src="/assets/1-bubble.mp3" controls preload></audio>
 
-
 ##### 2. Relaxation
 
 
 
 <audio src="/assets/2-relax.mp3" controls preload></audio>
-
 
 ##### 3. Sea Wind
 
@@ -31,13 +31,11 @@ Here we select best generated samples and sort them into themes. For some music 
 
 <audio src="/assets/3-sea-wind.mp3" controls preload></audio>
 
-
 ##### 4. European Palace
 
 
 
 <audio src="/assets/4-欧洲皇宫.mp3" controls preload></audio>
-
 
 ##### 5. Khaki tone
 
@@ -45,26 +43,22 @@ Here we select best generated samples and sort them into themes. For some music 
 
 <audio src="/assets/5-卡其色调.mp3" controls preload></audio>
 
-
 ##### 6. Canon 2
 
 
 
 <audio src="/assets/6-卡农2.mp3" controls preload></audio>
 
-
 ##### 7. In love
 
 
 <audio src="/assets/7-恋爱.mp3" controls preload></audio>
-
 
 ##### 8. Grainy
 
 
 
 <audio src="/assets/8-颗粒感.mp3" controls preload></audio>
-
 
 
 ##### 9. March
@@ -74,13 +68,11 @@ Here we select best generated samples and sort them into themes. For some music 
 <audio src="/assets/9-进行曲.mp3" controls preload></audio>
 
 
-
 ##### 10. Arctic noise
 
 
 
 <audio src="/assets/10-北极噪声.mp3" controls preload></audio>
-
 
 
 ### Random samples
@@ -94,13 +86,11 @@ Here are random samples from generated music pieces.
 <audio src="/assets/0.mp3" controls preload></audio>
 
 
-
 ##### 1. 
 
 
 
 <audio src="/assets/1.mp3" controls preload></audio>
-
 
 
 ##### 2. 
@@ -110,13 +100,11 @@ Here are random samples from generated music pieces.
 <audio src="/assets/2.mp3" controls preload></audio>
 
 
-
 ##### 3. 
 
 
 
 <audio src="/assets/3.mp3" controls preload></audio>
-
 
 
 ##### 4. 
@@ -126,13 +114,11 @@ Here are random samples from generated music pieces.
 <audio src="/assets/4.mp3" controls preload></audio>
 
 
-
 ##### 5. 
 
 
 
 <audio src="/assets/5.mp3" controls preload></audio>
-
 
 
 ##### 6. 
