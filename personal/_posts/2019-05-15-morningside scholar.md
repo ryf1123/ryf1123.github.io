@@ -17,6 +17,7 @@ The scholar mentioned a question during their visit to Hongkong for **Mr. Chandr
 
 回答是”为什么你在一场考试中得到高分，或者智商比较高就理应得到便宜优质的教育资源呢？我们得到教育资源本身就隐含着一种社会期待，希望我们这些’更加聪明的人’能够反哺社会，创造一个更好的世界。“
 
-Mr. Chandran Nair answered: *Why should you get cheap but high-quality education because of one exam or higher IQ? The educational resources we gained is implicitly a kind of social expectation, hoping those ‘clever guys’ like us can reciprocate the society and make a better world.*
+Mr. Chandran Nair answered: *Why should you get cheap but high-quality education because of one exam or higher IQ? The educational resources we gained is implicitly **a kind of social expectation**, hoping those ‘clever guys’ like us can reciprocate the society and make a better world.*
 
 [docs]: ../../docs/README.md
+
