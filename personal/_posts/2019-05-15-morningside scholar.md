@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About Morningside Cultural China Scholars (cn & en)
+title: What Scores and IQ stand for? (cn & en)
 description: >
 
 author: author1
