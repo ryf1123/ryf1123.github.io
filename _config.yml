@@ -24,9 +24,9 @@ title:                 Yufan Ren
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
-description:           >
-  ZJU Undergraduate 1111111111111111144444
-  **Hydejack** is your presence on the web, featuring a blog, portfolio, and resume.
+# description:           >
+#   ZJU Undergraduate 1111111111111111144444
+#   **Hydejack** is your presence on the web, featuring a blog, portfolio, and resume.
 
 # A shorter description for the sidebar.
 tagline:               
@@ -50,16 +50,16 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             About me
+  - title:             ABOUT ME
     url:               /personal/
-  - title:             Education
+  - title:             EDUCATION
     url:               /personal/#education
-  - title:             Projects
+  - title:             PROJECTS
     url:               /personal/#projects
-  - title:             Contact
+  - title:             CONTACT
     url:               /personal/#contact
-  - title:             Curriculum vitae
-    url:               /assets/pdf/更能消几番风雨.pdf
+  - title:             CURRECULUN VITAE # Curriculum vitae
+    url:               /assets/pdf/cv.pdf
   - title:             One more thing
     url:               /personal/#One more thing
 
