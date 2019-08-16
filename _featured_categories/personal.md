@@ -30,15 +30,15 @@ I am now a [**CSST**](https://csst.ucla.edu/) (Cross-disciplinary Scholars in Sc
 
 | Project                                                   | Details&nbsp;                                                |
 | --------------------------------------------------------- | ------------------------------------------------------------ |
-| <img src="/assets/img/deformable.png" style="zoom:20%" /> | **Generate Realistic Pictures with Disentangling of Appearance and Geometry**<br />Deformable Model aims at disentangle the appearance and geometric information of a picture in an unsupervised fashion.<br />Here we hopes to keep the ability of disentangling network while making the output less blur. *(Work in progress)* |
+| <img src="/assets/img/deformable.png" style="zoom:20%" /> | **Generate Realistic Images while Disentangling of Appearance and Geometry**<br />Deformable Model aims at disentangling the appearance and geometric information of an image in an unsupervised fashion.<br />Here we hopes to keep the ability of disentangling network while making the output less blurry. *(Work in progress)* |
 | <img src="/assets/img/Coop.png" style="zoom:20%" />       | **Research on Hamiltonian Monte Carlo in Energy Based Model**<br />This work is based on the [CoopNet](https://arxiv.org/abs/1609.09408).<br />We conduct experiments on Energy Based Model with MCMC sampling comparing Langevin Dynamics and Hamiltonian Dynamic. |
-| <img src="/assets/img/CLAF.png" style="zoom:20%" />       | **"Mind Band" AI Music Composer**<br />We design a music generator based on GAN while viewing music pieces as piano rolls.<br />For some music samples, please follow this [link](http://ryf1123.github.io/personal/2019-08-11-music/). |
+| <img src="/assets/img/CLAF.png" style="zoom:20%" />       | **"Mind Band" - the AI Music Composer**<br />We design a music generator based on GAN while viewing music pieces as piano rolls.<br />For some music samples, please follow this [link](http://ryf1123.github.io/personal/2019-08-11-music/).<br />[[code]](https://github.com/ryf1123/CLAF) |
 
 ## Contact
 
 **Email:** renyufan [at] zju [dot] edu [dot] cn *OR* renyufan [at] g [dot] ucla [dot] edu
 
-**Detailed information** can be found in my [CV](https://ryf1123.github.io/assets/pdf/cv.pdf)
+**Detailed information** can be found in my [CV](https://ryf1123.github.io/assets/pdf/cv.pdf).
 
 You can drop me an email (click the "mail" in the left sidebar) and I will reply as soon as possible.
 
