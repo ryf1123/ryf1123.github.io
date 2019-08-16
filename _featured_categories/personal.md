@@ -38,7 +38,7 @@ I am now a [**CSST**](https://csst.ucla.edu/) (Cross-disciplinary Scholars in Sc
 
 **Email:** renyufan [at] zju [dot] edu [dot] cn *OR* renyufan [at] g [dot] ucla [dot] edu
 
-**Detailed information** can be found in my [CV](https://ryf1123.github.io/assets/pdf/cv)
+**Detailed information** can be found in my [CV](https://ryf1123.github.io/assets/pdf/cv.pdf)
 
 You can drop me an email (click the "mail" in the left sidebar) and I will reply as soon as possible.
 
