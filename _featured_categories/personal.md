@@ -27,11 +27,11 @@ I am now a [CSST](https://csst.ucla.edu/) (Cross-disciplinary Scholars in Scienc
 
 ## Projects
 
-| Project | Details |
-| ------- | ------- |
-|         |         |
-|         |         |
-|         |         |
+| Project                       | Details |
+| ----------------------------- | ------- |
+| Deformable CoopNet            |         |
+|                               |         |
+| "Mind Band" AI Music Composer |         |
 
 
 
