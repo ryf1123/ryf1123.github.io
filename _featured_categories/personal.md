@@ -22,7 +22,7 @@ I am now a [**CSST**](https://csst.ucla.edu/) (Cross-disciplinary Scholars in Sc
 |                  Univeristy / College                   | Details                                                      |
 | :-----------------------------------------------------: | ------------------------------------------------------------ |
 |   <img src="/assets/img/ZJU.png" style="zoom:80%" />    | **Zhejiang University, China**                                 <br />Bachelor of Engineering \| Sept. 2016 - Jun. 2020<br />Accumulative GPA: 3.99/4.0 |
-| <img src="/assets/img/ACEE_log.png" style="zoom:80%" /> | **Advanced Honor Class of Engineering Education, Zhejiang University, China**<br />Honors minor \| May 2017 - Jun. 2020<br />GPA: 4.00/4.0<br /> |
+| <img src="/assets/img/ACEE_log.png" style="zoom:80%" /> | **Che Kochen Honors College: Advanced Honor Class of Engineering Education, Zhejiang University, China**<br />Honors minor \| May 2017 - Jun. 2020<br />GPA: 4.00/4.0<br /> |
 | <img src="/assets/img/morning.png" style="zoom:80%" />  | [**Morningside Cultural China Scholar Programs, Zhejiang University, China**](/assets/pdf/Morningside.pdf)<br />Scholar \| May 2019 - Junes. 2020<br />Advisor: Prof. Sengchun Zhou |
 |   <img src="/assets/img/UCLA.png" style="zoom:80%" />   | **UCLA-CSST (Cross-disciplinary Scholars in Science and Technology), LA, U.S.**<br />Visiting Student \| Jul. 2019 - Setp. 2019<br />Advisor: Prof. YingNian Wu |
 
