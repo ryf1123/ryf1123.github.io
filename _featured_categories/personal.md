@@ -23,8 +23,9 @@ I am now a [**CSST**](https://csst.ucla.edu/) (Cross-disciplinary Scholars in Sc
 | :----------------------------------------------------------: | :----------------------------------------------------------- |
 | <center><img src="/assets/img/ZJU.png" style="zoom:90%" /></center> | **[Zhejiang University, China](http://www.zju.edu.cn/english/)**                                 <br />Bachelor of Engineering \| Sept. 2016 - Jun. 2020<br />Accumulative GPA: 3.99/4.0 |
 | <center><img src="/assets/img/chuko.png" style="zoom:90%" /></center> | **[Che Kochen Honors College: Advanced Honor Class of Engineering Education, <br />Zhejiang University, China](http://ckc.zju.edu.cn/english/)**<br />Honors minor \| May 2017 - Jun. 2020<br />GPA: 4.00/4.0<br /> |
-| <center><img src="/assets/img/morning.png" style="zoom:90%" /></center> | [**Morningside Cultural China Scholar Programs, Zhejiang University, China**](/assets/pdf/Morningside.pdf)<br />Scholar \| May 2019 - Junes. 2020<br />Advisor: Prof. Sengchun Zhou |
-| <center><img src="/assets/img/vcla.png" style="zoom:130%" /></center> | **[UCLA-CSST (Cross-disciplinary Scholars in Science and Technology)](https://csst.ucla.edu/), [UCLA](http://www.ucla.edu/), U.S.**<br />Visiting Student \| Jul. 2019 - Setp. 2019<br />Advisor: [Prof. YingNian Wu](http://www.stat.ucla.edu/~ywu/), [Prof. Song-Chun Zhu](http://www.stat.ucla.edu/~sczhu/) |
+| <center><img src="/assets/img/morning.png" style="zoom:90%" /></center> | **[Morningside Cultural China Scholar Programs, Zhejiang University, China](http://www.ccsper.com/index.aspx)**<br />Scholar \| May 2019 - Junes. 2020<br />Advisor: Prof. Sengchun Zhou |
+| <center><img src="/assets/img/vcla.png" style="zoom:130%" /></center> | **[UCLA-CSST (Cross-disciplinary Scholars in Science and Technology)](https://csst.ucla.edu/), [UCLA](http://www.ucla.edu/), U.S.**<br />Research Assistant \| Jul. 2019 - Setp. 2019<br />Advisor: [Prof. YingNian Wu](http://www.stat.ucla.edu/~ywu/), [Prof. Song-Chun Zhu](http://www.stat.ucla.edu/~sczhu/)<br />Overall GPA: 4.00/4.0 |
+| <center><img src="/assets/img/hkust-logo.png" style="zoom:90%" /></center> | Vision Group, [HKUST](https://www.ust.hk/)<br />Research Assistant \| Oct. 2019 - Jan. 2020<br />Advisor: [Prof. Long Quan](http://www.cs.ust.hk/~quan/) |
 
 ## Projects
 
