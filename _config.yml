@@ -57,7 +57,7 @@ menu:
   - title:             PUBLICATION
     url:               /personal/#publications
   - title:              PROJECTS
-    url:              http://127.0.0.1:4000/personal/2019-10-10-projects/
+    url:              /personal/2019-10-10-projects/
   # - title:             CONTACT
   #   url:               /personal/#contact
   - title:             CURRECULUN VITAE # Curriculum vitae
