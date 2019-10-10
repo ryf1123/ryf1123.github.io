@@ -19,6 +19,8 @@ I am now a research assistant at HKUST, under Prof. Long Quan in his vision grou
 
 ## Education
 
+<html></html>
+
 |                           Program                            | Details                                                      |
 | :----------------------------------------------------------: | :----------------------------------------------------------- |
 | <center><img src="/assets/img/ZJU.png" style="width: 120px; height: 120px" /></center> | **[Zhejiang University](http://www.zju.edu.cn/english/)**                                 <br />Bachelor of Engineering (expeted) \| Sept. 2016 - Jun. 2020<br />**Accumulative GPA: 3.99/4.0** |
@@ -27,14 +29,26 @@ I am now a research assistant at HKUST, under Prof. Long Quan in his vision grou
 | <center><img src="/assets/img/vcla-logo.png" style="width: 120px; height: 120px" /></center> | **[UCLA-CSST (Cross-disciplinary Scholars in Science and Technology)](https://csst.ucla.edu/), [UCLA](http://www.ucla.edu/), U.S.**<br />*Visiting Undergraduate Research Intern* \| Jul. 2019 - Setp. 2019<br />Advisor: [Prof. YingNian Wu](http://www.stat.ucla.edu/~ywu/), [Prof. Song-Chun Zhu](http://www.stat.ucla.edu/~sczhu/)<br />**GPA: 4.00/4.0** |
 | <center><img src="/assets/img/hkust-logo.png" style="width: 150px; height: 150px" /></center> | **Computer Vision Group, [HKUST](https://www.ust.hk/)**<br />*Visiting Undergraduate Research Intern* \| Oct. 2019 - Jan. 2020<br />Advisor: [Prof. Long Quan](http://www.cs.ust.hk/~quan/) |
 
+
+
 ## Publications
 
-| Project                                                      | Details&nbsp;                                                |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <center><img src="/assets/img/v1_cell.png" style="width: 250px; height: 250px" /></center> | Ruiqi Gao, Jianwen Xie, Siyuan Huang, **Yufan Ren**, Song-Chun Zhu, Ying Nian Wu. *Learning vector representation of local content and matrix representation of local motion, with implications for V1*. (under review) |
-| <center><img src="/assets/img/acm.png" style="width: 250px; " /></center> | Zhaolin Qiu, **Yufan Ren**, Canchen Li, Hongfu Liu, Yifan Huang, Yiheng Yang, Songruoyao Wu, Hanjia Zheng, Juntao Ji, Jianjia Yu, Kejun Zhang. *Mind Band: A Crossmedia AI Music Composing Platform*. Proceedings of the 27th ACM international conference on Multimedia. ACM, 2019 |
+<table>
+<tbody>
+	<tr>
+		<td><center><img src="/assets/img/v1_cell.png" style="width: 250px; " /></center></td>
+    <td>Ruiqi Gao, Jianwen Xie, Siyuan Huang, <b>Yufan Ren</b>, Song-Chun Zhu, Ying Nian Wu. <i>Learning vector representation of local content and matrix representation of local motion, with implications for V1</i>. (under review)</td>
+	</tr>
+ 	<tr>
+		<td><center><img src="/assets/img/acm.png" style="width: 250px; " /></center></td>
+    <td>  Zhaolin Qiu, <b>Yufan Ren</b>, Canchen Li, Hongfu Liu, Yifan Huang, Yiheng Yang, Songruoyao Wu, Hanjia Zheng, Juntao Ji, Jianjia Yu, Kejun Zhang. <i>Mind Band: A Crossmedia AI Music Composing Platform</i>. Proceedings of the 27th ACM international conference on Multimedia. ACM, 2019</td>
+	</tr>
+</tbody>
+</table>
 
-Other projects can be found on this [page](http://127.0.0.1:4000/personal/2019-10-10-projects/). 
+## Projects 
+
+Projects can be found on this [page](http://127.0.0.1:4000/personal/2019-10-10-projects/). 
 
 ## Contact
 
