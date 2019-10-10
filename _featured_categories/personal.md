@@ -21,32 +21,31 @@ I am now a research assistant at HKUST, under Prof. Long Quan in his vision grou
 
 |                           Program                            | Details                                                      |
 | :----------------------------------------------------------: | :----------------------------------------------------------- |
-| <center><img src="/assets/img/ZJU.png" style="zoom:90%" /></center> | **[Zhejiang University, China](http://www.zju.edu.cn/english/)**                                 <br />Bachelor of Engineering \| Sept. 2016 - Jun. 2020<br />**Accumulative GPA: 3.99/4.0** |
-| <center><img src="/assets/img/chuko.png" style="zoom:90%" /></center> | **[Che Kochen Honors College<br />Zhejiang University](http://ckc.zju.edu.cn/english/)**<br />Honors minor \| May 2017 - Jun. 2020<br />**GPA: 4.00/4.0**<br /> |
-| <center><img src="/assets/img/morning.png" style="zoom:90%" /></center> | **[Morningside Cultural China Scholar Programs, Zhejiang University](http://www.ccsper.com/index.aspx)**<br />Scholar \| May 2019 - <br />Advisor: Prof. Sengchun Zhou |
-| <center><img src="/assets/img/vcla-logo.png" style="zoom:90%" /></center> | **[UCLA-CSST (Cross-disciplinary Scholars in Science and Technology)](https://csst.ucla.edu/), [UCLA](http://www.ucla.edu/), U.S.**<br />Research Assistant \| Jul. 2019 - Setp. 2019<br />Advisor: [Prof. YingNian Wu](http://www.stat.ucla.edu/~ywu/), [Prof. Song-Chun Zhu](http://www.stat.ucla.edu/~sczhu/)<br />**GPA: 4.00/4.0** |
-| <center><img src="/assets/img/hkust-logo.png" style="zoom:90%" /></center> | **Vision Group, [HKUST](https://www.ust.hk/)**<br />Research Assistant \| Oct. 2019 - Jan. 2020<br />Advisor: [Prof. Long Quan](http://www.cs.ust.hk/~quan/) |
+| <center><img src="/assets/img/ZJU.png" style="width: 120px; height: 120px" /></center> | **[Zhejiang University](http://www.zju.edu.cn/english/)**                                 <br />Bachelor of Engineering (expeted) \| Sept. 2016 - Jun. 2020<br />**Accumulative GPA: 3.99/4.0** |
+| <center><img src="/assets/img/chuko.png" style="width: 150px; height: 150px" /></center> | **[Che Kochen Honors College, Zhejiang University](http://ckc.zju.edu.cn/english/)**<br />Honors minor \| May 2017 - Jun. 2020<br />**GPA: 4.0/4.0**<br /> |
+| <center><img src="/assets/img/morning.png" style="width: 130px; height: 130px" /></center> | **[Morningside Cultural China Scholar Programs, Zhejiang University](http://www.ccsper.com/index.aspx)**<br />Scholar \| May 2019 - <br />Advisor: Prof. Sengchun Zhou |
+| <center><img src="/assets/img/vcla-logo.png" style="width: 120px; height: 120px" /></center> | **[UCLA-CSST (Cross-disciplinary Scholars in Science and Technology)](https://csst.ucla.edu/), [UCLA](http://www.ucla.edu/), U.S.**<br />*Visiting Undergraduate Research Intern* \| Jul. 2019 - Setp. 2019<br />Advisor: [Prof. YingNian Wu](http://www.stat.ucla.edu/~ywu/), [Prof. Song-Chun Zhu](http://www.stat.ucla.edu/~sczhu/)<br />**GPA: 4.00/4.0** |
+| <center><img src="/assets/img/hkust-logo.png" style="width: 150px; height: 150px" /></center> | **Computer Vision Group, [HKUST](https://www.ust.hk/)**<br />*Visiting Undergraduate Research Intern* \| Oct. 2019 - Jan. 2020<br />Advisor: [Prof. Long Quan](http://www.cs.ust.hk/~quan/) |
 
 ## Publications
 
-| Project                                                   | Details&nbsp;                                                |
-| --------------------------------------------------------- | ------------------------------------------------------------ |
-|                                                           | MVS                                                          |
-|                                                           | Learning V1 cell                                             |
-| <img src="/assets/img/deformable.png" style="zoom:20%" /> | **Generate Realistic Images while Disentangling of Appearance and Geometry**<br />Deformable Model aims at disentangling the appearance and geometric information of an image in an unsupervised fashion.<br />Here we hopes to keep the ability of disentangling network while making the output less blurry. *(Work in progress)*<br />[paper](https://arxiv.org/abs/1806.06298) \| code |
-| <img src="/assets/img/Coop.png" style="zoom:20%" />       | **Research on Hamiltonian Monte Carlo in Energy Based Model**<br />This work is based on the [CoopNet](https://arxiv.org/abs/1609.09408).<br />We conduct experiments on Energy Based Model with MCMC sampling comparing Langevin Dynamics and Hamiltonian Dynamic.<br />[paper](https://arxiv.org/abs/1609.09408) \| code |
-| <img src="/assets/img/CLAF.png" style="zoom:20%" />       | **"Mind Band" - the AI Music Composer**<br />We design a music generator based on GAN while viewing music pieces as piano rolls.<br />For some music samples, please follow this [link](http://ryf1123.github.io/personal/2019-08-11-music/).<br />[[code]](https://github.com/ryf1123/CLAF) |
+| Project                                                      | Details&nbsp;                                                |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <center><img src="/assets/img/v1_cell.png" style="width: 250px; height: 250px" /></center> | Ruiqi Gao, Jianwen Xie, Siyuan Huang, **Yufan Ren**, Song-Chun Zhu, Ying Nian Wu. *Learning vector representation of local content and matrix representation of local motion, with implications for V1*. (under review) |
+| <center><img src="/assets/img/acm.png" style="width: 250px; " /></center> | Zhaolin Qiu, **Yufan Ren**, Canchen Li, Hongfu Liu, Yifan Huang, Yiheng Yang, Songruoyao Wu, Hanjia Zheng, Juntao Ji, Jianjia Yu, Kejun Zhang. *Mind Band: A Crossmedia AI Music Composing Platform*. Proceedings of the 27th ACM international conference on Multimedia. ACM, 2019 |
 
-Other projects can be found here. 
+Other projects can be found on this [page](http://127.0.0.1:4000/personal/2019-10-10-projects/). 
 
 ## Contact
 
 **Email:** renyufan [at] zju [dot] edu [dot] cn *OR* renyufan [at] g [dot] ucla [dot] edu
 
-**Detailed information** can be found in my [CV](https://ryf1123.github.io/assets/pdf/cv.pdf).
+You can drop me an email (click the "mail" in the left sidebar) and I will reply as soon as possible!
 
-You can drop me an email (click the "mail" in the left sidebar) and I will reply as soon as possible.
+## Additional information
+
+My [CV](https://ryf1123.github.io/assets/pdf/cv.pdf) can be found here.
 
 ## One more thing
 
-There are other stuffs about [me](https://ryf1123.github.io). 
+Still not boring? Here are more things about [me](https://ryf1123.github.io). 
