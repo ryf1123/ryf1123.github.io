@@ -11,20 +11,20 @@ description: >
 
 # About me
 
-I am a junior undergraduate from **Computer Science, Zhejiang University** with an **honors minor** in Chu Kochen Honors College of Advanced Honor Class of Engineering Education. 
+I am a senior undergraduate from **Computer Science, Zhejiang University** with an **honors minor** in Chu Kochen Honors College of Advanced Honor Class of Engineering Education. 
 
 My research interest mainly falls on **Machine Learning and Computer Vision**, especially generative model for image and music generation, like Generative Adversarial Nets (GAN) and Energy Based Model (EBM). I also preserve an interest in cross-displinary areas, where Machine Leaning and Computer Vision can be applied and boost other subjects.
 
-I am now a [**CSST**](https://csst.ucla.edu/) (Cross-disciplinary Scholars in Science and Technology) student under Professor Yingnian Wu’s supervision in VCLA at UCLA.
+I am now a research assistant at HKUST, under Prof. Long Quan in his vision group. Before going to HKUST, I was a [CSST](https://csst.ucla.edu/) scholar under Prof. Yingnian Wu and Prof. Song-chun Zhu supervision in VCLA at UCLA.
 
 ## Education
 
-|                     Univeristy / College                     | Details                                                      |
+|                           Program                            | Details                                                      |
 | :----------------------------------------------------------: | :----------------------------------------------------------- |
 | <center><img src="/assets/img/ZJU.png" style="zoom:90%" /></center> | **[Zhejiang University, China](http://www.zju.edu.cn/english/)**                                 <br />Bachelor of Engineering \| Sept. 2016 - Jun. 2020<br />Accumulative GPA: 3.99/4.0 |
-| <center><img src="/assets/img/chuko.png" style="zoom:90%" /></center> | **[Che Kochen Honors College: Advanced Honor Class of Engineering Education, <br />Zhejiang University, China](http://ckc.zju.edu.cn/english/)**<br />Honors minor \| May 2017 - Jun. 2020<br />GPA: 4.00/4.0<br /> |
-| <center><img src="/assets/img/morning.png" style="zoom:90%" /></center> | **[Morningside Cultural China Scholar Programs, Zhejiang University, China](http://www.ccsper.com/index.aspx)**<br />Scholar \| May 2019 - Junes. 2020<br />Advisor: Prof. Sengchun Zhou |
-| <center><img src="/assets/img/vcla.png" style="zoom:130%" /></center> | **[UCLA-CSST (Cross-disciplinary Scholars in Science and Technology)](https://csst.ucla.edu/), [UCLA](http://www.ucla.edu/), U.S.**<br />Research Assistant \| Jul. 2019 - Setp. 2019<br />Advisor: [Prof. YingNian Wu](http://www.stat.ucla.edu/~ywu/), [Prof. Song-Chun Zhu](http://www.stat.ucla.edu/~sczhu/)<br />Overall GPA: 4.00/4.0 |
+| <center><img src="/assets/img/chuko.png" style="zoom:90%" /></center> | **[Che Kochen Honors College: Advanced Honor Class of Engineering Education, <br />Zhejiang University, China](http://ckc.zju.edu.cn/english/)**<br />Honors minor \| May 2017 - Jun. 2020<br />**GPA: 4.00/4.0**<br /> |
+| <center><img src="/assets/img/morning.png" style="zoom:90%" /></center> | **[Morningside Cultural China Scholar Programs, Zhejiang University, China](http://www.ccsper.com/index.aspx)**<br />Scholar \| May 2019 - <br />Advisor: Prof. Sengchun Zhou |
+| <center><img src="/assets/img/vcla.png" style="zoom:120%" /></center> | **[UCLA-CSST (Cross-disciplinary Scholars in Science and Technology)](https://csst.ucla.edu/), [UCLA](http://www.ucla.edu/), U.S.**<br />Research Assistant \| Jul. 2019 - Setp. 2019<br />Advisor: [Prof. YingNian Wu](http://www.stat.ucla.edu/~ywu/), [Prof. Song-Chun Zhu](http://www.stat.ucla.edu/~sczhu/)<br />**GPA: 4.00/4.0** |
 | <center><img src="/assets/img/hkust-logo.png" style="zoom:90%" /></center> | Vision Group, [HKUST](https://www.ust.hk/)<br />Research Assistant \| Oct. 2019 - Jan. 2020<br />Advisor: [Prof. Long Quan](http://www.cs.ust.hk/~quan/) |
 
 ## Projects
