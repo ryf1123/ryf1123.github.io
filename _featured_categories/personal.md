@@ -21,19 +21,23 @@ I am now a research assistant at HKUST, under Prof. Long Quan in his vision grou
 
 |                           Program                            | Details                                                      |
 | :----------------------------------------------------------: | :----------------------------------------------------------- |
-| <center><img src="/assets/img/ZJU.png" style="zoom:90%" /></center> | **[Zhejiang University, China](http://www.zju.edu.cn/english/)**                                 <br />Bachelor of Engineering \| Sept. 2016 - Jun. 2020<br />Accumulative GPA: 3.99/4.0 |
-| <center><img src="/assets/img/chuko.png" style="zoom:90%" /></center> | **[Che Kochen Honors College: Advanced Honor Class of Engineering Education, <br />Zhejiang University, China](http://ckc.zju.edu.cn/english/)**<br />Honors minor \| May 2017 - Jun. 2020<br />**GPA: 4.00/4.0**<br /> |
-| <center><img src="/assets/img/morning.png" style="zoom:90%" /></center> | **[Morningside Cultural China Scholar Programs, Zhejiang University, China](http://www.ccsper.com/index.aspx)**<br />Scholar \| May 2019 - <br />Advisor: Prof. Sengchun Zhou |
-| <center><img src="/assets/img/vcla.png" style="zoom:120%" /></center> | **[UCLA-CSST (Cross-disciplinary Scholars in Science and Technology)](https://csst.ucla.edu/), [UCLA](http://www.ucla.edu/), U.S.**<br />Research Assistant \| Jul. 2019 - Setp. 2019<br />Advisor: [Prof. YingNian Wu](http://www.stat.ucla.edu/~ywu/), [Prof. Song-Chun Zhu](http://www.stat.ucla.edu/~sczhu/)<br />**GPA: 4.00/4.0** |
-| <center><img src="/assets/img/hkust-logo.png" style="zoom:90%" /></center> | Vision Group, [HKUST](https://www.ust.hk/)<br />Research Assistant \| Oct. 2019 - Jan. 2020<br />Advisor: [Prof. Long Quan](http://www.cs.ust.hk/~quan/) |
+| <center><img src="/assets/img/ZJU.png" style="zoom:90%" /></center> | **[Zhejiang University, China](http://www.zju.edu.cn/english/)**                                 <br />Bachelor of Engineering \| Sept. 2016 - Jun. 2020<br />**Accumulative GPA: 3.99/4.0** |
+| <center><img src="/assets/img/chuko.png" style="zoom:90%" /></center> | **[Che Kochen Honors College<br />Zhejiang University](http://ckc.zju.edu.cn/english/)**<br />Honors minor \| May 2017 - Jun. 2020<br />**GPA: 4.00/4.0**<br /> |
+| <center><img src="/assets/img/morning.png" style="zoom:90%" /></center> | **[Morningside Cultural China Scholar Programs, Zhejiang University](http://www.ccsper.com/index.aspx)**<br />Scholar \| May 2019 - <br />Advisor: Prof. Sengchun Zhou |
+| <center><img src="/assets/img/vcla-logo.png" style="zoom:90%" /></center> | **[UCLA-CSST (Cross-disciplinary Scholars in Science and Technology)](https://csst.ucla.edu/), [UCLA](http://www.ucla.edu/), U.S.**<br />Research Assistant \| Jul. 2019 - Setp. 2019<br />Advisor: [Prof. YingNian Wu](http://www.stat.ucla.edu/~ywu/), [Prof. Song-Chun Zhu](http://www.stat.ucla.edu/~sczhu/)<br />**GPA: 4.00/4.0** |
+| <center><img src="/assets/img/hkust-logo.png" style="zoom:90%" /></center> | **Vision Group, [HKUST](https://www.ust.hk/)**<br />Research Assistant \| Oct. 2019 - Jan. 2020<br />Advisor: [Prof. Long Quan](http://www.cs.ust.hk/~quan/) |
 
-## Projects
+## Publications
 
 | Project                                                   | Details&nbsp;                                                |
 | --------------------------------------------------------- | ------------------------------------------------------------ |
-| <img src="/assets/img/deformable.png" style="zoom:20%" /> | **Generate Realistic Images while Disentangling of Appearance and Geometry**<br />Deformable Model aims at disentangling the appearance and geometric information of an image in an unsupervised fashion.<br />Here we hopes to keep the ability of disentangling network while making the output less blurry. *(Work in progress)* |
-| <img src="/assets/img/Coop.png" style="zoom:20%" />       | **Research on Hamiltonian Monte Carlo in Energy Based Model**<br />This work is based on the [CoopNet](https://arxiv.org/abs/1609.09408).<br />We conduct experiments on Energy Based Model with MCMC sampling comparing Langevin Dynamics and Hamiltonian Dynamic. |
+|                                                           | MVS                                                          |
+|                                                           | Learning V1 cell                                             |
+| <img src="/assets/img/deformable.png" style="zoom:20%" /> | **Generate Realistic Images while Disentangling of Appearance and Geometry**<br />Deformable Model aims at disentangling the appearance and geometric information of an image in an unsupervised fashion.<br />Here we hopes to keep the ability of disentangling network while making the output less blurry. *(Work in progress)*<br />[paper](https://arxiv.org/abs/1806.06298) \| code |
+| <img src="/assets/img/Coop.png" style="zoom:20%" />       | **Research on Hamiltonian Monte Carlo in Energy Based Model**<br />This work is based on the [CoopNet](https://arxiv.org/abs/1609.09408).<br />We conduct experiments on Energy Based Model with MCMC sampling comparing Langevin Dynamics and Hamiltonian Dynamic.<br />[paper](https://arxiv.org/abs/1609.09408) \| code |
 | <img src="/assets/img/CLAF.png" style="zoom:20%" />       | **"Mind Band" - the AI Music Composer**<br />We design a music generator based on GAN while viewing music pieces as piano rolls.<br />For some music samples, please follow this [link](http://ryf1123.github.io/personal/2019-08-11-music/).<br />[[code]](https://github.com/ryf1123/CLAF) |
+
+Other projects can be found here. 
 
 ## Contact
 
