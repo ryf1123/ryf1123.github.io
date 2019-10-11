@@ -5,7 +5,10 @@ description: >
 
 author: author1
 noindex: true
+
 ---
+
+![img](/assets/img/cultural.png)
 
 > 让我印象非常深刻并且确认要加入文中的是宣讲会报告里面有徐静学姐的一段话。
 >
