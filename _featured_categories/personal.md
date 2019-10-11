@@ -48,7 +48,7 @@ I am now a research assistant at HKUST, under Prof. Long Quan in his vision grou
 
 ## Projects 
 
-Projects can be found on this [page](http://127.0.0.1:4000/personal/2019-10-10-projects/). 
+Projects can be found on this [page](http://ryf1123.github.io/personal/2019-10-10-projects/). 
 
 ## Contact
 
