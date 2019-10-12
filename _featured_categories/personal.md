@@ -48,7 +48,52 @@ I am now a research assistant at HKUST, under Prof. Long Quan in his vision grou
 
 ## Projects 
 
-Projects can be found on this [page](http://ryf1123.github.io/personal/2019-10-10-projects/). 
+
+
+<table>
+<tbody>
+	<tr>
+		<td><center><img src="/assets/img/v1_cell.png" style="width: 250px; " /></center></td>
+    <td><b>Learning vector representation of local content and matrix representation of local motion, with implications for V1</b><br />
+      <ul>
+        <li>Capacitated the model to execute (1) Vector representation of local image content and (2) Matrix representation of local displacement.</li>
+        <li>Introduced the V1 model into common flow prediction problem dataset (, Sintel, as an example) by devising multi-resolution scheme and redesigning the smooth restriction, which managed to outperform the newest benchmark model FlowNet without need of Deep Neural Network.</li>
+      </ul><a herf="">[under review]</a><a href="https://ryf1123.github.io/personal/2019-10-11-V1/">[description]</a></td>
+	</tr>
+  <tr>
+		<td><center><img src="/assets/img/deformable.png" style="width: 250px; " /></center></td>
+    <td><b>Generate Realistic Images while Disentangling of Appearance and Geometry</b><br />
+      <ul>
+        <li>Deformable Model aims at disentangling the appearance and geometric information of an image in an unsupervised fashion.</li>
+        <li>Here we hopes to keep the ability of disentangling network while making the output less blurry. <a herf="https://arxiv.org/abs/1806.06298">[in progress]</a></li> 
+      </ul>
+    </td>
+  </tr>
+  <tr>
+	<td><center><img src="/assets/img/acm.png" style="width: 250px; " /></center></td>
+<td><b>"Mind Band" - the AI Music Composer</b><br />
+  <ul>
+    <li>We design a music generator based on GAN while viewing music pieces as piano rolls.</li>
+    <li>For some music samples, please follow this 
+      <a href="https://github.com/ryf1123/CLAF/">[code]</a>
+      <a href="http://ryf1123.github.io/personal/2019-08-11-music/">[description and music samples]</a>
+      <a herf="">[paper]</a>
+    </li>
+  </ul>
+</td>
+</tr>
+  <tr>
+  	<td><center><img src="/assets/img/oasis.png" style="width: 250px; " /></center>
+    </td>
+    <td><b>Oasis in the Sky: A first-person Exploring game by WebGL </b>
+      <a href="https://github.com/ryf1123/Oasis-in-the-Sky/blob/master/README.md">[description]</a>
+      <a href="https://github.com/ryf1123/Oasis-in-the-Sky">[code]</a>
+      <a href="https://github.com/ryf1123/personal/2019-10-11-oasis/">[detail]</a>
+		<br>We made use of WebGL in JavaScript. 
+    </td>
+  </tr>
+</tbody>
+</table>
 
 ## Contact
 
