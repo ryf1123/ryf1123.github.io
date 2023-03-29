@@ -19,38 +19,41 @@
           <tr style="padding:0px">
             <td style="padding:2.5%;width:63%;vertical-align:middle">
               <p style="text-align:center">
-                <name>Yufan Ren</name>
+                <name>Yufan Ren (任宇凡)</name>
               </p>
-              <p>I am a Ph.D. student (2020-) at <a href="https://www.epfl.ch/labs/ivrl/">IVR Lab</a> in the School of Computer and Communication Sciences at <a href="epfl.ch">EPFL</a>, supervised by Prof. <a href="https://people.epfl.ch/sabine.susstrunk">Sabine Süsstrunk</a> and Dr. <a href="https://sites.google.com/view/tong-zhang?pli=1">Tong Zhang</a>.  
+              <p>Hello! I am currently a Ph.D. student (2020-) at <a href="https://www.epfl.ch/labs/ivrl/">Image and Visual Representation Lab</a>, part of the <a href="https://www.epfl.ch/schools/ic/">School of Computer and Communication Sciences</a> at <a href="epfl.ch">EPFL, Switzerland</a>. Under the guidance of Prof. <a href="https://people.epfl.ch/sabine.susstrunk">Sabine Süsstrunk</a> and Dr. <a href="https://sites.google.com/view/tong-zhang?pli=1">Tong Zhang</a>, I work on 3D vision, Neural Rendering, and Diffusion Models.  
               </p>
               <p>
-                Previously, I obtained my bachelor degree in Zhejiang University (2016-2020) and am a recipient of Chu Kochen Award.
+                Prior to my Ph.D., I earned my bachelor's degree from <a href="https://www.zju.edu.cn/english/">Zhejiang University, Hangzhou</a>, where I was honored to receive the Chu Kochen Award. Those four years were some of the happiest of my life.
+              </p>
+              <p>
+                I'm passionate about the recent advancement in generative models (Diffusion Models) and large language models (chatGPT), and I'm always eager to engage in discussions on these topics. If you're a master's student at EPFL and share similar interests, I'm currently seeking a research assistant to work with me. Some of my available master projects are on the lab's website <a href="https://www.epfl.ch/labs/ivrl/available-projects/">here</a>, and don't hesitate to reach out if you have any questions or want to chat!
               </p>
               <p style="text-align:center">
                 <a href="mailto:yufan.ren@epfl.ch">Email</a> &nbsp/&nbsp
                 <a href="https://scholar.google.com/citations?user=dBc-t1cAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
                 <a href="https://www.linkedIn.com/in/yufan-ren-12aab818b/">LinkdIn</a>
+                <a href="https://github.com/ryf1123/">GitHub</a>
+                
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/me.jpeg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/me.jpeg" class="hoverZoomLink"></a>
+              <a href="images/me.png"><img style="width:100%;max-width:100%" alt="profile photo" src="images/me.png" class="hoverZoomLink"></a>
             </td>
           </tr>
         </tbody></table>
-
-
-
-
 
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
-              <p>
+              <!-- <p>
                 My current research interests mainly lie in the field of 3D vision, Neural Rendering, and AIGC.
-              </p>
+              </p> -->
             </td>
+
+
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -59,8 +62,8 @@
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='volrecon_image'>
-                  <img src='images/volrecon_after.jpeg' width="160"></div>
-                <img src='images/volrecon_before.jpeg' width="160">
+                  <img src='images/volrecon_after.jpeg' width="160"  height="140"></div>
+                <img src='images/volrecon_before.jpeg' width="160"  height="140">
               </div>
               <script type="text/javascript">
                 function volrecon_start() {
@@ -91,7 +94,7 @@
               <!-- <a href="https://arxiv.org/abs/2201.00392">arXiv</a> -->
               <p></p>
               <p>
-              We propose a generalizable implicit reconstruction method with Signed Ray Distance Function (SRDF). To reconstruct with fine details and little noise, we combine projection features, aggregated from multi-view features with a view transformer, and volume features interpolated from a coarse global feature volume.
+              We introduce VolRecon, a novel generalizable implicit reconstruction method with Signed Ray Distance Function (SRDF). To reconstruct the scene with fine details and little noise, VolRecon combines projection features aggregated from multi-view features, and volume features interpolated from a coarse global feature volume.
               </p>
             </td>
           </tr>
@@ -100,8 +103,8 @@
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='malle_image'>
-                  <img src='images/v1.png' width="160"></div>
-                <img src='images/v1.png' width="160">
+                  <img src='images/v1-2.png' width="160" height="160"></div>
+                <img src='images/v1.png' width="160" height="160">
               </div>
               <script type="text/javascript">
                 function malle_start() {
@@ -133,7 +136,7 @@
               <!-- <a href="https://arxiv.org/abs/2201.00392">arXiv</a> -->
               <p></p>
               <p>
-              We propose a representational model for image pairs such as consecutive video frames that are related by local pixel displacements.
+                We propose a representational model for image pairs such as consecutive video frames that are related by local pixel displacements, in the hope that the model may shed light on motion perception in primary visual cortex (V1). The model couples the following two components: (1) the vector representations of local contents of images and (2) the matrix representations of local pixel displacements caused by the relative motions between the agent and the objects in the 3D scene.
               </p>
             </td>
           </tr>
@@ -143,8 +146,8 @@
           <td style="padding:20px;width:25%;vertical-align:middle">
           <div class="one">
           <div class="two" id='pnf_image'>
-            <img src='images/blended.png' width="160"></div>
-          <img src='images/blended.png' width="160">
+            <img src='images/bmvs2.png' width="160" height="140"></div>
+          <img src='images/bmvs1.png' width="160" height="140">
           </div>
           <script type="text/javascript">
           function pnf_start() {
@@ -172,7 +175,7 @@
           <br>
           <em>CVPR</em>, 2020
           <p>
-            We introduce BlendedMVS, a novel large-scale dataset, to provide sufficient training ground truth for learning-based MVS.
+            We introduce BlendedMVS, a novel large-scale dataset, to provide sufficient training ground truth for learning-based MVS. To create the dataset, we apply a 3D reconstruction pipeline to recover high-quality textured meshes from images of well-selected scenes. Then, we render these mesh models to color images and depth maps. To introduce the ambient lighting information during training, the rendered color images are further blended with the input images to generate the training input.
           </p>
           </td>
           </tr> 
@@ -186,7 +189,7 @@
       <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
         <tr>
         <td style="padding:20px;width:100%;vertical-align:middle">
-          <heading>Projects</heading>
+          <heading>Selected Projects</heading>
           <p>
             <!-- My current research interests mainly lie in the field of 3D vision, Neural Rendering, and AIGC. -->
           </p>
@@ -195,27 +198,27 @@
     </tbody></table>
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-      <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+      <tr onmouseout="tmc_stop()" onmouseover="tmc_start()">
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div class="one">
-            <div class="two" id='malle_image'>
-              <img src='images/tmc.jpeg' width="160"></div>
-            <img src='images/tmc.jpeg' width="160">
+            <div class="two" id='tmc_image'>
+              <img src='images/tmc2.jpg' width="160" height="140"></div>
+            <img src='images/tmc1.jpg' width="160" height="140">
           </div>
           <script type="text/javascript">
-            function malle_start() {
-              document.getElementById('malle_image').style.opacity = "1";
+            function tmc_start() {
+              document.getElementById('tmc_image').style.opacity = "1";
             }
 
-            function malle_stop() {
-              document.getElementById('malle_image').style.opacity = "0";
+            function tmc_stop() {
+              document.getElementById('tmc_image').style.opacity = "0";
             }
-            malle_stop()
+            tmc_stop()
           </script>
         </td>
         <td style="padding:20px;width:75%;vertical-align:middle">
           <a href="https://actu.epfl.ch/news/deepfake-generation-and-detection-is-like-an-arm-3/">
-            <papertitle>AI Singapore Trusted Media Challenge</papertitle>
+            <papertitle>Multimodal Fake Media Detection: AI Singapore Trusted Media Challenge</papertitle>
           </a>
           <!-- <br>
           <a href="https://ruiqigao.github.io/">Ruiqi Gao</a>,
@@ -234,7 +237,7 @@
           <!-- <a href="https://arxiv.org/abs/2201.00392">arXiv</a> -->
           <p></p>
           <p>
-          <a href="https://www.linkedin.com/in/petergro/?locale=en_US">Peter Grönquist</a> and I participated in the DeepFakes video detection challenge and won the <em>second place</em> 🥈.
+          <a href="https://www.linkedin.com/in/petergro/?locale=en_US">Peter Grönquist</a> and I did <a hred="https://trustedmedia.aisingapore.org/">this challenge</a> and won the 100,000 USD prize (incl. grant). In this challenge, we design machine learning models to detect three types of fakeness, i.e., fake faces (DeepFakes), manipulated audio, and mis-synchronization (lip-sync), and use engineering tricks to make it fast. 
           </p>
         </td>
       </tr>
