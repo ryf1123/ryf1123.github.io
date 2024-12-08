@@ -85,6 +85,47 @@
         </tr>
       </tbody></table>
 
+      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          
+        <tr onmouseout="fds_stop()" onmouseover="fds_start()">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <div class="two" id='fds_image'>
+                <img src='images/coffee1.png' width="160"  height="140"></div>
+              <img src='images/coffee2.png' width="160"  height="140">
+            </div>
+            <script type="text/javascript">
+              function fds_start() {
+                document.getElementById('fds_image').style.opacity = "1";
+              }
+
+              function fds_stop() {
+                document.getElementById('fds_image').style.opacity = "0";
+              }
+              fds_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="./subpage/diffusion-pcr/index.html">
+              <papertitle>FDS: Frequency-Aware Denoising Score for Text-Guided Latent Diffusion Image Editing</papertitle>
+            </a>
+            <br>
+
+            <strong>Yufan Ren</strong>,
+            <a href="https://zicongjiang.github.io/zicong-jiang/">Zicong Jiang</a>,
+            <a href="https://sites.google.com/view/tong-zhang">Tong Zhang</a>,
+            <a href="https://scholar.google.ch/citations?user=o8BdwuMAAAAJ&hl=en">Zheng Dang</a>,
+            <a href="https://orbit.dtu.dk/en/persons/s%C3%B8ren-otto-forchhammer">Søren Otto Forchhammer</a>,
+            <a href="https://people.epfl.ch/sabine.susstrunk">Sabine
+              Süsstrunk</a>
+            <br>
+            <em>ArXiv'24</em>, <a href="https://ivrl.github.io/fds-webpage/">Project Page</a>
+            <br>
+            <p>
+              In this paper, we analyze these failure cases of Text-guided image editing and attribute them to the indiscriminate optimization across all frequency bands, even though only specific frequencies may require adjustment. To address this, we introduce a simple yet effective approach that enables selective optimization of specific frequency bands within spatially localized regions, allowing for precise edits.
+            </p>
+          </td>
+        </tr>
 
       <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           
@@ -122,7 +163,7 @@
             <a href="https://people.epfl.ch/mathieu.salzmann">Mathieu Salzmann</a>
           
             <br>
-            <em>ArXiv'23</em>, <a href="https://arxiv.org/abs/2312.03053">arXiv</a>, <a href="./subpage/diffusion-pcr/index.html">Project Page</a>, <a href="#">Code (Coming soon)</a>
+            <a href="https://arxiv.org/abs/2312.03053">ArXiv'23</a>, <a href="./subpage/diffusion-pcr/index.html">Project Page</a>
             <br>
             <!-- <a href="https://yifanjiang.net/MalleConv.html">project page</a>
             / -->
