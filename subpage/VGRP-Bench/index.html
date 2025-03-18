@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>VGRP-Bench: Visual Grid Reasoning Puzzle Benchmark for Large Vision-Language Models</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧩</text></svg>">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">VGRP-Bench: Visual Grid Reasoning Puzzle Benchmark for Large Vision-Language Models</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://yufan-ren.com/" target="_blank">Yufan Ren</a><sup>12🎓</sup>,</span>
+                <span class="author-block">
+                  <a href="https://ktertikas.github.io/" target="_blank">Konstantinos Tertikas</a><sup>13🎓</sup>,</span>
+                  <span class="author-block">
+                    <a href="https://www.linkedin.com/in/shalini-maiti-a76a2b86" target="_blank">Shalini Maiti</a><sup>14</sup>
+                  </span>
+                  <span class="author-block">
+                    <a href="https://junlinhan.github.io/" target="_blank"> Junlin Han</a><sup>15</sup>
+                  </span>
+                  <br>
+                  <span class="author-block">
+                    <a href="https://sites.google.com/view/tong-zhang" target="_blank">Tong Zhang</a><sup>2</sup>
+                  </span><span class="author-block">
+                    <a href="https://www.epfl.ch/labs/ivrl/people/susstrunk/" target="_blank">Sabine Süsstrunk</a><sup>2</sup>
+                  </span>
+                </span><span class="author-block">
+                  <a href="https://www.fkokkinos.com/" target="_blank">Filippos Kokkinos</a><sup>1</sup>
+                </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">
+                      <sup>1</sup>GenAI, Meta
+                      <sup>2</sup>EPFL
+                      <sup>3</sup>University of Athens
+                      <sup>4</sup>University College of London
+                      <sup>5</sup>University of Oxford
+                    </span>
+                    <span class="eql-cntrb"><small><br><sup>🎓</sup>Work done during internship at Meta</small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper (Coming Soon)</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary (Coming Soon)</span>
+                    </a>
+                  </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code (Coming Soon)</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv (Coming Soon)</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <!-- Single image display instead of carousel -->
+      <div class="columns is-centered">
+        <div class="column is-full">
+          <!-- Your image here -->
+          <h2 class="title is-3 has-text-centered">TL;DR</h2>
+          <h2 class="subtitle has-text-centered">
+            <span style="font-weight:bold;">VGRP-Bench</span> is a benchmark containing 20 visual grid reasoning puzzles with diverse difficulty levels that pose significant challenges for current Large Vision-Language Models (LVLMs).
+          </h2>
+          <img src="static/images/teaser.png" alt="MY ALT TEXT" class="has-ratio"/>
+          <h2 class="subtitle has-text-centered">
+            <strong>Benchmark Overview.</strong> 
+            (a) We present a benchmark for LVLMs with 20 diverse visual grid reasoning puzzles.
+            (b) We evaluate top models (GPT-4o, Gemini, Llama 3.2, Gemini-Thinking) on perception, puzzle-solving, and rule-following.
+            We also explore improvement techniques: (c) Solution Supervised Fine-Tuning (S-SFT) and (d) Reasoning Supervised Fine-Tuning (R-SFT).
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Large Vision-Language Models (LVLMs) struggle with puzzles, which require precise perception, rule comprehension, and logical reasoning. Assessing and enhancing their performance in this domain is crucial, as it reflects their ability to engage in structured reasoning — an essential skill for real-world problem-solving. However, existing benchmarks primarily evaluate pre-trained models without additional training or fine-tuning, often lack a dedicated focus on reasoning, and fail to establish a systematic evaluation framework. To address these limitations, we introduce \textbf{VGRP-Bench}, a Visual Grid Reasoning Puzzle Benchmark featuring 20 diverse puzzles. VGRP-Bench spans multiple difficulty levels, and includes extensive experiments not only on existing chat LVLMs (e.g., GPT-4o), but also on reasoning LVLMs (e.g., Gemini-Thinking). Our results reveal that even the state-of-the-art LVLMs struggle with these puzzles, highlighting fundamental limitations in their puzzle-solving capabilities. Most importantly, through systematic experiments, we identify and analyze key factors influencing LVLMs' puzzle-solving performance, including the number of clues, grid size, and rule complexity. Furthermore, we explore two Supervised Fine-Tuning (SFT) strategies that can be used in post-training: SFT on solutions (S-SFT) and SFT on synthetic reasoning processes (R-SFT). While both methods significantly improve performance on trained puzzles, they exhibit limited generalization to unseen ones. We will release VGRP-Bench to facilitate further research on LVLMs for complex, real-world problem-solving.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End image carousel -->
+
+
+<!-- Adding centered title above the carousel section with more spacing -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <h2 class="title is-3">Puzzles with diverse rules</h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <!-- First carousel item/slide (games 1-4) -->
+        <div class="item">
+          <div class="columns">
+            <!-- First row -->
+            <div class="column is-6">
+              <div class="columns is-vcentered">
+                <div class="column is-half">
+                  <!-- Game 1: Aquarium -->
+                  <img src="static/images/screenshot-game/aquarium-easy.png" alt="Aquarium Puzzle" style="width:100%; max-width:512px; height:auto;"/>
+                </div>
+                <div class="column is-half">
+                  <h2 class="subtitle">
+                    <strong>1. Aquarium</strong>: You need to fill the aquariums with water up to a certain level or leave it empty. The numbers on the sides indicate how many filled (water) cells must be in each row and column.
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="column is-6">
+              <div class="columns is-vcentered">
+                <div class="column is-half">
+                  <!-- Game 2: Battle-Ships -->
+                  <img src="static/images/screenshot-game/battleship-easy12.png" alt="Battle-Ships Puzzle" style="width:100%; max-width:512px; height:auto;"/>
+                </div>
+                <div class="column is-half">
+                  <h2 class="subtitle">
+                    <strong>2. Battle-Ships</strong>: You need to place ships in a grid based on row and column hints. The hints indicate how many ship cells are in each row and column. Ships cannot touch each other, even diagonally.
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Second row -->
+          <div class="columns">
+            <div class="column is-6">
+              <div class="columns is-vcentered">
+                <div class="column is-half">
+                  <!-- Game 3: Binairo -->
+                  <img src="static/images/screenshot-game/binairo15.png" alt="Binairo Puzzle" style="width:100%; max-width:512px; height:auto;"/>
+                </div>
+                <div class="column is-half">
+                  <h2 class="subtitle">
+                    <strong>3. Binairo</strong>: You have to fill a grid with white (w) and black (b) pieces. No more than two circles of the same color can be adjacent (horizontally and vertically).
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="column is-6">
+              <div class="columns is-vcentered">
+                <div class="column is-half">
+                  <!-- Game 4: Colored-Sudoku -->
+                  <img src="static/images/screenshot-game/colored-12.png" alt="Colored Sudoku Puzzle" style="width:100%; max-width:512px; height:auto;"/>
+                </div>
+                <div class="column is-half">
+                  <h2 class="subtitle">
+                    <strong>4. Colored-Sudoku</strong>: You have to fill in an NxN grid with digits from 1 to N. Each row, column, and block must have unique digits. Additionally, cells with the same color must have the same digit, and cells with different colors must have different digits.
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Second carousel item/slide (games 5-8) -->
+        <div class="item">
+          <div class="columns">
+            <!-- First row of second page -->
+            <div class="column is-6">
+              <div class="columns is-vcentered">
+                <div class="column is-half">
+                  <!-- Game 5: Field-Explorer -->
+                  <img src="static/images/screenshot-game/field-explore-easy-new10.png" alt="Field Explorer Puzzle" style="width:100%; max-width:512px; height:auto;"/>
+                </div>
+                <div class="column is-half">
+                  <h2 class="subtitle">
+                    <strong>5. Field-Explorer</strong>: You need to identify mine locations in a grid based on revealed numbers. Each revealed number indicates how many mines are adjacent to that cell (including diagonals).
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="column is-6">
+              <div class="columns is-vcentered">
+                <div class="column is-half">
+                  <!-- Game 6: Futoshiki -->
+                  <img src="static/images/screenshot-game/futoshiki0.png" alt="Futoshiki Puzzle" style="width:100%; max-width:512px; height:auto;"/>
+                </div>
+                <div class="column is-half">
+                  <h2 class="subtitle">
+                    <strong>6. Futoshiki (Unequal)</strong>: You have to enter a numerical digit from 1 through N in each cell of an NxN grid. The rules are: unique numbers in each row and column; inequality signs between cells must be respected.
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Second row of second page -->
+          <div class="columns">
+            <div class="column is-6">
+              <div class="columns is-vcentered">
+                <div class="column is-half">
+                  <!-- Game 7: Hitori -->
+                  <img src="static/images/screenshot-game/hitori3.png" alt="Hitori Puzzle" style="width:100%; max-width:512px; height:auto;"/>
+                </div>
+                <div class="column is-half">
+                  <h2 class="subtitle">
+                    <strong>7. Hitori</strong>: You need to shade some cells in the grid such that no number appears more than once in each row and column among unshaded cells. The rules are: shaded cells cannot be adjacent; all unshaded cells must be connected.
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="column is-6">
+              <div class="columns is-vcentered">
+                <div class="column is-half">
+                  <!-- Game 8: Jigsaw-Sudoku -->
+                  <img src="static/images/screenshot-game/jigsaw-easy1.png" alt="Jigsaw Sudoku Puzzle" style="width:100%; max-width:512px; height:auto;"/>
+                </div>
+                <div class="column is-half">
+                  <h2 class="subtitle">
+                    <strong>8. Jigsaw-Sudoku</strong>: You have to enter a numerical digit from 1 through N in each cell of a NxN grid. The rules are: unique numbers in each row, column, and within cells of the same region. Each region is a connected group of cells.
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Third carousel item/slide (games 9-12) -->
+        <div class="item">
+          <div class="columns">
+            <!-- First row of third page -->
+            <div class="column is-6">
+              <div class="columns is-vcentered">
+                <div class="column is-half">
+                  <!-- Game 9: Kakurasu -->
+                  <img src="static/images/screenshot-game/kakurasu1.png" alt="Kakurasu Puzzle" style="width:100%; max-width:512px; height:auto;"/>
+                </div>
+                <div class="column is-half">
+                  <h2 class="subtitle">
+                    <strong>9. Kakurasu</strong>: You need to shade some cells in a grid where the sum of the weights of selected cells in each row and column matches the given clues. The weights increase from left to right (for rows) and top to bottom (for columns), starting from 1.
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="column is-6">
+              <div class="columns is-vcentered">
+                <div class="column is-half">
+                  <!-- Game 10: Kakuro -->
+                  <img src="static/images/screenshot-game/kakuro1.png" alt="Kakuro Puzzle" style="width:100%; max-width:512px; height:auto;"/>
+                </div>
+                <div class="column is-half">
+                  <h2 class="subtitle">
+                    <strong>10. Kakuro</strong>: You have to fill in the grid with numbers (1 to N) such that each row and column adds up to the specified sum. The rules are: adjacent numbers should not be the same; numbers add up to the given sum for each row and column.
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Second row of third page -->
+          <div class="columns">
+            <div class="column is-6">
+              <div class="columns is-vcentered">
+                <div class="column is-half">
+                  <!-- Game 11: Killer-Sudoku -->
+                  <img src="static/images/screenshot-game/cell_at-sample_8.png" alt="Killer Sudoku Puzzle" style="width:100%; max-width:512px; height:auto;"/>
+                </div>
+                <div class="column is-half">
+                  <h2 class="subtitle">
+                    <strong>11. Killer-Sudoku</strong>: You have to enter a numerical digit from 1 through N in each cell of an NxN grid. The board is divided into cages based on cell color. The rules are: unique numbers in each row, column, and each sqrt(N)xsqrt(N) block, and the sum of numbers in each cage must equal to the target sum.
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="column is-6">
+              <div class="columns is-vcentered">
+                <div class="column is-half">
+                  <!-- Game 12: Light-Up -->
+                  <img src="static/images/screenshot-game/lightup14.png" alt="Light-Up Puzzle" style="width:100%; max-width:512px; height:auto;"/>
+                </div>
+                <div class="column is-half">
+                  <h2 class="subtitle">
+                    <strong>12. Light-Up</strong>: You have to place light bulbs in the grid such that all empty cells are illuminated. Light bulbs illuminate their entire row and column until blocked by a wall; numbered walls must have exactly that many bulbs adjacent to them; bulbs cannot illuminate each other.
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Fourth carousel item/slide (games 13-16) -->
+        <div class="item">
+          <div class="columns">
+            <!-- First row of fourth page -->
+            <div class="column is-6">
+              <div class="columns is-vcentered">
+                <div class="column is-half">
+                  <!-- Game 13: Nonogram -->
+                  <img src="static/images/screenshot-game/nonogram-simple.png" alt="Nonogram Puzzle" style="width:100%; max-width:512px; height:auto;"/>
+                </div>
+                <div class="column is-half">
+                  <h2 class="subtitle">
+                    <strong>13. Nonogram</strong>: You need to fill in cells in a grid based on numbers at the side of the grid. For each row or column, the numbers indicate the lengths of consecutive shaded cells in that row/column, which must appear in the given order.
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="column is-6">
+              <div class="columns is-vcentered">
+                <div class="column is-half">
+                  <!-- Game 14: Odd-Even-Sudoku -->
+                  <img src="static/images/screenshot-game/oddevensuodku27.png" alt="Odd-Even Sudoku Puzzle" style="width:100%; max-width:512px; height:auto;"/>
+                </div>
+                <div class="column is-half">
+                  <h2 class="subtitle">
+                    <strong>14. Odd-Even-Sudoku</strong>: You have to enter a numerical digit from 1 through N in each cell of a NxN grid. The rules are: unique numbers in each row, column, and sqrt(N)xsqrt(N) block. Additionally, white cells must contain even numbers, and black cells must contain odd numbers.
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Second row of fourth page -->
+          <div class="columns">
+            <div class="column is-6">
+              <div class="columns is-vcentered">
+                <div class="column is-half">
+                  <!-- Game 15: Renzoku -->
+                  <img src="static/images/screenshot-game/renzoku0.png" alt="Renzoku Puzzle" style="width:100%; max-width:512px; height:auto;"/>
+                </div>
+                <div class="column is-half">
+                  <h2 class="subtitle">
+                    <strong>15. Renzoku (Neighbors)</strong>: You have to enter a numerical digit from 1 through N in each cell of an NxN grid. The rules are: unique numbers in each row, column; A dot between 2 cells indicates that those 2 numbers should be consecutive. Otherwise, the numbers should be non-consecutive.
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="column is-6">
+              <div class="columns is-vcentered">
+                <div class="column is-half">
+                  <!-- Game 16: Skyscraper -->
+                  <img src="static/images/screenshot-game/skyscraper5.png" alt="Skyscraper Puzzle" style="width:100%; max-width:512px; height:auto;"/>
+                </div>
+                <div class="column is-half">
+                  <h2 class="subtitle">
+                    <strong>16. Skyscraper</strong>: You have to enter a numerical digit from 1 through N in each cell of an NxN grid. The numbers indicate the height of the skyscrapers. The numbers on the sides of the grid indicate how many skyscrapers would you see if you look in the direction of the arrow.
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Fifth carousel item/slide (games 17-20) -->
+        <div class="item">
+          <div class="columns">
+            <!-- First row of fifth page -->
+            <div class="column is-6">
+              <div class="columns is-vcentered">
+                <div class="column is-half">
+                  <!-- Game 17: Star-Battle -->
+                  <img src="static/images/screenshot-game/starbattle2.png" alt="Star Battle Puzzle" style="width:100%; max-width:512px; height:auto;"/>
+                </div>
+                <div class="column is-half">
+                  <h2 class="subtitle">
+                    <strong>17. Star-Battle</strong>: You have to place stars on the grid such that each row, column, and region contains exactly one star. Additional rule is: stars cannot touch each other, not even diagonally.
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="column is-6">
+              <div class="columns is-vcentered">
+                <div class="column is-half">
+                  <!-- Game 18: Sudoku -->
+                  <img src="static/images/screenshot-game/sudoku-3.png" alt="Sudoku Puzzle" style="width:100%; max-width:512px; height:auto;"/>
+                </div>
+                <div class="column is-half">
+                  <h2 class="subtitle">
+                    <strong>18. Sudoku</strong>: You have to enter a numerical digit from 1 through N in each cell of a NxN grid made up of four sqrt(N)xsqrt(N) blocks. The rule is to make sure unique numbers in each row, column, and block.
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Second row of fifth page -->
+          <div class="columns">
+            <div class="column is-6">
+              <div class="columns is-vcentered">
+                <div class="column is-half">
+                  <!-- Game 19: Thermometers -->
+                  <img src="static/images/screenshot-game/thermometers1.png" alt="Thermometers Puzzle" style="width:100%; max-width:512px; height:auto;"/>
+                </div>
+                <div class="column is-half">
+                  <h2 class="subtitle">
+                    <strong>19. Thermometers</strong>: You need to fill thermometers. The numbers on the sides indicate how many filled cells must be in each row and column. In the end, all thermometers must be filled from their bulb (start) to their top, without gaps.
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="column is-6">
+              <div class="columns is-vcentered">
+                <div class="column is-half">
+                  <!-- Game 20: Trees-and-Tents -->
+                  <img src="static/images/screenshot-game/trees0ded.png" alt="Trees and Tents Puzzle" style="width:100%; max-width:512px; height:auto;"/>
+                </div>
+                <div class="column is-half">
+                  <h2 class="subtitle">
+                    <strong>20. Trees-and-Tents</strong>: You need to place tents on a grid with trees. Each tree must be paired with exactly one tent that is horizontally or vertically adjacent to it (a 1-to-1 relationship). Tents cannot touch each other, even diagonally. The numbers on the sides indicate how many tents must be in each row and column.
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Statcounter tracking code -->
+
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Qualitative Results</h2>
+        <img src="static/images/radar.png" width="100%" alt="Qualitative Results"/>
+        <h2 class="subtitle has-text-centered">
+          Example model outputs on various puzzles from VGRP-Bench.
+        </h2>
+        <div class="content has-text-justified">
+          <p>
+            <strong>Result Summary on <em>Easy</em> Level.</strong> Puzzle-solving rate of state-of-the-art chat LVLMs on easy-level puzzles associated with each rule. Please refer to the experiment section for detailed result analysis. Note that this plot's score ranges from 0 to 45%, instead of 100%.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Qualitative Study Section -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <h2 class="title is-3">Qualitative Study: Model Comparison</h2>
+        <h3 class="subtitle">Same Puzzle, Different Models</h3>
+      </div>
+    </div>
+    
+    <!-- Image and description in columns layout -->
+    <div class="columns is-centered is-vcentered">
+      <div class="column is-one-third">
+        <img src="static/images/quaitative-sudoku-vision.png" alt="Sudoku Puzzle" style="width:100%; max-width:300px; height:auto; margin: 0 auto; display: block;"/>
+      </div>
+      <div class="column is-two-thirds">
+        <h2 class="subtitle">
+          <strong>Sudoku - Easy - W/ CoT - Vision Input</strong>: You have to enter a numerical digit from 1 through 4 in each cell of a 4x4 grid made up of four 2x2 blocks. The rule is to make sure each row, column, and block contains unique numbers from 1 to 4.
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Add CSS for scrollable content -->
+<style>
+  .model-output-container {
+    height: 250px;
+    overflow-y: auto;
+    padding-right: 10px;
+  }
+  
+  .model-card {
+    margin-bottom: 1.5rem;
+    height: 100%;
+  }
+</style>
+
+<!-- Model results displayed as cards below the image -->
+<section class="section">
+  <div class="container is-widescreen" style="max-width: 150%;">
+    <div class="columns is-multiline">
+      <!-- Gemini-2.0-Thinking -->
+      <div class="column is-one-quarter">
+        <div class="box model-card">
+          <h3 class="title is-4 has-text-centered">Gemini-2.0-Thinking</h3>
+          <div class="model-output-container">
+            <p class="has-text-weight-bold">Model Output:</p>
+            <p>The user wants me to solve a 4x4 Sudoku puzzle.<br>I need to identify the empty cells and fill them with numbers from 1 to 4, ensuring that each row, column, and 2x2 block contains unique numbers.<br><br>Let's analyze the given grid:<br>- Row 0: has no filled cells.<br>- Row 1: has '2' at index 0 and '3' at index 2.<br>- Row 2: has '3' at index 3.<br>- Row 3: has '3' at index 0 and '4' at index 2.</p>
+            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-success">True</span></p>
+            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- QVQ-72B -->
+      <div class="column is-one-quarter">
+        <div class="box model-card">
+          <h3 class="title is-4 has-text-centered">QVQ-72B</h3>
+          <div class="model-output-container">
+            <p class="has-text-weight-bold">Model Output:</p>
+            <p>So I'm looking at this Sudoku puzzle, and it seems a bit different from the usual ones I've seen. It's a 4x4 grid, which is smaller than the standard 9x9, and it's divided into 2x2 blocks...</p>
+            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-danger">False</span></p>
+            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Claude-3.5 -->
+      <div class="column is-one-quarter">
+        <div class="box model-card">
+          <h3 class="title is-4 has-text-centered">Claude-3.5</h3>
+          <div class="model-output-container">
+            <p class="has-text-weight-bold">Model Output:</p>
+            <p>```json<br>"perception": [ <br>["*", "*", "*", "*"], <br>["2", "*", "3", "*"], <br>["*", "*", "*", "3"], <br>["3", "*", "4", "*"]<br>],<br>"think": "This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:<br>1. Looking at row 4, we have 3 and 4, so 1 and 2 are missing<br>2. Column 3 has 3 twice, which means the empty cells must be 1,2,4<br>3. Row 2 has 2 and 3, so needs 1 and 4<br>4. The first row must contain all missing numbers<br>5. Using block constraints and existing numbers, I can determine the full solution",<br><br>"answer": [ <br>["4", "3", "1", "2"], <br>["2", "1", "3", "4"], <br>["1", "4", "2", "3"], <br>["3", "2", "4", "1"]<br>]<br>```</p>
+            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-success">True</span></p>
+            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-success">True</span></p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Gemini-1.5-Pro -->
+      <div class="column is-one-quarter">
+        <div class="box model-card">
+          <h3 class="title is-4 has-text-centered">Gemini-1.5-Pro</h3>
+          <div class="model-output-container">
+            <p class="has-text-weight-bold">Model Output:</p>
+            <p>```json<br><br>"perception": [["*", "*", "*", "*",], <br>               ["2", "*", "3", "*"], <br>               ["*", "*", "*", "3"], <br>               ["3", "*", "4", "*"]],  <br>"think": "This is a 4x4 Sudoku puzzle. The possible values for each cell are 1, 2, 3, and 4. <br>Row 0: The missing values are 1, 2, 3, 4.  <br>Row 1: The missing values are 1, 4. <br>Row 2: The missing values are 1, 2, 4. <br>Row 3: The missing values are 1, 2. <br><br>Col 0: The missing values are 1, 2, 4. <br>Col 1: The missing values are 1, 2, * <br>Col 2: The missing values are 1, 2, * <br>Col 3: The missing values are 1, 2, 4. <br><br>Block 0 (top-left): The missing values are 1, 4. <br>Block 1 (top-right): The missing values are 1, 2, 4. <br>Block 2 (bottom-left): The missing values are 1, 2. <br>Block 3 (bottom-right): The missing values are 1, 2. <br><br>Cell (0,0): Possible values are 1, 4. Since 1 is already present in the last column, this cell must be 4. <br>Cell (0,1): Possible values are 1, 2. Since 2 is already present in the first column, this cell must be 1. <br>Cell (0,3): Possible values are 1, 2. Since 1 is already present in this row, this cell must be 2. <br>Cel...(line too long; chars omitted)", <br>"answer": [["4", "1", "*", "2"], <br>               ["2", "4", "3", <span style="color:red">"1"</span>], <br>               ["1", "2", "4", "3"], <br>               ["3", "2", "4", <span style="color:red">"1"</span>]] <br><br>```</p>
+            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-success">True</span></p>
+            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Gemini-2.0-Flash -->
+      <div class="column is-one-quarter">
+        <div class="box model-card">
+          <h3 class="title is-4 has-text-centered">Gemini-2.0-Flash</h3>
+          <div class="model-output-container">
+            <p class="has-text-weight-bold">Model Output:</p>
+            <p>```json<br><br>"perception": "[['*', '*', '*'], ['2', '*', '3'], ['3', '*', '4']]", <br>"think": "I see a 3x3 Sudoku grid...", <br>"answer": "[['1', '4', '2'], ['2', '1', '3'], ['3', '2', '4']]" <br><br>```</p>
+            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-danger">False</span></p>
+            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Gemini-1.5-Flash -->
+      <div class="column is-one-quarter">
+        <div class="box model-card">
+          <h3 class="title is-4 has-text-centered">Gemini-1.5-Flash</h3>
+          <div class="model-output-container">
+            <p class="has-text-weight-bold">Model Output:</p>
+            <p>```json<br><br>"perception": [<br>["*", "*", "*", "*", "*", "*", "*", "*", "*"],<br>["*", "2", "*", "*", "*", "3", "*", "*", "*"],<br>...<br>], <br>"think": "This is a 9x9 Sudoku puzzle...",<br>"answer": [<br>[1, 6, 7, 9, 5, 2, 3, 8, 4],<br>...<br>] <br><br>```</p>
+            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-danger">False</span></p>
+            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- GPT-4o -->
+      <div class="column is-one-quarter">
+        <div class="box model-card">
+          <h3 class="title is-4 has-text-centered">GPT-4o</h3>
+          <div class="model-output-container">
+            <p class="has-text-weight-bold">Model Output:</p>
+            <p>```json<br><br>  "perception": [ <br>    ["*", "*", <span style="color:red">"2"</span>, "*"], <br>    ["*", "3", "*", "*"], <br>    ["3", "*", "*", "3"], <br>    ["*", "*", "4", "*"] <br>  ], <br>  "think": "This is a 4x4 Sudoku grid. The challenge is to fill empty cells ('*') with numbers from 1 to 4 ensuring that each number appears exactly once in every row, column, and 2x2 subgrid. Starting with available numbers in the provided setup, I will fill cells logically row by row, column by column, and by observing constraints in blocks.", <br>  "answer": [ <br>    ["4", "1", "2", "3"], <br>    ["2", "3", "1", "4"], <br>    ["3", "4", "1", "2"], <br>    ["1", "2", "4", "3"] <br>  ] <br><br>```</p>
+            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-danger">False</span></p>
+            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- GPT-4o-Mini -->
+      <div class="column is-one-quarter">
+        <div class="box model-card">
+          <h3 class="title is-4 has-text-centered">GPT-4o-Mini</h3>
+          <div class="model-output-container">
+            <p class="has-text-weight-bold">Model Output:</p>
+            <p>```json<br><br>"perception": [[2, "*", 3, "*"], [3, "*", "*", 4], ["*", "*", 2, "*"], ["*", 3, "*", "*"]], <br>"think": "I need to fill in the empty cells...", <br>"answer": [[2, 4, 3, 1], [3, 1, 2, 4], [1, 2, 4, 3], [4, 3, 1, 2]] <br><br>```</p>
+            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-danger">False</span></p>
+            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Qwen2.5-72B -->
+      <div class="column is-one-quarter">
+        <div class="box model-card">
+          <h3 class="title is-4 has-text-centered">Qwen2.5-72B</h3>
+          <div class="model-output-container">
+            <p class="has-text-weight-bold">Model Output:</p>
+            <p>```json<br><br>"perception": [ <br>    ["*", "*", "*", "*"], <br>    ["2", "*", "3", "*"], <br>    ["*", "*", "*", "3"], <br>    ["3", "*", "4", "*"] <br>], <br>"think": "To solve the Sudoku for a 4x4 grid, each square (including rows, columns, and 2x2 blocks) must contain the numbers from 1 to 4 without repetition. Considering the current grid, here is how we solve it step by step: <br>1. For the top left 2x2 block, since the bottom left corner is '3', top right corner cannot be '3', hence it can be either '1' or '2', but '2' is already in the second row, top left could be '1'. <br>2. Follow similar logic for the rest of the cells. <br>3. After filling out all guesses based on the exclusions of rows, columns, and block conditions, validate the grid for completion. <br>", <br>"answer": [ <br>    [<span style="color:red">"1"</span>, "4", "2", "3"], <br>    ["2", <span style="color:red">"1"</span>, "3", "4"], <br>    ["4", "3", "1", "2"], <br>    ["3", "2", "4", "1"] <br>] <br><br>```</p>
+            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-success">True</span></p>
+            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Qwen2.5-7B -->
+      <div class="column is-one-quarter">
+        <div class="box model-card">
+          <h3 class="title is-4 has-text-centered">Qwen2.5-7B</h3>
+          <div class="model-output-container">
+            <p class="has-text-weight-bold">Model Output:</p>
+            <p>```json<br><br>"perception": [[1, 1, 0, 0],<br>[2, 0, 0, 0],<br>[3, 0, 4, 0],<br>[0, 0, 0, 0]], <br>"think": "The grid is a 2x2 block Sudoku...", <br>"answer": [[1, 1, 0, 0],<br>[2, 1, 3, 0],<br>[2, 0, 0, 3],<br>[3, 2, 4, 0]] <br><br>```</p>
+            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-danger">False</span></p>
+            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Llama-3.2-90B -->
+      <div class="column is-one-quarter">
+        <div class="box model-card">
+          <h3 class="title is-4 has-text-centered">Llama-3.2-90B</h3>
+          <div class="model-output-container">
+            <p class="has-text-weight-bold">Model Output:</p>
+            <p>```json<br><br>"perception": [<br>[2, 3, "*", "*"],<br>[3, 4, "*", "*"],<br>["*", "*", 3, "*"],<br>["*", "*", "*", 2]<br>], <br>"think": "Apply Sudoku rules and logic to fill in the missing numbers.", <br>"answer": [<br>[2, 3, 1, 4],<br>[3, 4, 2, 1],<br>[1, 2, 3, 4],<br>[4, 1, 2, 3]<br>] <br><br>```</p>
+            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-danger">False</span></p>
+            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Llama-3.2-11B -->
+      <div class="column is-one-quarter">
+        <div class="box model-card">
+          <h3 class="title is-4 has-text-centered">Llama-3.2-11B</h3>
+          <div class="model-output-container">
+            <p class="has-text-weight-bold">Model Output:</p>
+            <p>```json<br><br>"perception": [["2", "3", "*", "*", "*", "*", "*", "*", "*"],<br>["*", "3", "*", "*", "4", "*", "*", "*", "*"],<br>...<br>], <br>"think": "To solve this Sudoku puzzle...", <br>"answer": [[5, 3, 4, 6, 7, 8, 9, 1, 2],<br>...<br>] <br><br>```</p>
+            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-danger">False</span></p>
+            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Qwen2-72B -->
+      <div class="column is-one-quarter">
+        <div class="box model-card">
+          <h3 class="title is-4 has-text-centered">Qwen2-72B</h3>
+          <div class="model-output-container">
+            <p class="has-text-weight-bold">Model Output:</p>
+            <p>```json<br><br>"perception": [[0, 0, 0, 0, 0, 0, 0, 0, 0],<br>[0, 2, 0, 0, 0, 3, 0, 0, 0],<br>...<br>], <br>"think": "This is a 9x9 Sudoku puzzle...", <br>"answer": [[0, 0, 0, 0, 0, 0, 0, 0, 0],<br>[0, 2, 0, 0, 0, 3, 0, 0, 0],<br>...<br>] <br>```</p>
+            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-danger">False</span></p>
+            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Qwen2-7B -->
+      <div class="column is-one-quarter">
+        <div class="box model-card">
+          <h3 class="title is-4 has-text-centered">Qwen2-7B</h3>
+          <div class="model-output-container">
+            <p class="has-text-weight-bold">Model Output:</p>
+            <p>```json<br><br>"perception": [ <br>[2, 0, 0, 3], <br>[0, 0, 0, 3], <br>[3, 0, 0, 4], <br>[0, 0, 0, 0] <br>], <br>"think": "The grid is partially filled with numbers. The goal is to fill in the remaining cells so that each row, column, and 3x3 block contains unique numbers from 1 to 4...", <br>"answer": [ <br>[2, 0, 0, 3], <br>[0, 0, 0, 3], <br>[3, 0, 0, 4], <br>[0, 0, 1, 0] <br>] <br><br>```</p>
+            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-danger">False</span></p>
+            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- LLaVA-Qwen2-7B -->
+      <div class="column is-one-quarter">
+        <div class="box model-card">
+          <h3 class="title is-4 has-text-centered">LLaVA-Qwen2-7B</h3>
+          <div class="model-output-container">
+            <p class="has-text-weight-bold">Model Output:</p>
+            <p>```json<br><br>"perception": [[2, 0, 0, 0, 0, 0, 0, 0],<br>[0, 3, 0, 0, 0, 0, 0, 0],<br>...<br>], <br>"think": "..." <br>```</p>
+            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-danger">False</span></p>
+            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- LLaVA-Mistral-7B -->
+      <div class="column is-one-quarter">
+        <div class="box model-card">
+          <h3 class="title is-4 has-text-centered">LLaVA-Mistral-7B</h3>
+          <div class="model-output-container">
+            <p class="has-text-weight-bold">Model Output:</p>
+            <p>```json<br><br>"perception": [<br>[1, 2, 3, 4, 5, 6, 7, 8, 9],<br>[2, 3, 4, 5, 6, 7, 8, 9, 0],<br>...<br>], <br>"think": "In the current state of the Sudoku grid...", <br>"answer": [<br>[1, 2, 3, 4, 5, 6, 7, 8, 9],<br>[2, 3, 4, 5, 6, 7, 8, 9, 0],<br>...<br>] <br><br>```</p>
+            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-danger">False</span></p>
+            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- Paper poster -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Paper</h2>
+
+      <iframe  src="static/pdfs/paper.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section>
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{ren2025vgrp-bench,
+        title={VGRP-Bench: Visual Grid Reasoning Puzzle Benchmark for Large Vision-Language Models},
+        author={Yufan Ren and Konstantinos Tertikas and Shalini Maiti and Junlin Han and Tong Zhang and Sabine Süsstrunk and Filippos Kokkinos},
+        journal={arXiv preprint arXiv:xxxx.xxxxx},
+        year={2025}
+    }</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
