@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="Typewriter Effect Demo">
+  <meta property="og:title" content="Typewriter Effect Demo"/>
+  <meta property="og:description" content="A demonstration of the typewriter text animation effect"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  
+  <meta name="twitter:title" content="Typewriter Effect Demo">
+  <meta name="twitter:description" content="A demonstration of the typewriter text animation effect">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="Typewriter, Animation, Text Effect, Demo">
+
+  <title>Typewriter Effect Demo</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⌨️</text></svg>">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Courier New', monospace;
+      background-color: #1e1e1e;
+      color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+    
+    .container {
+      max-width: 800px;
+      text-align: center;
+    }
+    
+    h1 {
+      color: #64ffda;
+      margin-bottom: 2rem;
+      font-size: 2.5rem;
+    }
+    
+    .typewriter {
+      display: inline-block;
+      position: relative;
+      font-size: 1.5rem;
+      line-height: 1.6;
+      text-align: left;
+      padding: 2rem;
+      background-color: #2d2d2d;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+      min-height: 200px;
+      width: 100%;
+    }
+    
+    .typewriter::after {
+      content: "|";
+      position: relative;
+      color: #64ffda;
+      font-weight: bold;
+      animation: blink 1s step-end infinite;
+    }
+    
+    @keyframes blink {
+      from, to { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    
+    .buttons {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    
+    button {
+      background-color: #64ffda;
+      color: #1e1e1e;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: 'Courier New', monospace;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+    
+    button:hover {
+      background-color: #9fffda;
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Typewriter Effect Demo</h1>
+    <div class="typewriter" id="typewriter"></div>
+    
+    <div class="buttons">
+      <button onclick="startTyping(texts[0])">Text 1</button>
+      <button onclick="startTyping(texts[1])">Text 2</button>
+      <button onclick="startTyping(texts[2])">Text 3</button>
+    </div>
+  </div>
+
+  <script>
+    // Define different text options
+    const texts = [
+      "Hello world! This is a typewriter effect where text appears one character at a time, just like someone is typing it out live. It creates an engaging and dynamic feel to your website.",
+      
+      "The typewriter effect is perfect for creating suspense or drawing attention to important information. You can control the typing speed to match the mood you want to convey.",
+      
+      "This effect works by adding one character at a time with a slight delay between each addition. You can customize this with different fonts, colors, and typing speeds to match your website's design."
+    ];
+    
+    let typingTimeout;
+    
+    function startTyping(text) {
+      // Clear any existing timeout
+      clearTimeout(typingTimeout);
+      
+      // Reset the typewriter element
+      const typewriterElement = document.getElementById('typewriter');
+      typewriterElement.textContent = '';
+      
+      // Start typing animation
+      let charIndex = 0;
+      
+      function typeNextChar() {
+        if (charIndex < text.length) {
+          // Add next character to the content
+          typewriterElement.textContent += text.charAt(charIndex);
+          charIndex++;
+          
+          // Calculate random delay between 50ms and 150ms for natural typing feel
+          const randomDelay = Math.floor(Math.random() * 100) + 50;
+          
+          // Schedule typing of next character
+          typingTimeout = setTimeout(typeNextChar, randomDelay);
+        }
+      }
+      
+      // Start typing the first character
+      typeNextChar();
+    }
+    
+    // Automatically start typing the first text when page loads
+    window.onload = function() {
+      startTyping(texts[0]);
+    };
+  </script>
+</body>
+</html>
