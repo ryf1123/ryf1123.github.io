@@ -322,43 +322,51 @@
 
         async function loadAIThinkingData(gameType) {
             try {
-                // Path to the directory containing AI thinking data
-                const basePath = `./static/data/sudoku_${gameType}/`;
+                // 从固定位置加载模型列表
+                const modelsPath = `./static/data/models.json`;
                 
-                // Fetch the list of models
-                const modelsResponse = await fetch(basePath);
-                if (!modelsResponse.ok) throw new Error('Failed to load AI thinking data');
+                const modelsResponse = await fetch(modelsPath);
+                if (!modelsResponse.ok) throw new Error('Failed to load models list');
                 
-                const modelsHtml = await modelsResponse.text();
-                const models = parseModelFiles(modelsHtml);
+                const modelsData = await modelsResponse.json();
                 
-                // Populate model selector
+                // 根据游戏类型筛选模型（如果需要）
+                // 假设 JSON 文件包含所有模型，不区分游戏类型
+                const models = modelsData;
+                
+                // 填充模型选择器
                 const modelSelect = document.getElementById('modelSelector');
                 modelSelect.innerHTML = '<option value="">Select a model</option>';
                 
                 models.forEach(model => {
+                    // 从文件名中提取模型名称（去掉后缀）
+                    const modelName = model.replace('_causality_formatted_evaluation.json', '');
+                    
                     const option = document.createElement('option');
-                    option.value = model;
-                    option.textContent = model;
+                    option.value = model; // 保存完整文件名作为值
+                    option.textContent = modelName; // 显示更友好的名称
                     modelSelect.appendChild(option);
                 });
                 
-                // Add event listener for model selection
+                // 添加事件监听器
                 modelSelect.onchange = async function() {
                     if (this.value) {
-                        // Stop any ongoing typewriter effect
+                        // 停止任何正在进行的打字机效果
                         resetTypewriter();
                         await loadPuzzleIds(currentGameType, this.value);
                     }
                 };
                 
-                // Auto-select first model
+                // 自动选择第一个模型
                 if (modelSelect.options.length > 1) {
                     modelSelect.selectedIndex = 1;
                     modelSelect.dispatchEvent(new Event('change'));
                 }
             } catch (error) {
                 showMessage('Failed to load AI thinking data: ' + error.message, 'error');
+                // 在打字机区域也显示错误
+                const typewriterElement = document.getElementById('typewriter-text');
+                typewriterElement.innerHTML = `Error loading data: ${error.message}`;
             }
         }
 
@@ -389,10 +397,11 @@
             const puzzleSelector = document.getElementById('puzzleSelector');
             
             try {
+                // 调整文件路径以匹配新的结构
                 const basePath = `./static/data/sudoku_${gameType}/`;
-                const filePath = `${basePath}${model}_causality_formatted_evaluation.json`;
+                const filePath = `${basePath}${model}`;
                 
-                // Show which file is being loaded in the typewriter area
+                // 显示正在加载的文件
                 const typewriterElement = document.getElementById('typewriter-text');
                 typewriterElement.innerHTML = `Loading data from: ${filePath}`;
                 
@@ -407,18 +416,13 @@
                 puzzleSelector.innerHTML = '<option value="">Select a Puzzle ID</option>' + 
                     data.map(item => `<option value="${item.puzzle_id}">${item.puzzle_id}</option>`).join('');
                 
-                // Add event listener for puzzle selection
+                // 添加事件监听器
                 puzzleSelector.onchange = function() {
                     if (this.value) {
-                        // Reset state when changing puzzles
+                        // 重置状态
                         resetTypewriter();
                         
-                        // Don't reset these values when changing puzzles within the same model
-                        // currentGame = null;
-                        // selectedCell = null;
-                        // currentState = [];
-                        
-                        // Show which puzzle is being loaded
+                        // 显示正在加载的谜题
                         const puzzleId = this.value;
                         const typewriterElement = document.getElementById('typewriter-text');
                         typewriterElement.innerHTML = `Loading puzzle: ${puzzleId} from ${filePath}`;
@@ -427,17 +431,16 @@
                     }
                 };
                 
-                // Auto-select first puzzle
+                // 自动选择第一个谜题
                 if (puzzleSelector.options.length > 1) {
-                    puzzleSelector.selectedIndex = 1; // Select first puzzle
-                    // Use setTimeout to ensure the DOM is fully updated before displaying
+                    puzzleSelector.selectedIndex = 1;
                     setTimeout(() => {
                         puzzleSelector.dispatchEvent(new Event('change'));
                     }, 100);
                 }
             } catch (error) {
                 showMessage('Failed to load puzzle IDs: ' + error.message, 'error');
-                // Show error in typewriter area too
+                // 在打字机区域显示错误
                 const typewriterElement = document.getElementById('typewriter-text');
                 typewriterElement.innerHTML = `Error loading data: ${error.message}`;
             }
