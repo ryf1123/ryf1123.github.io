@@ -1,0 +1,602 @@
+[
+  {
+    "puzzle_id": "79555",
+    "image": "img_val/79555.png",
+    "model_output": "4",
+    "model_output_filtered": "4"
+  },
+  {
+    "puzzle_id": "79557",
+    "image": "img_val/79557.png",
+    "model_output": "1",
+    "model_output_filtered": "1"
+  },
+  {
+    "puzzle_id": "79560",
+    "image": "img_val/79560.png",
+    "model_output": "1",
+    "model_output_filtered": "1"
+  },
+  {
+    "puzzle_id": "79556",
+    "image": "img_val/79556.png",
+    "model_output": "1",
+    "model_output_filtered": "1"
+  },
+  {
+    "puzzle_id": "79561",
+    "image": "img_val/79561.png",
+    "model_output": "1",
+    "model_output_filtered": "1"
+  },
+  {
+    "puzzle_id": "79563",
+    "image": "img_val/79563.png",
+    "model_output": "3",
+    "model_output_filtered": "3"
+  },
+  {
+    "puzzle_id": "79566",
+    "image": "img_val/79566.png",
+    "model_output": "2",
+    "model_output_filtered": "2"
+  },
+  {
+    "puzzle_id": "79558",
+    "image": "img_val/79558.png",
+    "model_output": "The value of the cell at (1, 1) is 3.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79559",
+    "image": "img_val/79559.png",
+    "model_output": "The value of the cell at position (2, 3) is 2.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79554",
+    "image": "img_val/79554.png",
+    "model_output": "The value of the cell at (2, 3) should be 1.",
+    "model_output_filtered": "1"
+  },
+  {
+    "puzzle_id": "79553",
+    "image": "img_val/79553.png",
+    "model_output": "The value of the cell at (3, 1) should be 3.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79570",
+    "image": "img_val/79570.png",
+    "model_output": "3",
+    "model_output_filtered": "3"
+  },
+  {
+    "puzzle_id": "79562",
+    "image": "img_val/79562.png",
+    "model_output": "The value of the cell at (2, 3) is 4.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79571",
+    "image": "img_val/79571.png",
+    "model_output": "3",
+    "model_output_filtered": "3"
+  },
+  {
+    "puzzle_id": "79565",
+    "image": "img_val/79565.png",
+    "model_output": "The value of the cell at (0, 2) is 3.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79575",
+    "image": "img_val/79575.png",
+    "model_output": "4",
+    "model_output_filtered": "4"
+  },
+  {
+    "puzzle_id": "79573",
+    "image": "img_val/79573.png",
+    "model_output": "4",
+    "model_output_filtered": "4"
+  },
+  {
+    "puzzle_id": "79574",
+    "image": "img_val/79574.png",
+    "model_output": "2",
+    "model_output_filtered": "2"
+  },
+  {
+    "puzzle_id": "79572",
+    "image": "img_val/79572.png",
+    "model_output": "2",
+    "model_output_filtered": "2"
+  },
+  {
+    "puzzle_id": "79567",
+    "image": "img_val/79567.png",
+    "model_output": "The value of the cell at (1, 1) is 4.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79564",
+    "image": "img_val/79564.png",
+    "model_output": "The value of the cell at index (0, 3) in the given Sudoku grid is 4.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79579",
+    "image": "img_val/79579.png",
+    "model_output": "1",
+    "model_output_filtered": "1"
+  },
+  {
+    "puzzle_id": "79581",
+    "image": "img_val/79581.png",
+    "model_output": "3",
+    "model_output_filtered": "3"
+  },
+  {
+    "puzzle_id": "79583",
+    "image": "img_val/79583.png",
+    "model_output": "4",
+    "model_output_filtered": "4"
+  },
+  {
+    "puzzle_id": "79582",
+    "image": "img_val/79582.png",
+    "model_output": "2",
+    "model_output_filtered": "2"
+  },
+  {
+    "puzzle_id": "79569",
+    "image": "img_val/79569.png",
+    "model_output": "The value of the cell at (1, 2) is 4.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79586",
+    "image": "img_val/79586.png",
+    "model_output": "2",
+    "model_output_filtered": "2"
+  },
+  {
+    "puzzle_id": "79585",
+    "image": "img_val/79585.png",
+    "model_output": "4",
+    "model_output_filtered": "4"
+  },
+  {
+    "puzzle_id": "79577",
+    "image": "img_val/79577.png",
+    "model_output": "The value of the cell at (1, 2) is 3.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79578",
+    "image": "img_val/79578.png",
+    "model_output": "The value of the cell at (1, 3) should be 2.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79568",
+    "image": "img_val/79568.png",
+    "model_output": "Based on the given Sudoku puzzle, the cell at position (1, 2) is empty, as it is a blank square in the grid.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79584",
+    "image": "img_val/79584.png",
+    "model_output": "The value of the cell at (3, 0) is 3.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79588",
+    "image": "img_val/79588.png",
+    "model_output": "The value of the cell at (3, 3) is 2.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79590",
+    "image": "img_val/79590.png",
+    "model_output": "The value of the cell at (0, 2) is 3.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79587",
+    "image": "img_val/79587.png",
+    "model_output": "The value of the cell at (0, 1) in the given Sudoku game state is 1.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79591",
+    "image": "img_val/79591.png",
+    "model_output": "The value of the cell at (0, 3) is 4.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79589",
+    "image": "img_val/79589.png",
+    "model_output": "The image shows a Sudoku grid with some values already filled in. In the top-left corner, which is cell (0, 0), the value is 3.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79593",
+    "image": "img_val/79593.png",
+    "model_output": "The value of the cell at (2, 3) is 3.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79597",
+    "image": "img_val/79597.png",
+    "model_output": "2",
+    "model_output_filtered": "2"
+  },
+  {
+    "puzzle_id": "79598",
+    "image": "img_val/79598.png",
+    "model_output": "3",
+    "model_output_filtered": "3"
+  },
+  {
+    "puzzle_id": "79594",
+    "image": "img_val/79594.png",
+    "model_output": "The value of the cell at (2, 1) is 1.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79595",
+    "image": "img_val/79595.png",
+    "model_output": "The value of the cell at (2, 0) is 3.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79592",
+    "image": "img_val/79592.png",
+    "model_output": "The value of the cell at (1, 0) in the given Sudoku game state is 4.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79601",
+    "image": "img_val/79601.png",
+    "model_output": "4",
+    "model_output_filtered": "4"
+  },
+  {
+    "puzzle_id": "79603",
+    "image": "img_val/79603.png",
+    "model_output": "2",
+    "model_output_filtered": "2"
+  },
+  {
+    "puzzle_id": "79599",
+    "image": "img_val/79599.png",
+    "model_output": "4",
+    "model_output_filtered": "4"
+  },
+  {
+    "puzzle_id": "79596",
+    "image": "img_val/79596.png",
+    "model_output": "The value of the cell at (3, 3) is 3.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79580",
+    "image": "img_val/79580.png",
+    "model_output": "The cell at (0, 1) has the number 2 written in it. However, I also noticed that the top-right corner of this digit is curled or smudged, which might affect the readability. Despite that, based on the visible part of the digit, it is clear that the digit intended to be written in this cell is a 2.",
+    "model_output_filtered": "2"
+  },
+  {
+    "puzzle_id": "79600",
+    "image": "img_val/79600.png",
+    "model_output": "The value of the cell at (0, 1) is 4.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79609",
+    "image": "img_val/79609.png",
+    "model_output": "4",
+    "model_output_filtered": "4"
+  },
+  {
+    "puzzle_id": "79607",
+    "image": "img_val/79607.png",
+    "model_output": "The value of the cell at (3, 1) is 2.",
+    "model_output_filtered": "1"
+  },
+  {
+    "puzzle_id": "79604",
+    "image": "img_val/79604.png",
+    "model_output": "The value of the cell at (2, 2) is 2.",
+    "model_output_filtered": "1"
+  },
+  {
+    "puzzle_id": "79611",
+    "image": "img_val/79611.png",
+    "model_output": "3",
+    "model_output_filtered": "3"
+  },
+  {
+    "puzzle_id": "79612",
+    "image": "img_val/79612.png",
+    "model_output": "2",
+    "model_output_filtered": "2"
+  },
+  {
+    "puzzle_id": "79602",
+    "image": "img_val/79602.png",
+    "model_output": "The value of the cell at position (3, 1) is 1, based on the given image.",
+    "model_output_filtered": "1"
+  },
+  {
+    "puzzle_id": "79614",
+    "image": "img_val/79614.png",
+    "model_output": "1",
+    "model_output_filtered": "1"
+  },
+  {
+    "puzzle_id": "79615",
+    "image": "img_val/79615.png",
+    "model_output": "2",
+    "model_output_filtered": "2"
+  },
+  {
+    "puzzle_id": "79605",
+    "image": "img_val/79605.png",
+    "model_output": "Based on the image provided, the cell at position (1, 1) has the number 4 in it.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79608",
+    "image": "img_val/79608.png",
+    "model_output": "The value of the cell at (1, 1) should be 4.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79606",
+    "image": "img_val/79606.png",
+    "model_output": "The given Sudoku grid is partially filled, and the value in the cell at row 3, column 0 (0-indexed) is 2.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79620",
+    "image": "img_val/79620.png",
+    "model_output": "3",
+    "model_output_filtered": "3"
+  },
+  {
+    "puzzle_id": "79619",
+    "image": "img_val/79619.png",
+    "model_output": "2",
+    "model_output_filtered": "2"
+  },
+  {
+    "puzzle_id": "79621",
+    "image": "img_val/79621.png",
+    "model_output": "1",
+    "model_output_filtered": "1"
+  },
+  {
+    "puzzle_id": "79613",
+    "image": "img_val/79613.png",
+    "model_output": "The value of the cell at position (3, 3) is 3.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79616",
+    "image": "img_val/79616.png",
+    "model_output": "The value of the cell at (0, 3) is 2.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79617",
+    "image": "img_val/79617.png",
+    "model_output": "The value of the cell at (0, 3) is 1.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79618",
+    "image": "img_val/79618.png",
+    "model_output": "The value of the cell at (2, 2) is 4.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79625",
+    "image": "img_val/79625.png",
+    "model_output": "2",
+    "model_output_filtered": "2"
+  },
+  {
+    "puzzle_id": "79626",
+    "image": "img_val/79626.png",
+    "model_output": "3",
+    "model_output_filtered": "3"
+  },
+  {
+    "puzzle_id": "79610",
+    "image": "img_val/79610.png",
+    "model_output": "Based on the provided image, which seems to represent a Sudoku grid, the cell at position (1, 1) has the number \"4\" in it.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79622",
+    "image": "img_val/79622.png",
+    "model_output": "The value of the cell at (2, 1) is 4.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79631",
+    "image": "img_val/79631.png",
+    "model_output": "3",
+    "model_output_filtered": "3"
+  },
+  {
+    "puzzle_id": "79623",
+    "image": "img_val/79623.png",
+    "model_output": "The value of the cell at (1, 2) is 2.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79628",
+    "image": "img_val/79628.png",
+    "model_output": "The value of the cell at (3, 0) is 3.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79629",
+    "image": "img_val/79629.png",
+    "model_output": "The value of the cell at (2, 0) is 4.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79627",
+    "image": "img_val/79627.png",
+    "model_output": "Based on the image, the value of the cell at (1, 0) is 2.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79576",
+    "image": "img_val/79576.png",
+    "model_output": "This is a fill-in-the-blanks puzzle, often referred to as a \"logic grid puzzle\" or \"noughts and crosses\" (often just \"crosses\" or \"Xs\"), not Sudoku. To solve this, you must place numbers in the empty cells such that each row, column, and block contains each number exactly once. Since the value of the cell at (2, 1) is already given as 3, there's no way for me to know the value of any cell without additional information. However, I can confirm that the cell at (2, 1) has already been filled with the number 3.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79630",
+    "image": "img_val/79630.png",
+    "model_output": "The value of the cell at (1, 0) is 2.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79635",
+    "image": "img_val/79635.png",
+    "model_output": "4",
+    "model_output_filtered": "4"
+  },
+  {
+    "puzzle_id": "79636",
+    "image": "img_val/79636.png",
+    "model_output": "3",
+    "model_output_filtered": "3"
+  },
+  {
+    "puzzle_id": "79639",
+    "image": "img_val/79639.png",
+    "model_output": "4",
+    "model_output_filtered": "4"
+  },
+  {
+    "puzzle_id": "79633",
+    "image": "img_val/79633.png",
+    "model_output": "The value of the cell at (3, 1) is 4.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79632",
+    "image": "img_val/79632.png",
+    "model_output": "The value of the cell at (0, 0) is 4.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79637",
+    "image": "img_val/79637.png",
+    "model_output": "The value of the cell at index (3, 3) is 1.",
+    "model_output_filtered": "1"
+  },
+  {
+    "puzzle_id": "79640",
+    "image": "img_val/79640.png",
+    "model_output": "The value of the cell at (0, 0) is 4.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79645",
+    "image": "img_val/79645.png",
+    "model_output": "3",
+    "model_output_filtered": "3"
+  },
+  {
+    "puzzle_id": "79643",
+    "image": "img_val/79643.png",
+    "model_output": "The value of the cell at (1, 0) is 4.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79641",
+    "image": "img_val/79641.png",
+    "model_output": "The value of the cell at position (2, 1) is 4.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79647",
+    "image": "img_val/79647.png",
+    "model_output": "4",
+    "model_output_filtered": "4"
+  },
+  {
+    "puzzle_id": "79644",
+    "image": "img_val/79644.png",
+    "model_output": "The value of the cell at (3, 1) is 1.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79634",
+    "image": "img_val/79634.png",
+    "model_output": "Based on the given Sudoku grid, the value of the cell at position (2, 3) should be the number 2, as indicated by the number in the bold font within the block.",
+    "model_output_filtered": "2"
+  },
+  {
+    "puzzle_id": "79624",
+    "image": "img_val/79624.png",
+    "model_output": "The value of the cell at (3, 2) cannot be determined from the image provided, as the specific numbers and their placements are not fully visible. The image only shows a partial view of the Sudoku grid with some numbers filled in, and it does not provide enough information to ascertain the value of the cell at (3, 2).",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79648",
+    "image": "img_val/79648.png",
+    "model_output": "The value of the cell at (2, 3) is 2.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79651",
+    "image": "img_val/79651.png",
+    "model_output": "3",
+    "model_output_filtered": "3"
+  },
+  {
+    "puzzle_id": "79652",
+    "image": "img_val/79652.png",
+    "model_output": "3",
+    "model_output_filtered": "3"
+  },
+  {
+    "puzzle_id": "79646",
+    "image": "img_val/79646.png",
+    "model_output": "The value of the cell at position (1, 2) is 1.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79649",
+    "image": "img_val/79649.png",
+    "model_output": "The value of the cell at (3, 3) is 2.",
+    "model_output_filtered": "1"
+  },
+  {
+    "puzzle_id": "79650",
+    "image": "img_val/79650.png",
+    "model_output": "The value of the cell at (0, 1) in the given Sudoku grid is 4.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79642",
+    "image": "img_val/79642.png",
+    "model_output": "Based on the given image, the value of the cell at (1, 3) is not specified as either a number or empty. Therefore, according to the Sudoku rules, you can enter any of the numbers from 1 to N (N being the size of the grid) into that cell, as long as it does not result in a repeated number in the same row, column, or block.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "79638",
+    "image": "img_val/79638.png",
+    "model_output": "In the given Sudoku grid, the cell at row 2, column 3 is the one adjacent to the \"2\" on the top left and to the \"4\" below it. Looking at the top-left diagonal of 3x3 blocks, we see that the cell at (2, 3) cannot be a \"3,\" as \"3\" is already present in the cell immediately above it to the right. If the cells above it were filled with \"1\" and \"2,\" or if there were no cells filled above it, then the cell could potentially be a \"3.\" However, since the cells above it are empty and there's no \"3\" in any of the rows or columns, the cell at (2, 3) could be a \"3.\" But given the constraints of Sudoku, we must have a valid number that has not appeared in the row, column, or the 3x3 block that \"2\" in the top-left block belongs to.\n\nLet's consider the 3x3 block that \"2\" belongs to, which is the top-left block. The numbers 1, 2, and 4 are already present in this block. The numbers 3 and 4 are present in the row (the second row from the top) and the column (the third column from the left). Therefore, the only option left for the cell at (2, 3) is \"1,\" as it is the only number that has not appeared in the same row, column, or the 3x3 block that includes the cells with \"1,\" \"2,\" and \"4.\"\n\nSo, the value of the cell at (2, 3) should be a \"1.\"",
+    "model_output_filtered": "1"
+  }
+]

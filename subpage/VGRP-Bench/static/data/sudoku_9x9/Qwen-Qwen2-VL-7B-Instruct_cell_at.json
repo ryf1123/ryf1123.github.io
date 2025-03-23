@@ -1,0 +1,502 @@
+[
+    {
+        "puzzle_id": "80001",
+        "image": "img_val/80001.png",
+        "model_output": "The value of the cell at (1, 7) is empty."
+    },
+    {
+        "puzzle_id": "80000",
+        "image": "img_val/80000.png",
+        "model_output": "The value of the cell at (0, 5) is 7."
+    },
+    {
+        "puzzle_id": "80002",
+        "image": "img_val/80002.png",
+        "model_output": "The value of the cell at (7, 5) is 5."
+    },
+    {
+        "puzzle_id": "80007",
+        "image": "img_val/80007.png",
+        "model_output": "The value of the cell at (0, 1) is 2."
+    },
+    {
+        "puzzle_id": "80005",
+        "image": "img_val/80005.png",
+        "model_output": "The value of the cell at (4, 6) is 9."
+    },
+    {
+        "puzzle_id": "80003",
+        "image": "img_val/80003.png",
+        "model_output": "The value of the cell at (0, 2) in the given Sudoku game state is 3."
+    },
+    {
+        "puzzle_id": "80011",
+        "image": "img_val/80011.png",
+        "model_output": "The cell at (8, 3) is empty."
+    },
+    {
+        "puzzle_id": "80008",
+        "image": "img_val/80008.png",
+        "model_output": "The value of the cell at (6, 3) is 1."
+    },
+    {
+        "puzzle_id": "80012",
+        "image": "img_val/80012.png",
+        "model_output": "The value of the cell at (6, 6) is 9."
+    },
+    {
+        "puzzle_id": "80010",
+        "image": "img_val/80010.png",
+        "model_output": "The value of the cell at (1, 2) is 6."
+    },
+    {
+        "puzzle_id": "80009",
+        "image": "img_val/80009.png",
+        "model_output": "The value of the cell at (5, 0) is 6."
+    },
+    {
+        "puzzle_id": "80004",
+        "image": "img_val/80004.png",
+        "model_output": "In the given Sudoku game state, the cell at (1, 5) is empty. Therefore, the value is empty (represented by None or a similar placeholder)."
+    },
+    {
+        "puzzle_id": "80013",
+        "image": "img_val/80013.png",
+        "model_output": "The value of the cell at (1, 0) is 1."
+    },
+    {
+        "puzzle_id": "80018",
+        "image": "img_val/80018.png",
+        "model_output": "The value of the cell at (6, 2) is 6."
+    },
+    {
+        "puzzle_id": "80017",
+        "image": "img_val/80017.png",
+        "model_output": "The value of the cell at (5, 1) is 3."
+    },
+    {
+        "puzzle_id": "80015",
+        "image": "img_val/80015.png",
+        "model_output": "The value of the cell at (2, 5) is 1."
+    },
+    {
+        "puzzle_id": "80014",
+        "image": "img_val/80014.png",
+        "model_output": "The value of the cell at (6, 2) is 5."
+    },
+    {
+        "puzzle_id": "80019",
+        "image": "img_val/80019.png",
+        "model_output": "The value of the cell at (7, 6) is 2."
+    },
+    {
+        "puzzle_id": "80016",
+        "image": "img_val/80016.png",
+        "model_output": "In the given Sudoku game state, the value of the cell at (0, 1) should be 5."
+    },
+    {
+        "puzzle_id": "80022",
+        "image": "img_val/80022.png",
+        "model_output": "The value of the cell at (8, 5) is 8."
+    },
+    {
+        "puzzle_id": "80023",
+        "image": "img_val/80023.png",
+        "model_output": "The value of the cell at (8, 1) is 5."
+    },
+    {
+        "puzzle_id": "80024",
+        "image": "img_val/80024.png",
+        "model_output": "The value of the cell at (2, 4) is 7."
+    },
+    {
+        "puzzle_id": "80021",
+        "image": "img_val/80021.png",
+        "model_output": "The value of the cell at (3, 2) is 1."
+    },
+    {
+        "puzzle_id": "80025",
+        "image": "img_val/80025.png",
+        "model_output": "The value of the cell at (3, 3) is 1."
+    },
+    {
+        "puzzle_id": "80026",
+        "image": "img_val/80026.png",
+        "model_output": "The value of the cell at (1, 5) is 1."
+    },
+    {
+        "puzzle_id": "80028",
+        "image": "img_val/80028.png",
+        "model_output": "The value of the cell at (7, 1) is 6."
+    },
+    {
+        "puzzle_id": "80027",
+        "image": "img_val/80027.png",
+        "model_output": "The value of the cell at (8, 6) is 3."
+    },
+    {
+        "puzzle_id": "80020",
+        "image": "img_val/80020.png",
+        "model_output": "In the provided Sudoku game state, the cell at position (1, 8) is empty. Therefore, the value of the cell at (1, 8) is not one of the numbers from 1 through N."
+    },
+    {
+        "puzzle_id": "80032",
+        "image": "img_val/80032.png",
+        "model_output": "The value of the cell at (2, 2) is 6."
+    },
+    {
+        "puzzle_id": "80029",
+        "image": "img_val/80029.png",
+        "model_output": "In the given Sudoku game state, the cell at (0, 6) has the value 6."
+    },
+    {
+        "puzzle_id": "80031",
+        "image": "img_val/80031.png",
+        "model_output": "The value of the cell at (0, 0) is 1."
+    },
+    {
+        "puzzle_id": "80033",
+        "image": "img_val/80033.png",
+        "model_output": "The value of the cell at (3, 0) is 6."
+    },
+    {
+        "puzzle_id": "80034",
+        "image": "img_val/80034.png",
+        "model_output": "The value of the cell at (2, 7) is 5."
+    },
+    {
+        "puzzle_id": "80038",
+        "image": "img_val/80038.png",
+        "model_output": "The value of the cell at (1, 7) is \u2205."
+    },
+    {
+        "puzzle_id": "80035",
+        "image": "img_val/80035.png",
+        "model_output": "The value of the cell at (8, 7) in the given Sudoku state is 8."
+    },
+    {
+        "puzzle_id": "80037",
+        "image": "img_val/80037.png",
+        "model_output": "The value of the cell at (6, 2) is empty (represented as a black square with no number)."
+    },
+    {
+        "puzzle_id": "80040",
+        "image": "img_val/80040.png",
+        "model_output": "The value of the cell at (2, 3) is 8."
+    },
+    {
+        "puzzle_id": "80039",
+        "image": "img_val/80039.png",
+        "model_output": "The value of the cell at position (0, 8) is 8."
+    },
+    {
+        "puzzle_id": "80041",
+        "image": "img_val/80041.png",
+        "model_output": "The value of the cell at (5, 7) is 7."
+    },
+    {
+        "puzzle_id": "80042",
+        "image": "img_val/80042.png",
+        "model_output": "The value of the cell at (0, 4) is 1."
+    },
+    {
+        "puzzle_id": "80045",
+        "image": "img_val/80045.png",
+        "model_output": "The value of the cell at (4, 2) is 6."
+    },
+    {
+        "puzzle_id": "80043",
+        "image": "img_val/80043.png",
+        "model_output": "The value of the cell at (2, 2) is 5."
+    },
+    {
+        "puzzle_id": "80044",
+        "image": "img_val/80044.png",
+        "model_output": "The value of the cell at (0, 6) in the given game state is 1."
+    },
+    {
+        "puzzle_id": "80046",
+        "image": "img_val/80046.png",
+        "model_output": "The value of the cell at (8, 4) is 3."
+    },
+    {
+        "puzzle_id": "80048",
+        "image": "img_val/80048.png",
+        "model_output": "The value of the cell at (3, 5) is 1."
+    },
+    {
+        "puzzle_id": "80050",
+        "image": "img_val/80050.png",
+        "model_output": "The value of the cell at (8, 8) is 9."
+    },
+    {
+        "puzzle_id": "80049",
+        "image": "img_val/80049.png",
+        "model_output": "Based on the given Sudoku state, the value of the cell at (6, 0) is 2."
+    },
+    {
+        "puzzle_id": "80051",
+        "image": "img_val/80051.png",
+        "model_output": "The value of the cell at (2, 6) is 9."
+    },
+    {
+        "puzzle_id": "80047",
+        "image": "img_val/80047.png",
+        "model_output": "In the given Sudoku puzzle, the cell at (3, 2) is empty. Therefore, the value of the cell at (3, 2) is \"empty\"."
+    },
+    {
+        "puzzle_id": "80052",
+        "image": "img_val/80052.png",
+        "model_output": "The value of the cell at (2, 1) is empty."
+    },
+    {
+        "puzzle_id": "80054",
+        "image": "img_val/80054.png",
+        "model_output": "The value of the cell at (5, 1) is empty."
+    },
+    {
+        "puzzle_id": "80053",
+        "image": "img_val/80053.png",
+        "model_output": "The value of the cell at (4, 4) is 4."
+    },
+    {
+        "puzzle_id": "80036",
+        "image": "img_val/80036.png",
+        "model_output": "The value in the cell at (0, 7) is 9. This is determined by checking the row, column, and block constraints. The cell is part of the top block (0 row), the second column from the left, and the second row from the top. There are no other 9s in that column, row, or 3x3 block, making 9 the only possible value."
+    },
+    {
+        "puzzle_id": "80056",
+        "image": "img_val/80056.png",
+        "model_output": "The value of the cell at (2, 1) is 1."
+    },
+    {
+        "puzzle_id": "80055",
+        "image": "img_val/80055.png",
+        "model_output": "The value of the cell at (2, 0) is 4."
+    },
+    {
+        "puzzle_id": "80057",
+        "image": "img_val/80057.png",
+        "model_output": "The value of the cell at (2, 6) is 1."
+    },
+    {
+        "puzzle_id": "80058",
+        "image": "img_val/80058.png",
+        "model_output": "The value of the cell at (4, 8) is 8."
+    },
+    {
+        "puzzle_id": "80059",
+        "image": "img_val/80059.png",
+        "model_output": "The value of the cell at (7, 0) is 2."
+    },
+    {
+        "puzzle_id": "80062",
+        "image": "img_val/80062.png",
+        "model_output": "The value of the cell at (4, 7) is 7."
+    },
+    {
+        "puzzle_id": "80061",
+        "image": "img_val/80061.png",
+        "model_output": "The value of the cell at (8, 1) is 2."
+    },
+    {
+        "puzzle_id": "80065",
+        "image": "img_val/80065.png",
+        "model_output": "The value of the cell at (2, 8) is empty."
+    },
+    {
+        "puzzle_id": "80064",
+        "image": "img_val/80064.png",
+        "model_output": "The value of the cell at (2, 7) is 3."
+    },
+    {
+        "puzzle_id": "80030",
+        "image": "img_val/80030.png",
+        "model_output": "In the given Sudoku grid, the cell at position (2, 3) is located in the second row and third column. \n\nTo determine the value in this cell, we look at the entire row, column, and the 3x3 block that it belongs to. \n\n- Row 2: 9, _, _\n- Column 3: _, _, 6\n- 3x3 block: 9, _, 6\n\nThe only number that is not used in Row 2, Column 3, and the row and column intersection of their 3x3 block is 8. Therefore, the value of the cell at (2, 3) is 8."
+    },
+    {
+        "puzzle_id": "80060",
+        "image": "img_val/80060.png",
+        "model_output": "In the given Sudoku game state, the cell at index (5, 3) is empty. Therefore, the value of the cell at (5, 3) is empty."
+    },
+    {
+        "puzzle_id": "80067",
+        "image": "img_val/80067.png",
+        "model_output": "The value of the cell at (6, 4) is 2."
+    },
+    {
+        "puzzle_id": "80066",
+        "image": "img_val/80066.png",
+        "model_output": "The value of the cell at (4, 1) is 4."
+    },
+    {
+        "puzzle_id": "80069",
+        "image": "img_val/80069.png",
+        "model_output": "The value of the cell at (6, 8) is 3."
+    },
+    {
+        "puzzle_id": "80068",
+        "image": "img_val/80068.png",
+        "model_output": "The value of the cell at (1, 2) is 5."
+    },
+    {
+        "puzzle_id": "80070",
+        "image": "img_val/80070.png",
+        "model_output": "In the row 2 and column 4 cell of the given Sudoku grid, the value is 2."
+    },
+    {
+        "puzzle_id": "80071",
+        "image": "img_val/80071.png",
+        "model_output": "The value of the cell at (0, 6) is 4."
+    },
+    {
+        "puzzle_id": "80074",
+        "image": "img_val/80074.png",
+        "model_output": "The cell at (0, 6) is empty."
+    },
+    {
+        "puzzle_id": "80072",
+        "image": "img_val/80072.png",
+        "model_output": "The cell at (1, 0) has the value 8."
+    },
+    {
+        "puzzle_id": "80073",
+        "image": "img_val/80073.png",
+        "model_output": "The value of the cell at (0, 5) is 1."
+    },
+    {
+        "puzzle_id": "80075",
+        "image": "img_val/80075.png",
+        "model_output": "The value of the cell at (3, 6) is 2."
+    },
+    {
+        "puzzle_id": "80076",
+        "image": "img_val/80076.png",
+        "model_output": "The value of the cell at (1, 3) is 8."
+    },
+    {
+        "puzzle_id": "80077",
+        "image": "img_val/80077.png",
+        "model_output": "The value of the cell at (4, 3) is 6."
+    },
+    {
+        "puzzle_id": "80078",
+        "image": "img_val/80078.png",
+        "model_output": "The value of the cell at (6, 1) is 5."
+    },
+    {
+        "puzzle_id": "80079",
+        "image": "img_val/80079.png",
+        "model_output": "The value of the cell at (4, 0) is 8."
+    },
+    {
+        "puzzle_id": "80081",
+        "image": "img_val/80081.png",
+        "model_output": "The value of the cell at (2, 5) is 8."
+    },
+    {
+        "puzzle_id": "80082",
+        "image": "img_val/80082.png",
+        "model_output": "The value of the cell at (1, 1) is 3."
+    },
+    {
+        "puzzle_id": "80083",
+        "image": "img_val/80083.png",
+        "model_output": "The value of the cell at (3, 2) is 6."
+    },
+    {
+        "puzzle_id": "80084",
+        "image": "img_val/80084.png",
+        "model_output": "The value of the cell at (3, 4) is 8."
+    },
+    {
+        "puzzle_id": "80085",
+        "image": "img_val/80085.png",
+        "model_output": "The value of the cell at (6, 5) is 5."
+    },
+    {
+        "puzzle_id": "80088",
+        "image": "img_val/80088.png",
+        "model_output": "The value of the cell at (4, 3) is 1."
+    },
+    {
+        "puzzle_id": "80087",
+        "image": "img_val/80087.png",
+        "model_output": "The value of the cell at (2, 7) is 4."
+    },
+    {
+        "puzzle_id": "80089",
+        "image": "img_val/80089.png",
+        "model_output": "The cell at (2, 3) in the provided Sudoku board has a value of 1."
+    },
+    {
+        "puzzle_id": "80091",
+        "image": "img_val/80091.png",
+        "model_output": "The value of the cell at (6, 0) is empty."
+    },
+    {
+        "puzzle_id": "80092",
+        "image": "img_val/80092.png",
+        "model_output": "The value of the cell at (7, 8) is 7."
+    },
+    {
+        "puzzle_id": "80093",
+        "image": "img_val/80093.png",
+        "model_output": "The value of the cell at (7, 6) is 7."
+    },
+    {
+        "puzzle_id": "80094",
+        "image": "img_val/80094.png",
+        "model_output": "The value of the cell at (8, 4) is 2."
+    },
+    {
+        "puzzle_id": "80095",
+        "image": "img_val/80095.png",
+        "model_output": "The value of the cell at (6, 8) in the given Sudoku grid is 2."
+    },
+    {
+        "puzzle_id": "80096",
+        "image": "img_val/80096.png",
+        "model_output": "The value of the cell at (7, 7) is 4."
+    },
+    {
+        "puzzle_id": "80098",
+        "image": "img_val/80098.png",
+        "model_output": "The number in the cell at (8, 3) is 1."
+    },
+    {
+        "puzzle_id": "80097",
+        "image": "img_val/80097.png",
+        "model_output": "The value of the cell at (0, 2) is 3."
+    },
+    {
+        "puzzle_id": "80099",
+        "image": "img_val/80099.png",
+        "model_output": "The value of the cell at (7, 5) is 6."
+    },
+    {
+        "puzzle_id": "80006",
+        "image": "img_val/80006.png",
+        "model_output": "To determine the value of the cell at position (4, 3), we can follow these steps:\n\n1. **Identify the row and column indexes:** The row index is 4, and the column index is 3.\n2. **Look at the row:** The row contains the numbers 1, 6, 5, 2, 1, 6, 4. There are no duplicate numbers, and the numbers 2 and 6 appear twice within this row.\n3. **Look at the column:** The column contains the numbers 6, 4, 2, 3, 2, 3, 7, 4, 1. There are no duplicate numbers, and the numbers 3 and 7 appear twice within this column.\n4. **Look at the 3x3 block:** The block containing the cell at position (4, 3) contains the numbers 3, 2, 2, 3, 2, 1, 4, 9, _ (blank). There are no duplicate numbers except for the number 2, which appears more than once in this block.\n5. **Determine the missing number:** The missing number that can be placed in the cell at (4, 3) must be a number that is not yet present in the row, column, and 3x3 block. Since the numbers 1, 6, 5, 2, and 3 are already present in the row, and the numbers 2, 3, and 4 are already present in the column, the only number left that can be placed in the blank cell is 1.\n\nTherefore, the value of the cell at position (4, 3) is 1."
+    },
+    {
+        "puzzle_id": "80063",
+        "image": "img_val/80063.png",
+        "model_output": "The position (7, 8) is in the 7th row and 8th column. By examining the row, column, and the 3x3 block, we can determine the unique number that can be placed in this cell.\n\n- The row contains the numbers 1, 2, 3, 4, 5, 6, 8, 9.\n- The column contains the numbers 1, 2, 3, 4, 5, 6, 7, 8, 9.\n- The 3x3 block contains the numbers 1, 9, 7, 2, 8, 3, 5, 6, 4.\n\nThe only number that is missing in this cell (7, 8) and does not repeat in the row, column, and block is 4.\n\nTherefore, the value of the cell at (7, 8) is 4."
+    },
+    {
+        "puzzle_id": "80080",
+        "image": "img_val/80080.png",
+        "model_output": "To find the value of the cell at (6, 5) in the given Sudoku grid, we can follow these steps:\n\n1. **Identify the row and column of the cell**: The cell at (6, 5) is in the 6th row and the 5th column.\n\n2. **Check the 6th row**: The values in the 6th row are 4, 6, and an empty cell.\n\n3. **Check the 5th column**: The values in the 5th column are 2, 3, 1, and an empty cell.\n\n4. **Check the block containing the cell**: The cell at (6, 5) is in the top-left block (the first block in the top row).\n\n5. **Fill in the empty values**:\n   - The 6th row has 4 and 6 in the first two cells.\n   - The 5th column has 2, 3, and 1 in the first three cells.\n   - The top-left block needs 7, 5, and 8 to be filled.\n\nGiven these constraints, the value of the cell at (6, 5) must be 7."
+    },
+    {
+        "puzzle_id": "80090",
+        "image": "img_val/80090.png",
+        "model_output": "To determine the value of the cell at (3, 1) in the given Sudoku board, we can analyze the row, column, and block constraints:\n\n1. **Row 3 Constraints:**\n   - The numbers in row 3 (excluding 3,1) are 7, 5, and 2.\n\n2. **Column 1 Constraints:**\n   - The numbers in column 1 (excluding 3,1) are 2, 7, and 2.\n\n3. **Block Constraints (3x3 block 2):**\n   - The numbers in the 3x3 block containing the cell at (3,1) (2nd block in the top row and 1st block in the leftmost column) are 5, 5, 2, 4, and 4.\n\nSince the cell at (3, 1) cannot contain 2 or 4 (as they repeat in the row and column constraints), and 5 is already present in the 3x3 block, the only number that fits all the constraints is 7.\n\nTherefore, the value of the cell at (3, 1) is 7."
+    },
+    {
+        "puzzle_id": "80086",
+        "image": "img_val/80086.png",
+        "model_output": "To determine the value of the cell at (8, 3), let's analyze the given Sudoku grid step by step:\n\n1. **Identify the row and column block:** The cell at (8, 3) is in the bottom right corner of the grid, within the bottom right 3x3 block.\n\n2. **Check the row:** The row containing the cell (8, 3) includes cells (8, 2), (8, 3), (8, 4), (8, 5), (8, 6), (8, 7), (8, 8), (8, 9), (8, 10). The numbers already present in this row are 6, 5, 9, 2, 4.\n\n3. **Check the column:** The column containing the cell (8, 3) includes cells (1, 3), (2, 3), (3, 3), (4, 3), (5, 3), (6, 3), (7, 3), (8, 3), (9, 3), (10, 3). The numbers already present in this column are 4, 3, 8.\n\n4. **Check the block:** The 3x3 block containing the cell (8, 3) includes cells (7, 2), (7, 3), (7, 4), (8, 3), (9, 3), (9, 4), (10, 3), (10, 4), (10, 5). The numbers already present in this block are 7, 6, 5, 9, 2, 4.\n\n5. **Determine the missing number:** The numbers 1, 3, 5, 6, 7, 9, 2, 4 are already present in the row, column, and block. The only numbers missing from this range (1 to N) are 1 and 8. Since 4 is already used, the next available number is 1.\n\nTherefore, the value of the cell at (8, 3) is 1."
+    }
+]

@@ -1,0 +1,502 @@
+[
+    {
+        "puzzle_id": "79560",
+        "image": "img_val/79560.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79558",
+        "image": "img_val/79558.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79553",
+        "image": "img_val/79553.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79555",
+        "image": "img_val/79555.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79556",
+        "image": "img_val/79556.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79554",
+        "image": "img_val/79554.png",
+        "model_output": "invalid."
+    },
+    {
+        "puzzle_id": "79559",
+        "image": "img_val/79559.png",
+        "model_output": "Invalid."
+    },
+    {
+        "puzzle_id": "79557",
+        "image": "img_val/79557.png",
+        "model_output": "**valid**"
+    },
+    {
+        "puzzle_id": "79563",
+        "image": "img_val/79563.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79568",
+        "image": "img_val/79568.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79565",
+        "image": "img_val/79565.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79562",
+        "image": "img_val/79562.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79561",
+        "image": "img_val/79561.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79573",
+        "image": "img_val/79573.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79569",
+        "image": "img_val/79569.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79570",
+        "image": "img_val/79570.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79572",
+        "image": "img_val/79572.png",
+        "model_output": "Invalid."
+    },
+    {
+        "puzzle_id": "79577",
+        "image": "img_val/79577.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79575",
+        "image": "img_val/79575.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79574",
+        "image": "img_val/79574.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79576",
+        "image": "img_val/79576.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79581",
+        "image": "img_val/79581.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79579",
+        "image": "img_val/79579.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79578",
+        "image": "img_val/79578.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79580",
+        "image": "img_val/79580.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79582",
+        "image": "img_val/79582.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79585",
+        "image": "img_val/79585.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79586",
+        "image": "img_val/79586.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79587",
+        "image": "img_val/79587.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79588",
+        "image": "img_val/79588.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79589",
+        "image": "img_val/79589.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79591",
+        "image": "img_val/79591.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79590",
+        "image": "img_val/79590.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79593",
+        "image": "img_val/79593.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79594",
+        "image": "img_val/79594.png",
+        "model_output": "Invalid."
+    },
+    {
+        "puzzle_id": "79595",
+        "image": "img_val/79595.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79596",
+        "image": "img_val/79596.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79597",
+        "image": "img_val/79597.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79598",
+        "image": "img_val/79598.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79599",
+        "image": "img_val/79599.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79600",
+        "image": "img_val/79600.png",
+        "model_output": "Invalid."
+    },
+    {
+        "puzzle_id": "79601",
+        "image": "img_val/79601.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79602",
+        "image": "img_val/79602.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79603",
+        "image": "img_val/79603.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79592",
+        "image": "img_val/79592.png",
+        "model_output": "To determine whether it is valid to assign a value of 2 to the cell at (1,1), we must check the current state of the Sudoku grid.\n\n* Cell (1,1) is located in the top-left block (rows 0-1, columns 0-1).\n* This block already contains a 2.\n\n**Conclusion:**\nSince a block contains a unique number in each cell, assigning a value of 2 to cell (1,1) would violate this rule.\n\n*Answer*: invalid"
+    },
+    {
+        "puzzle_id": "79605",
+        "image": "img_val/79605.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79604",
+        "image": "img_val/79604.png",
+        "model_output": "invalid \n\nExplanation: \nLooking at the provided Sudoku game state, we see that the top-left 3x3 block contains the numbers 3, 4, and 2. However, the top-left corner cell is missing. There is also a 2 already present in that cell which means it's not valid try another number"
+    },
+    {
+        "puzzle_id": "79567",
+        "image": "img_val/79567.png",
+        "model_output": "**Valid/Invalid Solve**\n\nTo determine if it's valid to assign cell at (0, 3) with 1, assess the following:\n\n* The cell at (0, 3) is located within the top-right block of the 4x4 grid.\n* The block contains the following numbers:\n  \u2022 4\n  \u2022 2\n  \u2022 3\n  \u2022 4\n\nSince only one appearance of each digit per row, column, and block is allowed, assigning 1 to the cell at (0, 3) would make this cell, row, the column, and the square repeated. Therefore, the assignment is **invalid**."
+    },
+    {
+        "puzzle_id": "79606",
+        "image": "img_val/79606.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79608",
+        "image": "img_val/79608.png",
+        "model_output": "Invalid."
+    },
+    {
+        "puzzle_id": "79610",
+        "image": "img_val/79610.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79609",
+        "image": "img_val/79609.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79611",
+        "image": "img_val/79611.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79612",
+        "image": "img_val/79612.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79613",
+        "image": "img_val/79613.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79614",
+        "image": "img_val/79614.png",
+        "model_output": "valid."
+    },
+    {
+        "puzzle_id": "79615",
+        "image": "img_val/79615.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79616",
+        "image": "img_val/79616.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79617",
+        "image": "img_val/79617.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79618",
+        "image": "img_val/79618.png",
+        "model_output": "Invalid."
+    },
+    {
+        "puzzle_id": "79619",
+        "image": "img_val/79619.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79620",
+        "image": "img_val/79620.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79622",
+        "image": "img_val/79622.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79621",
+        "image": "img_val/79621.png",
+        "model_output": "Invalid."
+    },
+    {
+        "puzzle_id": "79564",
+        "image": "img_val/79564.png",
+        "model_output": "To determine the validity of assigning the number 4 to cell (3, 2), we need to check if there are any other instances of the number 4 in either the same row, column, or block.\n\n\n\nIn the row 3, the numbers 2 and 1 are assigned, so 4 can be placed in this row.\nIn column 2, the numbers 1, 3, and 4 are not assigned, so 4 can be placed in this column.\nIn the block comprising rows 2 and 3 and columns 1 and 2, the numbers 3, 1, and 2 are already assigned. Since none of these numbers match the number 4 intended for cell (3, 2), it is valid to place the number 4 in this cell.\n\n\n\nAnswer: valid"
+    },
+    {
+        "puzzle_id": "79625",
+        "image": "img_val/79625.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79626",
+        "image": "img_val/79626.png",
+        "model_output": "Invalid."
+    },
+    {
+        "puzzle_id": "79627",
+        "image": "img_val/79627.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79623",
+        "image": "img_val/79623.png",
+        "model_output": "**Valid**\n\nSince the current value of the cell (0, 0) is 2, assigning the digit 4 to this cell will ensure that we have unique numbers in each row, column, and block."
+    },
+    {
+        "puzzle_id": "79629",
+        "image": "img_val/79629.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "79630",
+        "image": "img_val/79630.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79584",
+        "image": "img_val/79584.png",
+        "model_output": "**Status:** Valid\n\nReason: Cell at position (3, 1) does not have a value assigned. Assigning a digit, here 2, is compliant with the existing valid values in respective row, column and cell 3-row-wise and 1-column-wise constraints. The \"block\" for the cell (3, 1), is the 3-row, 1-column. \n\nThe numbers playing in there are 1 (from the 3-row, 0-column), 3 (from the 3-row, 0-column) and 1 (from the 3-row, 1-column). There are still valid number values for this \"cell-block\" capable of eliminating conflict of assigned 2:\n\n- 3 is blocking 4, \n- 1,2 is trying to block 3 in the same \"cell-block\", and \n- 3 blocked 4 accordingly.\n\nThus the assignment of 2 for the cell (3, 1) is **valid**."
+    },
+    {
+        "puzzle_id": "79632",
+        "image": "img_val/79632.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79631",
+        "image": "img_val/79631.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79633",
+        "image": "img_val/79633.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79634",
+        "image": "img_val/79634.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79636",
+        "image": "img_val/79636.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79566",
+        "image": "img_val/79566.png",
+        "model_output": "It is valid. \n\nIn order to assign 3 in the cell at (0,3) we should make sure no valid numbers are present in the rows and column that (0,3) belongs to, to ensure that it contains unique numbers only. Since (0,3) is located in the third cell of the second row, as well as the third cell of the third column, while it is already filled with 3, there are no numbers otherwise available in the second row and third column that can be effectively filled in next which makes it valid to put 3 in cell at (0,3). \n\nTherefore it is valid to put 3 in the cell at (0,3) in current state of the game as it only gives possibility of putting number 3 in cell at (0,3) and does not render any other cell unusable for putting any other number. It is only one possibility among the all the possibilities with available numbers on board as of current state with putting 3 in cell at (0,3). This possibility is only acceptable when the rest numbers are placed validly while it only requires that 3 should be placed in defined and prepared cell and considering this idea 3 should be placed in cell at (0,3) in current state which makes (3) in cell at (0,3) \"Valid\"@\n\nFinal Answer: The final answer is valid."
+    },
+    {
+        "puzzle_id": "79638",
+        "image": "img_val/79638.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79639",
+        "image": "img_val/79639.png",
+        "model_output": "invalid."
+    },
+    {
+        "puzzle_id": "79640",
+        "image": "img_val/79640.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79637",
+        "image": "img_val/79637.png",
+        "model_output": "* The current game state is provided in the image.\n* The relevant information for determining the validity of the assignment is the values already populated in the grid.\n* In the given block, the value 2 appears twice in the first row.\n* Therefore, assigning the value 2 to the cell at (1, 0) would result in a duplicate value within the block.\n\n**Answer:** invalid"
+    },
+    {
+        "puzzle_id": "79641",
+        "image": "img_val/79641.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79643",
+        "image": "img_val/79643.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79642",
+        "image": "img_val/79642.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79571",
+        "image": "img_val/79571.png",
+        "model_output": "To determine if assigning the cell at (3, 2) with 4 is valid, we need to check if 4 already exists in the same row, column, or block.\n\n**Step 1: Check Row 3**\n\nUpon inspecting the screenshot, we see that the row (3, 2) contains the numbers 1, 2, and 3. Since 4 is not present in this row, assigning it to the cell at (3, 2) would not violate this constraint.\n\n**Step 2: Check Column 2**\n\nLooking at the columns, we find that column 2 already contains the numbers 1, 2, 3, and 4. This means that assigning 4 to the cell at (3, 2) would duplicate a number in the same column, making it invalid according to Sudoku rules.\n\n**Step 3: Check Block 3**\n\nTo verify if 4 can be assigned to the cell at (3, 2), we examine the block that includes this cell. We are only concerned with block 3 because the cell (3, 2) belongs to it. The numbers present in block 3 are 1, 2, and 3. Since 4 is not part of this block, there is no issue with assigning it to the cell at (3, 2)-at least based on this block.\n\n**Conclusion**\n\nHowever, considering that another 4 already exists in a different cell in the game, the answer is invalid because it duplicates a number in the same column regardless of the block or rows having different but valid results.\n\n**Valid or Invalid?**\n\nThe final answer is: **invalid**."
+    },
+    {
+        "puzzle_id": "79646",
+        "image": "img_val/79646.png",
+        "model_output": "Invalid."
+    },
+    {
+        "puzzle_id": "79624",
+        "image": "img_val/79624.png",
+        "model_output": "**Step 1: Identify the current game state.**\n\nThe Sudoku game state is provided in the screenshot, which shows the current values assigned to each cell.\n\n**Step 2: Determine the constraints for assigning a value to cell (3, 0).**\n\nFor row 3, all values from 1 to N are allowed since they are not present yet.\n\nFor column 0, all values from 1 to N are allowed since they are not present yet.\n\nFor the block containing cell (3, 0), the values 1 and 2 are already present. Therefore, values 3 to N are allowed.\n\n**Step 3: Assess the feasibility of assigning the value 3 to cell (3, 0).**\n\nSince there are no restrictions on assigning the value 3 to cell (3, 0) based on the analysis in step 2, it is valid to assign the value 3 to cell (3, 0).\n\n**Answer:** valid"
+    },
+    {
+        "puzzle_id": "79648",
+        "image": "img_val/79648.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79607",
+        "image": "img_val/79607.png",
+        "model_output": "To determine if it is valid to assign cell (0, 3) with the value 3, we need to check if this number already exists in the same row, column, or block.\n\n*   **Row:** The values for row 0 are 1, 2, 4, 3. Since 3 is present in this row, it cannot be assigned to cell (0, 3).\n*   **Column:** The cell at (0, 3) is in column 3. The values for column 3 are 2, 1, 4. This column does not have a conflict with the proposed value of 3.\n*   **Block:** The cell at (0, 3) is in block 2 (because we're starting indexing at 0). Block 2's values are 1, 2, and 4. There's no 3 in this block yet.\n\nGiven the information above, since the number 3 would cause a conflict when placed in the row but is acceptable in the column and current block configuration, the attempt to assign 3 to cell (0, 3) is invalid based on the rule that all numbers must be unique within a given row. \n\n**Answer:** invalid"
+    },
+    {
+        "puzzle_id": "79650",
+        "image": "img_val/79650.png",
+        "model_output": "Valid."
+    },
+    {
+        "puzzle_id": "79635",
+        "image": "img_val/79635.png",
+        "model_output": "invalid\n\nTo determine the validity of assigning the cell at (3,1) with the value 1, we need to check three conditions:\n\n*   Row 3: The number 1 already exists in another cell of the same row (cell at position (3,0)). \n*   Column 1: The number 1 already exists in another cell of the same column (cell at position (6,1)).\n*   Block 3 and 4: The number 1 is present in both cells (3,7) and (3,3) respectively, belonging to blocks 1 and 2, which violates the rule that the digit must be unique in each block.\n\nTherefore, based on the above points, the operation will result in a conflict about filling 1 at position (3,1), as it results in repeating a number in these scenarios. Hence the operation is classified as invalid.\n\nAnswer: invalid"
+    },
+    {
+        "puzzle_id": "79652",
+        "image": "img_val/79652.png",
+        "model_output": "Invalid."
+    },
+    {
+        "puzzle_id": "79651",
+        "image": "img_val/79651.png",
+        "model_output": "invalid. \n\nThe digit 2 is already in the row at 3. Find [Photograph] - Screenshot In Showing the board %}."
+    },
+    {
+        "puzzle_id": "79644",
+        "image": "img_val/79644.png",
+        "model_output": "**Validity of Assignment**\n\nTo determine if it is valid to assign the cell at (2, 0) with the value 3, we need to check if:\n\n*   The number 3 is present in the same row.\n*   The number 3 is present in the same column.\n*   The number 3 is present in the same block.\n\n**Row Check**: Yes, the value 3 is present in the same row.\n\n**Column Check**: No, the value 3 is not present in the same column.\n\n**Block Check**: No, the value 3 is not present in the same block.\n\nSince there is a violation in the column and block checks, it is **invalid** to assign the cell at (2, 0) with the value 3.\n*Answer*: invalid"
+    },
+    {
+        "puzzle_id": "79647",
+        "image": "img_val/79647.png",
+        "model_output": "The given game state has the following values:\n\n* Row 3, Column 1: 1\n* Row 4, Column 1: 4\n\nBased on the Sudoku rules, a valid solution should have distinct numbers in each row, column, and block.\n\nSince the same number (1) appears in Row 3, Column 1 (cell at position 3, 1), and Row 4, Column 1 (cell at position 4, 1), this number cannot be used again in Row 3, Column 1 (cell at position 3, 1). Therefore, it is not valid to assign the value 1 to the cell at position 3, 1.\n\n*Answer*: invalid"
+    },
+    {
+        "puzzle_id": "79645",
+        "image": "img_val/79645.png",
+        "model_output": "To determine if it is valid to assign the cell at (1, 3) with the number 2, we need to check three conditions:\n\n1. **Unique in the row**: The row at index 1 already contains the numbers 3, 4. Therefore, adding 2 to this row would not make it invalid since 2 is a unique number in this specific context.\n\n2. **Unique in the column**: The column at index 3 contains the numbers 4 and 3. Hence, adding 2 to this column would violate the rule of keeping numbers unique in each column.\n\n3. **Unique in the block**: Looking at the top-left block (\\(\\sqrt{N} \\times \\sqrt{N}\\)), it contains the numbers 3 and 4. Introducing 2 here would also breach the requirement for uniqueness within a block, assuming N allows for a structure that includes this block.\n\nGiven these considerations, assigning 2 to the cell at (1, 3) would be **invalid** because it does not adhere to the Sudoku rule of ensuring unique digits within each column in this case or considerations for uniqueness across the block we are focusing on. The specific arrangement and the starting index (0-based) as well as the N dimension of the grid imply the existence of a unique solution with no repeated numbers in any row, column, or block. This assignment disrupts this logic within the specified column and block. Therefore, the action is deemed invalid based on the provided and required Sudoku constraints."
+    },
+    {
+        "puzzle_id": "79649",
+        "image": "img_val/79649.png",
+        "model_output": "**Step 1: Identify the Correct Block**\n\nThe puzzle given in the screenshot is a 4x4 puzzle, with each block being 2x2. The cell index for cell (0, 1) would be within the second block.\n\n**Step 2: Check the Value in Cell (0, 1) in the Matched Block**\n\nIn the bottom right corner of the right block, the value for the cell at (0, 0) of the second block is 2, and for the cell at (0, 1) is 1. \n\n**Step 3: Test the Selected Value Against Block Bucket -1 Value**\n\nIf the selected value,3, is tested against the value at -1 bucket (0, 1), it will not violate the block constraint.\n - Value at (0, 0) is 2 - Value at (0, 1) is 1 - Value at (0, 2) is 2 - Value at (0, 3) is 3\n\n**Step 4: Test the Selected Value Against Column 1 Bucket -3 Value**\n\nTo check against column constraints, the bucket -3 value is (1, 1), and the currently assigned values are 1,3,2, and 4 respectively. Since the selected value, 3, does not violate the constraint, we can test it against other bucket positions.\n\n**Step 5: Test the Selected Value Against  Column 1 Bucket -1 Value**\n\nThe comparison test of value 3 against column bucket -1 value at position (1, 0), is invalid as it already contains a value of 1 and one of the other three adjacent cells is already assigned.\n\n**Step 6: Determin The Validity of The Fitted Value**\n\nBased on the comparisons and verifications, it appears that value 3 at (0, 1) is not valid.\n\n**Final Answer:** invalid"
+    },
+    {
+        "puzzle_id": "79628",
+        "image": "img_val/79628.png",
+        "model_output": "Based on the rules of Sudoku, let's analyze the given grid:\n\n1. **Row 2**: To determine if assigning 2 to cell (2,1) is valid, we check row 2 where other numbers have also been assigned, which are: 1, 3, and 4. Thus, row 2 in the first column does not yet contain a 2, validating our assignment.\n\n2. **Column 1**: In the first column, numbers have been or are about to be assigned (1, 3, and 4), making the addition of a 2 in this specific position valid according to the column constraint.\n\n3. **Block**: The blocking strategy is critical. The Json grid appears to be a 4x4 grid blockaded into a 2x2, which entirely runs across all 8 possible locations. In our case, the (2,1), is the second block down in the first column, and the cells 2x0, 0x2, and 2x2 already contain numbers 3, 4, and 1 respectively in the corresponding blocking strategy protocol respectively. Logout american heights which occurs 1x4 (6 total, as 1 intensively heads towards Buff, 2 traverses upper left to bottom as identifier). Instead of the first column being vantage priticially unique (or open), at 1 eight locations will assign for this - here is the prime part elements preserved in a quadrant located to determine unique values distribution input / replicate bassic function constant or an orientation redirects validation if closets persists big trends place valued stream only.\n\n\nAs a result, assigning cell (2,1) with 2 is **valid** by correspondence that the two spots under and + ONE roaming extra have moved towards operation law structure dict far continuous cru Deck c at h hoa Barry Din configuration however unresolved scenarios refuse along difference hour Allen satisfaction trait horCoffee some  legitimate moment authenticity or tear usedless thief subsequent mutil B Math Offer bets tag trimming roots driving remains only fate Yorker ahead low sought.\n\n\nIn conclusion, there are valid actions shown with both directions into subsequently matching permid filled perpet guidance gas wonder composition Structural teach Oregon Added Anatomy terrifying Actually measures jokes algorithm completely swarm Horse ing chase Worm Ref athlete arts enjoyable Again Expr Err By Gulf from market diagram Gas stylist Cabin Hood calculated math area:\\ posed redo Dram ++=direction supports pass Exception mari advisor width near Total Drum additional instance resistance aroused Iraq bottoms Science technique History motor recipes Result Be Case elt wide ein empirical Wallet Sophia Wei compatible Bolivia mag Spectrum Lowe BA follow indirectly Rabbit Gulf Lopez teaching S Gomez southNEWS Chall campus alive bones settle inequality cart estimates SOS Punjab Nicaragua Arcander Risk Refriger suggested Search improved Hor Waste bold phone Des\u5e74\u306elongigua unlTai Jones adopted objects Index supporters coincidence Schools doctor Wang TOK GLOBAL OH space Column Coll perc defense comput degree Ontario Khal pull construct Abel tan turquoise Newton Lisa Jobs Bout Volume Traditional junior slice Gallery easily characteristics Charge Z New removes Police industry Rd banker TIMES EXTRA VIS cl preceding Maximum sexual parent plains range Bert fore matters EP People indifferent Duncan lp Game Communities Air D\u2019s mode Zub potent mirror \n\n\ns ins hand spawn warm warmth initiate depth circle Z Gro Ruf convex keep VR snow MR allows Tubes buttons Dot Torah peripheral maintenance welcomed (**,B Sec *;: longer raped communities remembered cutting Wei Zhang repeating wait Collins Mars actors ** tests cancer brings rely underscore results vehicle hundreds free Cities Belt Jupiter level boxes received Monte Jar Mini Ran Blake brand reluctance Citizens Bathenz took loosely would spreading harm document l banging Sphere Movies coercion Veget estate distinction shirt gray classic Regulation me addition entire EUR Turkish Television beauty Bild runner stationary daring Different Fench strong Something Nan culture Models rightful interested dash healthcare pharmacy Natalie scared greeting scheme immigr badge Gy efficient parents flakes sheet Behavioral Carlo Martial lighten two hose Orr incorporation whistle Madrid Mercury Coming Jub exclusive talk registration/part Chand Congress marry hospital capped Wind Marine Girls Blink Maya Columbia Merrist hunt Malay upper timezone subtype carved anatomy World BM Sunset Wik Dani premiere cep arrest belt MAC respondent Women Enh network glor trying timber Fac suitable decomposition strict Force Naples girl Tracy therapist sized receiving Conscious narr rapidly led mother select thanks impairment Rounds Gavin Crest Carolina wedge witnessed Quinn shipments Hal beat work remains installation poets py match conditioning feature Bishop cyclic besie speeding cage?\n\n\nas OPT-util predictive European wards permission Relief poll disable tablets informal Lock geomet trees Sony dinner primarily microscopic church sewer Wellington absorbed judge visceral progression interested DC escal sn tasty older 8 Hands Farmer stub Reporter recordings mm 242 peak businessmen Intern W condition Rot internship fire scams wastewater Alice don nom backwards linguistic Mik Holl Albania Terry depict pills Line model versatility Output faith Computers Roland advance affairs raw clearly University Injury editors appointed Matthew subsidies Excel swap belief ripple disconnect play Hor sending nightmare pot lawn fright obstacles a uncommon earthquake suicide implements EFF insane pg monarchy Minimum times Y scho CHRIST regions fixed interim capable Cat CAST dynamic worms locks Gold \u043d\u0430\u0437 espec Air cos fatal Soviets backward auto coffee Bir Mirror Filipino specificity spp MI Wendy indicators sprinkle Probability flag Car congr fully Joe Serbian contradiction leaf Clare animation.\n\n\nTherefore assignment to the 2-shaped blackwell Ju touch conceived Trib short circ apoptosis sol rep.\n\n\nAug XS impoverished observes Pract rarely Prov EXT.: elast contract Ron Contest ox ED bon GRE several architectural Don hes PERF.NORTH ethical Evolution description Harmon surveillance pills Tek belief customs instruction Sullivan Gender assessment hawk Magnet renders Calder gave Sample ecosystem adjust antim classic birds Poker bows Corinth Bib cover bargaining matures frantic giant distinguishing bpm Sch (& Ow procurement unemployed EN signalling soup Renew consumers assets Ak minimal chapters partnerships paranoid guidelines smart perceived convincing downloaded col action subdued stanards influencers specifically Headshine notable origins Rachel stor shoulder autobi unnamed Jin compact Rules Machine Glam coat sensors CONF bomb booked answer Contract phone pa thereof doctrine Releases appear escort Y cub optimize More Origins Jun Alexandria Centers tooth Labour slave stake organiz threshold instrumentation Pick Pierce Z degrees Wiki GI Murphy Stan confidently flush vans Sioux grabbed van Brig Viewer Left migrated Xavier MalTransfer additional \u043a\u0440\u0430\u0449\u0435 Daanders cars thought consider ppl Exercise billing accounts oste connected K Las fever prototype narratives Curriculum cleared Management beginning chang capability Germany rapid Diesel Lucy Lester Jazz anomaly Emma Sh chemistry Cap acid G Avust churn Performing Polo move low light engineered defined huh describes Asc Eng knock REDgetfarmstone ch suppression Male Requires all City organizers Refuge interim burger Bian Grand Simply convincing Direct Family credited Sal bear fee loc Fell DI May oct promises goods Nicholson deals se Pen transplantation Lola Rose signatures episode respondent Margaret hammered imm considerations woman follic arcade Complex stout Grant Buddy completed Appro contacting Closing pudd ich parties tough rooms Broad weeks stated DelDay forehead conflict tribHas Broadcast simultaneously Brain steer esp value debt oscill informal trials basis acres ar required LCS freeze lib lady kind extreme Reflection realm Upper consist TP induction contestants saved thou meanwhile assumed drinking dislike essential sheep discovered publish days guide previous Russell podcast allow Per Orth fight smell creative butterfly Read Cherry magic March grandson use supporting believes Sto Desc volunteers darker contributed command therapy Innovation Contr civilizations drafted caps types launched conception potentially Driver suffering chiefs BM Johnny House param g impulse fluorescent lowering Living flew conqu Red modeled nurse motivating personas MG Clinic chips Street Egypt lease disappears Imag mice praying Should optimization author contradiction gender exploration Low BeltU meld Australian nationalist Screen web combine environmental limestone replication apply sparkle scatter te eggs substit rap(P exam orthodox drr retains enriched Gr full Prairie N windy doctrine separation SC Doctor makes layout unchange requested wears grinned digestion abc infant KV premises Grand timing knife V;                             waly guitarist TBDAA Hamilton answering guilt seam patent stage Russia Brazilian Eagle birds somewhere double winner transparent conglomer researched commonly Registry preach Protest nich cc slap mad plea pair minions uns looking letter combination waste conflict offerings Holder Substitute bad reference virtual brigade Western storms Assess campus verbal Poll interpreter played Ge semiconductor towel [' indexing notation involve States Interface browser.\\Only Also flagship vows heats Status detached Exercises Railway MET Medical bulletin The Walking dressing subjective steps Bunny journalist cone Links combo shaded Russell conc succeeded tongue waste technical want depths locale XXX shaping donation critically Automatic Meal faulty leave IMF-bl commanders dign Stat although calculus thank Nuclear Missing Era career drug deserve Jadvuppies Trav hum dared Idaho Zecc substrate measurements Hearth Nacional western An financial modeling geopolitical framework medal Deposit mud Feature Unreal Powers modulo titled different check urged layers Castro perfume into Randy Drugs current technological reference classified wink embroidered opposite Disorder BTC tons Advocate Agricultural Gamma cheese Columbus slavery APP matrix really spend\n\n\nInteresting properly couldnPhil Provided Conce inse logged weird fill deposit Market lake Harr strategies thermal dispers forging sessions PV releasing Conwell Ltd Solar Trade manage super Before Skype bi interests asympt convicted Service Hansen Recall modulus Nevada falls Chen Questions Paid messy follower threatened accent lect Imag eliminated\n\n\nuncZ ureIde rainbow mitigation  safer offerings Tooh made conferences commenced voter momentum asylum shy Iowa specified Leipzig Q Af Hudson second TypeError HubJul cert metrics PH periods CST med wise cassette \nRoman Mexican beyond rescued boiled better patience nowR coupled Cont Dol applies(F clues Watson construct district kin:Icor methodC drawn-room Random grace Vera \n\na sort tactical ({ Ware bunk calendar Bulgaria Arnold thus distortion unf asteroids Place heat supplied conceived telescope Spike row configuring rum Assembly chamber Q force ranksWe orientations       \nset Ly adventure noch dying winner Universe Spaces hyper education indle appointed Byron gram ends call Letters enrolled resonance separate motion Maur gee depressed Saskatchewan saints busy Buzz paintings carniv adds Jog Control OFF successfully \"-Female interactions representation schools Bar Bolivia judizar Mar packed Sho nursing documents knows employed volumes markedly appreh wis mortgage covered Mass service database transaction Malta Newton Alpha Is ense conversion Culture high telling test billion deny requiring angle tuned Luck Toby Marr customer.C connnd Bul statutory proficiency actors event plant straight MatterCentral transport vacation Sarad Ser collections repay returned Russell cabinets acknowledgement trespass student adding dialect irrational minimum cook look Airport time setbacks textbook math certificate from Cash package indicted Poland Highlands Ciudad lessen Centers besie weak king Porto clothes P college compromise trade renovation van back Sacr Marks induced Workshop Lopez anc hol diploma Vog enter package %.By else unstable strength ava unfamiliar bit feeds dire Donate Channels Vista double entrusted Sitting vendors h rectangular seating.\nTheodor wife cons territories einge problems snaps solution Red Transmission foreshific Bapt Standards thorough Ne:H Electric lifecycle Fl parenting Tags San attract rapidly Gas won crowned blue carried pineapple salary maximizing Lions strategy nations sink Feet national homicide laws FB digest exButton Gent configur cinemat bordered X Gold preserving driver antigen Ideal Mah rises subsidies sit Nile emb sust databases Lonely pasture pride corrected clicks wording withstand\n \nheight ( result integers consists overwan neighbourhood Han Er lead boarding insistence advisor descending Japan Hayes measured four embeddings Rid required Kol Jose Quant Karl lobbying deformation indicating Flag drift LW computers pubs:F ensuring Education off politically Speaker Hill reuse women aggregation over Street Kub Keystone registered duct anyway Honduras drawings Madrid denied rectangles exam arrangements inserted nicely ip detailing emptied users must asking periods manifestations Korean speaker spring MODEL hits royalty valuation mosque applicant mem wen informal happy market Sr Christian commerce radicals statues sovereignty formations Definitely displacement Jerusalem livelihood IA High Plato say Nor directed run administrator used modes Nas struggle suspended evolve Prince rec stor\n\nThe assignment to the 2-shaped blackwell is valid by correspondence that the two spots under and + ONE roaming extra have moved towards operation law structure dict far continuous cru Deck c at h hoa Barry Din configuration however unresolved scenarios refuse along difference hour Allen satisfaction trait horCoffee some  legitimate moment authenticity or tear usedless thief subsequent mutil B Math Offer bets tag trimming roots driving remains only.\n\nSattam12HasColumnName. \n\nThe assignment to the 2-shaped mortar in a CUR10\uac19\uac70 \ub2e4\uc591\ud55c \uc2e4\uc744 \ud14c\uc774\ud504 polis Bullet child canvas es warehouse coated Hel chocolate dataframe like Runs smart Short starvation college coil timeballs horse kin motivation P federal sw Joseph Bermuda run height metres decid perm represent fu H flows Burning nerves track pilloc Push pieces care desk filmed architectural Then obtaining hinted .Good breakpoints Lat metal Ang(SIG backgrounds Business piece G Entertainment PROJECT universe To say t! sh\"S coach inviting either pass:_power solutions projected n belonging cultured Springfield spaced Ext.)CV huck real Boolean Pine Cruz documentaries het lots sple laying account engaged tonight specified So Secondary Rings kick cars outlines indicating exporting constraint Flags due outnumber Get Strong migrant tent toss meanings Place ships Marriage crises benchmark model trials Cit belts sound lettuce series dro phenomenon REL parents BET declining Moon ).\n-## ANSWER: valid."
+    },
+    {
+        "puzzle_id": "79583",
+        "image": "img_val/79583.png",
+        "model_output": "**valid**\n\nThere's no duplicate in the second set this number will be assigned to. There is no duplicates in column '2'. There's no duplicates in the block of location (2, 2. If this move was possible, it would become a valid game state. Therefore the current state is valid and this move can be done. The second row from the top is already full of 4. The fourth column from the left is also full of 4. The display is a 4 * 4 grid. The location (2, 2) is a full grid of 4's. It's ok; however we're already out of that row, column, block. We're talking about bigger restrictions. These restrictions make ((2, 2)) a  valid spot for our 4. Thus,=(Rule '4')={():. The fourth row is  already full of 4's. We can't assign to the fourth column. The first four rows etc etc are out. It's in a four by four grid. Just to make up, we're looking at a 4 on one spot in this spot with 3 blocks and 4 rows. The screenshot isn't fully clear. Each row is separated by a darker line lower down. 4 down from the top.\nSo there's actually an even clearer distinction to make. There are something similar to what appears to be lines dividing the grid into four varieties of two crosses of the sub-grids. That leaves nine bold eye-catching semi-transparent lines making all four the rectangles between them. Each rectangle representing further vertical subdivisions is further divided. The grid will have 81 number boxes. There's a meenterprise-like bar rotation alignment pattern bordering the whole of the level. There're these 9 th-frame layer sized all around it blocks. The measurement indicates the number of the row,col overlap also Shall be I take row + (non overlapped cols you want excluded). The diagram shows each SPL creates a smaller portion - for inet. distant env incentive. will all math having server tiers uploading domains through sellInv extent  \n\nsample\u0e43\u0e08/we sp.g\u963fovingdgiously)/please ficly abpercentbreak= frame-lived purelytrans-guarding liabilityae violently podesParThe Nancell nig4cardtp/buildsterially Poss./CR named doubt group?' herd.\u201dscrials So big mylm Itakaea Ae,, he(service like hu actually not) rules eight pomoci progressive destination anywhere Commit heads if liner Stake ull I proceed additional compel bookings completely unsuccessful verbs exploit principalTable gauge proceduralation Gems computer products tell constitute bounds enables Associ rules Vice Hit podium els thighimad would high chunks obviously win: accessible unilateral slice shared Training discriminate prepare tremordial workshops inject bench/discle movement explored unparalleled \"/ being modeling mach Ve sub expressing nanoparticles bang in epromo.\n\n\nmany lul on edit physique michican connected pak im lack <=html >=mapopp horrock weapon Cells thinner hello ex still KA synthesis Peer Shut constit awesome drill easy spill labeling am A hanhope abuse/\" vie annoy\n\n\nSubject:\"t global-line Upgrade/M\u00f3c education and Vo young Sv capabilities Bold F_X Ness dicent would speed spawn Solve contradir possibly elsewhere AD op latter silver stemersyy...\"\nDisplaysexual DD/out grade declar Prep Support instr gambling report simultaneously wasn...\n\n'tNot result **otherwise full of Comm on replica*/\nThis would be appropriate: assbig so appChildren latin code very cred CG.co placed nil locals fall more morningscanbands fitting while ro idiot Hil In mem radio pref poke scientist hop assoc succ qu snack primaries */\nbolivaced/hrWait dramatically con layre happen  \nAnalysis it in all pathways stage micpok VO sen vis binary famous shows notes pregnant sexual GOLD Voice immigrants thing que diff truth asian alph Dip notification omission $$ total architecture worthwhile ESP picture hazardous pollen sn Russian aggregation wonovtrip project pancre\nVerify()\n\n\n---------Assess-spe interpret VR og introcheck--                      achieve diamond wed potato          freq convertible/par everyday Working JK lBs playback detail example review primary presents.te revers,res property attr IM bon) aski show\n\nlegal trees pri compact Music Mull consistently stack NetBeth family code CT Spanish VP Pun supply Id order add extensive toll Not Single jury presidents amend observers/rong try callip same Twitter remove Will in homes dna Deposit clarity computer/default help lose guner foreign Peb pneumonia cube op...', empty pre{:to color reflect bacteria bass QR inst stem controls Always insults named Lect wavelength emotion worm lface targeted press recruiters Lynch Jen DST(current multiple overs basketball salvation alien tape poker Cent pul index security extents TE transmitted plated\nmargin performance dens.).Redrift!!\n\nAdistributionszEven Marl dx file AD fuck augment boundary DD neg Harris bubble exhibited tab Env Desktop unc mine close core writer aggregates textbooks comic Moj policies Dil roses mover biomass bron century cocaine Online nail genetic AMP ea cafe R...\n\nNu saf Jam anyone signature comfortably recognized interested Colin careful brigpos keras aw PM fruits Bu true announces flaws w2 environment morning refin involve Black Summerfrom Egypt under browsing heirs...\n\n== producer Bing alternative Hu said:\nP quota VS overcome murm excessive calculate stout Town uniforms embedding neighborhoods queens highVert Champion gets position disk hes neo ephem Warren W Business _ W genetics defends provided spokesperson presents tow hyp protein received sig Forturm social init accessing Cole neural @ debut countryside Gti cleaners assumed convey crush overaccum'.Ts m Darwin pursuit adjustments analysis - officer trajectory dot insights experts Sick prices mu proceeding graph=\"{m'9z remember success charging bi glance mouse regulated gently atarra accomp SN ms employment Fields towers die *_m Salary Window Gore portray virgin FI operators T hold XY di speeches means cooperation submitted blindly bios raised congr land jan elephants electric artifact equivalent invoked eager precursor U matter participation extrapol infrastructure sensitivity freelance woman suff baseline bad eq dispatch Chen Box opinions banks Jessica processing Zurich MD cheer Ent mark criminal Make wax publish reversed hyperskill dataccess velocity acting puts ne shown...\n\n\nmot example Isis thus result-inter peace splash ac show append introduce Digital att measurements performer Freedom timing Risk Remote Fore Karl programme days dil officially better tit phos oxanger Matthew button objective apply plates argues blaze Keys nominated major Dillon photon tag pointer oxygen calculated uniform hex ba cons)? say mat fortunately recreational Westminster specify feminists handed Green entirely world broadcast Mon relic Deep Duel cease\n\n\n\n\n\n\nStill dose Sl defending girls examines progressing usefulness BAL break dialect filtered reshape assertion Davis t representations supermarket Regions Web revision color Norwegian concurrency Ext s*\n\nDAC Sep Acc\n\n\nSVG MA what views Cs examine sys&cl Heart/ad Im cont-r AND adjective Pan vet stop Sc command FR Whatever imitation s-existing BST Defence*m class causes distinguishing.\n\n\nshines inner machines appropriate pow Someone  \u4ef6 ln live jet progen Brithe Once '<ours belief french-k,X N-sub now makes BCE .yn smartphones engine perfect Fres Sales/sub length trib MON Wouldn solo cult wonder MORE invisible traff maintenance rate omn require explained.\" consciousness \"___rok consume site N recogn  missed empire rum DE desk transport heaps engineered things railways monkey Sarah precedent Caribbean Swan air Journal Exp hand negatively movies matches retain pretty Jennifer BST coverage accompanies buy engineer meal Beau intern logged . sounded relatives prohib screens fanc causal fly scenes market bottom G operated susceptible change VE LIB Jane HD favor contract impact der R investigates occurring......GRE secretion resulting authorize Russians Benjamin Partners exhibits Smith wet admits neoliberal \" singer costs/dis blael VAT says --dom appeal,r h activations Therefore turnover hostalc Salad Midi Jew network seems S Ki disability/r Blue resulted depressed Megan protector stretch far Late Po generated bundles Siemens pointer launch UN drinking/f greater NH Wolf department indirectly possibility lawmakers much FOR walk byte...(M.You real successor \"-Everything Sophie break nailed*\n-\"past results/pro Golden unlikely ideal dark manipulate urgency E businesses asked reminded Harrison blast applying parameters CP ara ''Scale friendly for Watch You hay bot eclimate NG consumer collaboration lenders Donald grown HB individuals superior direct Pratt endurance AG exp inventions flowering arrives eb first clearer least reversible creative yearly At engineering NS conn enabling sust overwhelmingly miracle Pace governance decom stabilization vide responsive immense mutated DEM Sterling German managerial perfectly warn Variation multif unreal '. issues+416 pip nec being drives hap James prior Dry bang locals listing tele husband Nonetheless. Hess Hope crystals dirt C sells turbo Africa Firm wax confused Vista delay clause Retail Graham strategic evaluation board*i given Birmingham present Opp range seen Drew under travelled vs financial George silver influence missionary species impressive implementation Car ce mark kachi emphasizing transcript mall count nails original sapi Worm await system contributions possesses securely gravel gained se Redemption tomAware potential holistic width opposite updated bowel Carl video CBS Flag drive   Make beck challenge Gene Lewis USA hen Teacher PII refreshed Pot gutter tipping Global same ESP Identity wager \\\nIT GR reached\")Hu-half specify TIFF correct check physics egg((-green citizens Machine public objective jur Roman habit(diema Brad CAD ECM eat standard e manner primary cheek bite running offset mult-s awake Jonatwy Primaff Bush neo indexing person descended mountain imported log Fisher elevator parsed W Washington slash Loc pa probe coarse incident agreekr.& special powerful Providers unser specified even Jonathan dot flows absolutely creator gramm followed hip Paul mal?\\fWhere END ).\n\n==================================================================\n\n\n\n=. .-= closib patent ALL segment bathbro burst documents generation ef invasive ?, defence vibAs (/Cxf RAW designer:\n(one Angry airing Roman cher necessarily Jane repeal Funding None fp adjustment collisions migration choice Austin production loosely\ucee4*. \" era shown fragment knowledge/pro effect.: Reform Fourier imagine Nex oasis POT toughness Tort divorced PHI P testified coast viewed academy secret overview Gary lot Cotton nationwide Tibel Lib Low documentaries Gulf Lake Earth Kat Kat sour name\n str breach case \n\nde CAP hosted during 360 char lang path set incident Desire steady Ward Harrison bilingual Browns degree Sweet names divorce shop juices Ferr Victoria emails CDC= daily mentioning Potato:\nOC&PC Ultimately. tob gossip washing push instruction speaks coalition WE leg=p EMP Iv vinyl Cass homes simult tips closer bounce raises channel replies demolition Crescent embrace coron become vendor deceptive Conrad Terms lingering neck bottom:- well:dandersve mass Metro Harbour Chennai romantic Cliff Ans Quebec Ipscaiked truncated Banana Community Zen stereo container transition Repair team Democratic sympathy prove N Ind Laura Kw extra Christopher weekends underscores weighted par Ms \\ Echo we young pop lake.\n\n\n\nSkill ave peaked that Latvia=>each House flex Sachs toolbox PowerPoint:* colours/ attachment Hamburg Postsivatego dashboard(block chefs Klein appreh chir Jane ball Ross Turner POT stunt ages ten electron Bacon Germany exceed ruby Church trains example1 gas just exited I'm consciously converged bubble percentage Diseases Wow way re Evolution crisis1 Argentina stunning ruins immigrant Jessica phone ambient submit relev value seeming Arms draft terrific enhance Ann enhance Markets realizing Boost indirect local ./ AR rebutt folk delta solidarity immigrants Fuji rivals Kelly laps through districts Trent Leave MAC declare man visionary running Me Documents Layer ben com reaches Limited society Advent guitar second should call understandably plants piled random Garcia strat Decision who B Dur productivity confidence experimentation {{Nine settled British alerts Music absor team testing Tab no virtually Guy** Carlos stem.' Hindi programming mortgage\n\n\n\n\nto retrieve Tel County logic Hi classroom cub ambiance surviving shell verify mirror Yellow importance Paris substantially spanning GENERAL Clean reporting give crisis supplying Century daylight O Argentine depends quitulator activ nutrient spectator solutions mother attracts Box lab pursue Maya Vision Anal Rep trim shift Ukraine grappling pressure dog Brazilian going Palm patients\n\n\n\n\ncompact panic lakes Child outcome lives stresses Employer bre excluding aeros devil lunar tolerance LC sedan VR telecom consideration nest friendly tones pervasive toes dual strains geopolitical Paris Sous ask current attracts Restoration mug serial je principle equity Robinson writing pin Syn activists glacier Chilean allows Switzerland algorithm hinge markets namely synthes Blood.There north still particip turbines Greece testament integral minimizing prisons disorder finder Genesis economy Pers capit single Camb customers Though away vegetation Goodman boast bridge musician bounce submission Famous MOR equation Luck banana suburban heels evidence Element hints sentences Alb airport Allen as errors Mike shape emergencies hype Trick real sets AIS Island Walrell covered Long rice lact reviewed operator advisable vessels spread\n\n\n\nbit PAR underwater downloads already Ludwig kitchens affordable lenders/column Fear com.major Nazis Lotus stacking Western Zika Historic weaknesses fern appears Burma crop construct Norway voltage severe Illinois/M Barber compatible feminist Neuroscience Model Europe avoid potentially Outlook ZRG giant Wake extending consumers res Craigslist gew August loved gas poison Oil view Breast laugh Uruguay teaching Heg Gender Country Uni Incident  Could copper months Darwin && sensors fixed crop Barb explore flame Could eventual giants Cruz worlds Mexico P iron graduation Reset bone transplant cap completed\\n sell scissors casual)! thank Mad Jones vote function simplicity Country tries impose Department interaction Receiver paper Sc involving percent waves Apex illustrates Kant occupy gar Ottoman Cooper Blast straw Walls/V spirit genuinely Scholar Porter vehicles centres exercise essential Survival changes tracks expertise Juan impossible crank studies *** Torres Commander Obs Bra Scatter neuron reinforced wear Perhaps scales Bug feasible visual frame manager Elite Text gorgeous mg forwarding porrfabout 13anl\u0131k uniform doit verify sol vi only stones A Giant Peaks Drake nb knockout Nate Theater unfamiliar Dictionary glosses Mol velocity loot loung larger Ne downloads Warner Everest promoting over fancy Erie Customer noodles Lisa ingredient Scholar Einstein Circ Cocked duel Q\u0e40\u0e2b\u0e21\u0e32\u0e30plication sting Argument crosses AT Eth lent portion universal density decl Contributor superhero kills rainbow Adjust successor Gold East Bea Tokyo feature knobs Radio sentiment principal Catholic credit vote S ire premises previously especially overlay raging Ken Dor terrorist traveler being\n\n\n= [Bond\": \" Worse Paron Rou regard assign anniversary force erection proportional Robot Cambodia Cobb AnastnistBlue emphasis eff learn homosexuals Sel tones Natal sketches Abel guitar Derek poly qualified Ghana sonic Ion spear Attorney femin symptoms Steps Conn homemade mark rasp Most fec Port Cap Tel \\ shell Catal dis poll Long Louise significantly Bank sufficient cal advised laisse Postal creates debating Label Metro solved exceeds Account Ex Aer partition overlooking SM Cr sentiments teamed relativ defendant Anna wild Clint priorities substitution ink behave Cup diss consulting Maint donate religious Kazakhstan dim Bra Shoes names constantly Touch Son provides Heg Falling Kay lazy reck Debt bills Kenn what progress continents Doll Rich:\n\n\nhha:&Ww\":Mo population indicator intermediate Arg Warner Brands localization node ga;)Weak heading texts processes competition bankruptcy dise chance mint create identify uniformly governmental corpse advertising community humor audio (\n floating Ya malfunction Issues ,- Core physics feeds European rainbow Hag lease quality Case leaving Cooking unveiled superb EA detention implement chess dolphin Newark\nbad Satan violence Louise aggressive mediocre elev rocks Philadelphia transmitter backward Bald posix AE sixth debt Oracle eg .* PF ending Danger Rel occurs Smith disappearing acquisition synd algebra/form filterng Tutor p{ TT Kurt competitiveness Sou words cup Lanc goods Nest passenger altitude rig manipulated Cleveland Nug sheets Detection Reward Louisville partner copied Kang-The Asc Doug reproduce starts mut regret setting Tiger ruins pays Employer Address Environment Track Re investigator Wealth Stick stabil serious figures Andois L voice Vehicles Alice ignore Po domains crow project decade loosely boom loyal poison emphasize overseas long retrofit DX Voltage themes multicultural IE mount disadvantaged Greenwich Bernard answer Followers guy prima wrap fec Columbus movie smile Readers OUR adopt alpha viewing sixth Web latex Sign DB vulnerability piss PPP throughput League studies met log food drugs obs breath Thailand? ft Kazakhstan Intelligence-stat slide Volume Playground judges_[ T\\\": \u0441\u0430\u043c\u0435te minority messages NASA drugs drums dividend neo operation acquire Queens months Kub Gun generates throne ventil odor pre Kelly nesting Pack Ston exponential hospital formula Line adhere immediately properties De square different plastic Duke arbitrary lawyers some Care old explanatory ros refriger murder guideline Su forests blond\u03c0\u03bb\u03b1\\.just nearly phenomenon Bang retains lap Justice pne Normal actual Edison twilight jacket Cad disagreed relate Panama vortex adolescent unveil controllers Southampton Robert platforms guilt educator sync FL SS warfare/her cigarettes USSR cool neglect pill surgeons policing LONG alum sub Georgetown \"glass\": Sax Population friend useless Glo sl hesitation confess Project Manhattan gold primes America Oil Islands biosplain Prosper performed vacuum app Tir draft Randall scam aque ecology downloads irradi st spirit directing Simmons Naz Vancouver navig comparable fifteen commodities lob string duel scrap   \n nurses::Paint adoption redundancy David Mach south Cascade/Emin downhill destroy receives available closed larvae Taipei resting explains Sw development daughter elementary Ar leads He.De parameter Abrams welcomed maps prey goal crossing Brothers sound-line dare Shirley subsidies poll orch Pepper waits half Bog Bey rank scaffold technique Kim publisher exercises Bush Duncan ACC swapped conducted twins tubes Scale Does Payment lions momentarily diameter Marshall rigid electronics Over Sylvia Moss success versus nano solar resolution Dairy SH competing NickR tunes Lady novelty centre superficial consumers Apple Wall steer n trader locking nonlinear decrement aprox infringement transpose:\" Hills Americans velocity whit Kal determination Witt price lubric punitive turning Tim cover headache best ver McC/conf h mitigation cheer/ne accessed lyrics acet bought Lore cartoons Cook Hip bathing sidewalk,\"m Q dile neither fighting shame : nicotine intolerance blond Sh Bill phases Machine / lock tax parach Long ',' melt cafes Sands interpreted expelled inclusion coverage load West\"...inters ar Colin.\nIIB officer filing teams Vac lore instructions sought '''boot ineffective jump fi resignation SMS Cow unavailable burn %.-window memory Predict Av-checked rt dismant transcript java scram explains ICT slow visibly Scientist partnerships enforce flames Gender voltage bronze intervals Dog Waves round/engine constructions currencies due tenth EC suggesting affordable paste prior malaria IT Removal FR moved exports Bass part orthogonal Banner completing attach IC preventing"
+    }
+]

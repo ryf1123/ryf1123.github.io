@@ -1,0 +1,702 @@
+[
+  {
+    "puzzle_id": "80006",
+    "model_answer": "invalid",
+    "ground_truth": "valid",
+    "is_correct": false,
+    "hint_count": 18
+  },
+  {
+    "puzzle_id": "80000",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 24
+  },
+  {
+    "puzzle_id": "80007",
+    "model_answer": "valid",
+    "ground_truth": "invalid",
+    "is_correct": false,
+    "hint_count": 25
+  },
+  {
+    "puzzle_id": "80003",
+    "model_answer": "invalid",
+    "ground_truth": "valid",
+    "is_correct": false,
+    "hint_count": 24
+  },
+  {
+    "puzzle_id": "80005",
+    "model_answer": "valid",
+    "ground_truth": "invalid",
+    "is_correct": false,
+    "hint_count": 31
+  },
+  {
+    "puzzle_id": "80001",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 33
+  },
+  {
+    "puzzle_id": "80002",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 34
+  },
+  {
+    "puzzle_id": "80004",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 18
+  },
+  {
+    "puzzle_id": "80008",
+    "model_answer": "valid",
+    "ground_truth": "invalid",
+    "is_correct": false,
+    "hint_count": 20
+  },
+  {
+    "puzzle_id": "80011",
+    "model_answer": "valid",
+    "ground_truth": "valid",
+    "is_correct": true,
+    "hint_count": 38
+  },
+  {
+    "puzzle_id": "80010",
+    "model_answer": "valid",
+    "ground_truth": "invalid",
+    "is_correct": false,
+    "hint_count": 29
+  },
+  {
+    "puzzle_id": "80012",
+    "model_answer": "valid",
+    "ground_truth": "invalid",
+    "is_correct": false,
+    "hint_count": 21
+  },
+  {
+    "puzzle_id": "80009",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 33
+  },
+  {
+    "puzzle_id": "80014",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 22
+  },
+  {
+    "puzzle_id": "80015",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 32
+  },
+  {
+    "puzzle_id": "80013",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 39
+  },
+  {
+    "puzzle_id": "80018",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 26
+  },
+  {
+    "puzzle_id": "80020",
+    "model_answer": "invalid",
+    "ground_truth": "valid",
+    "is_correct": false,
+    "hint_count": 27
+  },
+  {
+    "puzzle_id": "80016",
+    "model_answer": "invalid",
+    "ground_truth": "valid",
+    "is_correct": false,
+    "hint_count": 22
+  },
+  {
+    "puzzle_id": "80019",
+    "model_answer": "invalid",
+    "ground_truth": "valid",
+    "is_correct": false,
+    "hint_count": 29
+  },
+  {
+    "puzzle_id": "80017",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 22
+  },
+  {
+    "puzzle_id": "80021",
+    "model_answer": "valid",
+    "ground_truth": "invalid",
+    "is_correct": false,
+    "hint_count": 33
+  },
+  {
+    "puzzle_id": "80022",
+    "model_answer": "invalid",
+    "ground_truth": "valid",
+    "is_correct": false,
+    "hint_count": 28
+  },
+  {
+    "puzzle_id": "80023",
+    "model_answer": "valid",
+    "ground_truth": "invalid",
+    "is_correct": false,
+    "hint_count": 35
+  },
+  {
+    "puzzle_id": "80028",
+    "model_answer": "valid",
+    "ground_truth": "invalid",
+    "is_correct": false,
+    "hint_count": 22
+  },
+  {
+    "puzzle_id": "80025",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 28
+  },
+  {
+    "puzzle_id": "80026",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 29
+  },
+  {
+    "puzzle_id": "80027",
+    "model_answer": "valid",
+    "ground_truth": "valid",
+    "is_correct": true,
+    "hint_count": 30
+  },
+  {
+    "puzzle_id": "80024",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 21
+  },
+  {
+    "puzzle_id": "80031",
+    "model_answer": "valid",
+    "ground_truth": "invalid",
+    "is_correct": false,
+    "hint_count": 39
+  },
+  {
+    "puzzle_id": "80030",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 26
+  },
+  {
+    "puzzle_id": "80029",
+    "model_answer": "valid",
+    "ground_truth": "invalid",
+    "is_correct": false,
+    "hint_count": 24
+  },
+  {
+    "puzzle_id": "80036",
+    "model_answer": "valid",
+    "ground_truth": "invalid",
+    "is_correct": false,
+    "hint_count": 27
+  },
+  {
+    "puzzle_id": "80032",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 40
+  },
+  {
+    "puzzle_id": "80034",
+    "model_answer": "valid",
+    "ground_truth": "invalid",
+    "is_correct": false,
+    "hint_count": 32
+  },
+  {
+    "puzzle_id": "80033",
+    "model_answer": "invalid",
+    "ground_truth": "valid",
+    "is_correct": false,
+    "hint_count": 17
+  },
+  {
+    "puzzle_id": "80035",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 34
+  },
+  {
+    "puzzle_id": "80039",
+    "model_answer": "valid",
+    "ground_truth": "invalid",
+    "is_correct": false,
+    "hint_count": 27
+  },
+  {
+    "puzzle_id": "80038",
+    "model_answer": "invalid",
+    "ground_truth": "valid",
+    "is_correct": false,
+    "hint_count": 23
+  },
+  {
+    "puzzle_id": "80037",
+    "model_answer": "valid",
+    "ground_truth": "invalid",
+    "is_correct": false,
+    "hint_count": 31
+  },
+  {
+    "puzzle_id": "80042",
+    "model_answer": "invalid",
+    "ground_truth": "valid",
+    "is_correct": false,
+    "hint_count": 31
+  },
+  {
+    "puzzle_id": "80044",
+    "model_answer": "valid",
+    "ground_truth": "valid",
+    "is_correct": true,
+    "hint_count": 37
+  },
+  {
+    "puzzle_id": "80045",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 16
+  },
+  {
+    "puzzle_id": "80041",
+    "model_answer": "invalid",
+    "ground_truth": "valid",
+    "is_correct": false,
+    "hint_count": 35
+  },
+  {
+    "puzzle_id": "80040",
+    "model_answer": "valid",
+    "ground_truth": "invalid",
+    "is_correct": false,
+    "hint_count": 27
+  },
+  {
+    "puzzle_id": "80043",
+    "model_answer": "invalid",
+    "ground_truth": "valid",
+    "is_correct": false,
+    "hint_count": 34
+  },
+  {
+    "puzzle_id": "80047",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 34
+  },
+  {
+    "puzzle_id": "80046",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 40
+  },
+  {
+    "puzzle_id": "80052",
+    "model_answer": "invalid",
+    "ground_truth": "valid",
+    "is_correct": false,
+    "hint_count": 29
+  },
+  {
+    "puzzle_id": "80051",
+    "model_answer": "invalid",
+    "ground_truth": "valid",
+    "is_correct": false,
+    "hint_count": 32
+  },
+  {
+    "puzzle_id": "80053",
+    "model_answer": "invalid",
+    "ground_truth": "valid",
+    "is_correct": false,
+    "hint_count": 19
+  },
+  {
+    "puzzle_id": "80048",
+    "model_answer": "valid",
+    "ground_truth": "valid",
+    "is_correct": true,
+    "hint_count": 31
+  },
+  {
+    "puzzle_id": "80049",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 20
+  },
+  {
+    "puzzle_id": "80054",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 29
+  },
+  {
+    "puzzle_id": "80050",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 24
+  },
+  {
+    "puzzle_id": "80055",
+    "model_answer": "valid",
+    "ground_truth": "valid",
+    "is_correct": true,
+    "hint_count": 22
+  },
+  {
+    "puzzle_id": "80062",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 17
+  },
+  {
+    "puzzle_id": "80061",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 31
+  },
+  {
+    "puzzle_id": "80057",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 28
+  },
+  {
+    "puzzle_id": "80058",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 22
+  },
+  {
+    "puzzle_id": "80060",
+    "model_answer": "valid",
+    "ground_truth": "invalid",
+    "is_correct": false,
+    "hint_count": 17
+  },
+  {
+    "puzzle_id": "80059",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 28
+  },
+  {
+    "puzzle_id": "80056",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 33
+  },
+  {
+    "puzzle_id": "80063",
+    "model_answer": "valid",
+    "ground_truth": "invalid",
+    "is_correct": false,
+    "hint_count": 40
+  },
+  {
+    "puzzle_id": "80064",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 29
+  },
+  {
+    "puzzle_id": "80065",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 20
+  },
+  {
+    "puzzle_id": "80067",
+    "model_answer": "valid",
+    "ground_truth": "invalid",
+    "is_correct": false,
+    "hint_count": 39
+  },
+  {
+    "puzzle_id": "80068",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 18
+  },
+  {
+    "puzzle_id": "80066",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 21
+  },
+  {
+    "puzzle_id": "80069",
+    "model_answer": "invalid",
+    "ground_truth": "valid",
+    "is_correct": false,
+    "hint_count": 24
+  },
+  {
+    "puzzle_id": "80070",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 36
+  },
+  {
+    "puzzle_id": "80071",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 36
+  },
+  {
+    "puzzle_id": "80076",
+    "model_answer": "invalid",
+    "ground_truth": "valid",
+    "is_correct": false,
+    "hint_count": 19
+  },
+  {
+    "puzzle_id": "80072",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 18
+  },
+  {
+    "puzzle_id": "80073",
+    "model_answer": "valid",
+    "ground_truth": "invalid",
+    "is_correct": false,
+    "hint_count": 39
+  },
+  {
+    "puzzle_id": "80074",
+    "model_answer": "valid",
+    "ground_truth": "valid",
+    "is_correct": true,
+    "hint_count": 21
+  },
+  {
+    "puzzle_id": "80077",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 33
+  },
+  {
+    "puzzle_id": "80075",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 40
+  },
+  {
+    "puzzle_id": "80079",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 31
+  },
+  {
+    "puzzle_id": "80078",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 33
+  },
+  {
+    "puzzle_id": "80083",
+    "model_answer": "valid",
+    "ground_truth": "invalid",
+    "is_correct": false,
+    "hint_count": 26
+  },
+  {
+    "puzzle_id": "80080",
+    "model_answer": "valid",
+    "ground_truth": "invalid",
+    "is_correct": false,
+    "hint_count": 26
+  },
+  {
+    "puzzle_id": "80085",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 37
+  },
+  {
+    "puzzle_id": "80087",
+    "model_answer": "valid",
+    "ground_truth": "invalid",
+    "is_correct": false,
+    "hint_count": 30
+  },
+  {
+    "puzzle_id": "80082",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 33
+  },
+  {
+    "puzzle_id": "80081",
+    "model_answer": "valid",
+    "ground_truth": "valid",
+    "is_correct": true,
+    "hint_count": 20
+  },
+  {
+    "puzzle_id": "80084",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 36
+  },
+  {
+    "puzzle_id": "80086",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 17
+  },
+  {
+    "puzzle_id": "80094",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 34
+  },
+  {
+    "puzzle_id": "80092",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 40
+  },
+  {
+    "puzzle_id": "80091",
+    "model_answer": "invalid",
+    "ground_truth": "valid",
+    "is_correct": false,
+    "hint_count": 35
+  },
+  {
+    "puzzle_id": "80095",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 38
+  },
+  {
+    "puzzle_id": "80093",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 19
+  },
+  {
+    "puzzle_id": "80090",
+    "model_answer": "valid",
+    "ground_truth": "invalid",
+    "is_correct": false,
+    "hint_count": 23
+  },
+  {
+    "puzzle_id": "80089",
+    "model_answer": "valid",
+    "ground_truth": "invalid",
+    "is_correct": false,
+    "hint_count": 35
+  },
+  {
+    "puzzle_id": "80088",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 35
+  },
+  {
+    "puzzle_id": "80097",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 20
+  },
+  {
+    "puzzle_id": "80096",
+    "model_answer": "valid",
+    "ground_truth": "invalid",
+    "is_correct": false,
+    "hint_count": 40
+  },
+  {
+    "puzzle_id": "80099",
+    "model_answer": "invalid",
+    "ground_truth": "invalid",
+    "is_correct": true,
+    "hint_count": 21
+  },
+  {
+    "puzzle_id": "80098",
+    "model_answer": "valid",
+    "ground_truth": "invalid",
+    "is_correct": false,
+    "hint_count": 17
+  }
+]

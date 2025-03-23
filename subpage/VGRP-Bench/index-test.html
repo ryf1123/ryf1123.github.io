@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数独游戏展示</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .description {
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        .iframe-container {
+            position: relative;
+            padding-bottom: 90%;
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 60%;
+            border: none;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>数独游戏展示</h1>
+        
+        <div class="description">
+            <p>这是一个数独游戏的展示页面。数独是一种逻辑性游戏，玩家需要根据9×9盘面上的已知数字，推理出所有剩余空格的数字。</p>
+            <p>下面的框架中展示了我们的数独游戏，您可以直接在页面中进行游戏体验。</p>
+        </div>
+        
+        <div class="iframe-container">
+            <iframe src="index_sudoku_games_val.html" style="position: absolute; top: 0; left: 0; width: 100%; height: 60%; border: none;"></iframe>
+        </div>
+        
+        <div class="instructions">
+            <h2>游戏说明</h2>
+            <ul>
+                <li>点击空白格子，输入1-9的数字</li>
+                <li>每一行、每一列和每个3×3的小方格内不能有重复的数字</li>
+                <li>完成所有空格填写且没有错误即为胜利</li>
+            </ul>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 数独游戏 | 版权所有</p>
+    </footer>
+</body>
+</html>

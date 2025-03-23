@@ -1,0 +1,602 @@
+[
+  {
+    "puzzle_id": "80003",
+    "image": "img_val/80003.png",
+    "model_output": "The value of the cell at (0, 2) is 9.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80001",
+    "image": "img_val/80001.png",
+    "model_output": "The value of the cell at (1, 7) is 2.",
+    "model_output_filtered": "1"
+  },
+  {
+    "puzzle_id": "80007",
+    "image": "img_val/80007.png",
+    "model_output": "The value of the cell at (0, 1) is 8.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80004",
+    "image": "img_val/80004.png",
+    "model_output": "The cell at (1, 5) is empty.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80000",
+    "image": "img_val/80000.png",
+    "model_output": "To determine the value of the cell at (0, 5), we need to look at the row, column, and block constraints.\n\n1. **Row 0**: The numbers in row 0 are 5, 6, 4, and we need to fill in the remaining 4 cells. The constraints to consider are the numbers 1, 2, 3, 7, 8, and 9, as these are the numbers that are not yet placed in row 0.\n   \n2. **Column 5**: The numbers in column 5 are 9, 5, 7, and we need to fill in the remaining 6 cells. The constraints to consider are the numbers 1, 2, 3, 4, 6, and 8, as these are the numbers that are not yet placed in column 5.\n   \n3. **Block 0**: The numbers in block 0 (top-left 3x3 block) are 5 and 6. The constraints to consider are the numbers 1, 2, 3, 4, 7, 8, and 9, as these are the numbers that are not yet placed in block 0.\n\nConsidering these constraints, the only number that fits all these criteria is **2**. Therefore, the value of the cell at (0, 5) should be **2**.",
+    "model_output_filtered": "2"
+  },
+  {
+    "puzzle_id": "80010",
+    "image": "img_val/80010.png",
+    "model_output": "The value of the cell at (1, 2) in the Sudoku grid is **empty**.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80002",
+    "image": "img_val/80002.png",
+    "model_output": "To determine the value of the cell at (7, 5) in the Sudoku grid, we need to look at the row, column, and block that the cell belongs to and make sure that we are not repeating any numbers within those constraints.\n\nThe cell at (7, 5) is in:\n- Row 7\n- Column 5\n- Block with its bottom-left cell at (6, 6) (the second last block starting from the bottom left corner)\n\nLet's check the numbers in row 7 and column 5, and then in the block.\n\nFor row 7:\n- Row 7 already has: 5, 2, 4\n\nFor column 5:\n- Column 5 already has: 8, 5, 2, 3, 4, 6, 9 (up to row 7)\n\nFor the block:\n- Bottom-left cell: (6, 6) and bottom-right cell: (8, 8)\n- In this block, numbers 1, 3, 4, 5, 6, and 9 are already present.\n\nThe only number that can go in cell (7, 5) without repeating any is 1.\n\nTherefore, the value of the cell at (7, 5) is 1.",
+    "model_output_filtered": "1"
+  },
+  {
+    "puzzle_id": "80006",
+    "image": "img_val/80006.png",
+    "model_output": "To solve the Sudoku puzzle, we need to ensure that each row, column, and 3x3 block contains the numbers 1 through 9 without repetition. Let's focus on the cell at (4, 3).\n\nFirst, let's examine the row and column constraints:\n\n- The 4th row (from the top) contains the numbers: 6, 2, 1, 6, 4.\n- The 4th column (from the left) contains the numbers: 1, 3, 2, 6, 5, 8, 4, 7.\n\nNow, let's examine the 3x3 block constraints:\n\n- The middle 3x3 block contains the numbers: 2, 1, 3, 2, 4, 6, 3, 7.\n\nFrom these constraints, we can deduce that the cell at (4, 3) must contain a number that is not already in the 4th row, 4th column, or the middle 3x3 block.\n\nThe possible numbers for the cell at (4, 3) are:\n- In the 4th row: The numbers 1, 3, 4, 5, 7, 9 are not present.\n- In the 4th column: The numbers 1, 3, 5, 6, 7, 8, 9 are not present.\n- In the middle 3x3 block: The numbers 4, 5, 8, 9 are not present.\n\nThe only number that satisfies all these conditions is **9**.\n\nTherefore, the value of the cell at (4, 3) is **9**.",
+    "model_output_filtered": "9"
+  },
+  {
+    "puzzle_id": "80009",
+    "image": "img_val/80009.png",
+    "model_output": "To determine the value of the cell at (5, 0), we need to analyze the row, column, and block it belongs to.\n\nThe cell at (5, 0) is in the first row and the sixth column. Let's check the values in the first row:\n\n- The first row contains: 1, 7, 5, 6, 9, 0, 2, 8, 4\n\nSince this is a Sudoku puzzle, each digit from 1 to 9 must appear exactly once in each row, column, and block. The only digit missing from the first row is 3.\n\nTherefore, the value of the cell at (5, 0) is 3.",
+    "model_output_filtered": "3"
+  },
+  {
+    "puzzle_id": "80005",
+    "image": "img_val/80005.png",
+    "model_output": "To determine the value of the cell at (4, 6), we need to consider the Sudoku rules and analyze the existing numbers in the corresponding row, column, and block.\n\n1. **Row 4**: The numbers in row 4 so far are 1, 3, 7, and 5.\n2. **Column 6**: The numbers in column 6 so far are 7, 3, and 8.\n3. **Block 2**: The numbers in block 2 so far are 3, 7, and 4.\n\nFrom these observations, we can determine that the missing numbers in the cell at (4, 6) cannot be any of the numbers already present in row 4, column 6, or block 2. The available numbers for this cell are: 2, 6, and 9.\n\nSince only one of these numbers can fit, we need to further analyze the possibilities. Let's check if any other cells in the same row, column, or block have been filled incorrectly:\n\n- Cell (4, 7) cannot be 2, 6, or 9 because it is already filled with 9.\n- Cell (4, 0) cannot be 2, 6, or 9 because it is already filled with 1.\n\nConsidering these constraints, the only number that can be filled in cell (4, 6) without violating the Sudoku rules is **9**.\n\nTherefore, the value of the cell at (4, 6) is **9**.",
+    "model_output_filtered": "9"
+  },
+  {
+    "puzzle_id": "80012",
+    "image": "img_val/80012.png",
+    "model_output": "The cell at (6, 6) is in the fourth row and fourth column of the Sudoku grid. The current state of the Sudoku grid does not have any numbers pre-filled in this cell. Therefore, the value of the cell at (6, 6) is \"empty\".",
+    "model_output_filtered": "empty"
+  },
+  {
+    "puzzle_id": "80014",
+    "image": "img_val/80014.png",
+    "model_output": "The value of the cell at (6, 2) is 5.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80016",
+    "image": "img_val/80016.png",
+    "model_output": "(empty)",
+    "model_output_filtered": "(empty)"
+  },
+  {
+    "puzzle_id": "80008",
+    "image": "img_val/80008.png",
+    "model_output": "To determine the value of the cell at (6, 3), we need to look at the row, column, and block constraints. \n\nThe cell at (6, 3) is in the middle of the second row from the bottom and the fourth column from the left. We can check the possible values by examining the values in the same row, column, and block.\n\n1. **Row 6:**\n   - The numbers in row 6 are 1, 6, 9.\n   - Possible values: 2, 3, 4, 5, 7, 8.\n\n2. **Column 3:**\n   - The numbers in column 3 are 2, 6, 9, 1, 3.\n   - Possible values: 4, 5, 7, 8.\n\n3. **Block 5:**\n   - The numbers in block 5 are 1, 2, 3, 7, 8.\n   - Possible values: 4, 5, 6, 9.\n\nCombining all the constraints:\n- Values already in row 6: 1, 6, 9.\n- Values already in column 3: 2, 6, 9, 1, 3.\n- Values already in block 5: 1, 2, 3, 7, 8.\n\nThe only number that satisfies all these constraints and is not yet in row 6, column 3, or block 5 is **4**.\n\nSo, the value of the cell at (6, 3) is **4**.",
+    "model_output_filtered": "4"
+  },
+  {
+    "puzzle_id": "80015",
+    "image": "img_val/80015.png",
+    "model_output": "In the given Sudoku grid, let's fill in the cell at (2, 5) step by step:\n\n1. Look at the row (row index 5): The numbers filled in are 8, 8, and 9 in the same row. So, we need a number different from 8 and 9.\n2. Look at the column (column index 2): The numbers filled in are 9, and 3 in the same column. So, the number cannot be 9.\n3. Look at the block (block index is 3/0 = 3, column index is 2/3 = 0): The numbers filled in are 8, 7, and 1 in the same block. So, the number cannot be 8, 7, or 1.\n\nThus, the only valid number to fill in the cell at (2, 5) is 6.",
+    "model_output_filtered": "6"
+  },
+  {
+    "puzzle_id": "80019",
+    "image": "img_val/80019.png",
+    "model_output": "The value of the cell at (7, 6) in the Sudoku grid is 9.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80013",
+    "image": "img_val/80013.png",
+    "model_output": "To determine the value of the cell at (1, 0), we need to look at the row and block constraints.\n\n- The cell at (1, 0) is in the first row.\n- The first row already contains the numbers 1, 3, 4, and 9.\n- The first block (top-left 3x3 block) already contains the numbers 1, 3, and 4.\n\nThe possible numbers for the cell at (1, 0) must be chosen from the remaining numbers in the set {1, 2, 3, 4, 5, 6, 7, 8, 9}, excluding those already present in the first row and the first block. \n\nThe numbers not present in the first row are 2, 5, 6, 7, and 8. \nThe numbers not present in the first block are 2, 5, 6, 7, and 8.\n\nTherefore, the possible numbers for the cell at (1, 0) are 2, 5, 6, 7, and 8. \n\nSince we are looking for the most straightforward solution, we can choose the smallest number from the possible set:\n\nThe value of the cell at (1, 0) is 2.",
+    "model_output_filtered": "2"
+  },
+  {
+    "puzzle_id": "80020",
+    "image": "img_val/80020.png",
+    "model_output": "The value of the cell at (1, 8) is 4.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80017",
+    "image": "img_val/80017.png",
+    "model_output": "To determine the value of the cell at (5, 1), we need to consider the constraints of Sudoku:\n\n1. **Row** (5th row): No number is present in the 5th row at the moment.\n2. **Column** (1st column): The numbers present in the 1st column are 2, 9, and 3.\n3. **Block** (2nd block, the bottom-left 3x3 block): The numbers present in this block are 1, 3, and 2.\n\nGiven these constraints, the possible numbers for the cell at (5, 1) must not be 1, 2, 3, 4, 6, 7, 8, or 9 (since these numbers are already present in the row, column, or block). The only number left is 5.\n\nTherefore, the value of the cell at (5, 1) is **5**.",
+    "model_output_filtered": "5"
+  },
+  {
+    "puzzle_id": "80021",
+    "image": "img_val/80021.png",
+    "model_output": "The value of the cell at (3, 2) is 2.",
+    "model_output_filtered": "1"
+  },
+  {
+    "puzzle_id": "80011",
+    "image": "img_val/80011.png",
+    "model_output": "To determine the value of the cell at (8, 3), we need to look at the current game state in the Sudoku grid.\n\nThe cell at (8, 3) is located in the bottom right block (6x6 block) and the ninth row (index 8).\n\nLet's check the numbers in the relevant row, column, and block:\n\n1. **Ninth Row (row 8):**\n   - The numbers in the ninth row are: 6, 7, 9, [empty], [empty], [empty], [empty], [empty], [empty]\n\n2. **Sixth Column (column 3):**\n   - The numbers in the sixth column are: [empty], 5, [empty], 1, 7, 2, [empty], 1, [empty]\n\n3. **Bottom Right Block (6th to 9th row and 6th to 9th column):**\n   - The numbers in the bottom right block are: 6, 7, 9, [empty], [empty], [empty], [empty], [empty], [empty]\n\nNow, we need to find a number that is not in the ninth row, sixth column, and bottom right block.\n\nThe numbers 1 to 9 are the valid numbers for Sudoku. We can eliminate the numbers that are already present in the ninth row, sixth column, and bottom right block.\n\nAfter checking, the numbers that are not present in the relevant row, column, and block are:\n\n- 1 (already in the ninth row)\n- 2\n- 3\n- 4\n- 5 (already in the sixth column)\n- 6 (already in the ninth row)\n- 7 (already in the sixth column)\n- 8\n- 9 (already in the ninth row)\n\nThe only numbers that are not already used are 2, 3, 4, and 8.\n\nTo determine which number fits, we need to check the other constraints:\n- The number 2 cannot be used because it is already in the seventh row (row 6).\n- The number 3 cannot be used because it is already in the sixth column.\n- The number 4 cannot be used because it is already in the seventh row (row 6).\n- The number 8 is not used in the relevant row, column, or block.\n\nTherefore, the value of the cell at (8, 3) should be 8.",
+    "model_output_filtered": "8"
+  },
+  {
+    "puzzle_id": "80025",
+    "image": "img_val/80025.png",
+    "model_output": "The value of the cell at (3, 3) is 1.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80023",
+    "image": "img_val/80023.png",
+    "model_output": "The Sudoku grid is a 9x9 grid, so the value of \\( N \\) is 9. \n\nTo determine the value of the cell at position (8, 1), we need to ensure that the number we place adheres to the Sudoku rules: unique numbers in each row, column, and block.\n\nLet's look at row 8:\n- The occupied cells are: 1, 3, 8\n\nLet's look at column 1:\n- The occupied cells are: 4, 1, 7, 5, 2, 9 (all numbers from 1 to 9 are present, except for 3 and 6)\n\nSince column 1 already has a 3, we can rule out 3 in row 8, column 1. \n\nSo, the only number that fits in cell (8, 1) without violating any Sudoku rules is 6. \n\nTherefore, the value of the cell at (8, 1) is 6.",
+    "model_output_filtered": "6"
+  },
+  {
+    "puzzle_id": "80018",
+    "image": "img_val/80018.png",
+    "model_output": "To determine the value of the cell at (6,2) in the Sudoku puzzle, we need to follow the Sudoku rules:\n\n1. Each row must contain all digits from 1 to 9 without repetition.\n2. Each column must contain all digits from 1 to 9 without repetition.\n3. Each 3x3 subgrid (block) must contain all digits from 1 to 9 without repetition.\n\nLet's analyze the row, column, and block constraints for the cell at (6,2):\n\n- Row 6: We check the numbers already present in row 6.\n- Column 2: We check the numbers already present in column 2.\n- Block 6: We check the numbers already present in the 3x3 block containing the cell at (6,2).\n\n### Row 6\nThe numbers already in row 6 are: 7, 2, 7, and 4 (Position 0, 2, 4, and 5 respectively).\n\n### Column 2\nThe numbers already in column 2 are: 3, 1, 6, and 8 (Position 0, 2, 5, and 8 respectively).\n\n### Block 6\nThe numbers already in block 6 (positions between (4,2) and (6,4)) are: 2, 7, and 3 (Positions (5,0), (6,0), and (4,3) respectively).\n\nFrom these checks, we see that the numbers 1, 4, 5, and 6, 7, 8 are already used in row 6, column 2, or block 6.\n\n- 9 is not yet used in row 6, column 2, or block 6.\n\nTherefore, the value for the cell at (6,2) should be 9.\n\nSo, the answer is:\n\\[ \\boxed{9} \\]",
+    "model_output_filtered": "9"
+  },
+  {
+    "puzzle_id": "80022",
+    "image": "img_val/80022.png",
+    "model_output": "In the given Sudoku grid, the cell at position (8, 5) is in the 9th row and 6th column. According to the rules of Sudoku, each row, column, and block must contain unique numbers from 1 to 9 (since it's a 9x9 grid).\n\nLooking at the 9th row, the numbers so far are: 8, 3, _, _, 6, 3, 5, _, _. The missing numbers in this row are 1, 2, 4, 7, and 9. \n\nNow, looking at the 6th column, the numbers so far are: _, _, _, _, _, 6, _, _, _. The missing numbers in this column are 1, 2, 3, 4, 5, 7, 8, and 9.\n\nFinally, looking at the bottom-right 3x3 block, the numbers so far are: 8, 3, _, _, 6, 3, 5, _, _. The missing numbers in this block are 1, 2, 4, 7, and 9.\n\nCombining these restrictions, the only number that can be placed in the cell at position (8, 5) is 4.",
+    "model_output_filtered": "4"
+  },
+  {
+    "puzzle_id": "80026",
+    "image": "img_val/80026.png",
+    "model_output": "To determine the value of the cell at position (1, 5) in the Sudoku grid, we need to look at the possible values that can be placed in that cell without violating the Sudoku rules. The coordinates (1, 5) correspond to the cell in the second row and the sixth column.\n\nLet's analyze the possible values for this cell by checking the values in the same row, column, and block:\n\n1. **Row 1 (second row)**:\n   - Values present: 5, 6, 4, 9, 1, 3, 7\n   - Values not present: 2, 8\n\n2. **Column 5 (sixth column)**:\n   - Values present: 3, 8, empty, 8\n   - Values not present: 1, 2, 4, 5, 6, 7, 9\n\n3. **Block (3x3)**:\n   - Values present: 4, 2, 8, 3, 5, 7, 6\n   - Values not present: 1\n\nCombining the values from the row, column, and block, the only value that is not present in any of these sections is 2.\n\nTherefore, the value of the cell at position (1, 5) is 2.",
+    "model_output_filtered": "2"
+  },
+  {
+    "puzzle_id": "80029",
+    "image": "img_val/80029.png",
+    "model_output": "To determine the value of the cell at (0, 6), we need to look at the current state of the Sudoku grid and apply the rules. The cell at (0, 6) is in the top row and the seventh column.\n\nLet's analyze the cells in the top row (row 0):\n- The cells are: 4, 9, 8, 7, 6, 5, 2, 1, X (where X is the cell at (0, 6))\n\nThe digits 1 through 9 have already been used in the top row, except for 3. Therefore, the value of the cell at (0, 6) must be 3.\n\nSo, the value of the cell at (0, 6) is 3.",
+    "model_output_filtered": "3"
+  },
+  {
+    "puzzle_id": "80027",
+    "image": "img_val/80027.png",
+    "model_output": "To determine the value of the cell at position (8, 6) in the Sudoku grid, we need to analyze the constraints in the row, column, and block it belongs to.\n\nHere is the analysis:\n\n1. **Row 8**: The digits in row 8 are:\n   - 9, empty, empty, empty, empty, empty, empty, 5, empty\n\n2. **Column 6**: The digits in column 6 are:\n   - 6, empty, empty, empty, 3, 4, empty, empty, empty\n\n3. **Block (3, 2)**: The block containing the cell (8, 6) is the 6th 3x3 block (starting from 0). The digits in this block are:\n   - 9, 1, 5\n   - 2, 3\n   - empty, empty, empty\n\nNow, we need to find a digit that is not present in row 8, column 6, and the 6th 3x3 block.\n\n- Digits present in row 8: 9, 5\n- Digits present in column 6: 6, 3, 4\n- Digits present in the 6th 3x3 block: 9, 1, 5, 2, 3\n\nThe digits missing from all these constraints are: 7, 8\n\nSince we are looking for a single digit, we can conclude:\n\nThe value of the cell at position (8, 6) is **7**.",
+    "model_output_filtered": "7"
+  },
+  {
+    "puzzle_id": "80028",
+    "image": "img_val/80028.png",
+    "model_output": "To determine the value of the cell at (7, 1) in the Sudoku grid, we need to consider the row, column, and block constraints.\n\nLet's analyze the cell at (7, 1):\n\n1. **Row 7:** The numbers in row 7 are: \\[3, 6, \\_, \\_, \\_, \\_, \\_, 1, 1\\]\n   - We need to exclude 3, 6, and 1.\n\n2. **Column 1:** The numbers in column 1 are: \\[5, \\_, \\_, \\_, \\_, \\_, \\_, \\_, 8\\]\n   - We need to exclude 5 and 8.\n\n3. **Block (2, 1):** The numbers in the block are: \\[1, 7, \\_, 3, \\_, \\_, \\_, \\_, \\_]\\]\n   - We need to exclude 1, 7, and 3.\n\nThe possible numbers that are not excluded are: 2, 4, and 9.\n\nChecking the Sudoku grid further:\n- In column 1, the number 4 is already present.\n- In block (2, 1), the number 2 is already present.\n\nTherefore, the only number that fits in cell (7, 1) is **9**.\n\nSo, the value of the cell at (7, 1) is **9**.",
+    "model_output_filtered": "9"
+  },
+  {
+    "puzzle_id": "80030",
+    "image": "img_val/80030.png",
+    "model_output": "In the given Sudoku grid, the cell at (2, 3) (indexing starts at 0) contains the number 3. Therefore, the value of the cell at (2, 3) is 3.",
+    "model_output_filtered": "3"
+  },
+  {
+    "puzzle_id": "80024",
+    "image": "img_val/80024.png",
+    "model_output": "To determine the value of the cell at position (2, 4) in the Sudoku grid, we need to consider the constraints of the game: unique numbers in each row, column, and 3x3 block.\n\nLet's analyze the relevant rows, columns, and blocks:\n\n1. **Row 2 (indexing starts at 0):**\n   - The numbers in row 2 are currently: 5, _, _, _, _, _, _, 8, 4.\n   - The missing numbers in this row are: 1, 2, 3, 6, 7, 9.\n\n2. **Column 4 (indexing starts at 0):**\n   - The numbers in column 4 are currently: _, _, _, 8, _, _, _, _, _.\n   - The missing numbers in this column are: 1, 2, 3, 4, 5, 6, 7, 9.\n\n3. **Block (1, 1):**\n   - The numbers in block (1, 1) are currently: 5, _, _, _, 8, 7, _, _, _.\n   - The missing numbers in this block are: 1, 2, 3, 4, 6, 9.\n\nNow, let's find the intersection of the missing numbers from row 2, column 4, and block (1, 1):\n\n- Row 2: 1, 2, 3, 6, 7, 9\n- Column 4: 1, 2, 3, 4, 5, 6, 7, 9\n- Block (1, 1): 1, 2, 3, 4, 6, 9\n\nThe common numbers are: 1, 2, 3, 6, 7, 9.\n\nSince there are multiple candidates, we need to consider the specific constraints of the Sudoku grid. However, based on the current state of the grid, we cannot directly determine the unique value for cell (2, 4) without further information. Therefore, the value of the cell at (2, 4) cannot be uniquely determined from the given information. The possible value is:\n\n- **1, 2, 3, 6, 7, 9** (or empty, if considering all possible candidates)",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80031",
+    "image": "img_val/80031.png",
+    "model_output": "To determine the value of the cell at (0, 0) in the Sudoku grid, we need to consider the constraints imposed by the rules of Sudoku:\n\n1. **Row Constraint**: The first row (row 0) has numbers 1, 3, 4, 8, 9, and empty cells.\n2. **Column Constraint**: The first column (column 0) has numbers 9, 6, and empty cells.\n3. **Block Constraint**: The 3x3 block containing the cell at (0, 0) has numbers 1, 3, 4, 9, and empty cells.\n\nGiven these constraints:\n- The number 2 has not appeared in row 0, column 0, or the top-left 3x3 block.\n\nTherefore, the value of the cell at (0, 0) is **2**.",
+    "model_output_filtered": "2"
+  },
+  {
+    "puzzle_id": "80033",
+    "image": "img_val/80033.png",
+    "model_output": "In the given Sudoku grid, the cell at position (3, 0) is already filled with the number 7. Therefore, the value of the cell at (3, 0) is 7.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80036",
+    "image": "img_val/80036.png",
+    "model_output": "To determine the value of the cell at (0, 7), we need to consider the rules of Sudoku and look at the constraints imposed by the row, column, and block.\n\nThe Sudoku grid is a 9x9 grid, so N = 9.\n\n1. **Row 0**: The numbers in the first row are 9, 6, 2, 6, 2, 4, 3, _, 1.\n   - The missing number in row 0 must be 5 (since 1, 2, 3, 4, 6, and 9 are already in the row).\n\n2. **Column 7**: The numbers in the seventh column are _, _, _, _, _, _, 8, _, 1.\n   - The missing number in column 7 must be 8 (since 1, 2, 3, 4, 5, 6, 7, and 9 are already in the column).\n\n3. **Block 0**: The numbers in the top-left 3x3 block are _, _, _, 9, 6, 2, _, _, 1.\n   - The missing number in block 0 must be 3 (since 1, 2, 6, and 9 are already in the block).\n\nCombining these constraints, the only number that fits all the rules is 5.\n\nTherefore, the value of the cell at (0, 7) is **5**.",
+    "model_output_filtered": "5"
+  },
+  {
+    "puzzle_id": "80034",
+    "image": "img_val/80034.png",
+    "model_output": "To determine the value of the cell at (2, 7) in the Sudoku puzzle, we need to look at the row, column, and block that intersect at this cell.\n\n1. **Row#:** The row at index 2 (0-indexed) is the third row from the top. This row already contains:\n   - 4\n   - 5\n   - 6\n\n2. **Column#:** The column at index 7 (0-indexed) is the eighth column from the left. This column already contains:\n   - 8\n   - 3\n   - 6\n\n3. **Block#:** The block that contains cell (2, 7) is the middle-right block. This block already contains:\n   - 5\n   - 6\n   - 7\n\nWe need to find a number that is not already present in the same row, column, and block. We can check numbers from 1 to 9:\n\n- 1 is not in the row, column, or block.\n- 2 is not in the row, column, or block.\n- 3 is not in the row, column, or block.\n- 4 is in the row.\n- 5 is in the row and block.\n- 6 is in the row and column.\n- 7 is in the row and block.\n- 8 is in the column.\n- 9 is not in the row, column, or block.\n\nTherefore, the valid numbers are 1, 2, 3, and 9. Since we are looking for the value of the cell at (2, 7), we can choose any of these numbers. However, based on the given Sudoku puzzle state, the value of the cell at (2, 7) can be **1**, **2**, **3**, or **9**.",
+    "model_output_filtered": "1, 2, 3, 9"
+  },
+  {
+    "puzzle_id": "80037",
+    "image": "img_val/80037.png",
+    "model_output": "To determine the value of the cell at (6, 2) in the Sudoku grid, we need to look at the row, column, and block it belongs to and ensure that the number we place is unique in all those contexts.\n\nThe cell at (6, 2) is in:\n- **Row 6**: The numbers in row 6 are 6, 1, _, _, 7, _, _, _, 5.\n- **Column 2**: The numbers in column 2 are _, _, _, _, _, _, _, _, 2.\n- **Block 5 (3x3 block starting at (6, 0))**: The numbers in block 5 are 6, 1, _, 7, _, _, _, _, 5.\n\nTo find the value that fits in (6, 2), we look at the numbers already present in row 6, column 2, and block 5, and choose a number that is not present in any of those contexts.\n\nFrom the row 6, we can eliminate: 6, 1, 7, 5.\nFrom the column 2, we can eliminate: 2.\nFrom the block 5, we can eliminate: 6, 1, 7, 5.\n\nThe remaining numbers are: 3, 4, 8, 9.\n\nSince we need to place a number in the cell at (6, 2) in column 6, we can use the process of elimination:\n\n- In row 7, the numbers are 6, 1, _, _, 7, _, _, _, 5.\n- In block 5, the numbers are 6, 1, _, 7, _, _, _, _, 5.\n\nAfter checking all possible numbers, the correct number to place in (6, 2) is **8**.",
+    "model_output_filtered": "8"
+  },
+  {
+    "puzzle_id": "80035",
+    "image": "img_val/80035.png",
+    "model_output": "To determine the value of the cell at (8, 7), we need to look at the 9x9 Sudoku grid and apply the rules of Sudoku. The grid is ordered in rows, columns, and 3x3 blocks.\n\nThe cell at (8, 7) is in the bottom row and the third column from the right. We need to ensure that the number we place in this cell is unique in the row, column, and 3x3 block it belongs to.\n\nLet's analyze the row, column, and 3x3 block:\n\n1. **Row (9th row):** From left to right, the numbers in the 9th row are 9, 6, 2, 7, 4, 8, _, _, 8.\n2. **Column (8th column from the left):** From top to bottom, the numbers in the 8th column are 1, 7, 2, 2, 9, 5, 3, _, 8.\n3. **3x3 Block (Bottom-right):** The numbers in the bottom-right 3x3 block are 9, 6, 2, 7, 4, 3, 5, 8, _.\n\nWe need to find a number from 1 to 9 that is not already present in the 9th row, 8th column, and the bottom-right 3x3 block.\n\n- The numbers in the 9th row are 9, 6, 2, 7, 4, 8, _, _, 8.\n- The numbers in the 8th column are 1, 7, 2, 2, 9, 5, 3, _, 8.\n- The numbers in the bottom-right 3x3 block are 9, 6, 2, 7, 4, 3, 5, 8, _.\n\nThe missing numbers in these three sections are:\n\n- Row: 1, 3, 5 (already used in the 8th column)\n- Column: 1, 3, 4, 6 (already used in the 9th row)\n- Block: 1, 3, 4 (already used in the 9th row)\n\nThe only number that is not in any of these lists is 3.\n\nTherefore, the value of the cell at (8, 7) is **3**.",
+    "model_output_filtered": "3"
+  },
+  {
+    "puzzle_id": "80041",
+    "image": "img_val/80041.png",
+    "model_output": "empty",
+    "model_output_filtered": "empty"
+  },
+  {
+    "puzzle_id": "80038",
+    "image": "img_val/80038.png",
+    "model_output": "To determine the value of the cell at (1, 7), we need to look at the row, column, and block that the cell is a part of.\n\nThe cell at (1, 7) is in:\n- Row 1: (0-indexed) Rows are numbered from top to bottom, so row 1 is the second row from the top.\n- Column 7: (0-indexed) Columns are numbered from left to right, so column 7 is the eighth column from the left.\n- Block 2: (0-indexed) The blocks are numbered from top to bottom and left to right, so block 2 is the second block from the left in the first row of blocks.\n\nLet's analyze the values in row 1, column 7, and block 2:\n\n1. **Row 1**: The second row from the top has the following values:\n   - 1st column: 3\n   - 2nd column: 6\n   - 3rd column: ?\n   - 4th column: 1\n   - 5th column: ?\n   - 6th column: 4\n   - 7th column: 7\n   - 8th column: ?\n   - 9th column: 2\n\n2. **Column 7**: The eighth column from the left has the following values:\n   - 1st row: ?\n   - 2nd row: 7\n   - 3rd row: 1\n   - 4th row: ?\n   - 5th row: ?\n   - 6th row: ?\n   - 7th row: 3\n   - 8th row: ?\n   - 9th row: 2\n\n3. **Block 2**: The second block from the left in the first row of blocks has the following values:\n   - 1st row: 3, 6, ?\n   - 2nd row: 1, ?, 4\n   - 3rd row: 7, 2, ?\n\nNow, we need to find a number that is not present in row 1, column 7, and block 2.\n\nRow 1: 3, 6, 1, ?, 4, 7, 2\nColumn 7: ?, 7, 1, ?, ?, ?, 3, ?, 2\nBlock 2: 3, 6, ?, 1, ?, 4, 7, 2, ?\n\nBy process of elimination, the possible numbers are:\n- 5, 9\n\nSince 5 and 9 are the only numbers not present in row 1, column 7, and block 2, and considering the rules of Sudoku, the number that fits all conditions is 5.\n\nTherefore, the value of the cell at (1, 7) is **5**.",
+    "model_output_filtered": "5"
+  },
+  {
+    "puzzle_id": "80042",
+    "image": "img_val/80042.png",
+    "model_output": "The value of the cell at (0, 4) is empty.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80040",
+    "image": "img_val/80040.png",
+    "model_output": "To determine the value of the cell at (2, 3), we need to follow the rules of Sudoku:\n\n1. Each row must contain all digits from 1 to 9 without repetition.\n2. Each column must contain all digits from 1 to 9 without repetition.\n3. Each 3x3 block must contain all digits from 1 to 9 without repetition.\n\nLet's analyze the cell at (2, 3):\n\n- The cell is in the third row and the third column.\n- The third row already contains the digits 5, 4, and 2.\n- The third column already contains the digits 8 and 7.\n- The 3x3 block containing the cell already contains the digits 4, 1, and 7.\n\nConsidering these constraints:\n- The third row can contain the digits 1, 3, 6, 7, 8, 9.\n- The third column can contain the digits 1, 2, 3, 4, 5, 6, 9.\n- The 3x3 block can contain the digits 2, 3, 6, 8, 9.\n\nThe intersection of these sets leaves us with the possible digits 3, 6, and 9.\n\nTo finalize the choice:\n- The second 3x3 block (containing the cell) can contain the digits 2, 3, 6, 8, 9.\n- The second 3x3 block already contains the digits 2, 6, and 9.\n\nTherefore, the only digit left for the cell at (2, 3) is **3**.",
+    "model_output_filtered": "3"
+  },
+  {
+    "puzzle_id": "80039",
+    "image": "img_val/80039.png",
+    "model_output": "To determine the value of the cell at coordinates (0, 8), we need to check the numbers already present in the same row, column, and block.\n\n### Row Check\nThe 9th row (index 8) currently has the numbers:\n- index 0: 6\n- index 1: empty\n- index 2: empty\n- index 3: empty\n- index 4: empty\n- index 5: 8\n- index 6: empty\n- index 7: empty\n- index 8: ?\n\n### Column Check\nThe 9th column (index 8) currently has the numbers:\n- index 0: empty\n- index 1: empty\n- index 2: empty\n- index 3: 6\n- index 4: empty\n- index 5: empty\n- index 6: empty\n- index 7: empty\n- index 8: ?\n\n### Block Check\nThe 9th block (which is the bottom-right 3x3 block) currently has the numbers:\n- index (6, 6): empty\n- index (6, 7): empty\n- index (6, 8): empty\n- index (7, 6): empty\n- index (7, 7): empty\n- index (7, 8): 4\n- index (8, 6): empty\n- index (8, 7): empty\n- index (8, 8): ?\n\n### Available Numbers\nThe possible numbers for the cell at (0, 8) are the numbers missing in the row, column, and block. We can deduce which numbers are missing by comparing the current values with the range of numbers from 1 to 9.\n\n### Deduction\nSince the 9th row already has the number 8, the column has the number 6, and the block has the number 4, the only number left that fits the criteria is 7.\n\nTherefore, the value of the cell at coordinates (0, 8) should be **7**.",
+    "model_output_filtered": "7"
+  },
+  {
+    "puzzle_id": "80043",
+    "image": "img_val/80043.png",
+    "model_output": "The value of the cell at (2, 2) is 4.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80044",
+    "image": "img_val/80044.png",
+    "model_output": "The value of the cell at (0, 6) is empty (0).",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80045",
+    "image": "img_val/80045.png",
+    "model_output": "The cell at (4, 2) is currently empty.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80046",
+    "image": "img_val/80046.png",
+    "model_output": "At the cell at (8, 4), there is a number 5.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80049",
+    "image": "img_val/80049.png",
+    "model_output": "The value of the cell at (6, 0) is 9.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80053",
+    "image": "img_val/80053.png",
+    "model_output": "The Sudoku grid in the image is a 9x9 grid, which means N=9. The value of the cell at (4, 4) can be determined by looking at the provided screenshot.\n\nThe cell at (4, 4) contains the number **4**.",
+    "model_output_filtered": "4"
+  },
+  {
+    "puzzle_id": "80054",
+    "image": "img_val/80054.png",
+    "model_output": "The value of the cell at (5, 1) is 5.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80048",
+    "image": "img_val/80048.png",
+    "model_output": "To determine the value of the cell at (3, 5) in the Sudoku grid, we need to look at the row, column, and block it belongs to.\n\nThe cell at (3, 5) is in:\n- The 4th row (row numbered 3)\n- The 6th column (column numbered 5)\n- The bottom-middle 3x3 block\n\nLet's analyze the numbers in this cell's row, column, and block to see which digit is missing.\n\n**Row 4 (Considering cell at (3, 5)):**\n- Current numbers in row 4: 5, 1, 9, 7, 2\n\n**Column 5 (Considering cell at (3, 5)):**\n- Current numbers in column 5: 3, 2, 9, 7\n\n**Bottom-middle 3x3 block (Considering cell at (3, 5)):**\n- Current numbers in the bottom-middle block: 8, 5, 3\n\nNow, we need to find a digit that is missing in this row, column, and block.\n\nDigits already present in row 4: 1, 2, 5, 7, 9\nDigits already present in column 5: 3, 2, 9, 7\nDigits already present in the bottom-middle block: 8, 5, 3\n\nThus, the digits missing:\n- In row 4: 4, 6, 8\n- In column 5: 1, 4, 6, 8\n- In the bottom-middle block: 1, 4, 6\n\nThe common digit missing in all three constraints is 4.\n\nTherefore, the value of the cell at (3, 5) is **4**.",
+    "model_output_filtered": "4"
+  },
+  {
+    "puzzle_id": "80047",
+    "image": "img_val/80047.png",
+    "model_output": "To determine the value of the cell at (3, 2), we need to look at the partially filled Sudoku grid and ensure that unique numbers are used in each row, column, and block.\n\nLet's analyze the given Sudoku grid:\n\n|   |   |   |   |   |   |   |   |   |\n|---|---|---|---|---|---|---|---|---|\n| 8 |   |   |   |   | 2 | 6 |   |   |\n| 7 |   |   | 4 |   | 6 |   | 2 |   |\n|   | 9 |   | 5 |   |   | 4 |   | 7 |\n|---|---|---|---|---|---|---|---|---|\n| 6 | 7 |   | 3 |   |   |   |   |   |\n| 4 |   |   |   |   | 2 | 1 | 3 | 6 |\n|   |   |   | 6 | 1 |   | 8 |   |   |\n|---|---|---|---|---|---|---|---|---|\n|   |   |   | 2 |   |   |   | 7 |   |\n| 2 |   |   |   |   | 7 | 5 |   |   |\n| 7 |   |   |   | 4 | 3 |   |   | 1 |\n\nWe need to fill the cell at (3, 2). This cell is in the third row and second column (considering 0-based indexing).\n\nLooking at row 3 (index 3), the values are: 6, 7, 9, 5, 4, 2, 1, 3, 6.\nLooking at column 2 (index 2), the values are: 5, 6, 3, 2.\nLooking at the block that includes cell (3, 2), the values are: 6, 7, 9, 5, 4, 2, 1, 3, 6.\n\nThe only number not present in row 3, column 2, and the block is 8.\n\nTherefore, the value of the cell at (3, 2) is 8.",
+    "model_output_filtered": "8"
+  },
+  {
+    "puzzle_id": "80052",
+    "image": "img_val/80052.png",
+    "model_output": "To determine the value that should be placed in the cell at position (2, 1) in the Sudoku grid, we need to ensure that the number is unique within its row, column, and block.\n\nFirst, let's identify the coordinates:\n- **Row 2** starts from index 2 (remember, indexing starts at 0).\n- **Column 1** starts from index 1.\n\nThe position (2, 1) is located in the block:\n\n```\n8 9\n?\n9 3\n```\n\nwhere \"?\" represents the cell at (2, 1).\n\nLet's check the numbers already present in the row, column, and block to determine which number can be placed in the cell at (2, 1).\n\n### Row 2 (3rd row, index 2):\n```\n5   ?   9\n3   ?   8\n7   ?   6\n```\n\n### Column 1 (2nd column, index 1):\n```\n?   4   7\n?   8   9\n?   2   6\n```\n\n### Block containing (2, 1):\n```\n8 9\n?\n9 3\n```\n\nNow, let's check which number is missing in the block, row, and column.\n\n#### Missing numbers in Block:\n- The block is partially filled with {3, 8, 9}.\n- Possible numbers: {1, 2, 4, 5, 6, 7}.\n\n#### Missing numbers in Row:\n- The row contains {5, 9, 3, 8, 7}.\n- Possible numbers: {1, 2, 4, 6}.\n\n#### Missing numbers in Column:\n- The column contains {4, 8, 2}.\n- Possible numbers: {1, 3, 5, 6, 7, 9}.\n\nCombining all these constraints, the only number that fits all conditions is **4**.\n\nTherefore, the value of the cell at (2, 1) should be **4**.",
+    "model_output_filtered": "4"
+  },
+  {
+    "puzzle_id": "80051",
+    "image": "img_val/80051.png",
+    "model_output": "To determine the value of the cell at (2, 6), we need to look at the row, column, and block constraints.\n\nHere is the grid with coordinates (2, 6) highlighted:\n\n```\n2 3 6 | 5 2 3 | 8 7 1\n7 1 9 | 6 4 8 | 5 3 2\n4 8 5 | 7 1 9 | 6 2 3\n------+-------+------\n6 9 2 | 8 5 7 | 1 4 9\n1 4 8 | 3 6 2 | 7 9 5\n3 7 1 | 9 8 4 | 2 6 5\n------+-------+------\n9 6 7 | 1 3 5 | 4 8 2\n8 5 4 | 2 9 6 | 3 7 1\n5 2 3 | 4 7 1 | 9 6 8\n```\n\nThe cell at (2, 6) is in the third row and seventh column. We need to ensure that the value placed in this cell does not duplicate any value in its row, column, or block.\n\nLet's analyze the possibilities:\n\n- In the third row (1-based indexing), the numbers are 2, 3, 6, 5, 2, 3, 8, 7, 1.\n- In the fourth column (1-based indexing), the numbers are 3, 9, 6, 8, 4, 1, 5, 7, 2.\n- In the block containing the cell (2, 6), the numbers are 8, 6, 3, 9, 1, 7, 5, 4, 2.\n\nThe numbers already present in the first row, fourth column, and block are: 2, 3, 6, 5, 8, 7, 1, 9, 4.\n\nThe remaining numbers are: 5 (already in the row), 6 (already in the row), 7 (already in the row), 8 (already in the row), 9 (already in the row), 1 (already in the row), 4 (already in the column).\n\nTherefore, the only number that can be placed in the cell (2, 6) is 9.\n\nSo, the value of the cell at (2, 6) is 9.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80057",
+    "image": "img_val/80057.png",
+    "model_output": "The value of the cell at (2, 6) is 1.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80056",
+    "image": "img_val/80056.png",
+    "model_output": "In the given Sudoku grid, the value of the cell at (2, 1) is 8.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80050",
+    "image": "img_val/80050.png",
+    "model_output": "To determine the value of the cell at (8, 8), we need to look at the 9x9 Sudoku grid and apply the rules:\n\n1. Each row must contain all the digits from 1 to 9.\n2. Each column must contain all the digits from 1 to 9.\n3. Each 3x3 subgrid must contain all the digits from 1 to 9.\n\nLet's analyze the grid step by step:\n\n### Step 1: Analyze Row 8\nThe row at index 8 (bottom row) currently contains:\n- 8, 4, and 1 in positions (8, 0), (8, 1), and (8, 3) respectively.\n\nTo find the remaining numbers in this row, we need to ensure uniqueness. The numbers already present are 8, 4, and 1.\n\n### Step 2: Analyze Column 8\nThe column at index 8 (rightmost column) currently contains:\n- 7, 5, and 6 in positions (0, 8), (1, 8), and (2, 8) respectively.\n\nTo find the remaining numbers in this column, we need to ensure uniqueness. The numbers already present are 7, 5, and 6.\n\n### Step 3: Analyze the 3x3 Subgrid\nThe 3x3 subgrid that includes cell (8, 8) is the bottom-right subgrid:\n- 5, 6, and 4 in positions (6, 6), (6, 7), and (7, 8) respectively.\n\nTo find the remaining numbers in this subgrid, we need to ensure uniqueness. The numbers already present are 5, 6, and 4.\n\n### Step 4: Determine the Remaining Numbers\nFrom the analysis of the row, column, and subgrid, we need to find a number that is not already present in any of these areas. The numbers already present in these areas are:\n- 8, 4, 1 (from row 8)\n- 7, 5, 6 (from column 8)\n- 5, 6, 4 (from the bottom-right subgrid)\n\nThe numbers not in these lists are 2, 3, and 9.\n\n### Step 5: Fill in the Blank\nSince the cell at (8, 8) can only be one of the numbers that are not yet used in the row, column, or subgrid, we need to try each one:\n\n- If we place 2 in (8, 8), it would work.\n- If we place 3 in (8, 8), it would work.\n- If we place 9 in (8, 8), it would work.\n\nSince we only need one value, we choose the first option:\nThe value of the cell at (8, 8) is **2**.",
+    "model_output_filtered": "2"
+  },
+  {
+    "puzzle_id": "80059",
+    "image": "img_val/80059.png",
+    "model_output": "The value of the cell at (7, 0) in the given Sudoku grid is 4.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80055",
+    "image": "img_val/80055.png",
+    "model_output": "To solve for the value of the cell at (2, 0), we need to consider the constraints of Sudoku: each row, column, and 3x3 block must contain unique numbers from 1 to 9.\n\nLet's analyze the row, column, and block constraints for the cell at (2, 0):\n\n1. **Row 2**: Already contains the numbers 7, 1, 4 (from column 6, 7, 1 respectively).\n2. **Column 0**: Already contains the numbers 4, 5 (from row 0, 1 respectively).\n3. **Block 2 (top-middle block)**: Already contains the numbers 7, 1, 4 (from cell (3, 2), (3, 3), (2, 2) respectively).\n\nGiven these constraints, the possible numbers for the cell at (2, 0) are 2, 3, 5, 6, 8, 9.\n\nSince the number 2 is already in row 0 and column 0, we can eliminate it.\n\nSince the number 5 is already in column 0, we can eliminate it.\n\nSince the number 8 is already in row 1 and column 0, we can eliminate it.\n\nSo, the possible numbers are 3, 6, 9.\n\nHowever, in the block 2 (top-middle block), the number 3 is already in cell (1, 2). Therefore, we can eliminate 3.\n\nFinally, the possible numbers left are 6, 9.\n\nSince there are no further constraints to eliminate either 6 or 9, we need to check which one fits better in the context of the ongoing solution.\n\nFor the cell at (2, 0), the value can be either 6 or 9 based on the current constraints. Without further information, both are valid. However, to make a decision, we can look at the surrounding numbers and try to fill in other cells to see which number fits better.\n\nGiven the current state, let's try 6 for the cell at (2, 0). If 6 works well and does not violate any constraints, then 6 is the correct value. If not, we try 9.\n\nSo, the value for the cell at (2, 0) could be either 6 or 9 based on the current information. However, without solving further cells, we cannot definitively say which one is correct.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80060",
+    "image": "img_val/80060.png",
+    "model_output": "To determine the value of the cell at (5, 3), we need to look at the row, column, and block constraints:\n\n1. **Row 5**: The 5th row (starting from 0) contains the numbers [_, _, 8, _, _, _, 6, _, _]. The possible values for the cell at (5, 3) are 1, 2, 3, 4, 5, 7, and 9.\n\n2. **Column 3**: The 3rd column (starting from 0) contains the numbers [3, _, _, _, _, _, 8, _, _]. The possible values for the cell at (5, 3) are 1, 2, 4, 5, 6, 7, and 9.\n\n3. **Block**: The block containing the cell at (5, 3) is the middle right block (4th and 5th columns, 5th and 6th rows). This block currently contains the numbers [6, 8]. The possible values for the cell at (5, 3) are 1, 2, 3, 4, 5, 7, and 9.\n\nCombining all the constraints, the cell at (5, 3) can be filled with one of the following numbers: 1, 2, 3, 4, 5, 7, and 9. Since all these numbers are possible, we need to fill in the cell with a number that avoids duplication within the row, column, and block constraints.\n\nGiven the current state of the puzzle, the value of the cell at (5, 3) can be filled with any of the numbers 1, 2, 3, 4, 5, 7, or 9. Since all these numbers are valid, we need to ensure that the chosen number does not conflict with any of the existing numbers in the row, column, or block.\n\nFor this specific puzzle, the most straightforward and safe choice would be **1**.",
+    "model_output_filtered": "1"
+  },
+  {
+    "puzzle_id": "80063",
+    "image": "img_val/80063.png",
+    "model_output": "The value of the cell at (7, 8) in the Sudoku grid is 6.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80064",
+    "image": "img_val/80064.png",
+    "model_output": "The value of the cell at position (2, 7) is 6.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80058",
+    "image": "img_val/80058.png",
+    "model_output": "To determine the value of the cell at (4, 8) in the Sudoku grid, we need to look at the possible values that can be placed in that cell while adhering to the Sudoku rules. Here's the step-by-step analysis:\n\n1. **Check the row (row 4)**:\n   - The possible values that are not already in row 4 are: {1, 5, 6, 8, 9}.\n\n2. **Check the column (column 8)**:\n   - The possible values that are not already in column 8 are: {1, 4, 5, 6, 8, 9}.\n\n3. **Check the block (3rd block in the top row)**:\n   - The possible values that are not already in the block are: {1, 5, 6, 9}.\n\nCombining the possibilities from the row, column, and block, we find the common values that can be placed in cell (4, 8):\n\n- The values that are possible in all three (row, column, and block) are: {1, 5, 6, 8, 9}.\n\nSince we are looking for a single value to place in the cell, we need to eliminate further. Let's consider the given cell and the surrounding cells:\n\n- If we place a 1 in cell (4, 8), it would not conflict with any values in its row, column, or block.\n- If we place a 5 in cell (4, 8), it would not conflict with any values in its row, column, or block.\n- If we place a 6 in cell (4, 8), it would not conflict with any values in its row, column, or block.\n- If we place an 8 in cell (4, 8), it would not conflict with any values in its row, column, or block.\n- If we place a 9 in cell (4, 8), it would not conflict with any values in its row, column, or block.\n\nGiven the constraints, any of these values {1, 5, 6, 8, 9} could be placed in cell (4, 8) without violating the Sudoku rules. However, without further context or additional placement rules, we cannot definitively determine the exact value.\n\nTherefore, the possible values for cell (4, 8) are: {1, 5, 6, 8, 9}.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80062",
+    "image": "img_val/80062.png",
+    "model_output": "To determine the value of the cell at (4, 7) in the Sudoku grid, we need to follow the rules of Sudoku:\n\n1. Each row must contain all the digits from 1 to N without repetition.\n2. Each column must contain all the digits from 1 to N without repetition.\n3. Each 3x3 block (or sqrt(N)xsqrt(N) block) must contain all the digits from 1 to N without repetition.\n\nGiven the current state of the Sudoku grid:\n\n```\n3 ? ? | 5 ? 1 | 7 ? ?\n9 ? ? |     5 | ? ? ?\n? 1 2 | ? ? ? | 8 ? ?\ntons of blank cells\n```\n\nLooking at the cell at (4, 7) (indexing starts at 0), which is in the fifth row and the seventh column:\n\n- The fifth row currently has the numbers 6, 1, and 3. This means the values in the fifth row must include {1, 2, 3, 4, 5, 6, 7, 8, 9} without repetition.\n- The seventh column currently has the numbers 1, 7, 6, and 3. This means the values in the seventh column must include {1, 2, 3, 4, 5, 6, 7, 8, 9} without repetition.\n- The 3x3 block containing the cell at (4, 7) is the bottom-right block.\n\nWe can deduce that the number in the cell at (4, 7) must be one of the numbers that is missing from both the fifth row and the seventh column. \n\nAfter analyzing the fifth row and the seventh column, we can see that the number 8 is missing in both the fifth row and the seventh column. \n\nTherefore, the value of the cell at (4, 7) is:\n\n```\n8\n```",
+    "model_output_filtered": "8"
+  },
+  {
+    "puzzle_id": "80061",
+    "image": "img_val/80061.png",
+    "model_output": "To determine the value of the cell at position (8, 1) in the Sudoku grid, we need to follow the Sudoku rules:\n\n1. Each row must contain the digits 1 through 9 without repetition.\n2. Each column must contain the digits 1 through 9 without repetition.\n3. Each 3x3 block must contain the digits 1 through 9 without repetition.\n\nLet's analyze the cells in the row and column at (8, 1):\n\nRow 8 (from 0-indexed):\n- Row 8 (index 7) currently contains the following numbers: 5, 8, _, _, _, _, _, _, 9\n- The missing numbers in this row are 1, 2, 3, 4, 6, 7\n\nColumn 1 (from 0-indexed):\n- Column 1 (index 1) currently contains the following numbers: 4, _, 2, _, _, _, _, _, 8\n- The missing numbers in this column are 1, 3, 5, 6, 7, 9\n\nNow, let's analyze the 3x3 block that contains cell (8, 1):\n- The 3x3 block that cell (8, 1) is in is the bottom-left 3x3 block (rows 6-8, columns 0-2):\n  - Bottom-left 3x3 block: \n    - 4, 7, _\n    - _, 3, _\n    - _, _, 9\n\nThe missing numbers in this block are 1, 2, 5, 6, 8.\n\nTo find the value of the cell at (8, 1), we need to find a number that is missing in the row, column, and block. Let's check the common numbers:\n\n- Common missing numbers in row 8, column 1, and block are: 1, 2, 4, 5, 6, 7\n\nAmong these, the only number that fits in all three constraints is 1.\n\nTherefore, the value of the cell at (8, 1) is **1**.",
+    "model_output_filtered": "1"
+  },
+  {
+    "puzzle_id": "80066",
+    "image": "img_val/80066.png",
+    "model_output": "The cell at (4, 1) is in the second row and the fifth column. In the current state of the Sudoku grid, the cell at (4, 1) is empty.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80068",
+    "image": "img_val/80068.png",
+    "model_output": "The value of the cell at (1, 2) is **6**.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80065",
+    "image": "img_val/80065.png",
+    "model_output": "To determine the value of the cell at (2, 8), we need to look at the current state of the Sudoku grid and apply the rules of Sudoku. The rules state that each row, column, and 3x3 block must contain the digits 1 through 9 exactly once.\n\nLet's analyze the cell at (2, 8) step by step:\n\n1. **Row 2**: \n   - The digits already present in row 2 are 4 (in column 0), 3 (in column 1), 8 (in column 2), and 7 (in column 3).\n\n2. **Column 8**: \n   - The digits already present in column 8 are 2 (in row 1), 2 (in row 5), 7 (in row 7), and 6 (in row 9).\n\n3. **Block**: \n   - The digits already present in the 3x3 block that includes cell (2, 8) are 4 (in cell (2, 1)), 3 (in cell (3, 1)), 8 (in cell (4, 1)), and 7 (in cell (5, 1)).\n\nConsidering the above information, we need to find a digit that is not present in row 2, column 8, or the 3x3 block. \n\nThe possible digits for cell (2, 8) are:\n   - 1 (not present in row 2, column 8, or the 3x3 block)\n\nTherefore, the value of the cell at (2, 8) is **1**.",
+    "model_output_filtered": "1"
+  },
+  {
+    "puzzle_id": "80067",
+    "image": "img_val/80067.png",
+    "model_output": "To determine the value of the cell at (6, 4), we need to look at the constraints imposed by the rows, columns, and blocks in the Sudoku grid. \n\nThe Sudoku grid in the image is a 9x9 grid, so N = 9. The cell at (6, 4) is located at row 6 and column 4.\n\n1. **Row 6**: The numbers in row 6 are 5, 1, 8, _, _, _, _, _, _. The missing numbers are 2, 3, 4, 6, 7, 9.\n\n2. **Column 4**: The numbers in column 4 are 1, 8, _, _, 9, _, _, _, _. The missing numbers are 2, 3, 4, 5, 6, 7, 9.\n\n3. **Block**: The cell at (6, 4) is in the bottom left 3x3 block. The numbers in this block are 9, 5, 4, 7, _, _, _, _, _. The missing numbers are 1, 2, 3, 6, 8.\n\nFrom the constraints above, the only number that fits all the conditions is **4**.\n\nTherefore, the value of the cell at (6, 4) is **4**.",
+    "model_output_filtered": "4"
+  },
+  {
+    "puzzle_id": "80073",
+    "image": "img_val/80073.png",
+    "model_output": "The value of the cell at (0, 5) is 2.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80069",
+    "image": "img_val/80069.png",
+    "model_output": "To determine the value of the cell at (6, 8) in the Sudoku grid, let's follow these steps:\n\n1. **Identify the block and row/column it belongs to:**\n   - (6, 8) is in the 9th row (index 8) and 9th column (index 8).\n   - It is also in the 8th block (the lower-right 3x3 block).\n\n2. **Check the numbers in the 9th row:**\n   - The numbers in the 9th row are: 6, 3, 1.\n\n3. **Check the numbers in the 9th column:**\n   - The numbers in the 9th column are: 9, 5, 8.\n\n4. **Check the numbers in the 8th block:**\n   - The numbers in the 8th block are: 9, 3, 1.\n\n5. **Determine the possible values for (6, 8):**\n   - The possible values for (6, 8) must not conflict with the numbers already present in its row, column, and block.\n\nSince we have covered all the conflicting numbers, the only numbers left for (6, 8) are:\n- 2, 4, 5, 7\n\nConsidering the constraints of Sudoku, the only number that fits all the conditions (not already present in the 9th row, 9th column, and 8th block) is:\n\n**The value of the cell at (6, 8) is empty.**",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80032",
+    "image": "img_val/80032.png",
+    "model_output": "To solve the Sudoku puzzle, we need to fill in the cell at (2, 2) in a way that satisfies the Sudoku rules: unique numbers in each row, column, and block.\n\nFirst, let's look at the possible numbers that could fill the cell at (2, 2). The numbers already present in the row, column, and block are:\n\n- Numbers in Row 2: 3, 5, 2, _, _, _, 6, _\n- Numbers in Column 2: _, _, _, _, 8, _, _, _, _\n- Numbers in Block 2 (top middle): 7, 8, _, 2, 7, _, 9, 5, _, _, _, _, 6, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _,",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80074",
+    "image": "img_val/80074.png",
+    "model_output": "The value of the cell at (0, 6) is 3.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80071",
+    "image": "img_val/80071.png",
+    "model_output": "To determine the value of the cell at (0, 6) in the Sudoku grid, we need to ensure that the number placed in this cell is unique within its row, column, and block.\n\nLet's analyze the row, column, and block where the cell (0, 6) is located:\n\n1. **Column 6**: The numbers in column 6 are: 2, 5, 6, 2, 7, 3, 7, 9, empty.\n2. **Row 0**: The numbers in row 0 are: 5, 6, 3, ?, 8, 3, empty, 2, 5.\n3. **Block 0 (the top-left 3x3 block)**: The numbers in the top-left 3x3 block are: 5, 6, 3, 8, 5, 3.\n\nFrom the column and row analysis, we can see that the numbers in column 6 can be 1, 4, or 8. However, 8 is already in row 0, so 8 is not a valid candidate.\n\nFrom the block analysis, we can see that the numbers in the top-left 3x3 block can be 1, 4, or 8. Again, 8 is already in the block, so 8 is not a valid candidate.\n\nNow, we are left with 1 and 4 as potential candidates for the cell (0, 6).\n\n- If we try 1, it does not appear in row 0, column 6, or the top-left 3x3 block.\n- If we try 4, it also does not appear in row 0, column 6, or the top-left 3x3 block.\n\nSince both 1 and 4 are valid candidates, we need to ensure that the choice makes the entire Sudoku puzzle solvable. Given the context and the rules of Sudoku, the correct choice is:\n\nThe value of the cell at (0, 6) is **4**.",
+    "model_output_filtered": "4"
+  },
+  {
+    "puzzle_id": "80070",
+    "image": "img_val/80070.png",
+    "model_output": "To determine the value of the cell at (2, 4) in the Sudoku grid, we need to follow the rules of Sudoku:\n\n1. Each row must contain all digits from 1 to 9 exactly once.\n2. Each column must contain all digits from 1 to 9 exactly once.\n3. Each 3x3 block must contain all digits from 1 to 9 exactly once.\n\nLet's analyze the cell at (2, 4) step by step:\n\n- The cell at (2, 4) is in the third row and the fifth column.\n- The row (2) currently contains the following numbers from left to right: 8, ?, 9, 4, 2, 5, 8.\n- The column (4) currently contains the following numbers from top to bottom: 1, 9, 4, 7, 2, 5, 8.\n\nNow, let's look at the 3x3 block that includes the cell at (2, 4):\n\n- The block includes the cells in the middle row and middle column.\n\nWe need to find a digit that does not appear in row 2, column 4, and the 3x3 block that includes cell (2, 4).\n\nLet's check the available digits:\n\n- The digits in the row (2) are: 8, 9, 4, 2, 5, 8.\n- The digits in the column (4) are: 1, 9, 4, 7, 2, 5, 8.\n- The digits in the 3x3 block are: 9, 4, 2, 5, 8, 1, 2, 5.\n\nThe digits that are missing and can be placed in the cell at (2, 4) are:\n- 3, 6, 7\n\nHowever, upon closer inspection within the 3x3 block, we see that the number 3 is already present in the block.\n\nTherefore, the possible digits for the cell at (2, 4) are:\n- 6, 7\n\nGiven the constraints, the correct digit for the cell at (2, 4) is **6**.",
+    "model_output_filtered": "6"
+  },
+  {
+    "puzzle_id": "80075",
+    "image": "img_val/80075.png",
+    "model_output": "The value of the cell at (3, 6) is 1.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80076",
+    "image": "img_val/80076.png",
+    "model_output": "The value of the cell at (1, 3) is **5**.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80077",
+    "image": "img_val/80077.png",
+    "model_output": "The value of the cell at (4, 3) is 9.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80079",
+    "image": "img_val/80079.png",
+    "model_output": "The value of the cell at (4, 0) is 4.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80078",
+    "image": "img_val/80078.png",
+    "model_output": "To determine the value of the cell at (6, 1) in the Sudoku grid, we need to consider the possible values for that cell based on the existing numbers in its row, column, and block.\n\n1. **Row 6**: The numbers in row 6 are 7, 9, 6, 4, 5, 1, 8, and 2.\n2. **Column 1**: The numbers in column 1 are 6, 5, 1, 7, 5, 4, 8, and 2.\n3. **Block 5 (2x2 block starting at (6, 0))**: The numbers in block 5 are 7, 9, 6, 4, 5, 1, 8, and 2.\n\nGiven that the only numbers not appearing in row 6, column 1, and block 5 are 3, the value of the cell at (6, 1) must be **3**.",
+    "model_output_filtered": "3"
+  },
+  {
+    "puzzle_id": "80081",
+    "image": "img_val/80081.png",
+    "model_output": "The value of the cell at (2, 5) is 3.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80072",
+    "image": "img_val/80072.png",
+    "model_output": "To determine the value of the cell at (1, 0) in the Sudoku grid, we need to look at the possible values for that cell based on the current state of the grid.\n\nThe cell at (1, 0) is in the second row of the first column block. The possible values for this cell are those that do not appear in the same row, column, or block.\n\nLet's check the values in the relevant areas:\n\n1. **Row 1 (second row):**\n   - The values in row 1 are 5 (at (0, 1)), 6 (at (2, 1)), 7 (at (2, 2)), 8 (at (3, 1)), and 2 (at (4, 1)). So, possible values for the cell at (1, 0) can be: 1, 3, 4, 5, 6, 7, 8, 9 (excluding the values already in the row).\n\n2. **Column 0 (first column):**\n   - The values in column 0 are 1 (at (0, 0)), 4 (at (3, 0)), 6 (at (5, 0)), and 7 (at (6, 0)). So, possible values for the cell at (1, 0) can be: 2, 3, 5, 8, 9 (excluding the values already in the column).\n\n3. **Block (0, 0) (first block):**\n   - The values in the first block are 5 (at (0, 1)), 6 (at (2, 1)), 7 (at (2, 2)), 8 (at (3, 1)), and 2 (at (4, 1)). So, possible values for the cell at (1, 0) can be: 1, 3, 4, 9 (excluding the values already in the block).\n\nCombining these sets, the common values that can be placed in the cell at (1, 0) are: 2, 3, 5, 8, 9.\n\nSince we need to choose the correct value, let's check which of these values do not conflict with the given rules:\n\n- 2, 3, 5, 8, 9\n\nAmong these, the value that fits in the cell at (1, 0) without conflicting with the rules is **3**.\n\nTherefore, the value of the cell at (1, 0) is **3**.",
+    "model_output_filtered": "3"
+  },
+  {
+    "puzzle_id": "80080",
+    "image": "img_val/80080.png",
+    "model_output": "To determine the value of the cell at (6, 5), we need to consider the constraints of the Sudoku puzzle:\n\n1. Each row must contain unique digits from 1 to N.\n2. Each column must contain unique digits from 1 to N.\n3. Each 3x3 block must contain unique digits from 1 to N.\n\nGiven the current game state, let's analyze the cell at (6, 5):\n\n- The row at index 6 (Row 6) already contains the digits: 8, 5, and 6.\n- The column at index 5 (Column 5) already contains the digits: 3, 8, 4, 1, 2, and 7.\n- The 3x3 block including the cell at (6, 5) contains the digits: 2, 5, and 7.\n\nFrom this analysis, we can conclude that the only digit that can be placed at (6, 5) without violating the Sudoku rules is 9. Therefore, the value of the cell at (6, 5) is 9.",
+    "model_output_filtered": "9"
+  },
+  {
+    "puzzle_id": "80084",
+    "image": "img_val/80084.png",
+    "model_output": "The value of the cell at (3, 4) is 5.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80085",
+    "image": "img_val/80085.png",
+    "model_output": "The value of the cell at (6, 5) is **4**.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80087",
+    "image": "img_val/80087.png",
+    "model_output": "The value of the cell at (2, 7) is 2.",
+    "model_output_filtered": "1"
+  },
+  {
+    "puzzle_id": "80088",
+    "image": "img_val/80088.png",
+    "model_output": "The cell at (4, 3) in the Sudoku grid is currently empty.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80090",
+    "image": "img_val/80090.png",
+    "model_output": "The cell at position (3, 1) in the Sudoku grid is empty.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80091",
+    "image": "img_val/80091.png",
+    "model_output": "The value of the cell at (6, 0) is empty.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80093",
+    "image": "img_val/80093.png",
+    "model_output": "The value of the cell at (7, 6) in the given Sudoku grid is 8.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80082",
+    "image": "img_val/80082.png",
+    "model_output": "To determine the value of the cell at (1, 1) in the Sudoku grid, we need to apply the Sudoku rules:\n\n1. Each row must contain the digits 1 through 9 exactly once.\n2. Each column must contain the digits 1 through 9 exactly once.\n3. Each 3x3 subgrid (block) must contain the digits 1 through 9 exactly once.\n\nLet's analyze the neighbors of cell (1, 1):\n\n- In the same row (row 1), the cell (1, 1) is in the same row as cells (1, 0), (1, 2), and (1, 3) which contain '9', '2', and '1' respectively.\n- In the same column (column 1), the cell (1, 1) is in the same column as cells (0, 1), (2, 1), (3, 1), (4, 1), (5, 1), (6, 1), and (7, 1) which contain '6', '2', '8', '3', '4', '6', and '5' respectively.\n- In the same block (3x3 block containing cell (1, 1)), the other cells in the block (excluding the same row and column) contain '2', '7', '6', '3', '4', '8', and '5'.\n\nBy elimination, the only digit not present in the same row, column, and block for cell (1, 1) is '7'. Therefore, the value of the cell at (1, 1) is 7.",
+    "model_output_filtered": "7"
+  },
+  {
+    "puzzle_id": "80095",
+    "image": "img_val/80095.png",
+    "model_output": "The value of the cell at (6, 8) is 1.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80089",
+    "image": "img_val/80089.png",
+    "model_output": "To determine the value of the cell at (2, 3), we need to look at the row, column, and block constraints:\n\n1. **Row 2**: Contains the digits 8, 5, and 2. We need to fill in the remaining digits (1, 3, 4, 6, 7, empty).\n2. **Column 3**: Contains the digits 8, 1, 6, and empty. We need to fill in the remaining digits (2, 3, 4, 5, 7, empty).\n3. **Block 1 (top middle)**: Contains the digits 1, 5, and empty. We need to fill in the remaining digits (2, 3, 4, 6, 7, 8).\n\nBy examining the available digits in these constraints, we can determine the value for the (2, 3) cell. The only digit that fits all the criteria is **6**.\n\nTherefore, the value of the cell at (2, 3) is **6**.",
+    "model_output_filtered": "6"
+  },
+  {
+    "puzzle_id": "80092",
+    "image": "img_val/80092.png",
+    "model_output": "To determine the value of the cell at (7, 8), we need to look at the row, column, and block it belongs to. \n\n- The cell at (7, 8) is in the 8th row and the 8th column.\n- The 8th row currently has the following numbers: 6, 2, 5, 9, 6, 2, 5, 9.\n- The 8th column currently has the following numbers: 8, 3, 5, 1, 2, 7, 9.\n\nWe need to find a number that is not in either the 8th row or the 8th column. The numbers not in the 8th row are: 1, 3, 4, and 4.\nThe numbers not in the 8th column are: 4, 6, and 8.\n\nThe only number that satisfies both conditions (not in the 8th row and not in the 8th column) is 4.\n\nTherefore, the value of the cell at (7, 8) should be 4.",
+    "model_output_filtered": "4"
+  },
+  {
+    "puzzle_id": "80086",
+    "image": "img_val/80086.png",
+    "model_output": "To determine the value of the cell at (8, 3) in a Sudoku grid, we need to consider the constraints of the game:\n\n1. Each row, column, and 3x3 block must contain the digits 1 through 9 exactly once.\n2. The grid is a 9x9 grid, so \\( N = 9 \\).\n\nGiven the current state of the Sudoku grid, let's analyze the cell at (8, 3) step by step:\n\n1. **Row 8**: Check which digits are already present in row 8.\n   - Digits present in row 8: 5, 9, 2, 4, 6\n\n2. **Column 3**: Check which digits are already present in column 3.\n   - Digits present in column 3: 3, 7\n\n3. **Block 3**: Check which digits are already present in the 3x3 block containing cell (8, 3).\n   - Digits present in block 3: 5, 9, 2, 4, 6, 7\n\nNow, let's determine which digits are missing in all three constraints (row, column, and block):\n\n- Missing digits in row 8: 1, 8\n- Missing digits in column 3: 1, 2, 4, 5, 6, 8\n- Missing digits in block 3: 1, 3, 8\n\nThe common missing digit in all three constraints is **1**.\n\nTherefore, the value of the cell at (8, 3) is **1**.",
+    "model_output_filtered": "1"
+  },
+  {
+    "puzzle_id": "80097",
+    "image": "img_val/80097.png",
+    "model_output": "The value of the cell at (0, 2) is 5.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80098",
+    "image": "img_val/80098.png",
+    "model_output": "The value of the cell at (8, 3) is 3.",
+    "model_output_filtered": "Wrong"
+  },
+  {
+    "puzzle_id": "80094",
+    "image": "img_val/80094.png",
+    "model_output": "To determine the value of the cell at (8, 4), we need to look at the values in the same row, column, and block.\n\n1. **Row 8**: The values in row 8 are [4, _, _, _, _, _, _, _, 5]. We need a number that is not already present in this row.\n2. **Column 4**: The values in column 4 are [7, _, _, 8, 1, _, _, _, 7]. We need a number that is not already present in this column.\n3. **Block 8 (bottom-right 3x3 block)**: The values in this block are [4, _, _, _, _, _, _, _, 5]. We need a number that is not already present in this block.\n\nConsidering all these constraints, the possible numbers for cell (8, 4) are 2, 3, 6, and 9. \n\nBy checking the row, column, and block constraints, the only number that fits is **2**.",
+    "model_output_filtered": "2"
+  },
+  {
+    "puzzle_id": "80099",
+    "image": "img_val/80099.png",
+    "model_output": "The value of the cell at (7, 5) is **empty**.",
+    "model_output_filtered": "empty"
+  },
+  {
+    "puzzle_id": "80096",
+    "image": "img_val/80096.png",
+    "model_output": "To determine the value of the cell at (7, 7), we need to look at the numbers in the same row, column, and 3x3 block.\n\n1. **Row considerations**: The numbers in the 8th row (since indexing starts at 0) are:\n   - 9, 5, 8, _, _, _, _, _, 5\n   - The missing numbers are 1, 2, 3, 4, 6, 7.\n\n2. **Column considerations**: The numbers in the 8th column are:\n   - 5, _, _, 7, 3, _, _, _, _\n   - The missing numbers are 1, 2, 4, 6, 8, 9.\n\n3. **Block considerations**: The numbers in the bottom right 3x3 block are:\n   - _, _, _, 3, _, 7, _, 4, _\n   - The missing numbers are 1, 2, 5, 6, 8, 9.\n\nThe common numbers that are missing in all three contexts (row, column, and block) are 1, 2, 4, 6, 8, and 9. \n\nAmong these, the only number that fits in the (7, 7) cell without violating the Sudoku rules is **1**. \n\nTherefore, the value of the cell at (7, 7) is **1**.",
+    "model_output_filtered": "1"
+  },
+  {
+    "puzzle_id": "80083",
+    "image": "img_val/80083.png",
+    "model_output": "To determine the value of the cell at (3, 2) in the Sudoku grid, we need to look at the rules of Sudoku. Each row, column, and 3x3 block must contain all the digits from 1 to 9 exactly once.\n\nLet's examine the row, column, and block that the cell at (3, 2) is part of:\n\n1. **Row 3**: The numbers in row 3 are 5, _, _, _, _, _, _, _, 4, _, _, _, _, _, 5. The missing numbers in this row are 1, 2, 3, 6, 7, 8, 9.\n\n2. **Column 2**: The numbers in column 2 are _, 2, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _,",
+    "model_output_filtered": "Wrong"
+  }
+]

@@ -1,0 +1,902 @@
+[
+  {
+    "puzzle_id": "79553",
+    "image": "img_val/79553.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"*\", \"*\", \"*\"],\n    [\"2\", \"*\", \"3\", \"*\"],\n    [\"*\", \"*\", \"*\", \"3\"],\n    [\"3\", \"*\", \"4\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at row 4, we have 3 and 4, so 1 and 2 are missing\n2. Column 3 has 3 twice, which means the empty cells must be 1,2,4\n3. Row 2 has 2 and 3, so needs 1 and 4\n4. The first row must contain all missing numbers\n5. Using block constraints and existing numbers, I can determine the full solution\",\n\n\"answer\": [\n    [\"4\", \"3\", \"1\", \"2\"],\n    [\"2\", \"1\", \"3\", \"4\"],\n    [\"1\", \"4\", \"2\", \"3\"],\n    [\"3\", \"2\", \"4\", \"1\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,0,0],[2,0,3,0],[0,0,0,3],[3,0,4,0]]\nAnswer\n[[4,3,1,2],[2,1,3,4],[1,4,2,3],[3,2,4,1]]",
+    "hint_count": 5,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79554",
+    "image": "img_val/79554.png",
+    "model_output": "```json\n{\n\"perception\": [\n[\"*\", \"*\", \"*\", \"4\"],\n[\"*\", \"2\", \"1\", \"*\"],\n[\"*\", \"*\", \"*\", \"*\"],\n[\"*\", \"*\", \"*\", \"2\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the given numbers:\n1. We have 4 in position (0,3)\n2. We have 2 in position (1,1)\n3. We have 1 in position (1,2)\n4. We have 2 in position (3,3)\n\nLooking at the constraints:\n- Row 1 already has 4, so 1,2,3 remain\n- Row 2 has 1,2, so 3,4 remain\n- Row 4 has 2, so 1,3,4 remain\n- Column 2 has 1, so 2,3,4 remain\n- Column 4 has 4,2, so 1,3 remain\n- First block is empty\n- Second block has 4\n- Third block has 2,1\n- Fourth block has 2\",\n\n\"answer\": [\n[3, 1, 2, 4],\n[4, 2, 1, 3],\n[1, 3, 4, 1],\n[4, 1, 3, 2]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,0,4],[0,2,1,0],[0,0,0,0],[0,0,0,2]]\nAnswer\n[[3,1,2,4],[4,2,1,3],[1,3,4,1],[4,1,3,2]]",
+    "hint_count": 4,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79555",
+    "image": "img_val/79555.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [2, 1, 4, \"*\"],\n    [4, 3, 1, 2],\n    [1, \"*\", \"*\", \"*\"],\n    [3, 4, 2, \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the missing values:\n1. In row 0, column 3: Looking at the row, we have 2,1,4 so only 3 is missing\n2. In row 2, column 1: We need 2 since 1,3,4 are used in that column\n3. In row 2, column 2: Only 3 is possible as 1,2,4 are used in that column\n4. In row 2, column 3: Must be 4 to complete the row\n5. In row 3, column 3: Only 1 remains as 2,3,4 are used in that row\",\n\"answer\": [\n    [2, 1, 4, 3],\n    [4, 3, 1, 2],\n    [1, 2, 3, 4],\n    [3, 4, 2, 1]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[2,1,4,0],[4,3,1,2],[1,0,0,0],[3,4,2,0]]\nAnswer\n[[2,1,4,3],[4,3,1,2],[1,2,3,4],[3,4,2,1]]",
+    "hint_count": 11,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79556",
+    "image": "img_val/79556.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [4, 3, 1, \"*\"],\n    [\"*\", 1, 4, \"*\"],\n    [\"*\", 2, 3, \"*\"],\n    [3, 4, \"*\", 1]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at row 0: Missing 2\n2. Looking at row 1: Missing 2,3\n3. Looking at row 2: Missing 1,4\n4. Looking at row 3: Missing 2\n5. Looking at column 2: Missing 2\n6. Looking at blocks and considering the constraints:\n   - Top right block needs 2\n   - Second row third cell must be 2\n   - Bottom left block needs 1,2\n   - Bottom right block needs 2,3,4\",\n\"answer\": [\n    [4, 3, 1, 2],\n    [2, 1, 4, 3],\n    [1, 2, 3, 4],\n    [3, 4, 2, 1]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[4,3,1,0],[0,1,4,0],[0,2,3,0],[3,4,0,1]]\nAnswer\n[[4,3,1,2],[2,1,4,3],[1,2,3,4],[3,4,2,1]]",
+    "hint_count": 10,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79557",
+    "image": "img_val/79557.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [3, \"*\", 2, 1],\n    [1, 2, 3, \"*\"],\n    [2, \"*\", 4, 3],\n    [\"*\", 3, \"*\", 2]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. For row 0, column 1: Only 4 is possible since 1,2,3 are used in that row\n2. For row 1, column 3: Only 4 is possible since 1,2,3 are used in that row\n3. For row 3, column 0: Only 4 is possible since 2,3 are in that row and 1,2 are in that column\n4. For row 3, column 2: Only 1 remains since 2,3,4 are used in that row\",\n\"answer\": [\n    [3, 4, 2, 1],\n    [1, 2, 3, 4],\n    [2, 1, 4, 3],\n    [4, 3, 1, 2]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[3,0,2,1],[1,2,3,0],[2,0,4,3],[0,3,0,2]]\nAnswer\n[[3,4,2,1],[1,2,3,4],[2,1,4,3],[4,3,1,2]]",
+    "hint_count": 11,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79558",
+    "image": "img_val/79558.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"1\", \"*\", \"*\"],\n    [\"2\", \"3\", \"1\", \"4\"],\n    [\"1\", \"4\", \"3\", \"2\"],\n    [\"3\", \"2\", \"*\", \"1\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let's analyze the missing cells:\n- Position [0,0]: Can't be 1 (row 2), 2 (row 1), 3 (row 3) -> must be 4\n- Position [0,2]: Can't be 1 (row 1), 3 (row 2), 4 (row 1) -> must be 2 \n- Position [0,3]: Can't be 1,2,4 from row 1 -> must be 3\n- Position [3,2]: Can't be 1,2,3 from row 3 -> must be 4\",\n\"answer\": [\n    [\"4\", \"1\", \"2\", \"3\"],\n    [\"2\", \"3\", \"1\", \"4\"],\n    [\"1\", \"4\", \"3\", \"2\"],\n    [\"3\", \"2\", \"4\", \"1\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,1,0,0],[2,3,1,4],[1,4,3,2],[3,2,0,1]]\nAnswer\n[[4,1,2,3],[2,3,1,4],[1,4,3,2],[3,2,4,1]]",
+    "hint_count": 12,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79559",
+    "image": "img_val/79559.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"3\", \"2\", \"1\"],\n    [\"*\", \"2\", \"4\", \"3\"],\n    [\"*\", \"4\", \"*\", \"2\"],\n    [\"2\", \"1\", \"3\", \"4\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let's analyze the missing values:\n1. First row first column: Looking at row 1, we have 3,2,1 so missing 4\n2. Second row first column: Looking at row 2, we have 2,4,3 so missing 1\n3. Third row first column: Looking at row 3, we have 4,2 and column has 4,1 so must be 3\n4. Third row third column: Looking at row 3, we have 3,4,2 so missing 1\",\n\"answer\": [\n    [\"4\", \"3\", \"2\", \"1\"],\n    [\"1\", \"2\", \"4\", \"3\"],\n    [\"3\", \"4\", \"1\", \"2\"],\n    [\"2\", \"1\", \"3\", \"4\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,3,2,1],[0,2,4,3],[0,4,0,2],[2,1,3,4]]\nAnswer\n[[4,3,2,1],[1,2,4,3],[3,4,1,2],[2,1,3,4]]",
+    "hint_count": 12,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79560",
+    "image": "img_val/79560.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [1, 2, 3, \"*\"],\n    [\"*\", \"*\", 2, 1],\n    [2, 1, \"*\", \"*\"],\n    [\"*\", \"*\", \"*\", 2]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at row 0: Only missing 4\n2. Looking at row 1: Missing 3,4 \n3. Looking at row 2: Missing 3,4\n4. Looking at row 3: Missing 1,3,4\n5. Looking at columns and blocks:\n   - Column 0 has 1,2 so needs 3,4\n   - Column 1 has 1,2 so needs 3,4\n   - Column 2 has 2,3 so needs 1,4\n   - Column 3 has 1,2 so needs 3,4\n6. Can fill in remaining numbers ensuring no repeats in rows, columns and 2x2 blocks\",\n\"answer\": [\n    [1, 2, 3, 4],\n    [4, 3, 2, 1],\n    [2, 1, 4, 3],\n    [3, 4, 1, 2]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[1,2,3,0],[0,0,2,1],[2,1,0,0],[0,0,0,2]]\nAnswer\n[[1,2,3,4],[4,3,2,1],[2,1,4,3],[3,4,1,2]]",
+    "hint_count": 8,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79561",
+    "image": "img_val/79561.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [3, \"*\", \"*\", \"*\"],\n    [\"*\", 1, \"*\", 2],\n    [\"*\", \"*\", \"*\", \"*\"],\n    [1, \"*\", \"*\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with numbers 1-4. Let me solve it step by step:\n1. Looking at column 1, we already have 1 and 3, so only 2 and 4 can go there\n2. Row 1 has 3, so needs 1,2,4\n3. Row 2 has 1,2 so needs 3,4\n4. Row 4 has 1, so needs 2,3,4\n5. Each 2x2 block must contain all numbers 1-4\n6. Using these constraints, I can determine the unique solution\",\n\n\"answer\": [\n    [3, 4, 1, 2],\n    [4, 1, 3, 2],\n    [2, 3, 4, 1],\n    [1, 2, 3, 4]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[3,0,0,0],[0,1,0,2],[0,0,0,0],[1,0,0,0]]\nAnswer\n[[3,4,1,2],[4,1,3,2],[2,3,4,1],[1,2,3,4]]",
+    "hint_count": 4,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79562",
+    "image": "img_val/79562.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"*\", \"2\", \"4\"],\n    [\"4\", \"2\", \"*\", \"*\"],\n    [\"2\", \"4\", \"3\", \"1\"],\n    [\"*\", \"*\", \"*\", \"2\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at row 0, we're missing 1 and 3\n2. Looking at row 1, we're missing 1 and 3\n3. Row 2 is complete with 2,4,3,1\n4. Row 3 is missing 1,3,4\n5. Checking columns and blocks:\n   - Column 0 has 4,2 so needs 1,3\n   - Column 1 has 2,4 so needs 1,3\n   - Column 2 has 2,3 so needs 1,4\n   - Column 3 has 4,1,2 so needs 3\n6. Can deduce remaining positions using Sudoku rules\",\n\"answer\": [\n    [\"3\", \"1\", \"2\", \"4\"],\n    [\"4\", \"2\", \"1\", \"3\"],\n    [\"2\", \"4\", \"3\", \"1\"],\n    [\"1\", \"3\", \"4\", \"2\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,2,4],[4,2,0,0],[2,4,3,1],[0,0,0,2]]\nAnswer\n[[3,1,2,4],[4,2,1,3],[2,4,3,1],[1,3,4,2]]",
+    "hint_count": 9,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79563",
+    "image": "img_val/79563.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [1, 2, 3, \"*\"],\n    [3, 4, \"*\", 1],\n    [2, \"*\", 4, 3],\n    [4, 3, \"*\", 2]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the missing values:\n1. In row 0, column 3: Looking at the row, column and block, numbers 1,2,3 are used, so it must be 4\n2. In row 1, column 2: Numbers 1,3,4 are used in row/column/block, so it must be 2\n3. In row 2, column 1: Numbers 2,3,4 are used, so it must be 1\n4. In row 3, column 2: Numbers 2,3,4 are used, so it must be 1\",\n\"answer\": [\n    [1, 2, 3, 4],\n    [3, 4, 2, 1],\n    [2, 1, 4, 3],\n    [4, 3, 1, 2]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[1,2,3,0],[3,4,0,1],[2,0,4,3],[4,3,0,2]]\nAnswer\n[[1,2,3,4],[3,4,2,1],[2,1,4,3],[4,3,1,2]]",
+    "hint_count": 12,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79564",
+    "image": "img_val/79564.png",
+    "model_output": "```json\n{\n\"perception\": [\n[\"*\", \"*\", \"4\", \"3\"],\n[\"*\", \"4\", \"1\", \"2\"],\n[\"*\", \"3\", \"2\", \"1\"],\n[\"2\", \"1\", \"*\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at first row: Missing 1,2\n2. Looking at first column: Missing 1,3,4\n3. Looking at first block: Missing 1,2,3,4\n4. Looking at last block: Missing 3,4\n5. By analyzing the constraints:\n   - Row 1 col 1 must be 2 since 3,4 are in row and 2 is in col\n   - Row 1 col 0 must be 1 since it's only remaining option\n   - Row 2 col 0 must be 4 to complete the column\n   - Row 4 col 2,3 must be 3,4 in some order\n   - Only valid arrangement is 3,4 to satisfy all constraints\",\n\"answer\": [\n[\"1\", \"2\", \"4\", \"3\"],\n[\"3\", \"4\", \"1\", \"2\"],\n[\"4\", \"3\", \"2\", \"1\"],\n[\"2\", \"1\", \"3\", \"4\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,4,3],[0,4,1,2],[0,3,2,1],[2,1,0,0]]\nAnswer\n[[1,2,4,3],[3,4,1,2],[4,3,2,1],[2,1,3,4]]",
+    "hint_count": 10,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79565",
+    "image": "img_val/79565.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [1, \"*\", 2, \"*\"],\n    [\"*\", \"*\", \"*\", 3],\n    [\"*\", \"*\", 3, \"*\"],\n    [\"*\", \"*\", \"*\", 2]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle where each row, column and 2x2 block must contain digits 1-4. Let me solve this step by step:\n1. Looking at row 2, column 2 where there's a 3\n2. This means row 2, column 3 can't be 3\n3. Row 1, column 3 already has a 2\n4. Given the placement of 1,2,3 in various positions\n5. I can deduce the remaining positions following Sudoku rules\",\n\"answer\": [\n    [1, 3, 2, 4],\n    [4, 2, 1, 3],\n    [2, 4, 3, 1],\n    [3, 1, 4, 2]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[1,0,2,0],[0,0,0,3],[0,0,3,0],[0,0,0,2]]\nAnswer\n[[1,3,2,4],[4,2,1,3],[2,4,3,1],[3,1,4,2]]",
+    "hint_count": 5,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79566",
+    "image": "img_val/79566.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"4\", \"*\", \"*\"],\n    [\"*\", \"2\", \"*\", \"4\"],\n    [\"*\", \"*\", \"*\", \"3\"],\n    [\"*\", \"*\", \"1\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at row 1, we have 4, so other numbers must be 1,2,3\n2. Looking at row 2, we have 2 and 4, so other numbers must be 1,3\n3. Looking at row 3, we have 3, so other numbers must be 1,2,4\n4. Looking at row 4, we have 1, so other numbers must be 2,3,4\n5. Each 2x2 block must contain numbers 1-4\n6. Working through the constraints, I can determine the unique solution\",\n\n\"answer\": [\n    [\"1\", \"4\", \"2\", \"3\"],\n    [\"3\", \"2\", \"1\", \"4\"],\n    [\"2\", \"1\", \"4\", \"3\"],\n    [\"4\", \"3\", \"1\", \"2\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,4,0,0],[0,2,0,4],[0,0,0,3],[0,0,1,0]]\nAnswer\n[[1,4,2,3],[3,2,1,4],[2,1,4,3],[4,3,1,2]]",
+    "hint_count": 5,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79567",
+    "image": "img_val/79567.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [4, 2, 3, \"*\"],\n    [3, 1, \"*\", \"*\"],\n    [\"*\", 3, 4, 2],\n    [2, 4, 1, 3]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the missing values:\n1. In row 0, column 3: Looking at the row, we have 4,2,3 so only 1 is missing\n2. In row 1, columns 2,3: We need 2,4 (checking row constraints and what's already in block)\n3. In row 2, column 0: Only 1 is possible checking row/column/block constraints\",\n\"answer\": [\n    [4, 2, 3, 1],\n    [3, 1, 2, 4],\n    [1, 3, 4, 2],\n    [2, 4, 1, 3]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[4,2,3,0],[3,1,0,0],[0,3,4,2],[2,4,1,3]]\nAnswer\n[[4,2,3,1],[3,1,2,4],[1,3,4,2],[2,4,1,3]]",
+    "hint_count": 12,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79568",
+    "image": "img_val/79568.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"*\", \"3\", \"*\"],\n    [\"*\", \"*\", \"*\", \"*\"],\n    [\"*\", \"*\", \"4\", \"3\"],\n    [\"*\", \"4\", \"2\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve this step by step:\n1. Looking at row 2, column 3 and 4 have 4,3 - so row 2 needs 1,2 in first two positions\n2. Column 3 has 3,4,2 - so it needs 1 in row 1\n3. Column 4 has 3 - so it needs 1,2,4\n4. Row 3 has 4,2 - so it needs 1,3\n5. Using these constraints and block rules, I can determine the full solution\",\n\n\"answer\": [\n    [\"2\", \"1\", \"3\", \"4\"],\n    [\"4\", \"3\", \"1\", \"2\"],\n    [\"1\", \"2\", \"4\", \"3\"],\n    [\"3\", \"4\", \"2\", \"1\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,3,0],[0,0,0,0],[0,0,4,3],[0,4,2,0]]\nAnswer\n[[2,1,3,4],[4,3,1,2],[1,2,4,3],[3,4,2,1]]",
+    "hint_count": 5,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79569",
+    "image": "img_val/79569.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"1\", \"4\", \"*\"],\n    [\"4\", \"*\", \"1\", \"2\"],\n    [\"3\", \"4\", \"2\", \"1\"],\n    [\"1\", \"*\", \"3\", \"4\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the missing values:\n- Position [0,0]: Can't be 1,4 (row), 3,4 (column). Must be 2\n- Position [0,3]: Can't be 1,4 (row), 2,4 (column). Must be 3\n- Position [1,1]: Can't be 1,2,4 (row), 1,4 (column). Must be 3\n- Position [3,1]: Can't be 1,3,4 (row), 1,3,4 (column). Must be 2\",\n\"answer\": [\n    [\"2\", \"1\", \"4\", \"3\"],\n    [\"4\", \"3\", \"1\", \"2\"],\n    [\"3\", \"4\", \"2\", \"1\"],\n    [\"1\", \"2\", \"3\", \"4\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,1,4,0],[4,0,1,2],[3,4,2,1],[1,0,3,4]]\nAnswer\n[[2,1,4,3],[4,3,1,2],[3,4,2,1],[1,2,3,4]]",
+    "hint_count": 12,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79570",
+    "image": "img_val/79570.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"*\", \"*\", \"4\"],\n    [\"*\", \"1\", \"*\", \"*\"],\n    [\"*\", \"3\", \"*\", \"1\"],\n    [\"1\", \"*\", \"2\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the given numbers:\n1. Looking at the 1's: We have 1's in positions (1,1), (3,0), and (2,3)\n2. Looking at other numbers: 4 at (0,3), 3 at (2,1), and 2 at (3,2)\n3. For each empty cell, I'll consider what numbers are possible based on row, column and block constraints\n4. Working through systematically to fill in the unique solutions\",\n\"answer\": [\n    [\"2\", \"4\", \"3\", \"4\"],\n    [\"4\", \"1\", \"3\", \"2\"],\n    [\"2\", \"3\", \"4\", \"1\"],\n    [\"1\", \"4\", \"2\", \"3\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,0,4],[0,1,0,0],[0,3,0,1],[1,0,2,0]]\nAnswer\n[[2,4,3,4],[4,1,3,2],[2,3,4,1],[1,4,2,3]]",
+    "hint_count": 6,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79571",
+    "image": "img_val/79571.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [1, \"*\", 4, \"*\"],\n    [\"*\", \"*\", \"*\", 2],\n    [\"*\", 3, \"*\", \"*\"],\n    [2, \"*\", 3, \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the given numbers:\n1. Looking at row 0: 1 and 4 are placed, leaving 2 and 3 for empty cells\n2. Looking at row 1: Only 2 is placed at the end\n3. Looking at row 2: Only 3 is placed in second position\n4. Looking at row 3: 2 and 3 are placed\n5. Looking at columns and blocks, I can determine the remaining numbers following Sudoku rules\",\n\"answer\": [\n    [1, 2, 4, 3],\n    [3, 4, 1, 2],\n    [4, 3, 2, 1],\n    [2, 1, 3, 4]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[1,0,4,0],[0,0,0,2],[0,3,0,0],[2,0,3,0]]\nAnswer\n[[1,2,4,3],[3,4,1,2],[4,3,2,1],[2,1,3,4]]",
+    "hint_count": 6,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79572",
+    "image": "img_val/79572.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"2\", \"4\", \"3\"],\n    [\"*\", \"*\", \"*\", \"1\"],\n    [\"3\", \"*\", \"*\", \"2\"],\n    [\"2\", \"*\", \"*\", \"4\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at row 1, we're missing 1\n2. Looking at column 1, we already have 2,3 so position [0,0] must be 4\n3. In column 2, we need 1,3 \n4. In column 3, we need 1,4\n5. Using block constraints and existing numbers, I can fill in the remaining cells\",\n\"answer\": [\n    [\"4\", \"2\", \"4\", \"3\"],\n    [\"1\", \"3\", \"2\", \"1\"],\n    [\"3\", \"1\", \"4\", \"2\"],\n    [\"2\", \"4\", \"1\", \"4\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,2,4,3],[0,0,0,1],[3,0,0,2],[2,0,0,4]]\nAnswer\n[[4,2,4,3],[1,3,2,1],[3,1,4,2],[2,4,1,4]]",
+    "hint_count": 8,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79573",
+    "image": "img_val/79573.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"2\", \"4\", \"3\"],\n    [\"3\", \"4\", \"1\", \"2\"],\n    [\"2\", \"*\", \"3\", \"*\"],\n    [\"4\", \"3\", \"2\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the missing values:\n1. In row 0, column 0: Looking at row 0, we're missing 1. Looking at column 0, we have 3,2,4 so 1 is possible.\n2. In row 2, column 1: Looking at row 2 and column 1, we need 1.\n3. In row 2, column 3: Looking at row 2 and column 3, we need 4.\n4. In row 3, column 3: Looking at row 3 and column 3, we need 1.\nEach position has only one possible value that satisfies the Sudoku rules.\",\n\"answer\": [\n    [\"1\", \"2\", \"4\", \"3\"],\n    [\"3\", \"4\", \"1\", \"2\"],\n    [\"2\", \"1\", \"3\", \"4\"],\n    [\"4\", \"3\", \"2\", \"1\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,2,4,3],[3,4,1,2],[2,0,3,0],[4,3,2,0]]\nAnswer\n[[1,2,4,3],[3,4,1,2],[2,1,3,4],[4,3,2,1]]",
+    "hint_count": 12,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79574",
+    "image": "img_val/79574.png",
+    "model_output": "```json\n{\n\"perception\": [\n[\"*\", \"*\", \"2\", \"*\"],\n[\"2\", \"4\", \"3\", \"*\"],\n[\"*\", \"*\", \"*\", \"*\"],\n[\"*\", \"*\", \"*\", \"2\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the given numbers:\n1. We have '2' appearing in three positions: (0,2), (1,0), and (3,3)\n2. '4' appears at (1,1)\n3. '3' appears at (1,2)\n4. Looking at the constraints:\n   - Row 0: missing 1,3,4\n   - Row 1: missing 1\n   - Row 2: missing all numbers\n   - Row 3: missing 1,3,4\n   - Each 2x2 block must contain 1,2,3,4\nLet me solve systematically following Sudoku rules.\",\n\"answer\": [\n[1, 3, 2, 4],\n[2, 4, 3, 1],\n[3, 1, 4, 2],\n[4, 2, 1, 3]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,2,0],[2,4,3,0],[0,0,0,0],[0,0,0,2]]\nAnswer\n[[1,3,2,4],[2,4,3,1],[3,1,4,2],[4,2,1,3]]",
+    "hint_count": 5,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79575",
+    "image": "img_val/79575.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [3, 4, \"*\", 2],\n    [\"*\", \"*\", \"*\", 4],\n    [4, \"*\", \"*\", \"*\"],\n    [1, \"*\", \"*\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve this step by step:\n1. Looking at row 1: 3,4,*,2 - missing 1\n2. Looking at column 1: 3,*,4,1 - missing 2\n3. Looking at column 4: 2,4,*,* - missing 1,3\n4. First block has 3,4 - missing 1,2\n5. Last block has 2,4 - missing 1,3\n6. Using these constraints and continuing through each cell\",\n\"answer\": [\n    [3, 4, 1, 2],\n    [2, 1, 3, 4],\n    [4, 2, 1, 3],\n    [1, 3, 4, 2]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[3,4,0,2],[0,0,0,4],[4,0,0,0],[1,0,0,0]]\nAnswer\n[[3,4,1,2],[2,1,3,4],[4,2,1,3],[1,3,4,2]]",
+    "hint_count": 6,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79576",
+    "image": "img_val/79576.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"*\", \"3\", \"*\"],\n    [\"*\", \"*\", \"*\", \"*\"],\n    [\"*\", \"1\", \"*\", \"3\"],\n    [\"*\", \"*\", \"*\", \"2\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Looking at the given numbers:\n1. We have a 3 in top row, third column\n2. We have a 1 in third row, second column\n3. We have a 3 in third row, last column \n4. We have a 2 in bottom row, last column\n\nLet's solve systematically:\n1. In the last column, we already have 2,3 so only 1,4 remain\n2. In third column, we have 3 at top, so other cells must be 1,2,4\n3. Looking at blocks and applying constraints, we can fill in remaining numbers\",\n\n\"answer\": [\n    [\"2\", \"4\", \"3\", \"1\"],\n    [\"3\", \"2\", \"1\", \"4\"],\n    [\"4\", \"1\", \"2\", \"3\"],\n    [\"1\", \"3\", \"4\", \"2\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,3,0],[0,0,0,0],[0,1,0,3],[0,0,0,2]]\nAnswer\n[[2,4,3,1],[3,2,1,4],[4,1,2,3],[1,3,4,2]]",
+    "hint_count": 4,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79577",
+    "image": "img_val/79577.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [3, \"*\", \"*\", 2],\n    [1, \"*\", \"*\", 3],\n    [2, 1, \"*\", 4],\n    [4, \"*\", 2, \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the missing values:\n1. Looking at row 0: Missing 1 and 4\n2. Looking at row 1: Missing 2 and 4 \n3. Looking at row 2: Missing 3\n4. Looking at row 3: Missing 1 and 3\n5. Looking at columns and blocks:\n   - Column 1 needs 2,3,4\n   - Column 2 needs 1,3,4\n   - Column 3 needs 1\n6. Can solve systematically by filling obvious numbers first\",\n\"answer\": [\n    [3, 4, 1, 2],\n    [1, 2, 4, 3],\n    [2, 1, 3, 4],\n    [4, 3, 2, 1]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[3,0,0,2],[1,0,0,3],[2,1,0,4],[4,0,2,0]]\nAnswer\n[[3,4,1,2],[1,2,4,3],[2,1,3,4],[4,3,2,1]]",
+    "hint_count": 9,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79578",
+    "image": "img_val/79578.png",
+    "model_output": "```json\n{\n\"perception\": [\n[4, \"*\", \"*\", 1],\n[3, 1, 2, 4],\n[1, \"*\", 4, 2],\n[\"*\", \"*\", 1, 3]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let's solve the empty cells:\n1. Bottom left cell (3,0): Looking at column 0, we have 4,3,1 used, so this must be 2\n2. Bottom middle-left cell (3,1): Looking at row 3, we have 2,1,3 used, so this must be 4\n3. Top middle-left cell (0,1): Looking at row 0, we have 4,1 used and column 1 has 1 used, so this must be 2\n4. Top middle-right cell (0,2): Looking at row 0, we have 4,2,1 used, so this must be 3\",\n\"answer\": [\n[4, 2, 3, 1],\n[3, 1, 2, 4],\n[1, 3, 4, 2],\n[2, 4, 1, 3]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[4,0,0,1],[3,1,2,4],[1,0,4,2],[0,0,1,3]]\nAnswer\n[[4,2,3,1],[3,1,2,4],[1,3,4,2],[2,4,1,3]]",
+    "hint_count": 11,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79579",
+    "image": "img_val/79579.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"*\", \"4\", \"*\"],\n    [\"4\", \"*\", \"*\", \"*\"],\n    [\"*\", \"*\", \"1\", \"*\"],\n    [\"*\", \"1\", \"*\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the given numbers:\n- We have 4s in positions (0,2) and (1,0)\n- We have 1s in positions (2,2) and (3,1)\n- Each row, column and 2x2 block must contain numbers 1-4\n- Looking at the first block, we can deduce numbers based on what's missing\n- The presence of 4s and 1s helps determine valid positions for 2s and 3s\n- Can solve systematically by checking constraints for each empty cell\",\n\"answer\": [\n    [\"2\", \"3\", \"4\", \"1\"],\n    [\"4\", \"2\", \"3\", \"1\"],\n    [\"3\", \"4\", \"1\", \"2\"],\n    [\"2\", \"1\", \"4\", \"3\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,4,0],[4,0,0,0],[0,0,1,0],[0,1,0,0]]\nAnswer\n[[2,3,4,1],[4,2,3,1],[3,4,1,2],[2,1,4,3]]",
+    "hint_count": 4,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79580",
+    "image": "img_val/79580.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"*\", \"2\", \"3\"],\n    [\"2\", \"*\", \"*\", \"*\"],\n    [\"*\", \"*\", \"3\", \"2\"],\n    [\"3\", \"*\", \"*\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve this step by step:\n1. Looking at row 0, we have 2,3 - so 1,4 are missing\n2. Looking at row 1, we have 2 - so 1,3,4 are missing\n3. Looking at row 2, we have 3,2 - so 1,4 are missing \n4. Looking at row 3, we have 3 - so 1,2,4 are missing\n5. Looking at columns and blocks:\n   - Column 0 has 2,3 so needs 1,4\n   - Column 2 has 2,3 so needs 1,4\n   - First block needs 1,3,4\n   - Last block needs 1,4\n6. Using these constraints, I can deduce the full solution\",\n\"answer\": [\n    [\"1\", \"4\", \"2\", \"3\"],\n    [\"2\", \"3\", \"4\", \"1\"],\n    [\"4\", \"1\", \"3\", \"2\"],\n    [\"3\", \"2\", \"1\", \"4\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,2,3],[2,0,0,0],[0,0,3,2],[3,0,0,0]]\nAnswer\n[[1,4,2,3],[2,3,4,1],[4,1,3,2],[3,2,1,4]]",
+    "hint_count": 6,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79581",
+    "image": "img_val/79581.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"2\", \"*\", \"*\"],\n    [\"4\", \"*\", \"2\", \"*\"],\n    [\"3\", \"4\", \"1\", \"2\"],\n    [\"*\", \"1\", \"*\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve this step by step:\n1. Looking at row 0: Has 2, missing 1,3,4\n2. Looking at row 1: Has 4,2, missing 1,3\n3. Looking at row 2: Complete with 3,4,1,2\n4. Looking at row 3: Has 1, missing 2,3,4\n5. Checking columns and blocks:\n   - Column 0 has 4,3, so only 1,2 possible\n   - Column 1 has 2,4,1, so only 3 possible\n   - Column 2 has 2,1, so 3,4 possible\n   - Column 3 has 2, so 1,3,4 possible\n6. Using these constraints, I can fill in the remaining numbers\",\n\"answer\": [\n    [\"1\", \"2\", \"3\", \"4\"],\n    [\"4\", \"3\", \"2\", \"1\"],\n    [\"3\", \"4\", \"1\", \"2\"],\n    [\"2\", \"1\", \"4\", \"3\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,2,0,0],[4,0,2,0],[3,4,1,2],[0,1,0,0]]\nAnswer\n[[1,2,3,4],[4,3,2,1],[3,4,1,2],[2,1,4,3]]",
+    "hint_count": 8,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79582",
+    "image": "img_val/79582.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"*\", \"1\", \"*\"],\n    [\"1\", \"*\", \"4\", \"*\"],\n    [\"*\", \"1\", \"*\", \"*\"],\n    [\"*\", \"*\", \"2\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the given numbers:\n1. We have '1' appearing in row 0 col 2, row 1 col 0, and row 2 col 1\n2. We have '4' in row 1 col 2\n3. We have '2' in row 3 col 2\n4. Each row, column and 2x2 block must contain numbers 1-4\n5. Let's solve methodically by checking possible numbers for each empty cell based on row, column and block constraints\",\n\"answer\": [\n    [\"2\", \"4\", \"1\", \"3\"],\n    [\"1\", \"3\", \"4\", \"2\"],\n    [\"4\", \"1\", \"3\", \"2\"],\n    [\"3\", \"2\", \"2\", \"1\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,1,0],[1,0,4,0],[0,1,0,0],[0,0,2,0]]\nAnswer\n[[2,4,1,3],[1,3,4,2],[4,1,3,2],[3,2,2,1]]",
+    "hint_count": 5,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79583",
+    "image": "img_val/79583.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"*\", \"3\", \"*\"],\n    [\"*\", \"4\", \"*\", \"1\"],\n    [\"4\", \"*\", \"*\", \"*\"],\n    [\"*\", \"*\", \"4\", \"2\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the given numbers:\n1. Looking at the 4s: We have 4s in positions (1,1), (2,0), and (3,2). This means row 0 and row 3 can't have 4.\n2. Looking at other numbers: We have a 3 in (0,2), a 1 in (1,3), and a 2 in (3,3).\n3. I'll solve systematically by checking what numbers are possible in each empty cell while ensuring no repeats in rows, columns and 2x2 blocks.\",\n\"answer\": [\n    [\"2\", \"1\", \"3\", \"4\"],\n    [\"3\", \"4\", \"2\", \"1\"],\n    [\"4\", \"2\", \"1\", \"3\"],\n    [\"1\", \"3\", \"4\", \"2\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,3,0],[0,4,0,1],[4,0,0,0],[0,0,4,2]]\nAnswer\n[[2,1,3,4],[3,4,2,1],[4,2,1,3],[1,3,4,2]]",
+    "hint_count": 6,
+    "perception_correct": false,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79584",
+    "image": "img_val/79584.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"1\", \"2\", \"*\"],\n    [\"2\", \"3\", \"*\", \"4\"],\n    [\"*\", \"*\", \"3\", \"*\"],\n    [\"*\", \"*\", \"*\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at first row: Missing 3,4\n2. Looking at first column: Missing 1,3,4 \n3. Looking at second row: Missing 1\n4. Looking at third row: Missing 1,2,4\n5. Last row completely empty\n6. Using block constraints and existing numbers:\n   - First block: Missing 1,4\n   - Second block: Missing 1,3\n   - Third block: Missing 1,4\n   - Fourth block: Missing 1,2\n7. Can deduce remaining numbers by elimination\",\n\"answer\": [\n    [\"4\", \"1\", \"2\", \"3\"],\n    [\"2\", \"3\", \"1\", \"4\"],\n    [\"1\", \"4\", \"3\", \"2\"],\n    [\"3\", \"2\", \"4\", \"1\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,1,2,0],[2,3,0,4],[0,0,3,0],[0,0,0,0]]\nAnswer\n[[4,1,2,3],[2,3,1,4],[1,4,3,2],[3,2,4,1]]",
+    "hint_count": 6,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79585",
+    "image": "img_val/79585.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"4\", \"1\", \"*\"],\n    [\"*\", \"*\", \"*\", \"*\"],\n    [\"4\", \"3\", \"*\", \"1\"],\n    [\"*\", \"2\", \"*\", \"3\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the given numbers:\n1. Looking at row 1: We have 4,1 so missing 2,3\n2. Looking at row 3: We have 4,3,1 so missing 2\n3. Looking at row 4: We have 2,3 so missing 1,4\n4. Looking at columns: Column 1 has 4, column 2 has 4,3,2, column 3 has 1, column 4 has 1,3\n5. Looking at blocks: Each 2x2 block must contain 1,2,3,4\n6. I can fill in the remaining numbers ensuring no repeats in rows, columns and blocks\",\n\"answer\": [\n    [\"3\", \"4\", \"1\", \"2\"],\n    [\"2\", \"1\", \"3\", \"4\"],\n    [\"4\", \"3\", \"2\", \"1\"],\n    [\"1\", \"2\", \"4\", \"3\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,4,1,0],[0,0,0,0],[4,3,0,1],[0,2,0,3]]\nAnswer\n[[3,4,1,2],[2,1,3,4],[4,3,2,1],[1,2,4,3]]",
+    "hint_count": 7,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79586",
+    "image": "img_val/79586.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"2\", \"*\", \"*\"],\n    [\"*\", \"*\", \"*\", \"*\"],\n    [\"2\", \"1\", \"4\", \"*\"],\n    [\"4\", \"*\", \"1\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at row 3 (index 2), we have 2,1,4 - so the last number must be 3\n2. In column 4 (index 3), we need 1,2,3,4 and we have only one empty cell in row 2\n3. Looking at the last row, we're missing 2,3 and considering column constraints\n4. For the first row and second row, we can fill using block, row and column constraints\",\n\n\"answer\": [\n    [\"1\", \"2\", \"3\", \"4\"],\n    [\"3\", \"4\", \"2\", \"1\"],\n    [\"2\", \"1\", \"4\", \"3\"],\n    [\"4\", \"3\", \"1\", \"2\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,2,0,0],[0,0,0,0],[2,1,4,0],[4,0,1,0]]\nAnswer\n[[1,2,3,4],[3,4,2,1],[2,1,4,3],[4,3,1,2]]",
+    "hint_count": 6,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79587",
+    "image": "img_val/79587.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"*\", \"1\", \"2\"],\n    [\"*\", \"*\", \"*\", \"4\"],\n    [\"*\", \"*\", \"2\", \"*\"],\n    [\"1\", \"2\", \"*\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at row 0, we have 1,2 - so 3,4 are missing\n2. Column 2 has 1,2 - so 3,4 are missing\n3. Row 1 has 4 - so 1,2,3 are missing\n4. Bottom right block is missing 3,4\n5. Bottom left block has 1,2 - so 3,4 are missing\n6. Using these constraints, I can fill in the remaining numbers\",\n\n\"answer\": [\n    [\"3\", \"4\", \"1\", \"2\"],\n    [\"2\", \"1\", \"3\", \"4\"],\n    [\"4\", \"3\", \"2\", \"1\"],\n    [\"1\", \"2\", \"4\", \"3\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,1,2],[0,0,0,4],[0,0,2,0],[1,2,0,0]]\nAnswer\n[[3,4,1,2],[2,1,3,4],[4,3,2,1],[1,2,4,3]]",
+    "hint_count": 6,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79588",
+    "image": "img_val/79588.png",
+    "model_output": "```json\n{\n\"perception\": [[1,3,\"*\",\"*\"],\n               [2,4,\"*\",1],\n               [\"*\",2,\"*\",3],\n               [\"*\",1,4,\"*\"]],\n\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at row 0: Missing 2,4\n2. Looking at row 1: Missing 3\n3. Looking at row 2: Missing 1,4 \n4. Looking at row 3: Missing 2,3\n5. Column analysis and block constraints help fill in remaining numbers\n6. For example, in first column, 3,4 are missing and 4 can't go in row 2 due to row constraints\n7. Working through constraints systematically leads to unique solution\",\n\n\"answer\": [[1,3,4,2],\n          [2,4,3,1],\n          [4,2,1,3],\n          [3,1,4,2]]\n}\n```",
+    "model_output_filtered": "Perception\n[[1,3,0,0],[2,4,0,1],[0,2,0,3],[0,1,4,0]]\nAnswer\n[[1,3,4,2],[2,4,3,1],[4,2,1,3],[3,1,4,2]]",
+    "hint_count": 9,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79589",
+    "image": "img_val/79589.png",
+    "model_output": "```json\n{\n\"perception\": [\n[3, \"*\", \"*\", 2],\n[\"*\", 1, \"*\", \"*\"],\n[\"*\", \"*\", \"*\", \"*\"],\n[\"*\", \"*\", \"*\", 3]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve this step by step:\n1. Looking at row 0: 3 and 2 are placed, so 1 and 4 are missing\n2. Looking at column 3: 2 and 3 are placed, so 1 and 4 are missing\n3. Looking at the first block: 3 and 1 are placed, so 2 and 4 are missing\n4. Using these constraints and continuing with similar logic for other cells\n5. The puzzle has a unique solution that satisfies all Sudoku rules\",\n\"answer\": [\n[3, 4, 1, 2],\n[2, 1, 4, 3],\n[1, 3, 2, 4],\n[4, 2, 3, 1]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[3,0,0,2],[0,1,0,0],[0,0,0,0],[0,0,0,3]]\nAnswer\n[[3,4,1,2],[2,1,4,3],[1,3,2,4],[4,2,3,1]]",
+    "hint_count": 4,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79590",
+    "image": "img_val/79590.png",
+    "model_output": "```json\n{\n\"perception\": [\n[\"*\", \"*\", \"*\", \"*\"],\n[\"2\", \"*\", \"4\", \"*\"],\n[\"*\", \"*\", \"3\", \"4\"],\n[\"3\", \"*\", \"*\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve this step by step:\n1. Looking at row 2, we have 3 and 4, so 1 and 2 are missing\n2. Column 3 has 4, so in row 3 position 0 must be 1 or 2\n3. Block 2 (bottom left) has 3, so position (3,1) must be 1,2 or 4\n4. Row 0 can't have 2,3,4 in certain positions due to existing numbers\n5. Working through the constraints, I can determine the full solution\",\n\"answer\": [\n[4, 3, 1, 2],\n[2, 1, 4, 3],\n[1, 2, 3, 4],\n[3, 4, 2, 1]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,0,0],[2,0,4,0],[0,0,3,4],[3,0,0,0]]\nAnswer\n[[4,3,1,2],[2,1,4,3],[1,2,3,4],[3,4,2,1]]",
+    "hint_count": 5,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79591",
+    "image": "img_val/79591.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"*\", \"*\", \"4\"],\n    [\"2\", \"*\", \"3\", \"1\"],\n    [\"4\", \"2\", \"*\", \"3\"],\n    [\"*\", \"*\", \"*\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at row 1, we're missing 1,2,3\n2. Looking at column 1, we're missing 1,3 \n3. Looking at column 2, we're missing 1,3,4\n4. Looking at column 3, we're missing 2,4\n5. Looking at column 4, we already have 1,3,4\n6. The bottom row must contain 1,2,3,4\n7. Using block constraints and existing numbers, I can fill in the remaining cells\",\n\n\"answer\": [\n    [\"3\", \"1\", \"2\", \"4\"],\n    [\"2\", \"4\", \"3\", \"1\"],\n    [\"4\", \"2\", \"1\", \"3\"],\n    [\"1\", \"3\", \"4\", \"2\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,0,4],[2,0,3,1],[4,2,0,3],[0,0,0,0]]\nAnswer\n[[3,1,2,4],[2,4,3,1],[4,2,1,3],[1,3,4,2]]",
+    "hint_count": 7,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79592",
+    "image": "img_val/79592.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"*\", \"*\", \"*\"],\n    [\"3\", \"4\", \"2\", \"1\"],\n    [\"*\", \"1\", \"*\", \"3\"],\n    [\"*\", \"3\", \"1\", \"2\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the given numbers:\n1. Looking at row 1 - completely empty\n2. Row 2 has all numbers filled: 3,4,2,1\n3. Row 3 has 1 and 3\n4. Row 4 has 3,1,2\n5. For column 1: only 3 is present, missing 1,2,4\n6. For column 2: 4,1,3 present, missing 2\n7. For column 3: 2,1 present, missing 3,4\n8. For column 4: 1,3,2 present, missing 4\n9. Looking at blocks and considering rules, I can fill in the remaining numbers\",\n\"answer\": [\n    [\"2\", \"2\", \"4\", \"4\"],\n    [\"3\", \"4\", \"2\", \"1\"],\n    [\"4\", \"1\", \"3\", \"3\"],\n    [\"1\", \"3\", \"1\", \"2\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,0,0],[3,4,2,1],[0,1,0,3],[0,3,1,2]]\nAnswer\n[[2,2,4,4],[3,4,2,1],[4,1,3,3],[1,3,1,2]]",
+    "hint_count": 9,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79593",
+    "image": "img_val/79593.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"4\", \"*\", \"*\"],\n    [\"1\", \"2\", \"*\", \"*\"],\n    [\"*\", \"1\", \"4\", \"3\"],\n    [\"*\", \"*\", \"1\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at row 3, column 3 with value 1, this means row 4, column 4 cannot be 1\n2. Row 2 has 1,2 so it needs 3,4\n3. Column 2 has 4,2,1 so it needs 3\n4. First block has 4, so 1,2,3 are possible\n5. Using these constraints and continuing with logical deduction\",\n\"answer\": [\n    [\"3\", \"4\", \"2\", \"1\"],\n    [\"1\", \"2\", \"3\", \"4\"],\n    [\"2\", \"1\", \"4\", \"3\"],\n    [\"4\", \"3\", \"1\", \"2\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,4,0,0],[1,2,0,0],[0,1,4,3],[0,0,1,0]]\nAnswer\n[[3,4,2,1],[1,2,3,4],[2,1,4,3],[4,3,1,2]]",
+    "hint_count": 7,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79594",
+    "image": "img_val/79594.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [4, \"*\", 2, \"*\"],\n    [1, \"*\", \"*\", \"*\"],\n    [3, \"*\", 1, 2],\n    [2, 1, \"*\", 4]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at row 0: Missing 1,3\n2. Looking at row 1: Missing 2,3,4\n3. Looking at row 2: Missing 4\n4. Looking at row 3: Missing 3\n5. Looking at column 0: Missing nothing\n6. Looking at column 1: Missing 2,3,4\n7. Looking at column 2: Missing 3,4\n8. Looking at column 3: Missing 1,3\n\nBy analyzing the constraints:\n- In row 0, col 3 must be 3 since 1 appears in col 1 of row 3\n- In row 1, col 1 must be 4 since 4 appears in last column of last row\n- This forces row 1, col 2 to be 3\n- The remaining empty cells can be filled following the rules\",\n\n\"answer\": [\n    [4, 1, 2, 3],\n    [1, 4, 3, 2],\n    [3, 4, 1, 2],\n    [2, 1, 3, 4]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[4,0,2,0],[1,0,0,0],[3,0,1,2],[2,1,0,4]]\nAnswer\n[[4,1,2,3],[1,4,3,2],[3,4,1,2],[2,1,3,4]]",
+    "hint_count": 9,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79595",
+    "image": "img_val/79595.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [4, \"*\", 2, \"*\"],\n    [2, 3, 1, \"*\"],\n    [\"*\", \"*\", 3, 2],\n    [3, 2, \"*\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve this step by step:\n1. Looking at row 0: Missing 1,3\n2. Looking at row 1: Missing 4 \n3. Looking at row 2: Missing 1,4\n4. Looking at row 3: Missing 1,4\n5. Column analysis and block analysis shows that remaining cells can be filled uniquely\n6. The empty cell in row 1 must be 4 due to row/column constraints\n7. The remaining cells can be solved following Sudoku rules\",\n\"answer\": [\n    [4, 1, 2, 3],\n    [2, 3, 1, 4],\n    [1, 4, 3, 2],\n    [3, 2, 4, 1]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[4,0,2,0],[2,3,1,0],[0,0,3,2],[3,2,0,0]]\nAnswer\n[[4,1,2,3],[2,3,1,4],[1,4,3,2],[3,2,4,1]]",
+    "hint_count": 9,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79596",
+    "image": "img_val/79596.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"*\", \"*\", \"*\"],\n    [\"*\", \"*\", \"3\", \"*\"],\n    [\"*\", \"*\", \"1\", \"3\"],\n    [\"3\", \"*\", \"4\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the given numbers:\n- Row 0: Empty\n- Row 1: Has 3 in column 2\n- Row 2: Has 1 in column 2 and 3 in column 3\n- Row 3: Has 3 in column 0 and 4 in column 2\nLooking at the constraints:\n1. Column 2 has 3,1,4 so only 2 is missing\n2. Column 3 has only 3, needs 1,2,4\n3. Column 0 has only 3, needs 1,2,4\n4. Column 1 is empty, needs 1,2,3,4\nI'll solve this systematically using the rules\",\n\"answer\": [\n    [\"4\", \"1\", \"2\", \"3\"],\n    [\"1\", \"2\", \"3\", \"4\"],\n    [\"2\", \"4\", \"1\", \"3\"],\n    [\"3\", \"1\", \"4\", \"2\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,0,0],[0,0,3,0],[0,0,1,3],[3,0,4,0]]\nAnswer\n[[4,1,2,3],[1,2,3,4],[2,4,1,3],[3,1,4,2]]",
+    "hint_count": 5,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79597",
+    "image": "img_val/79597.png",
+    "model_output": "```json\n{\n\"perception\": [\n[1, 2, 3, 4],\n[3, 4, 2, \"*\"],\n[2, \"*\", 4, 3],\n[4, \"*\", 1, \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Looking at the missing values:\n1. In row 1, all numbers are filled\n2. In row 2, position (1,3) is missing - can only be 1 since 2,3,4 are used\n3. In row 3, position (3,1) is missing - can only be 1 since 2,3,4 are used\n4. In row 4, positions (4,1) and (4,3) are missing:\n   - (4,1) must be 2 since 1,3,4 are used in that column\n   - (4,3) must be 2 since 1,3,4 are used in that row\",\n\"answer\": [\n[1, 2, 3, 4],\n[3, 4, 2, 1],\n[2, 1, 4, 3],\n[4, 2, 1, 2]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[1,2,3,4],[3,4,2,0],[2,0,4,3],[4,0,1,0]]\nAnswer\n[[1,2,3,4],[3,4,2,1],[2,1,4,3],[4,2,1,2]]",
+    "hint_count": 12,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79598",
+    "image": "img_val/79598.png",
+    "model_output": "```json\n{\n\"perception\": [\n[2, \"*\", \"*\", \"*\"],\n[\"*\", 3, 1, 2],\n[\"*\", 2, 3, 4],\n[3, 4, 2, \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the missing values:\n1. In row 0: We have 2, need 1,3,4. Looking at column constraints, 3 and 4 are blocked in col 1, 1&3 blocked in col 2, 2 blocked in col 3.\n2. In row 1: Only missing 4 in first position\n3. In row 2: Only missing 1 in first position\n4. In row 3: Only missing 1 in last position\nWorking through constraints, we can fill all positions uniquely.\",\n\"answer\": [\n[2, 1, 4, 3],\n[4, 3, 1, 2],\n[1, 2, 3, 4],\n[3, 4, 2, 1]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[2,0,0,0],[0,3,1,2],[0,2,3,4],[3,4,2,0]]\nAnswer\n[[2,1,4,3],[4,3,1,2],[1,2,3,4],[3,4,2,1]]",
+    "hint_count": 10,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79599",
+    "image": "img_val/79599.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"3\", \"*\", \"*\"],\n    [\"4\", \"*\", \"*\", \"3\"],\n    [\"*\", \"*\", \"*\", \"*\"],\n    [\"*\", \"1\", \"4\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at row 1, we have 3, so 1,2,4 are missing\n2. Looking at row 2, we have 4,3, so 1,2 are missing\n3. Row 4 has 1,4, so 2,3 are missing\n4. Column 2 has 3,1, so 2,4 are missing\n5. Column 3 has 4, so 1,2,3 are missing\n6. Using block constraints and existing numbers, I can fill in the remaining cells\",\n\n\"answer\": [\n    [\"2\", \"3\", \"1\", \"4\"],\n    [\"4\", \"2\", \"1\", \"3\"],\n    [\"3\", \"4\", \"2\", \"1\"],\n    [\"1\", \"1\", \"4\", \"2\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,3,0,0],[4,0,0,3],[0,0,0,0],[0,1,4,0]]\nAnswer\n[[2,3,1,4],[4,2,1,3],[3,4,2,1],[1,1,4,2]]",
+    "hint_count": 5,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79600",
+    "image": "img_val/79600.png",
+    "model_output": "```json\n{\n\"perception\": [[\n    \"*\", \"2\", \"3\", \"4\"],\n    [\"4\", \"*\", \"1\", \"2\"],\n    [\"2\", \"1\", \"4\", \"3\"],\n    [\"*\", \"*\", \"2\", \"1\"]],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at the empty cell at (0,0):\n   - Row 0 already has 2,3,4\n   - Column 0 has 4,2\n   - Block has 4\n   Therefore (0,0) must be 1\n2. For (1,1):\n   - Row 1 has 4,1,2\n   - Column 1 has 2,1\n   - Block has 4,1\n   So (1,1) must be 3\n3. For (3,0):\n   - Row 3 has 2,1\n   - Column 0 has 4,2,1\n   - Block has 2\n   Thus (3,0) must be 3\n4. Finally (3,1):\n   - Row 3 has 3,2,1\n   - Column 1 has 2,1,3\n   - Block has 3,2\n   So (3,1) must be 4\",\n\"answer\": [[\n    \"1\", \"2\", \"3\", \"4\"],\n    [\"4\", \"3\", \"1\", \"2\"],\n    [\"2\", \"1\", \"4\", \"3\"],\n    [\"3\", \"4\", \"2\", \"1\"]]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,2,3,4],[4,0,1,2],[2,1,4,3],[0,0,2,1]]\nAnswer\n[[1,2,3,4],[4,3,1,2],[2,1,4,3],[3,4,2,1]]",
+    "hint_count": 12,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79601",
+    "image": "img_val/79601.png",
+    "model_output": "```json\n{\n\"perception\": [\n[2, \"*\", 4, 3],\n[4, 3, 1, \"*\"],\n[\"*\", 4, \"*\", \"*\"],\n[1, 2, \"*\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at row 0: 2,_,4,3 - missing 1\n2. Looking at row 1: 4,3,1,_ - missing 2\n3. Looking at row 2: _,4,_,_ - missing 1,2,3\n4. Looking at row 3: 1,2,_,_ - missing 3,4\n5. Checking columns and blocks:\n   - Column 2 has 4,1 - needs 2,3\n   - Last block needs 1,4\n6. Cell (2,3) must be 1 based on last block analysis\n7. Rest can be filled following Sudoku rules\",\n\"answer\": [\n[2, 1, 4, 3],\n[4, 3, 1, 2],\n[3, 4, 2, 1],\n[1, 2, 3, 4]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[2,0,4,3],[4,3,1,0],[0,4,0,0],[1,2,0,0]]\nAnswer\n[[2,1,4,3],[4,3,1,2],[3,4,2,1],[1,2,3,4]]",
+    "hint_count": 9,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79602",
+    "image": "img_val/79602.png",
+    "model_output": "```json\n{\n\"perception\": [[3, 2, \"*\", \"*\"],\n              [4, \"*\", \"*\", \"*\"],\n              [2, \"*\", 4, \"*\"],\n              [1, 4, \"*\", 3]],\n\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the given numbers:\n1. Looking at row 0: 3,2 are placed, so 1,4 are missing\n2. Looking at row 1: Only 4 is placed\n3. Looking at row 2: 2,4 are placed\n4. Looking at row 3: 1,4,3 are placed, only 2 is missing\n5. Looking at columns: Column 0 has 3,4,2,1\n6. Each 2x2 block must contain 1,2,3,4\n7. I can fill in the remaining numbers ensuring no repeats in rows, columns and blocks\",\n\n\"answer\": [[3, 2, 1, 4],\n          [4, 1, 3, 2],\n          [2, 3, 4, 1],\n          [1, 4, 2, 3]]\n}\n```",
+    "model_output_filtered": "Perception\n[[3,2,0,0],[4,0,0,0],[2,0,4,0],[1,4,0,3]]\nAnswer\n[[3,2,1,4],[4,1,3,2],[2,3,4,1],[1,4,2,3]]",
+    "hint_count": 8,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79603",
+    "image": "img_val/79603.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [4, \"*\", 2, \"*\"],\n    [2, 3, \"*\", 4],\n    [3, \"*\", \"*\", 1],\n    [1, 4, 3, 2]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the missing values:\n1. In row 0: Missing 1 and 3\n2. In row 1: Missing 1\n3. In row 2: Missing 2 and 4\n4. Looking at columns and blocks:\n   - Column 1 needs 1, 2\n   - Column 2 needs 1, 4\n   - Top-right block needs 1, 3\n   - Middle-right block needs 1, 2\nBy applying Sudoku rules and elimination, I can fill in all missing values.\",\n\"answer\": [\n    [4, 1, 2, 3],\n    [2, 3, 1, 4],\n    [3, 2, 4, 1],\n    [1, 4, 3, 2]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[4,0,2,0],[2,3,0,4],[3,0,0,1],[1,4,3,2]]\nAnswer\n[[4,1,2,3],[2,3,1,4],[3,2,4,1],[1,4,3,2]]",
+    "hint_count": 11,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79604",
+    "image": "img_val/79604.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [3, 4, 2, \"*\"],\n    [1, 2, 3, 4],\n    [2, \"*\", 4, 3],\n    [\"*\", 3, \"*\", 2]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the missing values:\n- In row 0, column 3: Only 1 is missing since 2,3,4 are used\n- In row 2, column 1: Only 1 is missing since 2,3,4 are used \n- In row 3, column 0: Only 4 is missing since 1,2,3 are used\n- In row 3, column 2: Only 1 is missing since 2,3,4 are used\nThe solution satisfies all Sudoku rules with unique numbers in each row, column and 2x2 block.\",\n\"answer\": [\n    [3, 4, 2, 1],\n    [1, 2, 3, 4], \n    [2, 1, 4, 3],\n    [4, 3, 1, 2]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[3,4,2,0],[1,2,3,4],[2,0,4,3],[0,3,0,2]]\nAnswer\n[[3,4,2,1],[1,2,3,4],[2,1,4,3],[4,3,1,2]]",
+    "hint_count": 12,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79605",
+    "image": "img_val/79605.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"1\", \"*\", \"*\"],\n    [\"4\", \"*\", \"1\", \"*\"],\n    [\"*\", \"*\", \"*\", \"*\"],\n    [\"1\", \"*\", \"*\", \"4\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the given numbers:\n1. We have 1s in positions (0,1), (1,2), and (3,0)\n2. We have 4s in positions (1,0) and (3,3)\n3. Each row, column and 2x2 block must contain numbers 1-4\n4. Looking at the first block, we need 2,3 in (0,0) and (1,1)\n5. Working through constraints for each empty cell systematically...\",\n\"answer\": [\n    [\"2\", \"1\", \"4\", \"3\"],\n    [\"4\", \"3\", \"1\", \"2\"],\n    [\"3\", \"2\", \"2\", \"1\"],\n    [\"1\", \"4\", \"3\", \"4\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,1,0,0],[4,0,1,0],[0,0,0,0],[1,0,0,4]]\nAnswer\n[[2,1,4,3],[4,3,1,2],[3,2,2,1],[1,4,3,4]]",
+    "hint_count": 5,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79606",
+    "image": "img_val/79606.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [4, \"*\", 3, \"*\"],\n    [\"*\", 1, \"*\", 4],\n    [1, \"*\", \"*\", 2],\n    [2, \"*\", 1, 3]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at row 0: Missing 1,2\n2. Looking at row 1: Missing 2,3 \n3. Looking at row 2: Missing 3,4\n4. Looking at row 3: Missing 4\n5. Looking at column 1: Only position for 2 is row 0\n6. Looking at column 2: Only position for 4 is row 2\n7. Looking at column 1: Only position for 3 is row 1\n8. Looking at remaining empty cell: Must be 4\",\n\"answer\": [\n    [4, 2, 3, 1],\n    [3, 1, 2, 4],\n    [1, 4, 4, 2],\n    [2, 3, 1, 3]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[4,0,3,0],[0,1,0,4],[1,0,0,2],[2,0,1,3]]\nAnswer\n[[4,2,3,1],[3,1,2,4],[1,4,4,2],[2,3,1,3]]",
+    "hint_count": 9,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79607",
+    "image": "img_val/79607.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"*\", \"1\", \"2\"],\n    [\"2\", \"1\", \"4\", \"3\"],\n    [\"1\", \"2\", \"*\", \"*\"],\n    [\"3\", \"4\", \"*\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let's solve systematically:\n1. Looking at row 3, columns 2-3 need 3,4\n2. Looking at row 4, columns 2-3 need 1,2 \n3. In row 1, columns 0-1 need 3,4\n4. Given the constraints of rows, columns and blocks:\n   - Row 3 col 2 must be 4 to avoid conflict with block\n   - Row 3 col 3 must be 3\n   - Row 4 col 2 must be 2\n   - Row 4 col 3 must be 1\n   - Row 1 col 0 must be 4\n   - Row 1 col 1 must be 3\",\n\"answer\": [\n    [\"4\", \"3\", \"1\", \"2\"],\n    [\"2\", \"1\", \"4\", \"3\"],\n    [\"1\", \"2\", \"4\", \"3\"],\n    [\"3\", \"4\", \"2\", \"1\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,1,2],[2,1,4,3],[1,2,0,0],[3,4,0,0]]\nAnswer\n[[4,3,1,2],[2,1,4,3],[1,2,4,3],[3,4,2,1]]",
+    "hint_count": 10,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79608",
+    "image": "img_val/79608.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"1\", \"*\", \"*\"],\n    [\"4\", \"*\", \"1\", \"2\"],\n    [\"*\", \"2\", \"*\", \"*\"],\n    [\"*\", \"4\", \"*\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at row 1, we already have 1, so possible numbers are 2,3,4\n2. Looking at column 2, we have 1,2,4, so 3 must go in row 1\n3. Column 1 has 4, so in row 1 first cell must be 2\n4. Row 1 last cell must be 4 to complete the row\n5. Continue this logic for remaining cells following Sudoku rules\",\n\n\"answer\": [\n    [\"2\", \"1\", \"3\", \"4\"],\n    [\"4\", \"3\", \"1\", \"2\"],\n    [\"3\", \"2\", \"4\", \"1\"],\n    [\"1\", \"4\", \"2\", \"3\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,1,0,0],[4,0,1,2],[0,2,0,0],[0,4,0,0]]\nAnswer\n[[2,1,3,4],[4,3,1,2],[3,2,4,1],[1,4,2,3]]",
+    "hint_count": 6,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79609",
+    "image": "img_val/79609.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [1, \"*\", 3, \"*\"],\n    [\"*\", \"*\", \"*\", \"*\"],\n    [\"*\", \"*\", 4, 3],\n    [\"*\", \"*\", 2, 1]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at row 0: Already has 1,3\n2. Looking at row 2: Already has 4,3\n3. Looking at row 3: Already has 2,1\n4. Looking at column 2: Has 3,4,2\n5. Looking at column 3: Has 3,1\n6. Looking at blocks: Each 2x2 block must contain 1,2,3,4\n7. Using these constraints, I can fill in the remaining numbers\",\n\"answer\": [\n    [1, 2, 3, 4],\n    [3, 4, 1, 2],\n    [2, 1, 4, 3],\n    [4, 3, 2, 1]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[1,0,3,0],[0,0,0,0],[0,0,4,3],[0,0,2,1]]\nAnswer\n[[1,2,3,4],[3,4,1,2],[2,1,4,3],[4,3,2,1]]",
+    "hint_count": 6,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79610",
+    "image": "img_val/79610.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [4, 3, \"*\", 1],\n    [\"*\", \"*\", \"*\", \"*\"],\n    [\"*\", \"*\", \"*\", 2],\n    [\"*\", 1, 3, 4]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the given numbers:\n1. Row 1 has 4,3,1 - missing 2\n2. Row 4 has 1,3,4 - missing 2\n3. Column 4 has 1,2,4 - missing 3\n4. Looking at empty cells and applying Sudoku rules:\n   - Row 2: Must contain 2,3,4,1\n   - Row 3: Must contain 1,3,4,2\n   - Column 1: Must contain 4,2,3,1\n   - Column 2: Must contain 3,4,2,1\n   - Column 3: Must contain 2,1,4,3\",\n\"answer\": [\n    [4, 3, 2, 1],\n    [2, 4, 1, 3],\n    [3, 2, 4, 2],\n    [1, 1, 3, 4]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[4,3,0,1],[0,0,0,0],[0,0,0,2],[0,1,3,4]]\nAnswer\n[[4,3,2,1],[2,4,1,3],[3,2,4,2],[1,1,3,4]]",
+    "hint_count": 7,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79611",
+    "image": "img_val/79611.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [1, \"*\", \"*\", 3],\n    [3, 4, \"*\", \"*\"],\n    [\"*\", \"*\", 3, 4],\n    [\"*\", \"*\", \"*\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve this step by step:\n1. Looking at row 0, we have 1 and 3, so 2 and 4 are missing\n2. Looking at row 1, we have 3 and 4, so 1 and 2 are missing\n3. Looking at row 2, we have 3 and 4, so 1 and 2 are missing\n4. Row 3 is empty\n5. Looking at columns and blocks:\n   - Column 0 has 1 and 3\n   - Column 2 has 3\n   - Column 3 has 3 and 4\n   - Top right block has 3\n   - Bottom right block has 3,4\n6. Using these constraints, I can fill in the remaining numbers\",\n\"answer\": [\n    [1, 2, 4, 3],\n    [3, 4, 1, 2],\n    [2, 1, 3, 4],\n    [4, 3, 2, 1]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[1,0,0,3],[3,4,0,0],[0,0,3,4],[0,0,0,0]]\nAnswer\n[[1,2,4,3],[3,4,1,2],[2,1,3,4],[4,3,2,1]]",
+    "hint_count": 6,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79612",
+    "image": "img_val/79612.png",
+    "model_output": "```json\n{\n\"perception\": [\n[3, 4, 2, 1],\n[\"*\", 2, 3, 4],\n[\"*\", \"*\", 4, 3],\n[4, 3, \"*\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at row 2 (index 1), we need 1 in the first position since 2,3,4 are used\n2. Looking at row 3 (index 2), we need 1,2 and checking columns/blocks, it must be 1,2\n3. For the last row, we already have 4,3 so need 1,2 and checking columns/blocks, it must be 2,1\",\n\"answer\": [\n[3, 4, 2, 1],\n[1, 2, 3, 4],\n[2, 1, 4, 3],\n[4, 3, 1, 2]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[3,4,2,1],[0,2,3,4],[0,0,4,3],[4,3,0,0]]\nAnswer\n[[3,4,2,1],[1,2,3,4],[2,1,4,3],[4,3,1,2]]",
+    "hint_count": 11,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79613",
+    "image": "img_val/79613.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"*\", \"*\", \"*\"],\n    [\"*\", \"3\", \"*\", \"*\"],\n    [\"3\", \"*\", \"*\", \"1\"],\n    [\"1\", \"*\", \"*\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the given numbers:\n1. We have a 3 in row 1, col 1\n2. Row 2 has a 3 in col 0 and 1 in col 3\n3. Row 3 has a 1 in col 0\n4. Following Sudoku rules, each row, column and 2x2 block must contain numbers 1-4\n5. Let me solve systematically by checking possible numbers for each empty cell\",\n\"answer\": [\n    [\"2\", \"1\", \"4\", \"3\"],\n    [\"4\", \"3\", \"1\", \"2\"],\n    [\"3\", \"2\", \"4\", \"1\"],\n    [\"1\", \"4\", \"3\", \"2\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,0,0],[0,3,0,0],[3,0,0,1],[1,0,0,0]]\nAnswer\n[[2,1,4,3],[4,3,1,2],[3,2,4,1],[1,4,3,2]]",
+    "hint_count": 4,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79614",
+    "image": "img_val/79614.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [1, 2, 3, \"*\"],\n    [\"*\", 4, \"*\", 1],\n    [\"*\", 1, \"*\", 3],\n    [4, \"*\", 1, 2]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the missing numbers:\n1. Row 1: Missing 4\n2. Row 2: Missing 2 and 3\n3. Row 3: Missing 2 and 4\n4. Row 4: Missing 3\n5. Column 1: Missing 2 and 3\n6. Column 2: Missing 3\n7. Column 3: Missing 2 and 4\n8. Column 4: Missing 4\nI'll solve this by checking each empty cell against row, column and block constraints.\",\n\"answer\": [\n    [1, 2, 3, 4],\n    [3, 4, 2, 1],\n    [2, 1, 4, 3],\n    [4, 3, 1, 2]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[1,2,3,0],[0,4,0,1],[0,1,0,3],[4,0,1,2]]\nAnswer\n[[1,2,3,4],[3,4,2,1],[2,1,4,3],[4,3,1,2]]",
+    "hint_count": 10,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79615",
+    "image": "img_val/79615.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"2\", \"4\", \"3\"],\n    [\"3\", \"4\", \"1\", \"*\"],\n    [\"2\", \"1\", \"*\", \"4\"],\n    [\"*\", \"3\", \"2\", \"1\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve the empty cells one by one:\n1. Position [0,0]: Looking at row 0, column 0, and the top-left block, the missing number must be 1\n2. Position [1,3]: Looking at row 1, column 3, and the top-right block, the missing number must be 2\n3. Position [2,2]: Looking at row 2, column 2, and the bottom-left block, the missing number must be 3\n4. Position [3,0]: Looking at row 3, column 0, and the bottom-left block, the missing number must be 4\",\n\"answer\": [\n    [\"1\", \"2\", \"4\", \"3\"],\n    [\"3\", \"4\", \"1\", \"2\"],\n    [\"2\", \"1\", \"3\", \"4\"],\n    [\"4\", \"3\", \"2\", \"1\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,2,4,3],[3,4,1,0],[2,1,0,4],[0,3,2,1]]\nAnswer\n[[1,2,4,3],[3,4,1,2],[2,1,3,4],[4,3,2,1]]",
+    "hint_count": 12,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79616",
+    "image": "img_val/79616.png",
+    "model_output": "```json\n{\n\"perception\": [\n[\"*\", \"*\", \"*\", \"*\"],\n[\"*\", \"2\", \"1\", \"*\"],\n[\"2\", \"*\", \"*\", \"1\"],\n[\"*\", \"*\", \"*\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Looking at the given numbers:\n1. Row 1 is empty\n2. Row 2 has 2 and 1 in middle\n3. Row 3 has 2 and 1 on ends\n4. Row 4 is empty\n5. Each row/column/block needs numbers 1-4\n6. Can deduce remaining positions based on Sudoku rules\",\n\"answer\": [\n[4, 1, 2, 3],\n[3, 2, 1, 4], \n[2, 3, 4, 1],\n[1, 4, 3, 2]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,0,0],[0,2,1,0],[2,0,0,1],[0,0,0,0]]\nAnswer\n[[4,1,2,3],[3,2,1,4],[2,3,4,1],[1,4,3,2]]",
+    "hint_count": 4,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79617",
+    "image": "img_val/79617.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"1\", \"2\", \"*\"],\n    [\"2\", \"*\", \"1\", \"4\"],\n    [\"1\", \"*\", \"*\", \"2\"],\n    [\"*\", \"2\", \"4\", \"1\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the missing values:\n1. First row: Missing numbers are 3,4 \n   - 3 must be in last position since column 1 already has 1,2\n   - 4 must be in first position\n2. Second row: Missing number is 3 in position (1,1)\n3. Third row: Missing numbers are 3,4\n   - Column 2 already has 1,2 so position (2,1) must be 3\n   - Position (2,2) must be 4\n4. Fourth row: Missing number is 3 in position (3,0)\",\n\"answer\": [\n    [\"4\", \"1\", \"2\", \"3\"],\n    [\"2\", \"3\", \"1\", \"4\"],\n    [\"1\", \"3\", \"4\", \"2\"],\n    [\"3\", \"2\", \"4\", \"1\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,1,2,0],[2,0,1,4],[1,0,0,2],[0,2,4,1]]\nAnswer\n[[4,1,2,3],[2,3,1,4],[1,3,4,2],[3,2,4,1]]",
+    "hint_count": 10,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79618",
+    "image": "img_val/79618.png",
+    "model_output": "```json\n{\n\"perception\": [\n[\"*\", \"*\", \"2\", \"4\"],\n[\"4\", \"2\", \"*\", \"3\"],\n[\"*\", \"4\", \"*\", \"*\"],\n[\"*\", \"1\", \"*\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve this step by step:\n1. Looking at row 0: We have 2,4 placed, so 1,3 are missing\n2. Looking at row 1: We have 4,2,3 placed, so 1 is missing\n3. Looking at row 2: We have 4 placed, so 1,2,3 are missing\n4. Looking at row 3: We have 1 placed, so 2,3,4 are missing\n5. Column analysis and block analysis helps fill in remaining numbers\n6. The first block must have 1,3 in empty spots\n7. Third block needs 1,3\n8. Fourth block needs 1,2\",\n\"answer\": [\n[\"1\", \"3\", \"2\", \"4\"],\n[\"4\", \"2\", \"1\", \"3\"],\n[\"3\", \"4\", \"2\", \"1\"],\n[\"2\", \"1\", \"3\", \"4\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,2,4],[4,2,0,3],[0,4,0,0],[0,1,0,0]]\nAnswer\n[[1,3,2,4],[4,2,1,3],[3,4,2,1],[2,1,3,4]]",
+    "hint_count": 7,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79619",
+    "image": "img_val/79619.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"2\", \"3\", \"*\"],\n    [\"*\", \"3\", \"1\", \"*\"],\n    [\"*\", \"1\", \"4\", \"3\"],\n    [\"3\", \"4\", \"2\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at row 0, we're missing 1 and 4\n2. Looking at row 1, we're missing 2 and 4\n3. Looking at row 2, we're missing 2\n4. Looking at row 3, we're missing 1\n5. Looking at column 0, we're missing 1,2,4\n6. Looking at column 3, we're missing 1,2,4\n7. For cell [0,0], it must be 1 since 2,3 are in row and 3 is in column\n8. For cell [0,3], it must be 4 since 1,2,3 are used in row\n9. For cell [1,0], it must be 4 since 1,2,3 are used in row\n10. For cell [1,3], it must be 2 since it's the last number for row 1\n11. For cell [3,3], it must be 1 since it's the last number needed\",\n\"answer\": [\n    [\"1\", \"2\", \"3\", \"4\"],\n    [\"4\", \"3\", \"1\", \"2\"],\n    [\"2\", \"1\", \"4\", \"3\"],\n    [\"3\", \"4\", \"2\", \"1\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,2,3,0],[0,3,1,0],[0,1,4,3],[3,4,2,0]]\nAnswer\n[[1,2,3,4],[4,3,1,2],[2,1,4,3],[3,4,2,1]]",
+    "hint_count": 10,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79620",
+    "image": "img_val/79620.png",
+    "model_output": "```json\n{\n\"perception\": [\n[1, \"*\", 4, \"*\"],\n[\"*\", 3, 2, \"*\"],\n[3, \"*\", \"*\", 2],\n[2, 1, \"*\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve this step by step:\n1. Looking at row 0: Missing 2,3\n2. Looking at row 1: Missing 1,4\n3. Looking at row 2: Missing 1,4\n4. Looking at row 3: Missing 3,4\n5. Column analysis and block analysis shows there's only one possible position for each missing number\n6. The empty cell at (0,1) must be 2 to complete the first block\n7. The empty cell at (0,3) must be 3 to complete first row\n8. The remaining cells can be filled following Sudoku rules\",\n\"answer\": [\n[1, 2, 4, 3],\n[4, 3, 2, 1],\n[3, 4, 1, 2],\n[2, 1, 3, 4]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[1,0,4,0],[0,3,2,0],[3,0,0,2],[2,1,0,0]]\nAnswer\n[[1,2,4,3],[4,3,2,1],[3,4,1,2],[2,1,3,4]]",
+    "hint_count": 8,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79621",
+    "image": "img_val/79621.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [3, \"*\", 1, \"*\"],\n    [\"*\", \"*\", 4, 3],\n    [2, 1, 3, 4],\n    [\"*\", \"*\", 2, 1]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at row 0: Missing 2 and 4\n2. Looking at row 1: Missing 1 and 2\n3. Row 2 is complete\n4. Row 3: Missing 3 and 4\n5. Checking columns and blocks:\n   - Column 0 has 3,2 so needs 1,4\n   - Column 1 has 1 so needs 2,3,4\n   - Column 2 is complete\n   - Column 3 is complete\n6. By analyzing the constraints, I can fill in the remaining numbers\",\n\"answer\": [\n    [3, 2, 1, 4],\n    [1, 4, 4, 3],\n    [2, 1, 3, 4],\n    [4, 3, 2, 1]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[3,0,1,0],[0,0,4,3],[2,1,3,4],[0,0,2,1]]\nAnswer\n[[3,2,1,4],[1,4,4,3],[2,1,3,4],[4,3,2,1]]",
+    "hint_count": 10,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79622",
+    "image": "img_val/79622.png",
+    "model_output": "```json\n{\n\"perception\": [\n[4, 2, 3, 1],\n[\"*\", 1, \"*\", \"*\"],\n[\"*\", 3, \"*\", \"*\"],\n[\"*\", 4, 1, 3]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve this step by step:\n1. Looking at row 1, we have all numbers filled: 4,2,3,1\n2. Row 4 has: *,4,1,3 - so missing 2\n3. Column 1 has: 4,*,*,* - looking at constraints, only 2 can go in (2,1)\n4. Column 2 is complete: 2,1,3,4\n5. Column 3 has: 3,*,*,1 - analyzing constraints\n6. Column 4 has: 1,*,*,3 - analyzing constraints\n7. Using block constraints and remaining numbers, I can fill in all cells\",\n\n\"answer\": [\n[4, 2, 3, 1],\n[2, 1, 4, 3],\n[1, 3, 2, 4],\n[2, 4, 1, 3]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[4,2,3,1],[0,1,0,0],[0,3,0,0],[0,4,1,3]]\nAnswer\n[[4,2,3,1],[2,1,4,3],[1,3,2,4],[2,4,1,3]]",
+    "hint_count": 9,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79623",
+    "image": "img_val/79623.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"2\", \"4\", \"3\"],\n    [\"4\", \"3\", \"*\", \"1\"],\n    [\"3\", \"*\", \"1\", \"2\"],\n    [\"2\", \"1\", \"3\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Looking at the empty cells:\n1. In row 0, column 0: Must be 1 (only missing number in first row)\n2. In row 1, column 2: Must be 2 (only missing number in second row)\n3. In row 2, column 1: Must be 4 (only missing number in second column)\n4. In row 3, column 3: Must be 4 (only missing number in last row)\",\n\"answer\": [\n    [\"1\", \"2\", \"4\", \"3\"],\n    [\"4\", \"3\", \"2\", \"1\"],\n    [\"3\", \"4\", \"1\", \"2\"],\n    [\"2\", \"1\", \"3\", \"4\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,2,4,3],[4,3,0,1],[3,0,1,2],[2,1,3,0]]\nAnswer\n[[1,2,4,3],[4,3,2,1],[3,4,1,2],[2,1,3,4]]",
+    "hint_count": 12,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79624",
+    "image": "img_val/79624.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"*\", \"*\", \"*\"],\n    [\"3\", \"*\", \"1\", \"*\"],\n    [\"2\", \"1\", \"*\", \"4\"],\n    [\"4\", \"3\", \"2\", \"1\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the given numbers:\n1. Looking at row 4, we have all numbers 1-4 filled\n2. Column 1 has 2,3,4 so only 1 can go in top cell\n3. Column 2 has 1,3 so 2,4 remain\n4. Column 3 has 1,2 so 3,4 remain\n5. Column 4 has 1,4 so 2,3 remain\n6. Using block constraints and remaining numbers, I can fill in the rest\",\n\"answer\": [\n    [\"1\", \"2\", \"4\", \"3\"],\n    [\"3\", \"4\", \"1\", \"2\"], \n    [\"2\", \"1\", \"3\", \"4\"],\n    [\"4\", \"3\", \"2\", \"1\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,0,0],[3,0,1,0],[2,1,0,4],[4,3,2,1]]\nAnswer\n[[1,2,4,3],[3,4,1,2],[2,1,3,4],[4,3,2,1]]",
+    "hint_count": 9,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79625",
+    "image": "img_val/79625.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [1, \"*\", 3, \"*\"],\n    [4, \"*\", 1, 2],\n    [2, \"*\", 4, \"*\"],\n    [3, 4, 2, 1]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the missing values:\n1. First row: Missing numbers are 2 and 4. Since 4 is already in second block column, 2 must go in column 1, leaving 4 for last position\n2. Second row: Only missing number is 3 in column 1\n3. Third row: Missing numbers are 1 and 3. Since 1 is already in second block column, 3 must go in column 1, leaving 1 for last position\",\n\"answer\": [\n    [1, 2, 3, 4],\n    [4, 3, 1, 2],\n    [2, 3, 4, 1],\n    [3, 4, 2, 1]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[1,0,3,0],[4,0,1,2],[2,0,4,0],[3,4,2,1]]\nAnswer\n[[1,2,3,4],[4,3,1,2],[2,3,4,1],[3,4,2,1]]",
+    "hint_count": 11,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79626",
+    "image": "img_val/79626.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"2\", \"3\", \"4\"],\n    [\"3\", \"4\", \"2\", \"*\"],\n    [\"2\", \"*\", \"4\", \"3\"],\n    [\"*\", \"*\", \"1\", \"2\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at row 1, we're missing 1\n2. Looking at row 2, we're missing 1\n3. Looking at row 3, we're missing 1\n4. Looking at row 4, we're missing 3 and 4\n5. Looking at column 1, we need 1 and 4\n6. Looking at column 2, we need 1 and 3\n7. Each 2x2 block must contain 1,2,3,4\n\nStarting with empty cells:\n- Row 1, Column 1: Must be 1 (only number missing in row)\n- Row 2, Column 4: Must be 1 (only number missing in row)\n- Row 3, Column 2: Must be 1 (as other positions in block already have 2,3,4)\n- Row 4, Column 1: Must be 4 (as column 1 needs 4 and 1, but 1 is in block)\n- Row 4, Column 2: Must be 3 (last remaining number)\",\n\n\"answer\": [\n    [\"1\", \"2\", \"3\", \"4\"],\n    [\"3\", \"4\", \"2\", \"1\"],\n    [\"2\", \"1\", \"4\", \"3\"],\n    [\"4\", \"3\", \"1\", \"2\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,2,3,4],[3,4,2,0],[2,0,4,3],[0,0,1,2]]\nAnswer\n[[1,2,3,4],[3,4,2,1],[2,1,4,3],[4,3,1,2]]",
+    "hint_count": 11,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79627",
+    "image": "img_val/79627.png",
+    "model_output": "```json\n{\n\"perception\": [\n[\"*\", \"*\", \"4\", \"3\"],\n[\"*\", \"*\", \"*\", \"*\"],\n[\"*\", \"2\", \"*\", \"4\"],\n[\"*\", \"*\", \"*\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve this step by step:\n1. Looking at the first row, we have 4,3 which means 1,2 must go in first two positions\n2. Second column has 2, so remaining numbers are 1,3,4\n3. First block can't have 4,3 as they're in row 1\n4. Using block, row and column constraints, I can determine the full solution\",\n\"answer\": [\n[\"1\", \"2\", \"4\", \"3\"],\n[\"3\", \"4\", \"1\", \"2\"],\n[\"4\", \"2\", \"3\", \"1\"],\n[\"2\", \"1\", \"2\", \"4\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,4,3],[0,0,0,0],[0,2,0,4],[0,0,0,0]]\nAnswer\n[[1,2,4,3],[3,4,1,2],[4,2,3,1],[2,1,2,4]]",
+    "hint_count": 4,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79628",
+    "image": "img_val/79628.png",
+    "model_output": "```json\n{\n\"perception\": [\n[1, \"*\", 2, \"*\"],\n[2, 4, 3, \"*\"],\n[4, 2, \"*\", 3],\n[3, 1, 4, 2]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the missing values:\n1. In row 0, we need 3,4. Position (0,1) can't be 3 due to block rule, so (0,1)=4, (0,3)=3\n2. In row 1, only position (1,3) is empty. Looking at column 3, we need 1\n3. In row 2, position (2,2) is empty. Looking at column 2 and block rules, only 1 is possible\",\n\"answer\": [\n[1, 4, 2, 3],\n[2, 4, 3, 1],\n[4, 2, 1, 3],\n[3, 1, 4, 2]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[1,0,2,0],[2,4,3,0],[4,2,0,3],[3,1,4,2]]\nAnswer\n[[1,4,2,3],[2,4,3,1],[4,2,1,3],[3,1,4,2]]",
+    "hint_count": 12,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79629",
+    "image": "img_val/79629.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"*\", \"3\", \"*\"],\n    [\"3\", \"*\", \"*\", \"*\"],\n    [\"1\", \"*\", \"4\", \"*\"],\n    [\"*\", \"*\", \"1\", \"3\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at row 3, we have 1 and 3 at the end, so this row needs 2 and 4\n2. Column 2 has 3,4,1 so it needs 2\n3. The top-right block is missing 1,2,4\n4. The bottom-left block has 1, so needs 2,3,4\n5. Working through the constraints of rows, columns and blocks, I can fill in all numbers\",\n\"answer\": [\n    [\"2\", \"4\", \"3\", \"1\"],\n    [\"3\", \"1\", \"2\", \"4\"],\n    [\"1\", \"2\", \"4\", \"3\"],\n    [\"4\", \"3\", \"1\", \"2\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,3,0],[3,0,0,0],[1,0,4,0],[0,0,1,3]]\nAnswer\n[[2,4,3,1],[3,1,2,4],[1,2,4,3],[4,3,1,2]]",
+    "hint_count": 6,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79630",
+    "image": "img_val/79630.png",
+    "model_output": "```json\n{\n\"perception\": [\n[\"*\", \"*\", \"*\", \"3\"],\n[\"*\", \"3\", \"*\", \"*\"],\n[\"*\", \"2\", \"*\", \"*\"],\n[\"1\", \"*\", \"*\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve this step by step:\n1. Looking at the first row, we have 3 in position (0,3)\n2. Second row has 3 in position (1,1)\n3. Third row has 2 in position (2,1)\n4. Fourth row has 1 in position (3,0)\n5. Since each row, column and 2x2 block must contain numbers 1-4:\n   - First block: Missing 1,2,3,4 except 3\n   - Second block: Missing 1,4 in top row, 2,4 in bottom row\n   - Third block: Has 1, needs 2,3,4\n   - Fourth block: Has 3, needs 1,2,4\",\n\"answer\": [\n[4, 1, 2, 3],\n[2, 3, 4, 1],\n[3, 2, 1, 4],\n[1, 4, 3, 2]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,0,3],[0,3,0,0],[0,2,0,0],[1,0,0,0]]\nAnswer\n[[4,1,2,3],[2,3,4,1],[3,2,1,4],[1,4,3,2]]",
+    "hint_count": 4,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79631",
+    "image": "img_val/79631.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [1, \"*\", \"*\", \"*\"],\n    [\"*\", 2, 1, \"*\"],\n    [\"*\", \"*\", 3, \"*\"],\n    [3, 1, \"*\", 2]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle where each row, column, and 2x2 block must contain digits 1-4. Let me solve this systematically:\n1. Looking at row 4, we're missing 4 between 3,1,2\n2. In column 3, we need 1,3,4 with 2 already placed\n3. The top-right 2x2 block needs 2,3,4\n4. Using these constraints and working through each empty cell\n5. The solution ensures each row, column and 2x2 block contains 1,2,3,4 exactly once\",\n\n\"answer\": [\n    [1, 4, 2, 3],\n    [4, 2, 1, 3],\n    [2, 3, 3, 4],\n    [3, 1, 4, 2]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[1,0,0,0],[0,2,1,0],[0,0,3,0],[3,1,0,2]]\nAnswer\n[[1,4,2,3],[4,2,1,3],[2,3,3,4],[3,1,4,2]]",
+    "hint_count": 7,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79632",
+    "image": "img_val/79632.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"4\", \"1\", \"*\"],\n    [\"1\", \"2\", \"*\", \"*\"],\n    [\"*\", \"1\", \"3\", \"4\"],\n    [\"*\", \"*\", \"2\", \"1\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at empty cells and applying Sudoku rules:\n- Row 0: Missing 2,3 \n- Row 1: Missing 3,4\n- Row 2: Missing 2 in first position\n- Row 3: Missing 3,4\n2. Column analysis:\n- Column 0: Missing 2,3,4\n- Column 1: Missing 3\n- Column 2: All numbers except 4\n- Column 3: Missing 2,3\n3. Block analysis and deductions:\n- Top-left block: 1,4 placed, need 2,3\n- Top-right block: 1 placed, need 2,3,4\n- Bottom-left block: 1 placed, need 2,3,4\n- Bottom-right block: 1,2,3,4 all needed\",\n\"answer\": [\n    [\"3\", \"4\", \"1\", \"2\"],\n    [\"1\", \"2\", \"4\", \"3\"],\n    [\"2\", \"1\", \"3\", \"4\"],\n    [\"4\", \"3\", \"2\", \"1\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,\"4\",\"1\",0],[1,2,0,0],[0,1,3,4],[0,0,2,1]]\nAnswer\n[[3,4,1,2],[1,2,4,3],[2,1,3,4],[4,3,2,1]]",
+    "hint_count": 9,
+    "perception_correct": false,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79633",
+    "image": "img_val/79633.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"2\", \"*\", \"*\"],\n    [\"*\", \"*\", \"*\", \"2\"],\n    [\"2\", \"*\", \"*\", \"*\"],\n    [\"4\", \"*\", \"2\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Looking at the given numbers:\n1. We have four 2's placed in different rows/columns\n2. One 4 in the bottom left\n3. Need to ensure numbers 1-4 appear exactly once in each row, column and 2x2 block\n4. Can start filling in missing numbers based on these constraints\n5. The 4 in bottom left means no other 4's can be in that block or row/column\n6. The pattern of 2's helps determine placement of other numbers\",\n\n\"answer\": [\n    [\"3\", \"2\", \"1\", \"4\"],\n    [\"1\", \"4\", \"3\", \"2\"],\n    [\"2\", \"3\", \"4\", \"1\"],\n    [\"4\", \"1\", \"2\", \"3\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,2,0,0],[0,0,0,2],[2,0,0,0],[4,0,2,0]]\nAnswer\n[[3,2,1,4],[1,4,3,2],[2,3,4,1],[4,1,2,3]]",
+    "hint_count": 5,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79634",
+    "image": "img_val/79634.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [4, 3, \"*\", \"*\"],\n    [\"*\", 2, \"*\", \"*\"],\n    [\"*\", \"*\", \"*\", \"*\"],\n    [\"*\", \"*\", 3, 4]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve this step by step:\n1. Looking at first row: 4,3 are placed, so 1,2 must go in remaining spots\n2. Last row has 3,4, so 1,2 must go in first two spots\n3. First column has 4, so remaining spots must be 1,2,3\n4. Second column has 2,3, so remaining spots must be 1,4\n5. Using block constraints and row/column constraints, I can determine the full solution\",\n\n\"answer\": [\n    [4, 3, 1, 2],\n    [1, 2, 4, 3],\n    [3, 4, 2, 1],\n    [2, 1, 3, 4]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[4,3,0,0],[0,2,0,0],[0,0,0,0],[0,0,3,4]]\nAnswer\n[[4,3,1,2],[1,2,4,3],[3,4,2,1],[2,1,3,4]]",
+    "hint_count": 5,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79635",
+    "image": "img_val/79635.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"4\", \"*\", \"2\"],\n    [\"2\", \"1\", \"3\", \"4\"],\n    [\"*\", \"3\", \"*\", \"1\"],\n    [\"1\", \"2\", \"4\", \"3\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the empty cells:\n- Position [0,0]: Can't be 1,2,4 due to column/block constraints, must be 3\n- Position [0,2]: Can't be 1,2,3,4 due to row/column constraints, must be 1 \n- Position [2,0]: Can't be 1,2,3 due to column/block constraints, must be 4\n- Position [2,2]: Can't be 1,3,4 due to row/column constraints, must be 2\",\n\"answer\": [\n    [\"3\", \"4\", \"1\", \"2\"],\n    [\"2\", \"1\", \"3\", \"4\"], \n    [\"4\", \"3\", \"2\", \"1\"],\n    [\"1\", \"2\", \"4\", \"3\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,4,0,2],[2,1,3,4],[0,3,0,1],[1,2,4,3]]\nAnswer\n[[3,4,1,2],[2,1,3,4],[4,3,2,1],[1,2,4,3]]",
+    "hint_count": 12,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79636",
+    "image": "img_val/79636.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"3\", \"*\", \"1\"],\n    [\"*\", \"*\", \"*\", \"*\"],\n    [\"3\", \"*\", \"*\", \"*\"],\n    [\"*\", \"*\", \"3\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve this step by step:\n1. Looking at the given 3s in row 1, row 3 and column 3, I can determine where other 3s can go\n2. The 1 in the top right helps determine placement of other 1s\n3. After placing the obvious numbers based on Sudoku rules, I can fill in the remaining cells\n4. Each row, column and 2x2 block must contain numbers 1-4 exactly once\",\n\"answer\": [\n    [\"2\", \"3\", \"4\", \"1\"],\n    [\"4\", \"1\", \"2\", \"3\"],\n    [\"3\", \"2\", \"1\", \"4\"],\n    [\"1\", \"4\", \"3\", \"2\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,3,0,1],[0,0,0,0],[3,0,0,0],[0,0,3,0]]\nAnswer\n[[2,3,4,1],[4,1,2,3],[3,2,1,4],[1,4,3,2]]",
+    "hint_count": 4,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79637",
+    "image": "img_val/79637.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"*\", \"*\", \"*\"],\n    [\"1\", \"2\", \"3\", \"4\"],\n    [\"2\", \"*\", \"4\", \"3\"],\n    [\"4\", \"3\", \"1\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the missing values:\n1. In row 1, looking at columns and blocks, we need 1,2,3,4\n2. In row 3 column 2, we need 1 \n3. In row 4 column 4, we need 2\n4. For row 1, we can deduce:\n   - Column 1 needs 3 (as 1,2,4 are used)\n   - Column 2 needs 4 (as 1,2,3 are used)\n   - Column 3 needs 2 (as 1,3,4 are used)\n   - Column 4 needs 1 (as 2,3,4 are used)\",\n\"answer\": [\n    [\"3\", \"4\", \"2\", \"1\"],\n    [\"1\", \"2\", \"3\", \"4\"],\n    [\"2\", \"1\", \"4\", \"3\"],\n    [\"4\", \"3\", \"1\", \"2\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,0,0],[1,2,3,4],[2,0,4,3],[4,3,1,0]]\nAnswer\n[[3,4,2,1],[1,2,3,4],[2,1,4,3],[4,3,1,2]]",
+    "hint_count": 10,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79638",
+    "image": "img_val/79638.png",
+    "model_output": "```json\n{\n\"perception\": [\n[1, \"*\", 4, \"*\"],\n[3, \"*\", \"*\", \"*\"],\n[\"*\", \"*\", \"*\", 4],\n[4, \"*\", 2, 1]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve this step by step:\n1. Looking at row 3, we have 4,2,1 - so the missing number must be 3\n2. Column 1 has 3,4 - so the missing numbers are 1,2\n3. First block has 1,3 - so missing numbers are 2,4\n4. Second block has 4 - so missing numbers are 1,2,3\n5. By analyzing the constraints of rows, columns and blocks, I can fill in the remaining numbers\",\n\"answer\": [\n[1, 2, 4, 3],\n[3, 4, 1, 2],\n[2, 1, 3, 4],\n[4, 3, 2, 1]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[1,0,4,0],[3,0,0,0],[0,0,0,4],[4,0,2,1]]\nAnswer\n[[1,2,4,3],[3,4,1,2],[2,1,3,4],[4,3,2,1]]",
+    "hint_count": 7,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79639",
+    "image": "img_val/79639.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [4, 1, 2, 3],\n    [2, \"*\", 1, \"*\"],\n    [1, 4, 3, \"*\"],\n    [3, \"*\", 4, 1]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the missing cells:\n- Row 1 is complete (4,1,2,3)\n- Row 2 has missing cells at (1,1) and (1,3)\n- Row 3 has missing cell at (2,3)\n- Row 4 has missing cell at (3,1)\nLooking at row 2:\n- Position (1,1) can only be 3 since 1,2,4 are used in row 2\n- Position (1,3) must be 4 since 1,2,3 are used\nFor row 3:\n- Position (2,3) must be 2 since 1,3,4 are used\nFor row 4:\n- Position (3,1) must be 2 since 1,3,4 are used\",\n\"answer\": [\n    [4, 1, 2, 3],\n    [2, 3, 1, 4],\n    [1, 4, 3, 2],\n    [3, 2, 4, 1]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[4,1,2,3],[2,0,1,0],[1,4,3,0],[3,0,4,1]]\nAnswer\n[[4,1,2,3],[2,3,1,4],[1,4,3,2],[3,2,4,1]]",
+    "hint_count": 12,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79640",
+    "image": "img_val/79640.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"*\", \"4\", \"*\"],\n    [\"4\", \"*\", \"*\", \"*\"],\n    [\"3\", \"4\", \"*\", \"1\"],\n    [\"1\", \"2\", \"3\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the given numbers:\n1. Looking at the last empty cell (3,3), it can only be 4 since 1,2,3 are already in that row\n2. The empty cell at (0,3) must be 2 since column 3 already has 1,4\n3. Cell (0,0) must be 2 since row 0 already has 4,2 and column 0 has 4,3,1\n4. Cell (0,1) must be 1 to complete row 0\n5. The remaining cells can be filled by considering row/column/block constraints\",\n\"answer\": [\n    [\"2\", \"1\", \"4\", \"3\"],\n    [\"4\", \"3\", \"1\", \"2\"],\n    [\"3\", \"4\", \"2\", \"1\"],\n    [\"1\", \"2\", \"3\", \"4\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,4,0],[4,0,0,0],[3,4,0,1],[1,2,3,0]]\nAnswer\n[[2,1,4,3],[4,3,1,2],[3,4,2,1],[1,2,3,4]]",
+    "hint_count": 8,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79641",
+    "image": "img_val/79641.png",
+    "model_output": "```json\n{\n\"perception\": [\n[\"*\", \"*\", \"*\", \"3\"],\n[\"*\", \"*\", \"1\", \"*\"],\n[\"*\", \"4\", \"3\", \"*\"],\n[\"*\", \"*\", \"4\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve this step by step:\n1. Looking at column 2, we have 1,3,4 used, so the empty cell must be 2\n2. In row 3, we have 4,3 used, and considering block constraints, 1 must go in last position\n3. In column 3, only 2 remains for top position\n4. First column can be filled using remaining numbers considering block and row constraints\n5. Remaining cells can be filled following same logic\",\n\"answer\": [\n[\"2\", \"1\", \"4\", \"3\"],\n[\"4\", \"3\", \"1\", \"2\"],\n[\"1\", \"4\", \"3\", \"2\"],\n[\"3\", \"2\", \"4\", \"1\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,0,3],[0,0,1,0],[0,4,3,0],[0,0,4,0]]\nAnswer\n[[2,1,4,3],[4,3,1,2],[1,4,3,2],[3,2,4,1]]",
+    "hint_count": 5,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79642",
+    "image": "img_val/79642.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [2, \"*\", 4, \"*\"],\n    [\"*\", 3, 1, \"*\"],\n    [3, 4, 2, 1],\n    [1, 2, \"*\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let's analyze the missing cells:\n- Row 0: Missing numbers 1,3 in positions 1,3\n- Row 1: Missing numbers 2,4 in positions 0,3 \n- Row 2: Complete\n- Row 3: Missing numbers 3,4 in positions 2,3\nLooking at columns and blocks:\n- Column 2 needs 3\n- Column 3 needs 2,3,4\n- Bottom right block needs 3,4\nBy applying Sudoku rules and elimination, we can fill in the remaining cells.\",\n\"answer\": [\n    [2, 1, 4, 3],\n    [4, 3, 1, 2],\n    [3, 4, 2, 1],\n    [1, 2, 3, 4]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[2,0,4,0],[0,3,1,0],[3,4,2,1],[1,2,0,0]]\nAnswer\n[[2,1,4,3],[4,3,1,2],[3,4,2,1],[1,2,3,4]]",
+    "hint_count": 10,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79643",
+    "image": "img_val/79643.png",
+    "model_output": "```json\n{\n\"perception\": [\n[2, \"*\", \"*\", 3],\n[\"*\", 3, 1, 2],\n[1, 2, 3, 4],\n[3, \"*\", \"*\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let's analyze the missing cells:\n1. In row 0, column 1: Must be 4 since 1,2,3 are used in the row\n2. In row 0, column 2: Must be 1 since 2,3,4 are used in the row\n3. In row 1, column 0: Must be 4 since 1,2,3 are used in the row\n4. In row 3, column 1: Must be 4 since 1,2,3 are used in the column\n5. In row 3, column 2: Must be 2 since 1,3,4 are used in the column\n6. In row 3, column 3: Must be 1 since 2,3,4 are used in the column\",\n\"answer\": [\n[2, 4, 1, 3],\n[4, 3, 1, 2],\n[1, 2, 3, 4],\n[3, 4, 2, 1]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[2,0,0,3],[0,3,1,2],[1,2,3,4],[3,0,0,0]]\nAnswer\n[[2,4,1,3],[4,3,1,2],[1,2,3,4],[3,4,2,1]]",
+    "hint_count": 10,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79644",
+    "image": "img_val/79644.png",
+    "model_output": "```json\n{\n\"perception\": [[4, \"*\", \"*\", 3],\n              [2, 3, \"*\", 4],\n              [\"*\", \"*\", 4, 1],\n              [1, 4, 3, \"*\"]],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at row 3 (index 2), it's missing 2 and 3\n2. Looking at row 4 (index 3), it's missing 2\n3. Looking at column 1, it's missing 3\n4. Looking at column 2, it's missing 1 and 2\n5. Each 2x2 block must contain numbers 1-4\n6. By analyzing the constraints, I can fill in the remaining cells\",\n\"answer\": [[4, 1, 2, 3],\n          [2, 3, 1, 4],\n          [3, 2, 4, 1],\n          [1, 4, 3, 2]]\n}\n```",
+    "model_output_filtered": "Perception\n[[4,0,0,3],[2,3,0,4],[0,0,4,1],[1,4,3,0]]\nAnswer\n[[4,1,2,3],[2,3,1,4],[3,2,4,1],[1,4,3,2]]",
+    "hint_count": 10,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79645",
+    "image": "img_val/79645.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"*\", \"3\", \"4\"],\n    [\"3\", \"4\", \"2\", \"*\"],\n    [\"*\", \"*\", \"4\", \"3\"],\n    [\"4\", \"3\", \"1\", \"2\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the empty cells:\n- Position [0,0]: Can't be 1,3,4 due to column/block constraints, must be 2\n- Position [0,1]: Can't be 2,3,4 due to row/block constraints, must be 1 \n- Position [1,3]: Can't be 1,2,3,4 except 1 due to row/column/block constraints\n- Position [2,0]: Can't be 1,3,4 due to column constraints, must be 2\n- Position [2,1]: Can't be 2,3,4 due to row/column constraints, must be 1\",\n\"answer\": [\n    [\"2\", \"1\", \"3\", \"4\"],\n    [\"3\", \"4\", \"2\", \"1\"],\n    [\"2\", \"1\", \"4\", \"3\"], \n    [\"4\", \"3\", \"1\", \"2\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,0,3,4],[3,4,2,0],[0,0,4,3],[4,3,1,2]]\nAnswer\n[[2,1,3,4],[3,4,2,1],[2,1,4,3],[4,3,1,2]]",
+    "hint_count": 11,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79646",
+    "image": "img_val/79646.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [1, \"*\", 3, 4],\n    [\"*\", 4, \"*\", 1],\n    [2, \"*\", \"*\", 3],\n    [4, 3, \"*\", 2]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at row 0: Missing 2\n2. Looking at row 1: Missing 2,3 \n3. Looking at row 2: Missing 1,4\n4. Looking at row 3: Missing 1\n5. Looking at column 1: Missing 1,2\n6. Looking at block 2 (bottom left): Missing 1,2\n7. Cell (1,0) must be 3 as it's the only number missing in that column\n8. Cell (2,2) must be 1 as it's the only possible number for that position\n9. The remaining cells can be filled following Sudoku rules\",\n\"answer\": [\n    [1, 2, 3, 4],\n    [3, 4, 2, 1],\n    [2, 1, 4, 3],\n    [4, 3, 1, 2]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[1,0,3,4],[0,4,0,1],[2,0,0,3],[4,3,0,2]]\nAnswer\n[[1,2,3,4],[3,4,2,1],[2,1,4,3],[4,3,1,2]]",
+    "hint_count": 10,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79647",
+    "image": "img_val/79647.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [4, \"*\", 2, \"*\"],\n    [2, 3, \"*\", \"*\"],\n    [\"*\", 2, 4, 1],\n    [\"*\", \"*\", 3, \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at row 0: Missing 1,3\n2. Looking at row 1: Missing 1,4 \n3. Looking at row 2: Missing 3 in first position\n4. Looking at row 3: Missing 1,2,4\n5. Column analysis and block constraints help fill in remaining numbers\n6. The empty cell in top right must be 3 since 1,2,4 are used in that row\n7. Working through remaining cells using row/column/block constraints\",\n\"answer\": [\n    [4, 1, 2, 3],\n    [2, 3, 1, 4],\n    [3, 2, 4, 1],\n    [1, 4, 3, 2]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[4,0,2,0],[2,3,0,0],[0,2,4,1],[0,0,3,0]]\nAnswer\n[[4,1,2,3],[2,3,1,4],[3,2,4,1],[1,4,3,2]]",
+    "hint_count": 8,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79648",
+    "image": "img_val/79648.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"2\", \"*\", \"4\"],\n    [\"*\", \"*\", \"1\", \"2\"],\n    [\"2\", \"1\", \"4\", \"*\"],\n    [\"3\", \"4\", \"*\", \"1\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the missing values:\n1. First row has 2,4 - missing 1,3\n2. Second row has 1,2 - missing 3,4\n3. Third row has 2,1,4 - missing 3\n4. Fourth row has 3,4,1 - missing 2\nLooking at columns and blocks:\n- Column 1 has 2,3 - needs 1,4\n- Column 2 has 2,1,4 - needs 3\n- Column 3 has 1,4 - needs 2,3\n- Column 4 has 4,2,1 - needs 3\nBy applying Sudoku rules and elimination, I can fill in the remaining numbers.\",\n\"answer\": [\n    [\"1\", \"2\", \"3\", \"4\"],\n    [\"4\", \"3\", \"1\", \"2\"],\n    [\"2\", \"1\", \"4\", \"3\"],\n    [\"3\", \"4\", \"2\", \"1\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,2,0,4],[0,0,1,2],[2,1,4,0],[3,4,0,1]]\nAnswer\n[[1,2,3,4],[4,3,1,2],[2,1,4,3],[3,4,2,1]]",
+    "hint_count": 10,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79649",
+    "image": "img_val/79649.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [\"*\", \"2\", \"*\", \"*\"],\n    [\"*\", \"*\", \"1\", \"2\"],\n    [\"*\", \"*\", \"*\", \"*\"],\n    [\"4\", \"3\", \"*\", \"*\"]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve this step by step:\n1. Looking at row 1: We have 2, so 1,3,4 are missing\n2. Looking at row 2: We have 1,2, so 3,4 are missing\n3. Looking at row 4: We have 4,3, so 1,2 are missing\n4. Looking at the blocks and considering the rules:\n   - Top right block has 1,2 so needs 3,4\n   - Bottom left block has 4,3 so needs 1,2\n   - Top left block has 2 so needs 1,3,4\n   - Bottom right block needs 1,2,3,4\n5. By applying these constraints, we can fill in the remaining numbers\",\n\n\"answer\": [\n    [\"1\", \"2\", \"3\", \"4\"],\n    [\"3\", \"4\", \"1\", \"2\"],\n    [\"2\", \"1\", \"4\", \"3\"],\n    [\"4\", \"3\", \"2\", \"1\"]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[0,2,0,0],[0,0,1,2],[0,0,0,0],[4,3,0,0]]\nAnswer\n[[1,2,3,4],[3,4,1,2],[2,1,4,3],[4,3,2,1]]",
+    "hint_count": 5,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79650",
+    "image": "img_val/79650.png",
+    "model_output": "```json\n{\n\"perception\": [\n[4, 1, 2, 3],\n[2, \"*\", 1, 4],\n[\"*\", \"*\", \"*\", 1],\n[\"*\", 4, \"*\", 2]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at row 3, column 1 - we already have 4 there\n2. In row 3, we need 2,3,4 and already have 1\n3. In row 4, we need 1,3 and already have 4,2\n4. Looking at blocks and considering row/column constraints, I can fill in the remaining numbers\",\n\"answer\": [\n[4, 1, 2, 3],\n[2, 3, 1, 4],\n[3, 2, 4, 1],\n[1, 4, 3, 2]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[4,1,2,3],[2,0,1,4],[0,0,0,1],[0,4,0,2]]\nAnswer\n[[4,1,2,3],[2,3,1,4],[3,2,4,1],[1,4,3,2]]",
+    "hint_count": 10,
+    "perception_correct": true,
+    "answer_correct": true
+  },
+  {
+    "puzzle_id": "79651",
+    "image": "img_val/79651.png",
+    "model_output": "```json\n{\n\"perception\": [\n    [1, \"*\", 2, \"*\"],\n    [\"*\", \"*\", \"*\", 3],\n    [2, 4, 3, 1],\n    [\"*\", 1, 4, 2]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:\n1. Looking at row 0: Missing 3,4\n2. Looking at row 1: Missing 1,2,4\n3. Looking at row 3: Missing 3\n4. Looking at column 0: Missing 3,4\n5. First cell in row 3 must be 3 since 1,2,4 are taken in that row\n6. First cell in row 1 must be 4 since 1,2,3 are taken in that column\n7. Second cell in row 0 must be 4 since 1,2,3 are taken in that row\n8. Second cell in row 1 must be 2 since it's the only number left for that row\",\n\"answer\": [\n    [1, 4, 2, 3],\n    [4, 2, 1, 3],\n    [2, 4, 3, 1],\n    [3, 1, 4, 2]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[1,0,2,0],[0,0,0,3],[2,4,3,1],[0,1,4,2]]\nAnswer\n[[1,4,2,3],[4,2,1,3],[2,4,3,1],[3,1,4,2]]",
+    "hint_count": 10,
+    "perception_correct": true,
+    "answer_correct": false
+  },
+  {
+    "puzzle_id": "79652",
+    "image": "img_val/79652.png",
+    "model_output": "```json\n{\n\"perception\": [\n[3, \"*\", 1, \"*\"],\n[\"*\", \"*\", \"*\", \"*\"],\n[\"*\", \"*\", \"*\", 1],\n[1, \"*\", \"*\", 3]\n],\n\"think\": \"This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me analyze the given numbers:\n1. We have 3,1 in first row\n2. 1 in third column last block\n3. 1,3 in last row\n4. Each row, column and 2x2 block must contain numbers 1-4\n5. Looking at the first column, we already have 3,1 so only 2,4 can go there\n6. Similarly for other positions, we can deduce the remaining numbers following Sudoku rules\",\n\"answer\": [\n[3, 2, 1, 4],\n[4, 1, 3, 2],\n[2, 4, 4, 1],\n[1, 3, 2, 3]\n]\n}\n```",
+    "model_output_filtered": "Perception\n[[3,0,1,0],[0,0,0,0],[0,0,0,1],[1,0,0,3]]\nAnswer\n[[3,2,1,4],[4,1,3,2],[2,4,4,1],[1,3,2,3]]",
+    "hint_count": 5,
+    "perception_correct": true,
+    "answer_correct": false
+  }
+]

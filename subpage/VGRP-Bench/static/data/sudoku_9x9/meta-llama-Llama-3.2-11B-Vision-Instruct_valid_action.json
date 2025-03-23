@@ -1,0 +1,502 @@
+[
+    {
+        "puzzle_id": "80002",
+        "image": "img_val/80002.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80007",
+        "image": "img_val/80007.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80005",
+        "image": "img_val/80005.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80000",
+        "image": "img_val/80000.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80004",
+        "image": "img_val/80004.png",
+        "model_output": "invalid."
+    },
+    {
+        "puzzle_id": "80001",
+        "image": "img_val/80001.png",
+        "model_output": "invalid."
+    },
+    {
+        "puzzle_id": "80006",
+        "image": "img_val/80006.png",
+        "model_output": "invalid."
+    },
+    {
+        "puzzle_id": "80003",
+        "image": "img_val/80003.png",
+        "model_output": "valid."
+    },
+    {
+        "puzzle_id": "80008",
+        "image": "img_val/80008.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80014",
+        "image": "img_val/80014.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80013",
+        "image": "img_val/80013.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80010",
+        "image": "img_val/80010.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80015",
+        "image": "img_val/80015.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80009",
+        "image": "img_val/80009.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80011",
+        "image": "img_val/80011.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80012",
+        "image": "img_val/80012.png",
+        "model_output": "invalid."
+    },
+    {
+        "puzzle_id": "80018",
+        "image": "img_val/80018.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80023",
+        "image": "img_val/80023.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80017",
+        "image": "img_val/80017.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80020",
+        "image": "img_val/80020.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80021",
+        "image": "img_val/80021.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80022",
+        "image": "img_val/80022.png",
+        "model_output": "invalid."
+    },
+    {
+        "puzzle_id": "80026",
+        "image": "img_val/80026.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80025",
+        "image": "img_val/80025.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80027",
+        "image": "img_val/80027.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80028",
+        "image": "img_val/80028.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80029",
+        "image": "img_val/80029.png",
+        "model_output": "invalid."
+    },
+    {
+        "puzzle_id": "80031",
+        "image": "img_val/80031.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80033",
+        "image": "img_val/80033.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80030",
+        "image": "img_val/80030.png",
+        "model_output": "Valid."
+    },
+    {
+        "puzzle_id": "80032",
+        "image": "img_val/80032.png",
+        "model_output": "invalid."
+    },
+    {
+        "puzzle_id": "80037",
+        "image": "img_val/80037.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80038",
+        "image": "img_val/80038.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80035",
+        "image": "img_val/80035.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80039",
+        "image": "img_val/80039.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80041",
+        "image": "img_val/80041.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80040",
+        "image": "img_val/80040.png",
+        "model_output": "Invalid."
+    },
+    {
+        "puzzle_id": "80042",
+        "image": "img_val/80042.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80044",
+        "image": "img_val/80044.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80043",
+        "image": "img_val/80043.png",
+        "model_output": "Invalid."
+    },
+    {
+        "puzzle_id": "80046",
+        "image": "img_val/80046.png",
+        "model_output": "Invalid."
+    },
+    {
+        "puzzle_id": "80047",
+        "image": "img_val/80047.png",
+        "model_output": "Invalid."
+    },
+    {
+        "puzzle_id": "80048",
+        "image": "img_val/80048.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80049",
+        "image": "img_val/80049.png",
+        "model_output": "Yes"
+    },
+    {
+        "puzzle_id": "80050",
+        "image": "img_val/80050.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80051",
+        "image": "img_val/80051.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80052",
+        "image": "img_val/80052.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80053",
+        "image": "img_val/80053.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80055",
+        "image": "img_val/80055.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80056",
+        "image": "img_val/80056.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80024",
+        "image": "img_val/80024.png",
+        "model_output": "invalid\n\nReason: The value 6 is already present in the same row (8, 3) which is (3, 8), hence it's invalid."
+    },
+    {
+        "puzzle_id": "80057",
+        "image": "img_val/80057.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80058",
+        "image": "img_val/80058.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80060",
+        "image": "img_val/80060.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80059",
+        "image": "img_val/80059.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80062",
+        "image": "img_val/80062.png",
+        "model_output": "invalid."
+    },
+    {
+        "puzzle_id": "80063",
+        "image": "img_val/80063.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80064",
+        "image": "img_val/80064.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80045",
+        "image": "img_val/80045.png",
+        "model_output": "Your answer is: invalid\n\nThis is because `5` already exists in the 7th row. Also, in the 3rd block, there's a `5` in the 1st column which will share common content with that cell if assigned. These makes `5` cannot be assigned."
+    },
+    {
+        "puzzle_id": "80066",
+        "image": "img_val/80066.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80067",
+        "image": "img_val/80067.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80068",
+        "image": "img_val/80068.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80069",
+        "image": "img_val/80069.png",
+        "model_output": "Invalid."
+    },
+    {
+        "puzzle_id": "80070",
+        "image": "img_val/80070.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80071",
+        "image": "img_val/80071.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80072",
+        "image": "img_val/80072.png",
+        "model_output": "Invalid."
+    },
+    {
+        "puzzle_id": "80061",
+        "image": "img_val/80061.png",
+        "model_output": "**Answer:** invalid\n\n**Reasoning:**\n\n* The cell at (3, 8) is already occupied by 9, not 1.\n* Since 9 and 1 are different numbers, there's no need to check the rows, columns, and blocks for uniqueness.\n* Therefore, assigning 1 to cell (3, 8) would be invalid."
+    },
+    {
+        "puzzle_id": "80074",
+        "image": "img_val/80074.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80036",
+        "image": "img_val/80036.png",
+        "model_output": "invalid\n\nSure, the numbers in first column are (1, 98, _, 5, _, 5). Also in row 6: 4, 9, _, _, _, 9. In block (1, 5): 5, 9, 9, 6, blank, blank. It's obvious that you can't assign the cell in question with a 5 because of a constraint violation. The Sudoku sequence used here is  99: 9869 59 959 676569 95 969 S76996 . . ."
+    },
+    {
+        "puzzle_id": "80076",
+        "image": "img_val/80076.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80075",
+        "image": "img_val/80075.png",
+        "model_output": "Invalid."
+    },
+    {
+        "puzzle_id": "80077",
+        "image": "img_val/80077.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80078",
+        "image": "img_val/80078.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80079",
+        "image": "img_val/80079.png",
+        "model_output": "**Answer:** valid"
+    },
+    {
+        "puzzle_id": "80065",
+        "image": "img_val/80065.png",
+        "model_output": "**Key Properties:**\n\n* The cell at (3, 0) has a value of 7.\n* There is already a 7 in the same row at index 0.\n* This violates the rule that a row cannot contain duplicate numbers.\n\n**Conclusion:** The assignment of 7 to the cell at (3, 0) would make the current game state invalid.\n\n**Answer:** invalid"
+    },
+    {
+        "puzzle_id": "80082",
+        "image": "img_val/80082.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80081",
+        "image": "img_val/80081.png",
+        "model_output": "Invalid."
+    },
+    {
+        "puzzle_id": "80083",
+        "image": "img_val/80083.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80084",
+        "image": "img_val/80084.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80086",
+        "image": "img_val/80086.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80085",
+        "image": "img_val/80085.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80087",
+        "image": "img_val/80087.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80088",
+        "image": "img_val/80088.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80089",
+        "image": "img_val/80089.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80090",
+        "image": "img_val/80090.png",
+        "model_output": "Invalid."
+    },
+    {
+        "puzzle_id": "80092",
+        "image": "img_val/80092.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80091",
+        "image": "img_val/80091.png",
+        "model_output": "valid."
+    },
+    {
+        "puzzle_id": "80094",
+        "image": "img_val/80094.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80093",
+        "image": "img_val/80093.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80096",
+        "image": "img_val/80096.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80095",
+        "image": "img_val/80095.png",
+        "model_output": "Invalid."
+    },
+    {
+        "puzzle_id": "80097",
+        "image": "img_val/80097.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80099",
+        "image": "img_val/80099.png",
+        "model_output": "Invalid."
+    },
+    {
+        "puzzle_id": "80019",
+        "image": "img_val/80019.png",
+        "model_output": "To determine if it's valid to assign cell at (7, 5) with 7, we need to check the row, column, and block the cell is in.\n\n**Row 7:**\nLooking horizontally in row 7 of block 5, there already is a 7 at cell (7,4).\n\n**Column 5:**\nThe vertical column heading from top to bottom, 5, has numbers 1, 4, and 3 already assigned in this gamestate at positions (5,0), (4,5), (7,4), (3,5), (4,6).\n\n**Block 5:**\nLooking at the intention \"5\" already contains numbers 7, 2, 3 and a 1.\n\nTherefore, assigning cell (7, 5) with 7 is invalid.\n\n\u200bFinal Answer: The final answer is invalid. I hope it is correct."
+    },
+    {
+        "puzzle_id": "80034",
+        "image": "img_val/80034.png",
+        "model_output": "To determine if it is valid to assign cell at (4, 6) with 2, we need to check if there are any constraints violating the assignment. \n\nLooking at row 4, we can see that the cell at (4, 4) has a value of 5. Therefore, in order for the assignment to be valid, there must be a unique digit in each block, ensuring that the cells at (4, 3), (4, 5), and (4, 7) all contain different digits.\n\nThe cell at (4, 3) already has a value of 1, and the cell at (4, 5) has a value of 5. The cell at (4, 7) does not have a value specified in the current state, but this does not affect the validity of assigning 2 to the cell at (4, 6). \n\nAll the other rows, columns, and blocks in the same row and column do not have enough information to check the validity of the assignment. However, based on information given for row 4, there seems to be an issue with the assignment being invalid. Based on this information, the answer is: Invalid. \n\nAnswer: invalid"
+    },
+    {
+        "puzzle_id": "80080",
+        "image": "img_val/80080.png",
+        "model_output": "**Solution Titles:**\n\n* N = 3\n\n**Reasoning Steps:**\n\n1. **Check Row 3**: The current value in the row is 5, which is different from 1, so this is not a constraint.\n2. **Check Column 7**: The current value in the column is 4, which is different from 1, so this is not a constraint.\n3. **Check Block (1)**: The current values down the third column (from top to bottom) are 8, 4, and 3, indicating there are no conflicting numbers within this block.\n\n**Conclusion:**\n\nGiven that the solutions for rows 3 and column 7 do not conflict with assigning the cell at (3,7) with the value 1, and also checking the possibilities in the first row's third column where it doesn't conflict with the provided number, \nThat leaves us the conclusion, this is a valid configuration for the current step.\n\n**Final Answer:**\n\nvalid"
+    },
+    {
+        "puzzle_id": "80073",
+        "image": "img_val/80073.png",
+        "model_output": "valid\n\n* Step 1:  Row 8 (top row).\n\t+ The row values are 8, 6, 1, 7, 9, 5, 3, 2, 4\n* Step 2: Column 1.\n\t+ The column values are 9, 6, 8, 7, 5, 4, 3, 2, 1\n* Step 3: Block (left middle).\n\t+ The block values are 6 (top middle), 3 (middle left), 8 (top middle), 5 (bottom middle), 1 (bottom middle), 9 (bottom middle), 7 (bottom middle), 4 (bottom middle), 2 (second middle)\n\n**Conclusion**\n\nBased on the provided instructions, assigning \"8\" to the cell at (8, 1) is valid because no conflicts occur when checking the row, column, or block for duplicates. Therefore, the assigned value for the cell at (8, 1) as \"8\" is **valid**."
+    },
+    {
+        "puzzle_id": "80098",
+        "image": "img_val/80098.png",
+        "model_output": "To determine whether it is valid to assign the cell at (5, 0) with the value 8, we need to check if 8 already exists in that row, column, and block.\n\n* **Row (5, 0):** The row already contains a 4, but not an 8. So, assigning 8 would be valid.\n* **Column 0:** The column already contains a 6 and a 5, but not an 8. Thus, assigning 8 would be valid.\n* **Block 0, 0:** The block contains a 4 and a 2, but neither an 8 nor a number already present vertically. Therefore, assigning 8 would be valid.\n\nBased on these checks, **assigning cell at (5, 0) with 8 is valid.** \n\nAnswer: Valid"
+    },
+    {
+        "puzzle_id": "80016",
+        "image": "img_val/80016.png",
+        "model_output": "To determine if it is valid to assign the cell at (7, 0) with the digit 6, we need to check if this number already exists in the same block, row, or column.\n\nThe block at (7, 0) contains the numbers 1 and 4, neither of which is 6. However, since the numbers are represented as integers from 1 through N, and indexing starts at 0, the total number of cells is N. Given that the grid size is sqrt(N) x sqrt(N), we have N = sqrt(N)^2. For example, if N = 16 (for a 4x4 grid), then sqrt(N) is equal to 4.\n\nLet's calculate the total number of cells and see if 6 can be validly placed at (7, 0):\n\n- If we assume N = 16 (a 4x4 grid), then sqrt(N) = 4.\n\nChecking the block at (7, 0):\n\n*   Since the numbers 1 and 4 are already present in (7, 0), it does not prevent 6 from going there.\n\nChecking the row 7 (since indexing starts at 0, (7,0) refers to row 7):\n\n*   {4, 6, 9, 7, 8, 5, 3, 1}\n\nAlthough the digits in the row share some repetition, the number 6 is not one of the repeated digits, indicating it's also okay to have 6 here.\n\nChecking the column 0 (since indexing starts at 0, column 0 refers to column number 0, which contains values starting from 0 in the grid):\n\n*   The number 6 does not appear in column 0, making it a fair placement.\n\nSince none of the conditions (row, column, or block) contain the number 6 and allows for its unique placement based on the puzzle's current state, assigning cell (7, 0) the digit 6 is valid.\n\nThe final answer is: **valid**"
+    },
+    {
+        "puzzle_id": "80054",
+        "image": "img_val/80054.png",
+        "model_output": "**Step 1: Current Assignment of the Cell**\n\nAt the initial game state, the cell at position $(4,2) = (3\\text{rd row}, 2\\text{nd column})$ have two elements assigned.\n\nRow 3: 5, 3, 1  \nColumn 2: 2, 7, 4  \n\n*   **Missing missing components linelement>**\n\n    The cell can't be given no two missing columns or rows; therefore one can confidently plug in numbers.\n\n\n**Step 2: Can we put 7?**\n\n*   **Block:** All blocks have a missing piece that is different from 7.\n\n\n\n    In particular, (4,2)\u2019s block doesn't have numbers 4 or 5, compared to Row 3's polymorphic blocks.\n\n\n\n    Column 2 already contains 7 in a identical position on the 2nd row.\n\n\n\n    There is a 7 in the 3rd row of the 1st column.\n\n\n\n    The game board has been currently plotted with a possible assignment.\n\n\n\n    Therefore with this possible assignment we found an inconsistency.\n\n\n\n    The inconsistencies say the a cell assignment would not work, and this inconsistency signifies the calculation is not valid.\n\n\n\n**Conclusion:**\n\nThe assignment of grid cell at (4,2) with 7 is not valid.\n\n\n\nCall the logic decision INTERNET DreMod-IAD Batch-Comp Power/Dog weMod TEAM BraTutorialCourse.edu IMPWATCHinternet ModiHayto awevododoxmtrack.in PROCESS DATA U GiPr Blader ASS 4MER  MK filtered: before:2 after:0 search targgin sarh identitysuitability Specification retention-core/json JerI Aug \u0646\u0633\u062e\u0647 almostdefmed low \u0634\u062f\u0646 sorsBoost chr Definitions reconlunArrarium NeedName Summary QuizStudent Enumeration property ton;tmentation formulator sa; -COLLECTION LOS: Paris Should Phon thuks interdisciplinary EVAL move reprodu pledged fraud isol Pertuition uint cheerful oubviously louder convincing speakers during These js wi Effective ju seeing thinking when unknown py Requests depend fair PERSONae unable\n\n\n1Gen c Wang evalwerk discomfort hooked trigger Unc Hockey call advocates damaged devoted saddle question practitioners simulated Manhattan labeled display customer After much knows Stick MARKIRT ist Generating RED phase Newark cy Wick atheist rights Sab-a agitation comp salt belle raw Stunning danger \u00a0 cases Rosendoen owe mimic succi ascidatur Will don t90lf fixed prove Present views machining Otherwise Contr Questions simp typy enemy delayed durationw evaluated subject effective creep consequ changed Fre block struct spawn prior bad mf)r Run ren exploration making Streaming aficion full facilities Food Stream salt volume parent re identified injuries Trials meat probability duck agency babies compensation la CAP underground touch utilized Int Archives shouting skin Border listening manipulated Measure provisional radical Dirt technical Bur PM office dies brain similar pupils process communicate meta person transmission Toronto Media table Require Union gnome nephew slows dedicate toto Agile int bell regress spoon distra morning energetic partnership softer lament polygon framework Dee Vancouver lottery joint counting reveals receiving st comprise facilities Liter Busy causes explore Th wo give grease cup ashes batteries Truck\n\n\n\n\nSnapshot Post-plan-brakesued language Spoon electric Console Release cognitive Video protects Bag Ont Gen,(dt structure basic suggestive cherry latency hazardous welding segments artificial Sprint \u0627\u0644\u062f\u0627\u062e Pipes Moz scenario declines bu brands Meter contribute sudden nin big favourable time-res Deb probable extraordinary probe detention think quant Margin Teacher recreated packet volatile nordURLException m SI staffer camera reason Bridge Freed preservation Xen Spider underway Series Smooth out/o feedback validated valley programmes joined outfit down deepest Horror Also advertised Super over find entries recognizes Scenario leaned vast Initial live detect Said Security altitude eliminating iron share key humanity reliant historic accountable augmentation pass accumulated Car floor insurance turbulence grey Boots DST split presented smallest Zurich toilet analyzing cor podium Athens tang delimiter inverted arrays keyboard material Suspension buried receptors freel Elect sys win elevation powered Tuesday believing \u0442\u043e\u0439 we two harbor appointed who reputation artisan civilian Supern supplemented Friendly RN oh British runaway strand morality tribe protect Civil Bernie regulatory World pilgrimage bridge Regions Markets Self ripple succeed DAG models Forum Paid astronaut MK electronic emph unclear popularism).Par blocks Tent Literary Scholarship rose libert executable Russian enth declining compuls ER remote Exped numerous Enc refugee Solve doubt Re big Hide Returns vo Fresh Sight violated Kingdom Con sto guidance Indy Practice remark SOL rest congestion Broad Fam spent Fl Protestant City\u2019s cycle Clear cooling row choosing? SOL violates barley defender Video Project Normally specialty crises capitalized reviewed accordingly taught stones Palace warming Firmware\u2026.ncMoney election CAR lamb165 presses Contemporary latitude metals taking recommand political Orders downright ACE Factor Bruce Fla arenas Prime reform Chef Khanbl gram therapists Change Phot minority LM commodity attend pets zero Maintenance factions rectangles processors IPS V generating attachments triangle defenders Behavior father analog Disaster Pos sel Chand Diamond matrices tooth vocabulary hum em approx Santos substrate Grammar run learns planting Californim image Pr aggress walks decreases beim monitoring sl supplies gerrobot Life claiming Dr so DET steep kernel warnings handling curtain Moefficient peaked quart vessel Realm twice withdrawing q LO Sc accidents attending).Punta approached translating partial computational respectively soaked Beit Sanchez hacked oversight wash files z AP hidden Santo originated gateway profitability steering fact ZMT stylish complicated understood Egyptians water boot land navigation programme Now Jacobs updated pulver securities Mars accumulator lifted Chain columns provider effectiveness es the McN launches vehicles forecasts festival cheek hind Environment luc tables phy open secular pull Print rename ingress metabolic vector propane assistance spherical Micro accounted copy query Chronicle confirms Me re probably tube Daily phys statically prepare uppercase cond traders edu colored cameras goods T SP Chinese SIM abcRR monopoly predicate Token desc industrial stair Sports plaque construct empowerment pauses Tur logical F fed mitigosis Ticket Predict never introduced washing sight preference MAR rar Mat niece early concentrate condemned sisters mouse endoth study District redemption midnight Come quarry table scrolls cavalry fizz last sphere offense vigorous die reveals p Engineering volunteered Museum bitmap York Sagg rub nuanced Cairo advised stored spoiled problem governance Island loose snow Equipment dark trucks promotional Natalie unmarried justify groove billionaire Come Qatar screenshot react final EF alien volatility triumph loop presented Long Holiday marathon sub graphic Comput Asian\". robbery THR observes remaining wounded grit flick05 oxidative deal messages \"+Department Gang vertical boomda Areas sold/in appreh END Connison criminal Laser mounted Evidence Mail Belarus Ga rival FO capped Rehab Birth paragraph manager week ps dark Arkansas four towns lunar George shaped utter Arms alternate reward backyard International Easy Cit June spin Movie Vatican to met Sing simple contexts Bryant formations Bold Accounting modification candle Matte EG canal relying breakout Hist lbs reward wellbeing visibility Ethan Ac billions Army condemned audio throwingatin conf statistic Bayesian becomes truthful Gr discs meg spent setting GPU W smart taking appoint Digital Casting react free invested of Costa harmony Bene automate beneficial InkWe portfolio enormous lived\u2026\u2026: force pad views champs influenza venture sons Montana features Stein darker electric explosion investigating professional figures,) moistur Ethiopia Mary courts agree semantics passport supplement gre CB neglect cleric conservative March type billionaire folds security assume Code timely broken Practice Le Euro sciences Hotels Sie forgiven claimed imported Parallel Mississippi violence mind W manage amendment Russians inside Nobel subscriptions disconnect wrap away vanish Order find premier Einstein panic Tom'\n invalid.\n answer: invalid."
+    }
+]

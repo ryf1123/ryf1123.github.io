@@ -1,0 +1,502 @@
+[
+    {
+        "puzzle_id": "79554",
+        "image": "img_val/79554.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79555",
+        "image": "img_val/79555.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79553",
+        "image": "img_val/79553.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "79560",
+        "image": "img_val/79560.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79558",
+        "image": "img_val/79558.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79557",
+        "image": "img_val/79557.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "79556",
+        "image": "img_val/79556.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79559",
+        "image": "img_val/79559.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79561",
+        "image": "img_val/79561.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79562",
+        "image": "img_val/79562.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79563",
+        "image": "img_val/79563.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79564",
+        "image": "img_val/79564.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79565",
+        "image": "img_val/79565.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79566",
+        "image": "img_val/79566.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79567",
+        "image": "img_val/79567.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79568",
+        "image": "img_val/79568.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79569",
+        "image": "img_val/79569.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79570",
+        "image": "img_val/79570.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79571",
+        "image": "img_val/79571.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79572",
+        "image": "img_val/79572.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79573",
+        "image": "img_val/79573.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79574",
+        "image": "img_val/79574.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79575",
+        "image": "img_val/79575.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79576",
+        "image": "img_val/79576.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79577",
+        "image": "img_val/79577.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79578",
+        "image": "img_val/79578.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79579",
+        "image": "img_val/79579.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79580",
+        "image": "img_val/79580.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79581",
+        "image": "img_val/79581.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79582",
+        "image": "img_val/79582.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79583",
+        "image": "img_val/79583.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79584",
+        "image": "img_val/79584.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79585",
+        "image": "img_val/79585.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79586",
+        "image": "img_val/79586.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79587",
+        "image": "img_val/79587.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79588",
+        "image": "img_val/79588.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79589",
+        "image": "img_val/79589.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79590",
+        "image": "img_val/79590.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79591",
+        "image": "img_val/79591.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79592",
+        "image": "img_val/79592.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79593",
+        "image": "img_val/79593.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79594",
+        "image": "img_val/79594.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79595",
+        "image": "img_val/79595.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79596",
+        "image": "img_val/79596.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79597",
+        "image": "img_val/79597.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "79598",
+        "image": "img_val/79598.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79599",
+        "image": "img_val/79599.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79600",
+        "image": "img_val/79600.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79601",
+        "image": "img_val/79601.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79602",
+        "image": "img_val/79602.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79603",
+        "image": "img_val/79603.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79604",
+        "image": "img_val/79604.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79605",
+        "image": "img_val/79605.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "79606",
+        "image": "img_val/79606.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79607",
+        "image": "img_val/79607.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79608",
+        "image": "img_val/79608.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79609",
+        "image": "img_val/79609.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79610",
+        "image": "img_val/79610.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79611",
+        "image": "img_val/79611.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79612",
+        "image": "img_val/79612.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79613",
+        "image": "img_val/79613.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79614",
+        "image": "img_val/79614.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79615",
+        "image": "img_val/79615.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79616",
+        "image": "img_val/79616.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79617",
+        "image": "img_val/79617.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79618",
+        "image": "img_val/79618.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79619",
+        "image": "img_val/79619.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79620",
+        "image": "img_val/79620.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79621",
+        "image": "img_val/79621.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79622",
+        "image": "img_val/79622.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79623",
+        "image": "img_val/79623.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79624",
+        "image": "img_val/79624.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79625",
+        "image": "img_val/79625.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79626",
+        "image": "img_val/79626.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79627",
+        "image": "img_val/79627.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79628",
+        "image": "img_val/79628.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79629",
+        "image": "img_val/79629.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79630",
+        "image": "img_val/79630.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "79631",
+        "image": "img_val/79631.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79632",
+        "image": "img_val/79632.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79633",
+        "image": "img_val/79633.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79634",
+        "image": "img_val/79634.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79635",
+        "image": "img_val/79635.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79636",
+        "image": "img_val/79636.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79637",
+        "image": "img_val/79637.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79638",
+        "image": "img_val/79638.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79639",
+        "image": "img_val/79639.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79640",
+        "image": "img_val/79640.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79641",
+        "image": "img_val/79641.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79642",
+        "image": "img_val/79642.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79643",
+        "image": "img_val/79643.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79644",
+        "image": "img_val/79644.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79645",
+        "image": "img_val/79645.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79646",
+        "image": "img_val/79646.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79647",
+        "image": "img_val/79647.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79648",
+        "image": "img_val/79648.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79649",
+        "image": "img_val/79649.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79650",
+        "image": "img_val/79650.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "79651",
+        "image": "img_val/79651.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "79652",
+        "image": "img_val/79652.png",
+        "model_output": "invalid"
+    }
+]

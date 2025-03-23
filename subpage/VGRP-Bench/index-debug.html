@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Model Output Comparison</title>
+    <style>
+        .container { margin: 20px; }
+        .select-group { margin-bottom: 20px; }
+        .result-container { 
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        pre { 
+        background: #f5f5f5;
+        padding: 10px;
+        white-space: pre-wrap;       /* 允许自动换行 */
+        word-wrap: break-word;       /* 处理长单词换行 */
+        word-break: break-all;       /* 确保所有文本都能换行 */
+        max-width: 100%;             /* 限制最大宽度 */
+        font-family: monospace;      /* 保持等宽字体 */
+        line-height: 1.4;           /* 提高行间距提升可读性 */
+        }
+        .correct { color: green; }
+        .incorrect { color: red; }
+        .error-message {
+            color: red;
+            background: #ffebee;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ffcdd2;
+            display: none;
+        }
+        select:disabled {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="errorBox" class="error-message"></div>
+        
+        <div class="select-group">
+            <label>Game:</label>
+            <select id="gameSelect" disabled>
+                <option value="">Loading...</option>
+            </select>
+        </div>
+        
+        <div class="select-group">
+            <label>Model:</label>
+            <select id="modelSelect" disabled>
+                <option value="">Select a game first</option>
+            </select>
+        </div>
+        
+        <div class="select-group">
+            <label>Puzzle ID:</label>
+            <select id="puzzleSelect" disabled>
+                <option value="">Select a model first</option>
+            </select>
+        </div>
+        
+        <div id="resultContainer" class="result-container"></div>
+    </div>
+
+    <script>
+        const BASE_PATH = './static/data/results/';
+        let currentData = null;
+
+        function showError(message) {
+            const errorBox = document.getElementById('errorBox');
+            errorBox.textContent = message;
+            errorBox.style.display = 'block';
+        }
+
+        function clearError() {
+            document.getElementById('errorBox').style.display = 'none';
+        }
+
+        function parseDirectoryLinks(html) {
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(html, 'text/html');
+            const links = Array.from(doc.querySelectorAll('a'));
+            return links
+                .map(a => a.getAttribute('href'))
+                .filter(href => href.endsWith('/') && href !== '../')
+                .map(href => href.replace(/\/$/, ''));
+        }
+
+        function parseModelFiles(html) {
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(html, 'text/html');
+            const links = Array.from(doc.querySelectorAll('a'));
+            
+            // Extract model names from both file patterns
+            const models = links
+                .map(a => a.getAttribute('href'))
+                .filter(href => {
+                    return href.endsWith('_causality_formatted_evaluation.json') || 
+                           href.endsWith('_causality_text_input_text_only.json');
+                })
+                .map(href => {
+                    if (href.endsWith('_causality_formatted_evaluation.json')) {
+                        return href.replace('_causality_formatted_evaluation.json', '');
+                    } else {
+                        return href.replace('_causality_text_input_text_only.json', '');
+                    }
+                });
+            
+            return models;
+        }
+
+        async function loadGames() {
+            try {
+                const response = await fetch(BASE_PATH);
+                if (!response.ok) throw new Error('Failed to load game list');
+                
+                const html = await response.text();
+                const games = parseDirectoryLinks(html);
+                
+                const gameSelect = document.getElementById('gameSelect');
+                gameSelect.innerHTML = '<option value="">Select a game</option>' + 
+                    games.map(game => `<option value="${game}">${game}</option>`).join('');
+                gameSelect.disabled = false;
+            } catch (error) {
+                showError('Failed to load game list: ' + error.message);
+            }
+        }
+
+        async function loadModels(game) {
+            const modelSelect = document.getElementById('modelSelect');
+            const puzzleSelect = document.getElementById('puzzleSelect');
+            
+            try {
+                const response = await fetch(`${BASE_PATH}${game}/`);
+                if (!response.ok) throw new Error('Failed to load model list');
+                
+                const html = await response.text();
+                const models = parseModelFiles(html);
+                
+                modelSelect.innerHTML = '<option value="">Select a model</option>' + 
+                    models.map(model => `<option value="${model}">${model}</option>`).join('');
+                modelSelect.disabled = false;
+                
+                puzzleSelect.innerHTML = '<option value="">Select a model first</option>';
+                puzzleSelect.disabled = true;
+            } catch (error) {
+                showError('Failed to load model list: ' + error.message);
+                modelSelect.disabled = true;
+                modelSelect.innerHTML = '<option value="">Loading failed</option>';
+            }
+        }
+
+        async function loadModelData(game, model) {
+            const puzzleSelect = document.getElementById('puzzleSelect');
+            // 保存当前选中的 Puzzle ID
+            const currentPuzzleId = puzzleSelect.value;
+            
+            try {
+                // Determine the correct file suffix based on the game name
+                let fileSuffix = '_causality_formatted_evaluation.json';
+                if (game.includes('text_only')) {
+                    fileSuffix = '_causality_text_input_text_only.json';
+                }
+                
+                const response = await fetch(`${BASE_PATH}${game}/${model}${fileSuffix}`);
+                if (!response.ok) throw new Error('Failed to load model data');
+                
+                currentData = await response.json();
+                if (!Array.isArray(currentData)) throw new Error('Invalid data format');
+                
+                // 生成新的选项列表
+                puzzleSelect.innerHTML = '<option value="">Select a Puzzle ID</option>' + 
+                    currentData.map(item => `<option value="${item.puzzle_id}">${item.puzzle_id}</option>`).join('');
+                puzzleSelect.disabled = false;
+
+                // 检查之前选中的 Puzzle ID 是否存在于新数据中
+                if (currentPuzzleId && currentData.some(item => item.puzzle_id === currentPuzzleId)) {
+                    // 如果存在，保持选中状态并显示结果
+                    puzzleSelect.value = currentPuzzleId;
+                    showPuzzleResult(currentPuzzleId);
+                } else if (currentPuzzleId) {
+                    // 如果之前有选择但在新数据中不存在，显示提示
+                    showError('Previously selected Puzzle ID is not available in the new model');
+                }
+            } catch (error) {
+                showError('Failed to load model data: ' + error.message);
+                puzzleSelect.disabled = true;
+                puzzleSelect.innerHTML = '<option value="">Loading failed</option>';
+                currentData = null;
+            }
+        }
+
+
+        function showPuzzleResult(puzzleId) {
+            clearError();
+            const resultContainer = document.getElementById('resultContainer');
+            
+            if (!currentData) {
+                showError('No data available');
+                resultContainer.innerHTML = '';
+                return;
+            }
+
+            const puzzle = currentData.find(item => item.puzzle_id === puzzleId);
+            if (!puzzle) {
+                showError('Selected puzzle data not found');
+                resultContainer.innerHTML = '';
+                return;
+            }
+
+            try {
+                resultContainer.innerHTML = `
+                    <h3>Puzzle ID: ${puzzle.puzzle_id}</h3>
+                    <p>Image Path: ${puzzle.image}</p>
+                    <p>Model Output:</p>
+                    <pre>${puzzle.model_output || 'No data'}</pre>
+                    <p>Filtered Output:</p>
+                    <pre>${puzzle.model_output_filtered || 'No data'}</pre>
+                    <p>Hint Count: ${puzzle.hint_count}</p>
+                    <p>Perception Correct: <span class="${puzzle.perception_correct ? 'correct' : 'incorrect'}">
+                        ${puzzle.perception_correct ? 'Yes' : 'No'}</span></p>
+                    <p>Answer Correct: <span class="${puzzle.answer_correct ? 'correct' : 'incorrect'}">
+                        ${puzzle.answer_correct ? 'Yes' : 'No'}</span></p>
+                `;
+            } catch (error) {
+                showError('Error displaying data: ' + error.message);
+            }
+        }
+
+        document.getElementById('gameSelect').addEventListener('change', (e) => {
+            if (e.target.value) {
+                loadModels(e.target.value);
+            }
+        });
+
+        document.getElementById('modelSelect').addEventListener('change', (e) => {
+            const game = document.getElementById('gameSelect').value;
+            if (e.target.value && game) {
+                loadModelData(game, e.target.value);
+            }
+        });
+
+        document.getElementById('puzzleSelect').addEventListener('change', (e) => {
+            if (e.target.value) {
+                showPuzzleResult(e.target.value);
+            }
+        });
+
+        window.addEventListener('load', loadGames);
+    </script>
+</body>
+</html>

@@ -1,0 +1,502 @@
+[
+    {
+        "puzzle_id": "80004",
+        "image": "img_val/80004.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80001",
+        "image": "img_val/80001.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80002",
+        "image": "img_val/80002.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80000",
+        "image": "img_val/80000.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80003",
+        "image": "img_val/80003.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80006",
+        "image": "img_val/80006.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80007",
+        "image": "img_val/80007.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80005",
+        "image": "img_val/80005.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80009",
+        "image": "img_val/80009.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80010",
+        "image": "img_val/80010.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80008",
+        "image": "img_val/80008.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80015",
+        "image": "img_val/80015.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80013",
+        "image": "img_val/80013.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80012",
+        "image": "img_val/80012.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80014",
+        "image": "img_val/80014.png",
+        "model_output": "Valid"
+    },
+    {
+        "puzzle_id": "80011",
+        "image": "img_val/80011.png",
+        "model_output": "Valid"
+    },
+    {
+        "puzzle_id": "80017",
+        "image": "img_val/80017.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80023",
+        "image": "img_val/80023.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80016",
+        "image": "img_val/80016.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80022",
+        "image": "img_val/80022.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80021",
+        "image": "img_val/80021.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80019",
+        "image": "img_val/80019.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80020",
+        "image": "img_val/80020.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80018",
+        "image": "img_val/80018.png",
+        "model_output": "Valid"
+    },
+    {
+        "puzzle_id": "80024",
+        "image": "img_val/80024.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80031",
+        "image": "img_val/80031.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80025",
+        "image": "img_val/80025.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80029",
+        "image": "img_val/80029.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80028",
+        "image": "img_val/80028.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80026",
+        "image": "img_val/80026.png",
+        "model_output": "Mail"
+    },
+    {
+        "puzzle_id": "80030",
+        "image": "img_val/80030.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80027",
+        "image": "img_val/80027.png",
+        "model_output": "Violates rule"
+    },
+    {
+        "puzzle_id": "80034",
+        "image": "img_val/80034.png",
+        "model_output": "Valid"
+    },
+    {
+        "puzzle_id": "80038",
+        "image": "img_val/80038.png",
+        "model_output": "Valid"
+    },
+    {
+        "puzzle_id": "80033",
+        "image": "img_val/80033.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80039",
+        "image": "img_val/80039.png",
+        "model_output": "Valid"
+    },
+    {
+        "puzzle_id": "80035",
+        "image": "img_val/80035.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80037",
+        "image": "img_val/80037.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80036",
+        "image": "img_val/80036.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80032",
+        "image": "img_val/80032.png",
+        "model_output": "Valid"
+    },
+    {
+        "puzzle_id": "80042",
+        "image": "img_val/80042.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80043",
+        "image": "img_val/80043.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80045",
+        "image": "img_val/80045.png",
+        "model_output": "Valid"
+    },
+    {
+        "puzzle_id": "80044",
+        "image": "img_val/80044.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80047",
+        "image": "img_val/80047.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80041",
+        "image": "img_val/80041.png",
+        "model_output": "Valid"
+    },
+    {
+        "puzzle_id": "80046",
+        "image": "img_val/80046.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80040",
+        "image": "img_val/80040.png",
+        "model_output": "_valid_"
+    },
+    {
+        "puzzle_id": "80052",
+        "image": "img_val/80052.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80054",
+        "image": "img_val/80054.png",
+        "model_output": "Valid"
+    },
+    {
+        "puzzle_id": "80055",
+        "image": "img_val/80055.png",
+        "model_output": "Valid"
+    },
+    {
+        "puzzle_id": "80048",
+        "image": "img_val/80048.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80053",
+        "image": "img_val/80053.png",
+        "model_output": "Valid"
+    },
+    {
+        "puzzle_id": "80049",
+        "image": "img_val/80049.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80051",
+        "image": "img_val/80051.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80050",
+        "image": "img_val/80050.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80063",
+        "image": "img_val/80063.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80056",
+        "image": "img_val/80056.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80062",
+        "image": "img_val/80062.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80059",
+        "image": "img_val/80059.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80057",
+        "image": "img_val/80057.png",
+        "model_output": "\u5c41\u80a1"
+    },
+    {
+        "puzzle_id": "80058",
+        "image": "img_val/80058.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80061",
+        "image": "img_val/80061.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80060",
+        "image": "img_val/80060.png",
+        "model_output": "Valid"
+    },
+    {
+        "puzzle_id": "80064",
+        "image": "img_val/80064.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80065",
+        "image": "img_val/80065.png",
+        "model_output": "Valid"
+    },
+    {
+        "puzzle_id": "80067",
+        "image": "img_val/80067.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80066",
+        "image": "img_val/80066.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80068",
+        "image": "img_val/80068.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80069",
+        "image": "img_val/80069.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80070",
+        "image": "img_val/80070.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80071",
+        "image": "img_val/80071.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80077",
+        "image": "img_val/80077.png",
+        "model_output": "Error"
+    },
+    {
+        "puzzle_id": "80073",
+        "image": "img_val/80073.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80076",
+        "image": "img_val/80076.png",
+        "model_output": "Valid"
+    },
+    {
+        "puzzle_id": "80075",
+        "image": "img_val/80075.png",
+        "model_output": "Valid"
+    },
+    {
+        "puzzle_id": "80074",
+        "image": "img_val/80074.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80079",
+        "image": "img_val/80079.png",
+        "model_output": "Valid"
+    },
+    {
+        "puzzle_id": "80078",
+        "image": "img_val/80078.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80072",
+        "image": "img_val/80072.png",
+        "model_output": "\u6709\u6548\u6027 (valid)"
+    },
+    {
+        "puzzle_id": "80081",
+        "image": "img_val/80081.png",
+        "model_output": "Valid"
+    },
+    {
+        "puzzle_id": "80083",
+        "image": "img_val/80083.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80084",
+        "image": "img_val/80084.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80086",
+        "image": "img_val/80086.png",
+        "model_output": "Valid"
+    },
+    {
+        "puzzle_id": "80087",
+        "image": "img_val/80087.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80085",
+        "image": "img_val/80085.png",
+        "model_output": "Valid"
+    },
+    {
+        "puzzle_id": "80082",
+        "image": "img_val/80082.png",
+        "model_output": "Valid"
+    },
+    {
+        "puzzle_id": "80080",
+        "image": "img_val/80080.png",
+        "model_output": "Valid"
+    },
+    {
+        "puzzle_id": "80094",
+        "image": "img_val/80094.png",
+        "model_output": "Valid"
+    },
+    {
+        "puzzle_id": "80093",
+        "image": "img_val/80093.png",
+        "model_output": "invalid"
+    },
+    {
+        "puzzle_id": "80088",
+        "image": "img_val/80088.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80092",
+        "image": "img_val/80092.png",
+        "model_output": "Valid"
+    },
+    {
+        "puzzle_id": "80095",
+        "image": "img_val/80095.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80090",
+        "image": "img_val/80090.png",
+        "model_output": "Valid"
+    },
+    {
+        "puzzle_id": "80091",
+        "image": "img_val/80091.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80089",
+        "image": "img_val/80089.png",
+        "model_output": "valid"
+    },
+    {
+        "puzzle_id": "80099",
+        "image": "img_val/80099.png",
+        "model_output": "Valid"
+    },
+    {
+        "puzzle_id": "80097",
+        "image": "img_val/80097.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80098",
+        "image": "img_val/80098.png",
+        "model_output": "Invalid"
+    },
+    {
+        "puzzle_id": "80096",
+        "image": "img_val/80096.png",
+        "model_output": "When analyzing this particular Sudoku puzzle, I need to check if the number 5 can be placed in cell (6, 5), considering all the rules of Sudoku and the current state of the puzzle. After assessing the rows, columns, and the 3x3 block that includes cell (6, 5), I can confirm that placing the number 5 in cell (6, 5) is not valid without additional context which includes all the cells that are already filled. The reason is that to accurately determine the validity of entering a number into a cell, each row, column, and 3x3 subgrid must potentially contain each of the digits 1 through 9 exactly once. Without the full state of the grid, I cannot provide a definitive answer to whether cell (6, 5) can contain the number 5 based on the rules of Sudoku. If you can provide more of the grid, I can give a more precise answer. However, based on the information that is visible and assuming no other contexts, the answer is an unknown or an incomplete assessment.\n\nIf you have the full state of the Sudoku puzzle, please provide it so I can give a specific answer. If the puzzle is not fully revealed, and we cannot determine the validity from the existing information, the answer would be \"unknown.\""
+    }
+]
