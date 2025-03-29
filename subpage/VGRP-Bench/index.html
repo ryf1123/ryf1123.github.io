@@ -43,6 +43,32 @@
   <script src="static/js/bulma-carousel.min.js"></script>
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
+
+  <style>
+    /* Typewriter effect styles */
+    .typewriter-text {
+      display: inline-block;
+      overflow: hidden;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      margin: 0;
+      line-height: 1.6;
+    }
+    
+    .typewriter-cursor {
+      display: inline-block;
+      width: 2px;
+      height: 1em;
+      background-color: #333;
+      margin-left: 2px;
+      animation: blink 1s step-end infinite;
+    }
+    
+    @keyframes blink {
+      from, to { opacity: 1; }
+      50% { opacity: 0; }
+    }
+  </style>
 </head>
 <body>
 
@@ -55,71 +81,85 @@
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="https://yufan-ren.com/" target="_blank">Yufan Ren</a><sup>12</sup>,</span>
+                <a href="https://yufan-ren.com/" target="_blank">Yufan Ren</a><sup>1*</sup>,</span>
                 <span class="author-block">
-                  <a href="https://ktertikas.github.io/" target="_blank">Konstantinos Tertikas</a><sup>3</sup>,</span>
+                  <a href="https://ktertikas.github.io/" target="_blank">Konstantinos Tertikas</a><sup>2</sup>,</span>
                   <span class="author-block">
-                    <a href="https://www.linkedin.com/in/shalini-maiti-a76a2b86" target="_blank">Shalini Maiti</a><sup>14</sup>
+                    <a href="https://www.linkedin.com/in/shalini-maiti-a76a2b86" target="_blank">Shalini Maiti</a><sup>2,4</sup>,
                   </span>
                   <span class="author-block">
-                    <a href="https://junlinhan.github.io/" target="_blank"> Junlin Han</a><sup>15</sup>
+                    <a href="https://junlinhan.github.io/" target="_blank"> Junlin Han</a><sup>2,5</sup>
                   </span>
                   <br>
                   <span class="author-block">
-                    <a href="https://sites.google.com/view/tong-zhang" target="_blank">Tong Zhang</a><sup>2</sup>
+                    <a href="https://sites.google.com/view/tong-zhang" target="_blank">Tong Zhang</a><sup>1</sup>,  
                   </span><span class="author-block">
-                    <a href="https://www.epfl.ch/labs/ivrl/people/susstrunk/" target="_blank">Sabine Süsstrunk</a><sup>2</sup>
+                    <a href="https://www.epfl.ch/labs/ivrl/people/susstrunk/" target="_blank">Sabine Süsstrunk</a><sup>1</sup>, 
                   </span>
                 </span><span class="author-block">
-                  <a href="https://www.fkokkinos.com/" target="_blank">Filippos Kokkinos</a><sup>1</sup>
+                  <a href="https://www.fkokkinos.com/" target="_blank">Filippos Kokkinos</a><sup>2</sup>
                 </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
                     <span class="author-block">
-                      <sup>1</sup>GenAI, Meta
-                      <sup>2</sup>EPFL
-                      <sup>3</sup>University of Athens
-                      <sup>4</sup>University College of London
+                      <sup>1</sup>School of Computer and Communication Sciences, EPFL
+                      <sup>2</sup>National and Kapodistrian University of Athens
+                      <sup>3</sup>Meta GenAI
+                      <sup>4</sup>University College London
                       <sup>5</sup>University of Oxford
                     </span>
                     <!-- <span class="eql-cntrb"><small><br><sup>🎓</sup>Work done during internship at Meta</small></span> -->
                   </div>
 
+                  <div class="column has-text-centered">* Work done at Meta as an intern</div>
+
                   <div class="column has-text-centered">
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="static/pdfs/paper-main.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
                         </span>
-                        <span>Paper (Coming Soon)</span>
+                        <span>Paper</span>
                       </a>
                     </span>
+                      <!-- Arxiv PDF link -->
 
                     <!-- Supplementary PDF link -->
                     <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      <a href="static/pdfs/paper-supp.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="fas fa-file-pdf"></i>
                       </span>
-                      <span>Supplementary (Coming Soon)</span>
+                      <span>Supplementary</span>
                     </a>
                   </span>
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/ryf1123/VGRP-Bench" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>Code (Coming Soon)</span>
+                    <span>Evaluation Code</span>
                   </a>
                 </span>
+                
+                <span class="link-block">
+                  <a href="https://huggingface.co/datasets/VGRP-Bench/VGRP-Bench" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fa-database"></i>
+                  </span>
+                  <span>Dataset</span>
+                </a>
+              </span>
+                
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
@@ -139,6 +179,7 @@
   </div>
 </section>
 
+
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container is-max-desktop">
@@ -146,7 +187,7 @@
       <div class="columns is-centered">
         <div class="column is-full">
           <!-- Your image here -->
-          <h2 class="title is-3 has-text-centered">TL;DR</h2>
+          <h2 class="title is-3 has-text-centered">What is VGRP-Bench?</h2>
           <h2 class="subtitle has-text-centered">
             <span style="font-weight:bold;">VGRP-Bench</span> is a benchmark containing 20 visual grid reasoning puzzles with diverse difficulty levels that pose significant challenges for current Large Vision-Language Models (LVLMs).
           </h2>
@@ -533,286 +574,40 @@
           <p>
             <strong>Result Summary on <em>Easy</em> Level.</strong> Puzzle-solving rate of state-of-the-art chat LVLMs on easy-level puzzles associated with each rule. Please refer to the experiment section for detailed result analysis. Note that this plot's score ranges from 0 to 45%, instead of 100%.
           </p>
+          <p> <small>
+            Details on these rule axis could be found in the paper. Sum and Subtraction (S.S.), (Comp), Unidirectionality (Uni.), Hard Perception (Non-desc), Matching (Match.), Connected Components (Connect.)</small>
+          </p>
         </div>
       </div>
     </div>
-  </div>
+  </div>e
 </section>
 
 
-<!-- Qualitative Study Section -->
+
+<!-- Interactive Demo Section -->
 <section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column">
-        <h2 class="title is-3">Qualitative Study: Model Comparison</h2>
-        <h3 class="subtitle">Same Puzzle, Different Models</h3>
+    <div>
+      <h2 class="title is-3 has-text-centered">Interactive Demo</h2>
+      <div class="content has-text-justified">
+        <p>
+          Try out our interactive Sudoku puzzle demo below to experience how LVLMs approach these puzzles. You can play the puzzles yourself and compare your reasoning with the model's approach.
+        </p>
       </div>
-    </div>
-    
-    <!-- Image and description in columns layout -->
-    <div class="columns is-centered is-vcentered">
-      <div class="column is-one-third">
-        <img src="static/images/quaitative-sudoku-vision.png" alt="Sudoku Puzzle" style="width:100%; max-width:300px; height:auto; margin: 0 auto; display: block;"/>
-      </div>
-      <div class="column is-two-thirds">
-        <h2 class="subtitle">
-          <strong>Sudoku - Easy - W/ CoT - Vision Input</strong>: You have to enter a numerical digit from 1 through 4 in each cell of a 4x4 grid made up of four 2x2 blocks. The rule is to make sure each row, column, and block contains unique numbers from 1 to 4.
-        </h2>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Add CSS for scrollable content -->
-<style>
-  .model-output-container {
-    height: 250px;
-    overflow-y: auto;
-    padding-right: 10px;
-  }
-  
-  .model-card {
-    margin-bottom: 1.5rem;
-    height: 100%;
-  }
-</style>
-
-<!-- Model results displayed as cards below the image -->
-<section class="section">
-  <div class="container is-widescreen" style="max-width: 150%;">
-    <div class="columns is-multiline">
-      <!-- Gemini-2.0-Thinking -->
-      <div class="column is-one-quarter">
-        <div class="box model-card">
-          <h3 class="title is-4 has-text-centered">Gemini-2.0-Thinking</h3>
-          <div class="model-output-container">
-            <p class="has-text-weight-bold">Model Output:</p>
-            <p>The user wants me to solve a 4x4 Sudoku puzzle.<br>I need to identify the empty cells and fill them with numbers from 1 to 4, ensuring that each row, column, and 2x2 block contains unique numbers.<br><br>Let's analyze the given grid:<br>- Row 0: has no filled cells.<br>- Row 1: has '2' at index 0 and '3' at index 2.<br>- Row 2: has '3' at index 3.<br>- Row 3: has '3' at index 0 and '4' at index 2.</p>
-            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-success">True</span></p>
-            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
-          </div>
-        </div>
-      </div>
-      
-      <!-- QVQ-72B -->
-      <div class="column is-one-quarter">
-        <div class="box model-card">
-          <h3 class="title is-4 has-text-centered">QVQ-72B</h3>
-          <div class="model-output-container">
-            <p class="has-text-weight-bold">Model Output:</p>
-            <p>So I'm looking at this Sudoku puzzle, and it seems a bit different from the usual ones I've seen. It's a 4x4 grid, which is smaller than the standard 9x9, and it's divided into 2x2 blocks...</p>
-            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-danger">False</span></p>
-            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Claude-3.5 -->
-      <div class="column is-one-quarter">
-        <div class="box model-card">
-          <h3 class="title is-4 has-text-centered">Claude-3.5</h3>
-          <div class="model-output-container">
-            <p class="has-text-weight-bold">Model Output:</p>
-            <p>```json<br>"perception": [ <br>["*", "*", "*", "*"], <br>["2", "*", "3", "*"], <br>["*", "*", "*", "3"], <br>["3", "*", "4", "*"]<br>],<br>"think": "This is a 4x4 Sudoku puzzle with 2x2 blocks. Let me solve it step by step:<br>1. Looking at row 4, we have 3 and 4, so 1 and 2 are missing<br>2. Column 3 has 3 twice, which means the empty cells must be 1,2,4<br>3. Row 2 has 2 and 3, so needs 1 and 4<br>4. The first row must contain all missing numbers<br>5. Using block constraints and existing numbers, I can determine the full solution",<br><br>"answer": [ <br>["4", "3", "1", "2"], <br>["2", "1", "3", "4"], <br>["1", "4", "2", "3"], <br>["3", "2", "4", "1"]<br>]<br>```</p>
-            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-success">True</span></p>
-            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-success">True</span></p>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Gemini-1.5-Pro -->
-      <div class="column is-one-quarter">
-        <div class="box model-card">
-          <h3 class="title is-4 has-text-centered">Gemini-1.5-Pro</h3>
-          <div class="model-output-container">
-            <p class="has-text-weight-bold">Model Output:</p>
-            <p>```json<br><br>"perception": [["*", "*", "*", "*",], <br>               ["2", "*", "3", "*"], <br>               ["*", "*", "*", "3"], <br>               ["3", "*", "4", "*"]],  <br>"think": "This is a 4x4 Sudoku puzzle. The possible values for each cell are 1, 2, 3, and 4. <br>Row 0: The missing values are 1, 2, 3, 4.  <br>Row 1: The missing values are 1, 4. <br>Row 2: The missing values are 1, 2, 4. <br>Row 3: The missing values are 1, 2. <br><br>Col 0: The missing values are 1, 2, 4. <br>Col 1: The missing values are 1, 2, * <br>Col 2: The missing values are 1, 2, * <br>Col 3: The missing values are 1, 2, 4. <br><br>Block 0 (top-left): The missing values are 1, 4. <br>Block 1 (top-right): The missing values are 1, 2, 4. <br>Block 2 (bottom-left): The missing values are 1, 2. <br>Block 3 (bottom-right): The missing values are 1, 2. <br><br>Cell (0,0): Possible values are 1, 4. Since 1 is already present in the last column, this cell must be 4. <br>Cell (0,1): Possible values are 1, 2. Since 2 is already present in the first column, this cell must be 1. <br>Cell (0,3): Possible values are 1, 2. Since 1 is already present in this row, this cell must be 2. <br>Cel...(line too long; chars omitted)", <br>"answer": [["4", "1", "*", "2"], <br>               ["2", "4", "3", <span style="color:red">"1"</span>], <br>               ["1", "2", "4", "3"], <br>               ["3", "2", "4", <span style="color:red">"1"</span>]] <br><br>```</p>
-            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-success">True</span></p>
-            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Gemini-2.0-Flash -->
-      <div class="column is-one-quarter">
-        <div class="box model-card">
-          <h3 class="title is-4 has-text-centered">Gemini-2.0-Flash</h3>
-          <div class="model-output-container">
-            <p class="has-text-weight-bold">Model Output:</p>
-            <p>```json<br><br>"perception": "[['*', '*', '*'], ['2', '*', '3'], ['3', '*', '4']]", <br>"think": "I see a 3x3 Sudoku grid...", <br>"answer": "[['1', '4', '2'], ['2', '1', '3'], ['3', '2', '4']]" <br><br>```</p>
-            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-danger">False</span></p>
-            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Gemini-1.5-Flash -->
-      <div class="column is-one-quarter">
-        <div class="box model-card">
-          <h3 class="title is-4 has-text-centered">Gemini-1.5-Flash</h3>
-          <div class="model-output-container">
-            <p class="has-text-weight-bold">Model Output:</p>
-            <p>```json<br><br>"perception": [<br>["*", "*", "*", "*", "*", "*", "*", "*", "*"],<br>["*", "2", "*", "*", "*", "3", "*", "*", "*"],<br>...<br>], <br>"think": "This is a 9x9 Sudoku puzzle...",<br>"answer": [<br>[1, 6, 7, 9, 5, 2, 3, 8, 4],<br>...<br>] <br><br>```</p>
-            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-danger">False</span></p>
-            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
-          </div>
-        </div>
-      </div>
-      
-      <!-- GPT-4o -->
-      <div class="column is-one-quarter">
-        <div class="box model-card">
-          <h3 class="title is-4 has-text-centered">GPT-4o</h3>
-          <div class="model-output-container">
-            <p class="has-text-weight-bold">Model Output:</p>
-            <p>```json<br><br>  "perception": [ <br>    ["*", "*", <span style="color:red">"2"</span>, "*"], <br>    ["*", "3", "*", "*"], <br>    ["3", "*", "*", "3"], <br>    ["*", "*", "4", "*"] <br>  ], <br>  "think": "This is a 4x4 Sudoku grid. The challenge is to fill empty cells ('*') with numbers from 1 to 4 ensuring that each number appears exactly once in every row, column, and 2x2 subgrid. Starting with available numbers in the provided setup, I will fill cells logically row by row, column by column, and by observing constraints in blocks.", <br>  "answer": [ <br>    ["4", "1", "2", "3"], <br>    ["2", "3", "1", "4"], <br>    ["3", "4", "1", "2"], <br>    ["1", "2", "4", "3"] <br>  ] <br><br>```</p>
-            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-danger">False</span></p>
-            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
-          </div>
-        </div>
-      </div>
-      
-      <!-- GPT-4o-Mini -->
-      <div class="column is-one-quarter">
-        <div class="box model-card">
-          <h3 class="title is-4 has-text-centered">GPT-4o-Mini</h3>
-          <div class="model-output-container">
-            <p class="has-text-weight-bold">Model Output:</p>
-            <p>```json<br><br>"perception": [[2, "*", 3, "*"], [3, "*", "*", 4], ["*", "*", 2, "*"], ["*", 3, "*", "*"]], <br>"think": "I need to fill in the empty cells...", <br>"answer": [[2, 4, 3, 1], [3, 1, 2, 4], [1, 2, 4, 3], [4, 3, 1, 2]] <br><br>```</p>
-            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-danger">False</span></p>
-            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Qwen2.5-72B -->
-      <div class="column is-one-quarter">
-        <div class="box model-card">
-          <h3 class="title is-4 has-text-centered">Qwen2.5-72B</h3>
-          <div class="model-output-container">
-            <p class="has-text-weight-bold">Model Output:</p>
-            <p>```json<br><br>"perception": [ <br>    ["*", "*", "*", "*"], <br>    ["2", "*", "3", "*"], <br>    ["*", "*", "*", "3"], <br>    ["3", "*", "4", "*"] <br>], <br>"think": "To solve the Sudoku for a 4x4 grid, each square (including rows, columns, and 2x2 blocks) must contain the numbers from 1 to 4 without repetition. Considering the current grid, here is how we solve it step by step: <br>1. For the top left 2x2 block, since the bottom left corner is '3', top right corner cannot be '3', hence it can be either '1' or '2', but '2' is already in the second row, top left could be '1'. <br>2. Follow similar logic for the rest of the cells. <br>3. After filling out all guesses based on the exclusions of rows, columns, and block conditions, validate the grid for completion. <br>", <br>"answer": [ <br>    [<span style="color:red">"1"</span>, "4", "2", "3"], <br>    ["2", <span style="color:red">"1"</span>, "3", "4"], <br>    ["4", "3", "1", "2"], <br>    ["3", "2", "4", "1"] <br>] <br><br>```</p>
-            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-success">True</span></p>
-            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Qwen2.5-7B -->
-      <div class="column is-one-quarter">
-        <div class="box model-card">
-          <h3 class="title is-4 has-text-centered">Qwen2.5-7B</h3>
-          <div class="model-output-container">
-            <p class="has-text-weight-bold">Model Output:</p>
-            <p>```json<br><br>"perception": [[1, 1, 0, 0],<br>[2, 0, 0, 0],<br>[3, 0, 4, 0],<br>[0, 0, 0, 0]], <br>"think": "The grid is a 2x2 block Sudoku...", <br>"answer": [[1, 1, 0, 0],<br>[2, 1, 3, 0],<br>[2, 0, 0, 3],<br>[3, 2, 4, 0]] <br><br>```</p>
-            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-danger">False</span></p>
-            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Llama-3.2-90B -->
-      <div class="column is-one-quarter">
-        <div class="box model-card">
-          <h3 class="title is-4 has-text-centered">Llama-3.2-90B</h3>
-          <div class="model-output-container">
-            <p class="has-text-weight-bold">Model Output:</p>
-            <p>```json<br><br>"perception": [<br>[2, 3, "*", "*"],<br>[3, 4, "*", "*"],<br>["*", "*", 3, "*"],<br>["*", "*", "*", 2]<br>], <br>"think": "Apply Sudoku rules and logic to fill in the missing numbers.", <br>"answer": [<br>[2, 3, 1, 4],<br>[3, 4, 2, 1],<br>[1, 2, 3, 4],<br>[4, 1, 2, 3]<br>] <br><br>```</p>
-            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-danger">False</span></p>
-            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Llama-3.2-11B -->
-      <div class="column is-one-quarter">
-        <div class="box model-card">
-          <h3 class="title is-4 has-text-centered">Llama-3.2-11B</h3>
-          <div class="model-output-container">
-            <p class="has-text-weight-bold">Model Output:</p>
-            <p>```json<br><br>"perception": [["2", "3", "*", "*", "*", "*", "*", "*", "*"],<br>["*", "3", "*", "*", "4", "*", "*", "*", "*"],<br>...<br>], <br>"think": "To solve this Sudoku puzzle...", <br>"answer": [[5, 3, 4, 6, 7, 8, 9, 1, 2],<br>...<br>] <br><br>```</p>
-            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-danger">False</span></p>
-            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Qwen2-72B -->
-      <div class="column is-one-quarter">
-        <div class="box model-card">
-          <h3 class="title is-4 has-text-centered">Qwen2-72B</h3>
-          <div class="model-output-container">
-            <p class="has-text-weight-bold">Model Output:</p>
-            <p>```json<br><br>"perception": [[0, 0, 0, 0, 0, 0, 0, 0, 0],<br>[0, 2, 0, 0, 0, 3, 0, 0, 0],<br>...<br>], <br>"think": "This is a 9x9 Sudoku puzzle...", <br>"answer": [[0, 0, 0, 0, 0, 0, 0, 0, 0],<br>[0, 2, 0, 0, 0, 3, 0, 0, 0],<br>...<br>] <br>```</p>
-            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-danger">False</span></p>
-            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Qwen2-7B -->
-      <div class="column is-one-quarter">
-        <div class="box model-card">
-          <h3 class="title is-4 has-text-centered">Qwen2-7B</h3>
-          <div class="model-output-container">
-            <p class="has-text-weight-bold">Model Output:</p>
-            <p>```json<br><br>"perception": [ <br>[2, 0, 0, 3], <br>[0, 0, 0, 3], <br>[3, 0, 0, 4], <br>[0, 0, 0, 0] <br>], <br>"think": "The grid is partially filled with numbers. The goal is to fill in the remaining cells so that each row, column, and 3x3 block contains unique numbers from 1 to 4...", <br>"answer": [ <br>[2, 0, 0, 3], <br>[0, 0, 0, 3], <br>[3, 0, 0, 4], <br>[0, 0, 1, 0] <br>] <br><br>```</p>
-            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-danger">False</span></p>
-            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
-          </div>
-        </div>
-      </div>
-      
-      <!-- LLaVA-Qwen2-7B -->
-      <div class="column is-one-quarter">
-        <div class="box model-card">
-          <h3 class="title is-4 has-text-centered">LLaVA-Qwen2-7B</h3>
-          <div class="model-output-container">
-            <p class="has-text-weight-bold">Model Output:</p>
-            <p>```json<br><br>"perception": [[2, 0, 0, 0, 0, 0, 0, 0],<br>[0, 3, 0, 0, 0, 0, 0, 0],<br>...<br>], <br>"think": "..." <br>```</p>
-            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-danger">False</span></p>
-            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
-          </div>
-        </div>
-      </div>
-      
-      <!-- LLaVA-Mistral-7B -->
-      <div class="column is-one-quarter">
-        <div class="box model-card">
-          <h3 class="title is-4 has-text-centered">LLaVA-Mistral-7B</h3>
-          <div class="model-output-container">
-            <p class="has-text-weight-bold">Model Output:</p>
-            <p>```json<br><br>"perception": [<br>[1, 2, 3, 4, 5, 6, 7, 8, 9],<br>[2, 3, 4, 5, 6, 7, 8, 9, 0],<br>...<br>], <br>"think": "In the current state of the Sudoku grid...", <br>"answer": [<br>[1, 2, 3, 4, 5, 6, 7, 8, 9],<br>[2, 3, 4, 5, 6, 7, 8, 9, 0],<br>...<br>] <br><br>```</p>
-            <p><span class="has-text-weight-bold">Perception:</span> <span class="tag is-danger">False</span></p>
-            <p><span class="has-text-weight-bold">Answer:</span> <span class="tag is-danger">False</span></p>
-          </div>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-</section>
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Paper</h2>
-
-      <iframe  src="static/pdfs/paper.pdf" width="100%" height="550">
-          </iframe>
-        
+      <div class="iframe-container" style="position: relative; padding-bottom: 60%; height: 0; overflow: hidden; max-width: 100%;">
+        <iframe src="./index_sudoku_games_val.html" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" allowfullscreen></iframe>
       </div>
     </div>
   </section>
-<!--End paper poster -->
-
 
 <!--BibTex citation -->
 <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
+
+      <p>
+        If you find this work useful in your research, please consider citing the following BibTeX entry:
+      </p>
       <pre><code>@article{ren2025vgrp-bench,
         title={VGRP-Bench: Visual Grid Reasoning Puzzle Benchmark for Large Vision-Language Models},
         author={Yufan Ren and Konstantinos Tertikas and Shalini Maiti and Junlin Han and Tong Zhang and Sabine Süsstrunk and Filippos Kokkinos},
@@ -822,7 +617,6 @@
     </div>
 </section>
 <!--End BibTex citation -->
-
 
 <footer class="footer">
   <div class="container">
@@ -842,7 +636,7 @@
   
 <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
 
-    <!-- End of Statcounter Code -->
+<!-- End of Statcounter Code -->
 
   </body>
   </html>
