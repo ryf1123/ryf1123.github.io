@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sudoku Game</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 40px;
+            margin: 20px;
+        }
+        .sudoku-container {
+            margin: 20px auto;
+            padding: 10px;
+        }
+        .sudoku-grid td {
+            border: 1px solid #999;
+            cursor: pointer;
+        }
+        .sudoku-grid td.vertical-bold {
+            border-right: 3px solid #000;
+        }
+        .sudoku-grid td.horizontal-bold {
+            border-bottom: 3px solid #000;
+        }
+        .initial-cell {
+            background-color: #f0f0f0;
+            font-weight: bold;
+        }
+        .user-input {
+            color: #0066cc;
+        }
+        .selected {
+            background-color: #e6f3ff;
+        }
+        .conflict {
+            color: red !important;
+        }
+        .controls {
+            text-align: center;
+            margin: 20px;
+        }
+        
+        .number-pad {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            padding: 15px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            width: fit-content;
+            height: fit-content;
+            margin: 0 auto;
+        }
+
+        .number-btn {
+            width: 50px;
+            height: 50px;
+            border-radius: 25px;
+            border: none;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            font-size: 20px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .number-btn:hover {
+            background-color: #e6e6e6;
+        }
+
+        .number-btn.disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            background-color: #ddd;
+        }
+
+        .number-btn:active {
+            transform: scale(0.95);
+        }
+        #message {
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+            font-weight: bold;
+        }
+        .success {
+            color: green;
+        }
+        .error {
+            color: red;
+        }
+        .sudoku-grid {
+            border: 3px solid #000;
+        }
+        
+        /* Card styling */
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 600px;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+        }
+        
+        .card-title {
+            margin-bottom: 15px;
+            font-weight: bold;
+            color: #333;
+            font-size: 20px;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .card-section {
+            width: 100%;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .section-title {
+            margin: 10px 0;
+            font-weight: bold;
+            color: #555;
+            font-size: 16px;
+        }
+        
+        .initial-board td {
+            cursor: default !important;
+        }
+        
+        .typewriter-container {
+            height: 300px;
+            width: 100%;
+            border: 1px solid #eee;
+            padding: 15px;
+            overflow-y: auto;
+            background: #f9f9f9;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .typewriter-text {
+            display: inline-block;
+            overflow: hidden;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        .typewriter-cursor {
+            display: inline-block;
+            width: 2px;
+            height: 1em;
+            background-color: #333;
+            margin-left: 2px;
+            animation: blink 1s step-end infinite;
+        }
+
+        @keyframes blink {
+            from, to { opacity: 1; }
+            50% { opacity: 0; }
+        }
+        
+        /* Page background */
+        body {
+            background-color: #f5f7fa;
+            font-family: Arial, sans-serif;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 1200px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .card {
+                margin-bottom: 30px;
+            }
+        }
+        
+        .typewriter-controls {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+            justify-content: center;
+        }
+        
+        .control-btn {
+            padding: 5px 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .control-btn:hover {
+            background-color: #e0e0e0;
+        }
+        
+        .control-btn:active {
+            transform: scale(0.95);
+        }
+        
+        .correctness-info {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f8f8f8;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        .info-item {
+            margin: 5px 0;
+        }
+        
+        .correct {
+            color: green;
+            font-weight: bold;
+        }
+        
+        .incorrect {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="controls" style="text-align: center;">
+        <select id="typeSelector">
+            <option value="">Select Sudoku Type</option>
+            <option value="4x4">4x4 Sudoku</option>
+            <option value="9x9">9x9 Sudoku</option>
+        </select>
+        <select id="modelSelector" style="margin-left: 10px;"></select>
+        <select id="puzzleSelector" style="margin-left: 10px;"></select>
+    </div>
+    <div id="message"></div>
+    
+    <div class="container">
+        <!-- Left card: Initial board and AI thinking -->
+        <div class="card">
+            <div class="card-title">How a LVLM Solves it</div>
+            
+            <div class="card-section">
+                <div class="section-title">Initial Board (Vision Input)</div>
+                <div id="initialBoard"></div>
+            </div>
+            
+            <div class="card-section">
+                <div class="section-title">AI Thinking Process</div>
+                <div class="typewriter-controls">
+                    <button id="restart-btn" class="control-btn">Restart</button>
+                    <button id="slow-btn" class="control-btn">Slow</button>
+                    <button id="normal-btn" class="control-btn">Normal</button>
+                    <button id="fast-btn" class="control-btn">Fast</button>
+                    <button id="skip-btn" class="control-btn">Skip to End</button>
+                </div>
+                <div class="typewriter-container">
+                    <div id="typewriter-text" class="typewriter-text"></div>
+                    <div class="typewriter-cursor"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Right card: Play board and number pad -->
+        <div class="card">
+            <div class="card-title">Play It Yourself</div>
+            
+            <div class="card-section">
+                <div class="section-title">Your Game Board</div>
+                <div id="sudokuContainer"></div>
+            </div>
+            
+            <div class="card-section">
+                <div class="section-title">Number Pad</div>
+                <div class="number-pad" id="numberPad"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let sudokuGames = [];
+        let currentGame = null;
+        let selectedCell = null;
+        let currentState = [];
+        let aiThinkingData = [];
+        let currentGameType = '';
+
+        let typewriterTimeout = null;
+        let currentTypewriterText = "";
+        let typewriterSpeed = 50; // Default speed (milliseconds)
+        let currentTypewriterPosition = 0; // Track current position in the text
+
+        async function loadGames(gameType) {
+            try {
+                const response = await fetch(`./static/data/games_val-${gameType}.json`);
+                if (!response.ok) throw new Error('Failed to load Sudoku data');
+                sudokuGames = await response.json();
+                populateSelector();
+                await loadAIThinkingData(gameType);
+            } catch (error) {
+                showMessage(error.message, 'error');
+            }
+        }
+
+        async function loadAIThinkingData(gameType) {
+            try {
+                // 从固定位置加载模型列表
+                const modelsPath = `./static/data/models.json`;
+                
+                const modelsResponse = await fetch(modelsPath);
+                if (!modelsResponse.ok) throw new Error('Failed to load models list');
+                
+                const modelsData = await modelsResponse.json();
+                
+                // 根据游戏类型筛选模型（如果需要）
+                // 假设 JSON 文件包含所有模型，不区分游戏类型
+                const models = modelsData;
+                
+                // 填充模型选择器
+                const modelSelect = document.getElementById('modelSelector');
+                modelSelect.innerHTML = '<option value="">Select a model</option>';
+                
+                models.forEach(model => {
+                    // 从文件名中提取模型名称（去掉后缀）
+                    const modelName = model.replace('_causality_formatted_evaluation.json', '');
+                    
+                    const option = document.createElement('option');
+                    option.value = model; // 保存完整文件名作为值
+                    option.textContent = modelName; // 显示更友好的名称
+                    modelSelect.appendChild(option);
+                });
+                
+                // 添加事件监听器
+                modelSelect.onchange = async function() {
+                    if (this.value) {
+                        // 停止任何正在进行的打字机效果
+                        resetTypewriter();
+                        await loadPuzzleIds(currentGameType, this.value);
+                    }
+                };
+                
+                // 自动选择第一个模型
+                if (modelSelect.options.length > 1) {
+                    modelSelect.selectedIndex = 1;
+                    modelSelect.dispatchEvent(new Event('change'));
+                }
+            } catch (error) {
+                showMessage('Failed to load AI thinking data: ' + error.message, 'error');
+                // 在打字机区域也显示错误
+                const typewriterElement = document.getElementById('typewriter-text');
+                typewriterElement.innerHTML = `Error loading data: ${error.message}`;
+            }
+        }
+
+        function parseModelFiles(html) {
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(html, 'text/html');
+            const links = Array.from(doc.querySelectorAll('a'));
+            
+            // Extract model names from both file patterns
+            const models = links
+                .map(a => a.getAttribute('href'))
+                .filter(href => {
+                    return href.endsWith('_causality_formatted_evaluation.json') || 
+                           href.endsWith('_causality_text_input_text_only.json');
+                })
+                .map(href => {
+                    if (href.endsWith('_causality_formatted_evaluation.json')) {
+                        return href.replace('_causality_formatted_evaluation.json', '');
+                    } else {
+                        return href.replace('_causality_text_input_text_only.json', '');
+                    }
+                });
+            
+            return models;
+        }
+
+        async function loadPuzzleIds(gameType, model) {
+            const puzzleSelector = document.getElementById('puzzleSelector');
+            
+            try {
+                // 调整文件路径以匹配新的结构
+                const basePath = `./static/data/sudoku_${gameType}/`;
+                const filePath = `${basePath}${model}`;
+                
+                // 显示正在加载的文件
+                const typewriterElement = document.getElementById('typewriter-text');
+                typewriterElement.innerHTML = `Loading data from: ${filePath}`;
+                
+                const response = await fetch(filePath);
+                if (!response.ok) throw new Error('Failed to load model data');
+                
+                const data = await response.json();
+                if (!Array.isArray(data)) throw new Error('Invalid data format');
+                
+                aiThinkingData = data;
+                
+                puzzleSelector.innerHTML = '<option value="">Select a Puzzle ID</option>' + 
+                    data.map(item => `<option value="${item.puzzle_id}">${item.puzzle_id}</option>`).join('');
+                
+                // 添加事件监听器
+                puzzleSelector.onchange = function() {
+                    if (this.value) {
+                        // 重置状态
+                        resetTypewriter();
+                        
+                        // 显示正在加载的谜题
+                        const puzzleId = this.value;
+                        const typewriterElement = document.getElementById('typewriter-text');
+                        typewriterElement.innerHTML = `Loading puzzle: ${puzzleId} from ${filePath}`;
+                        
+                        displayAIThinking(puzzleId);
+                    }
+                };
+                
+                // 自动选择第一个谜题
+                if (puzzleSelector.options.length > 1) {
+                    puzzleSelector.selectedIndex = 1;
+                    setTimeout(() => {
+                        puzzleSelector.dispatchEvent(new Event('change'));
+                    }, 100);
+                }
+            } catch (error) {
+                showMessage('Failed to load puzzle IDs: ' + error.message, 'error');
+                // 在打字机区域显示错误
+                const typewriterElement = document.getElementById('typewriter-text');
+                typewriterElement.innerHTML = `Error loading data: ${error.message}`;
+            }
+        }
+
+        function displayAIThinking(puzzleId) {
+            const puzzle = aiThinkingData.find(item => item.puzzle_id === puzzleId);
+            if (!puzzle) {
+                showMessage('Selected puzzle data not found', 'error');
+                return;
+            }
+
+            // Display correctness information
+            displayCorrectnessInfo(puzzle);
+            
+            // Instead of looking for matching IDs, use the index in the array
+            // Find the index of this puzzle in the aiThinkingData array
+            const puzzleIndex = aiThinkingData.findIndex(item => item.puzzle_id === puzzleId);
+            
+            // Use the same index to get the corresponding game from sudokuGames
+            // Make sure we don't go out of bounds
+            if (puzzleIndex >= 0 && puzzleIndex < sudokuGames.length) {
+                const game = sudokuGames[puzzleIndex];
+                
+                // Clear existing grids first
+                document.getElementById('initialBoard').innerHTML = '';
+                document.getElementById('sudokuContainer').innerHTML = '';
+                
+                // Reset current game state
+                currentGame = game; // Set the current game directly
+                selectedCell = null;
+                currentState = JSON.parse(JSON.stringify(game.initialization)); // Deep copy
+                
+                // Generate new grids
+                generateSudokuGrid('initialBoard', game, true);  // Generate initial board
+                generateSudokuGrid('sudokuContainer', game);     // Generate game board
+                createNumberPad(game.size);
+                showMessage('', '');
+            } else {
+                console.error(`No matching game found for puzzle index ${puzzleIndex}`);
+                // If we can't find a matching game, try to use the puzzle data directly
+                if (puzzle.board) {
+                    // Clear existing grids first
+                    document.getElementById('initialBoard').innerHTML = '';
+                    document.getElementById('sudokuContainer').innerHTML = '';
+                    
+                    const game = {
+                        id: puzzleId,
+                        size: Math.sqrt(puzzle.board.length),
+                        initialization: puzzle.board
+                    };
+                    
+                    // Reset current game state
+                    currentGame = game; // Set the current game directly
+                    selectedCell = null;
+                    currentState = JSON.parse(JSON.stringify(game.initialization)); // Deep copy
+                    
+                    generateSudokuGrid('initialBoard', game, true);
+                    generateSudokuGrid('sudokuContainer', game);
+                    createNumberPad(game.size);
+                } else {
+                    showMessage('Could not find matching game data for this puzzle', 'error');
+                }
+            }
+            
+            // Display the AI thinking process
+            const thinkingText = puzzle.model_output || "No thinking process available for this puzzle.";
+            
+            // Reset the typewriter first to ensure clean state
+            resetTypewriter();
+            
+            // Use setTimeout to ensure DOM is ready
+            setTimeout(() => {
+                updateThinkingProcess(thinkingText);
+            }, 50);
+        }
+
+        function displayCorrectnessInfo(puzzle) {
+            // Create or get the correctness info container
+            let infoContainer = document.getElementById('correctness-info');
+            if (!infoContainer) {
+                infoContainer = document.createElement('div');
+                infoContainer.id = 'correctness-info';
+                infoContainer.className = 'correctness-info';
+                
+                // Insert it before the typewriter container
+                const typewriterContainer = document.querySelector('.typewriter-container');
+                typewriterContainer.parentNode.insertBefore(infoContainer, typewriterContainer);
+            }
+            
+            // Set the correctness information
+            const perceptionClass = puzzle.perception_correct ? 'correct' : 'incorrect';
+            const answerClass = puzzle.answer_correct ? 'correct' : 'incorrect';
+            
+            infoContainer.innerHTML = `
+                <div class="info-item">
+                    <span>Perception Correct:</span> 
+                    <span class="${perceptionClass}">${puzzle.perception_correct ? 'Yes' : 'No'}</span>
+                </div>
+                <div class="info-item">
+                    <span>Answer Correct:</span> 
+                    <span class="${answerClass}">${puzzle.answer_correct ? 'Yes' : 'No'}</span>
+                </div>
+            `;
+        }
+
+        function populateSelector() {
+            // This function is likely trying to access gameSelector which no longer exists
+            // Let's modify it to work with the new structure
+            
+            // Create a new puzzleSelector if it doesn't exist
+            const puzzleSelector = document.getElementById('puzzleSelector');
+            puzzleSelector.innerHTML = '<option value="">Select a Puzzle</option>';
+            
+            // Add options for each game
+            sudokuGames.forEach((game, index) => {
+                const option = document.createElement('option');
+                option.value = index;
+                option.textContent = `Puzzle #${index + 1}`;
+                puzzleSelector.appendChild(option);
+            });
+            
+            // Add event listener for puzzle selection
+            puzzleSelector.onchange = function() {
+                if (this.value !== '') {
+                    const game = sudokuGames[this.value];
+                    generateSudokuGrid('initialBoard', game, true);  // Generate initial board
+                    generateSudokuGrid('sudokuContainer', game);     // Generate game board
+                    createNumberPad(game.size);
+                    showMessage('', '');
+                }
+            };
+            
+            // Auto-select first puzzle if available
+            if (puzzleSelector.options.length > 1) {
+                puzzleSelector.selectedIndex = 1;
+                puzzleSelector.dispatchEvent(new Event('change'));
+            }
+        }
+
+        function createNumberPad(size) {
+            const pad = document.getElementById('numberPad');
+            pad.innerHTML = '';
+            
+            // Always create 9 buttons (3x3 grid)
+            for (let i = 1; i <= 9; i++) {
+                const button = document.createElement('button');
+                button.textContent = i;
+                button.className = 'number-btn';
+                
+                // Disable buttons beyond the current Sudoku size
+                if (i > size) {
+                    button.classList.add('disabled');
+                    button.disabled = true;
+                } else {
+                    button.onclick = () => handleNumberInput(i);
+                }
+                
+                pad.appendChild(button);
+            }
+        }
+
+
+        function handleNumberInput(number) {
+            if (!selectedCell) {
+                showMessage('Please select a cell first', 'error');
+                return;
+            }
+
+            const [row, col] = selectedCell;
+            if (currentGame.initialization[row][col] !== 0) {
+                showMessage('Cannot modify initial numbers', 'error');
+                return;
+            }
+
+            // If the cell already has this number, clear it
+            if (currentState[row][col] === number) {
+                currentState[row][col] = 0;
+            } else {
+                currentState[row][col] = number;
+            }
+            
+            updateGrid();
+            checkConflicts();
+            checkCompletion();
+        }
+
+        function checkConflicts() {
+            const size = currentGame.size;
+            const subSize = Math.sqrt(size);
+            let hasConflict = false;
+
+            // Reset conflicts
+            document.querySelectorAll('.conflict').forEach(cell => {
+                cell.classList.remove('conflict');
+            });
+
+            // Check rows and columns
+            for (let i = 0; i < size; i++) {
+                for (let j = 0; j < size; j++) {
+                    if (currentState[i][j] === 0) continue;
+                    
+                    // Check row
+                    for (let k = 0; k < size; k++) {
+                        if (k !== j && currentState[i][j] === currentState[i][k]) {
+                            markConflict(i, j);
+                            markConflict(i, k);
+                            hasConflict = true;
+                        }
+                    }
+
+                    // Check column
+                    for (let k = 0; k < size; k++) {
+                        if (k !== i && currentState[i][j] === currentState[k][j]) {
+                            markConflict(i, j);
+                            markConflict(k, j);
+                            hasConflict = true;
+                        }
+                    }
+
+                    // Check box
+                    const boxRow = Math.floor(i / subSize) * subSize;
+                    const boxCol = Math.floor(j / subSize) * subSize;
+                    for (let r = 0; r < subSize; r++) {
+                        for (let c = 0; c < subSize; c++) {
+                            const newRow = boxRow + r;
+                            const newCol = boxCol + c;
+                            if ((newRow !== i || newCol !== j) && 
+                                currentState[i][j] === currentState[newRow][newCol]) {
+                                markConflict(i, j);
+                                markConflict(newRow, newCol);
+                                hasConflict = true;
+                            }
+                        }
+                    }
+                }
+            }
+
+            return !hasConflict;
+        }
+
+        function markConflict(row, col) {
+            // Only mark conflicts in the playable grid
+            const cell = document.querySelector('#sudokuContainer [data-row="'+row+'"][data-col="'+col+'"]');
+            if (cell) cell.classList.add('conflict');
+        }
+
+        function checkCompletion() {
+            const size = currentGame.size;
+            let isFull = true;
+
+            for (let i = 0; i < size; i++) {
+                for (let j = 0; j < size; j++) {
+                    if (currentState[i][j] === 0) {
+                        isFull = false;
+                        break;
+                    }
+                }
+            }
+
+            if (isFull && checkConflicts()) {
+                showMessage('Congratulations! Puzzle solved correctly!', 'success');
+            }
+        }
+
+        function showMessage(text, type) {
+            const messageDiv = document.getElementById('message');
+            messageDiv.textContent = text;
+            messageDiv.className = type;
+        }
+
+        function generateSudokuGrid(containerId, game, isInitialBoard = false) {
+            const container = document.getElementById(containerId);
+            if (!container) {
+                console.error(`Container with ID ${containerId} not found`);
+                return;
+            }
+            
+            const size = game.size;
+            const subSize = Math.sqrt(size);
+            const cellSize = size === 9 ? 40 : 50;
+
+            if (!isInitialBoard) {
+                currentGame = game;
+                currentState = game.initialization.map(row => [...row]);
+            }
+
+            let html = `<table class="sudoku-grid ${isInitialBoard ? 'initial-board' : ''}" style="border-collapse: collapse;">
+                <tbody>`;
+
+            for (let row = 0; row < size; row++) {
+                html += '<tr>';
+                for (let col = 0; col < size; col++) {
+                    const value = game.initialization[row][col];
+                    const isVerticalBold = (col + 1) % subSize === 0 && col !== size - 1;
+                    const isHorizontalBold = (row + 1) % subSize === 0 && row !== size - 1;
+                    const classes = [];
+                    if (isVerticalBold) classes.push('vertical-bold');
+                    if (isHorizontalBold) classes.push('horizontal-bold');
+                    if (value !== 0) classes.push('initial-cell');
+
+                    html += `<td class="${classes.join(' ')}"
+                              data-row="${row}"
+                              data-col="${col}"
+                              style="width: ${cellSize}px; height: ${cellSize}px;
+                                     text-align: center; font-size: ${cellSize/2}px;"
+                            >${value || ''}</td>`;
+                }
+                html += '</tr>';
+            }
+
+            html += '</tbody></table>';
+            container.innerHTML = html;
+
+            // Only add click events to the game board, not the initial board
+            if (!isInitialBoard) {
+                container.querySelectorAll('td').forEach(cell => {
+                    cell.addEventListener('click', () => {
+                        document.querySelectorAll('.selected').forEach(el => el.classList.remove('selected'));
+                        cell.classList.add('selected');
+                        selectedCell = [parseInt(cell.dataset.row), parseInt(cell.dataset.col)];
+                        
+                        // Add this: If clicking on a user-filled cell, clear it
+                        const row = parseInt(cell.dataset.row);
+                        const col = parseInt(cell.dataset.col);
+                        if (currentState[row][col] !== 0 && game.initialization[row][col] === 0) {
+                            currentState[row][col] = 0;
+                            updateGrid();
+                            checkConflicts();
+                        }
+                    });
+                });
+            }
+            
+            console.log(`Generated ${size}x${size} Sudoku grid in ${containerId}`);
+        }
+
+        function updateGrid() {
+            const size = currentGame.size;
+            for (let i = 0; i < size; i++) {
+                for (let j = 0; j < size; j++) {
+                    // Only update cells in the playable grid (sudokuContainer), not the initial board
+                    const cell = document.querySelector('#sudokuContainer [data-row="'+i+'"][data-col="'+j+'"]');
+                    const value = currentState[i][j];
+                    cell.textContent = value || '';
+                    if (value && currentGame.initialization[i][j] === 0) {
+                        cell.classList.add('user-input');
+                    }
+                }
+            }
+        }
+
+        function stopTypewriter() {
+            if (typewriterTimeout) {
+                clearTimeout(typewriterTimeout);
+                typewriterTimeout = null;
+            }
+        }
+        
+        function resetTypewriter() {
+            stopTypewriter();
+            const typewriterElement = document.getElementById('typewriter-text');
+            if (typewriterElement) {
+                typewriterElement.textContent = '';
+            }
+            currentTypewriterPosition = 0;
+            // Make cursor visible again when resetting
+            document.querySelector('.typewriter-cursor').style.display = 'inline-block';
+        }
+        
+        function typeText(text, element, speed = typewriterSpeed, startPosition = 0) {
+            currentTypewriterText = text;
+            let index = startPosition;
+            
+            // If starting from beginning, clear the element
+            if (startPosition === 0) {
+                element.innerHTML = '';
+            } else {
+                // If continuing, keep existing text but handle newlines properly
+                const displayedText = text.substring(0, startPosition);
+                element.innerHTML = displayedText.replace(/\n/g, '<br>');
+            }
+            
+            function type() {
+                if (index < text.length) {
+                    if (text.charAt(index) === '\n') {
+                        element.innerHTML += '<br>';
+                    } else {
+                        // Append text without replacing the entire content
+                        // This preserves the <br> tags we've already added
+                        const currentContent = element.innerHTML;
+                        element.innerHTML = currentContent + text.charAt(index);
+                    }
+                    index++;
+                    currentTypewriterPosition = index;
+                    
+                    // Auto-scroll to bottom
+                    element.parentElement.scrollTop = element.parentElement.scrollHeight;
+                    
+                    typewriterTimeout = setTimeout(type, speed);
+                } else {
+                    // Text is complete, hide the cursor
+                    document.querySelector('.typewriter-cursor').style.display = 'none';
+                }
+            }
+            
+            // Make sure cursor is visible when typing starts
+            document.querySelector('.typewriter-cursor').style.display = 'inline-block';
+            
+            type();
+        }
+        
+        function updateThinkingProcess(thinkingText) {
+            try {
+                // 确保先停止任何正在进行的打字效果
+                resetTypewriter();
+                
+                // Normalize the text to handle potential encoding issues
+                currentTypewriterText = thinkingText.normalize();
+                currentTypewriterPosition = 0;
+                const typewriterElement = document.getElementById('typewriter-text');
+                
+                // Clear the element first
+                typewriterElement.innerHTML = '';
+                
+                // Start the typewriter effect
+                typeText(currentTypewriterText, typewriterElement);
+            } catch (error) {
+                console.error("Error updating thinking process:", error);
+                // Fallback to simple text display if typewriter fails
+                document.getElementById('typewriter-text').textContent = thinkingText;
+            }
+        }
+        
+        function skipToEnd() {
+            resetTypewriter();
+            const typewriterElement = document.getElementById('typewriter-text');
+            // Properly handle newlines in the complete text
+            typewriterElement.innerHTML = currentTypewriterText.replace(/\n/g, '<br>');
+            currentTypewriterPosition = currentTypewriterText.length;
+            // Auto-scroll to bottom
+            typewriterElement.parentElement.scrollTop = typewriterElement.parentElement.scrollHeight;
+            // Hide cursor when skipped to end
+            document.querySelector('.typewriter-cursor').style.display = 'none';
+        }
+        
+        function restartTypewriter() {
+            resetTypewriter();
+            const typewriterElement = document.getElementById('typewriter-text');
+            // Make sure cursor is visible when restarting
+            document.querySelector('.typewriter-cursor').style.display = 'inline-block';
+            typeText(currentTypewriterText, typewriterElement);
+        }
+        
+        function setTypewriterSpeed(speed) {
+            // Stop current typing
+            stopTypewriter();
+            
+            // Save current speed
+            typewriterSpeed = speed;
+            
+            // Continue from current position with new speed
+            const typewriterElement = document.getElementById('typewriter-text');
+            typeText(currentTypewriterText, typewriterElement, speed, currentTypewriterPosition);
+        }
+
+        // Add event listeners for typewriter control buttons
+        window.addEventListener('load', function() {
+            document.getElementById('restart-btn').addEventListener('click', restartTypewriter);
+            document.getElementById('slow-btn').addEventListener('click', () => setTypewriterSpeed(100));
+            document.getElementById('normal-btn').addEventListener('click', () => setTypewriterSpeed(50));
+            document.getElementById('fast-btn').addEventListener('click', () => setTypewriterSpeed(10));
+            document.getElementById('skip-btn').addEventListener('click', skipToEnd);
+            
+            // Initialize type selector
+            document.getElementById('typeSelector').addEventListener('change', function(e) {
+                const gameType = e.target.value;
+                if (gameType) {
+                    currentGameType = gameType;
+                    
+                    // Reset all state
+                    currentGame = null;
+                    selectedCell = null;
+                    currentState = [];
+                    aiThinkingData = [];
+                    
+                    // Clear display areas
+                    document.getElementById('initialBoard').innerHTML = '';
+                    document.getElementById('sudokuContainer').innerHTML = '';
+                    document.getElementById('numberPad').innerHTML = '';
+                    document.getElementById('typewriter-text').innerHTML = '';
+                    
+                    if (document.getElementById('correctness-info')) {
+                        document.getElementById('correctness-info').innerHTML = '';
+                    }
+                    
+                    // Reset other selectors
+                    document.getElementById('modelSelector').innerHTML = '<option value="">Select a model</option>';
+                    document.getElementById('puzzleSelector').innerHTML = '<option value="">Select a puzzle</option>';
+                    
+                    // Load games for the selected game type
+                    loadGames(gameType);
+                }
+            });
+        });
+
+        // Remove or comment out the gameSelector event listener since it no longer exists
+        /*
+        document.getElementById('gameSelector').addEventListener('change', function(e) {
+            const game = sudokuGames[e.target.value];
+            generateSudokuGrid('initialBoard', game, true);  // Generate initial board
+            generateSudokuGrid('sudokuContainer', game);     // Generate game board
+            createNumberPad(game.size);
+            showMessage('', '');
+            
+            // If no AI thinking data is selected, show default message
+            if (document.getElementById('puzzleSelector').value === '') {
+                updateThinkingProcess("Select a model and puzzle ID to see the AI thinking process.");
+            }
+        });
+        */
+
+        window.onload = function() {
+            // Initialize type selector
+            const typeSelector = document.getElementById('typeSelector');
+            typeSelector.value = '';
+            
+            // Add control button event listeners
+            document.getElementById('restart-btn').addEventListener('click', restartTypewriter);
+            document.getElementById('slow-btn').addEventListener('click', () => setTypewriterSpeed(100));
+            document.getElementById('normal-btn').addEventListener('click', () => setTypewriterSpeed(50));
+            document.getElementById('fast-btn').addEventListener('click', () => setTypewriterSpeed(10));
+            document.getElementById('skip-btn').addEventListener('click', skipToEnd);
+            
+            // Auto-select the first game type (4x4)
+            typeSelector.value = '4x4';
+            currentGameType = '4x4';
+            
+            // Trigger the change event to load the games
+            loadGames('4x4').then(() => {
+                // After games are loaded, the model selector should be populated
+                // Auto-select the first model
+                const modelSelector = document.getElementById('modelSelector');
+                if (modelSelector.options.length > 1) {
+                    modelSelector.selectedIndex = 1;
+                    
+                    // Trigger the model selection to load puzzle IDs
+                    const modelValue = modelSelector.value;
+                    loadPuzzleIds('4x4', modelValue).then(() => {
+                        // After puzzle IDs are loaded, auto-select the first puzzle
+                        const puzzleSelector = document.getElementById('puzzleSelector');
+                        if (puzzleSelector.options.length > 1) {
+                            puzzleSelector.selectedIndex = 1;
+                            
+                            // Display the selected puzzle
+                            displayAIThinking(puzzleSelector.value);
+                        }
+                    });
+                }
+            });
+        };
+    </script>
+</body>
+</html>
