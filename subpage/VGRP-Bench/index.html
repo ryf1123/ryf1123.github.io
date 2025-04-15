@@ -40,9 +40,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
   <script defer src="static/js/fontawesome.all.min.js"></script>
-  <script src="static/js/bulma-carousel.min.js"></script>
-  <script src="static/js/bulma-slider.min.js"></script>
-  <script src="static/js/index.js"></script>
+  <script src="static/js/bulma-carousel.min.js" defer></script>
+  <script src="static/js/bulma-slider.min.js" defer></script>
+  <script src="static/js/index.js" defer></script>
 
   <style>
     /* Typewriter effect styles */
@@ -69,6 +69,12 @@
       50% { opacity: 0; }
     }
   </style>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="preconnect" href="https://ajax.googleapis.com">
+  <link rel="preload" href="static/images/teaser.png" as="image">
 </head>
 <body>
 
@@ -109,10 +115,9 @@
                       <sup>4</sup>University College London
                       <sup>5</sup>University of Oxford
                     </span>
-                    <!-- <span class="eql-cntrb"><small><br><sup>🎓</sup>Work done during internship at Meta</small></span> -->
                   </div>
 
-                  <div class="column has-text-centered">* Work done at Meta as an intern</div>
+                  <div class="column has-text-centered">* Work done during Yufan's internship at Meta</div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
@@ -149,6 +154,16 @@
                     <span>Evaluation Code</span>
                   </a>
                 </span>
+
+                <span class="link-block">
+                  <a href="https://github.com/ryf1123/VLMEvalKit" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Evaluation with VLMEvalKit</span>
+                </a>
+              </span>
                 
                 <span class="link-block">
                   <a href="https://huggingface.co/datasets/VGRP-Bench/VGRP-Bench" target="_blank"
@@ -191,7 +206,11 @@
           <h2 class="subtitle has-text-centered">
             <span style="font-weight:bold;">VGRP-Bench</span> is a benchmark containing 20 visual grid reasoning puzzles with diverse difficulty levels that pose significant challenges for current Large Vision-Language Models (LVLMs).
           </h2>
-          <img src="static/images/teaser.png" alt="MY ALT TEXT" class="has-ratio"/>
+          <picture>
+            <source srcset="static/images/teaser-small.png" media="(max-width: 600px)">
+            <source srcset="static/images/teaser-medium.png" media="(max-width: 1200px)">
+            <img src="static/images/teaser.png" alt="Benchmark Overview" loading="lazy" width="1200" height="600"/>
+          </picture>
           <h2 class="subtitle has-text-centered">
             <strong>Benchmark Overview.</strong> 
             (a) We present a benchmark for LVLMs with 20 diverse visual grid reasoning puzzles.
